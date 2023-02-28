@@ -37,7 +37,7 @@ flag = True
 
 
 from sklearn.preprocessing import MinMaxScaler
-dataseti = pd.read_csv(Path.joinpath(staticdir, "../static/git/deepset-ai-haystack-issues.csv"))
+dataseti = pd.read_csv(Path.joinpath(staticdir, "../static/git/facebook-react-native-issues.csv"))
 dataseti["Created At"]= pd.to_datetime(dataseti["Created At"])
 dataseti["just_month"]=dataseti["Created At"].dt.strftime('%Y-%m')
 dataseti["just_month"]= pd.to_datetime(dataseti["just_month"])
@@ -50,14 +50,14 @@ datasetissueshort = datasetissue[["id","Created At","Closed At","Labels","just_m
 # datasetissueshort["just_month"]=datasetissueshort["Created At"].dt.strftime('%Y-%m')
 # datasetissueshort["just_month"]= pd.to_datetime(datasetissueshort["just_month"])
 # datasetissueshort["Labels"]=datasetissueshort["Labels"].fillna("Others")
-pullset = pd.read_csv(Path.joinpath(staticdir, "../static/git/deepset-ai-haystack-pulls_updated.csv"))
+pullset = pd.read_csv(Path.joinpath(staticdir, "../static/git/facebook-react-native-pulls (latest).csv"))
 pullset = pullset[pullset['merged'].notna()]
 pullset["merged"] = pd.to_datetime(pullset["merged"],format="%Y-%m-%d")
 pullbytime = pullset[["issue_id","merged","changed_files","pull_id"]]
 #pullbytime['just_date'] =
 
 pullbytime["just_month"] = pd.to_datetime(pullbytime["merged"].dt.strftime('%Y-%m'))
-user_cat = pd.read_csv(Path.joinpath(staticdir, "../static/git/user_catelog.csv"))
+user_cat = pd.read_csv(Path.joinpath(staticdir, "../static/git/user_catelog-react.csv"))
 datasetcomment = dataseti[dataseti["Type"]=="comment"]
 t10colab = datasetcomment[["id","just_month","Title"]]
 t10colab.rename(columns={"id": "issue_id","Title":"username","just_month":"only_month"	},inplace = True)
@@ -69,10 +69,10 @@ t10colab.rename(columns={"id": "issue_id"},inplace = True)
 from functools import reduce
 
 
-location = Path.joinpath(staticdir, "../static/git/datasetissueshortnot_othersc.csv")
-dataset = pd.read_csv(location)
+# location = Path.joinpath(staticdir, "../static/git/datasetissueshortnot_othersc.csv")
+# dataset = pd.read_csv(location)
 labelarraynew = []
-labellist = pd.read_csv(Path.joinpath(staticdir, "../static/git/labellist.csv"))
+labellist = pd.read_csv(Path.joinpath(staticdir, "../static/git/labellist-react.csv"))
 # for i in dataset.iloc:
 #     if i["types"] not in labelarraynew:
 #         labelarraynew.append(i["types"])
@@ -86,10 +86,10 @@ def githubproject(request):
     global labelarray
     send_data={}
     send_data["Labels"]=labelarray
-    ran2 = Path.joinpath(staticdir, "../static/git/datasetissueshortnot_othersc.csv")
-    datasetissueshortnot_othersc = pd.read_csv(ran2)
+    # ran2 = Path.joinpath(staticdir, "../static/git/datasetissueshortnot_othersc.csv")
+    # datasetissueshortnot_othersc = pd.read_csv(ran2)
 
-    icat = Path.joinpath(staticdir, "../static/git/issue_catelog.csv")
+    icat = Path.joinpath(staticdir, "../static/git/issue_catelog-react.csv")
     icatdata = pd.read_csv(icat)
 
     #doing the popup task for issue table
@@ -136,8 +136,9 @@ def pull_table(request):
         data = request.POST.get("date", None)
         print("asi")
         print(data)
-        ran2 = Path.joinpath(staticdir, "../static/git/pull_table.csv")
+        ran2 = Path.joinpath(staticdir, "../static/git/pull_table-react.csv")
         pulltable = pd.read_csv(ran2)
+        pulltable.rename(columns={"issue_id":"Pull ID","changed_files":"Code Changes"},inplace=True)
         pulltable = pulltable[pulltable["just_month"] == data]
         ran3 = Path.joinpath(staticdir, "../static/git")
         pulltable.to_csv(Path.joinpath(ran3, "pulltable.csv"))
@@ -227,7 +228,7 @@ def labelsort(request):
     return HttpResponse(status=204)
 
 
-user_cat = pd.read_csv(Path.joinpath(staticdir, "../static/git/user_catelog.csv"))
+user_cat = pd.read_csv(Path.joinpath(staticdir, "../static/git/user_catelog-react.csv"))
 def commentcat(request):
     #This function is only for fetching the user list who commented on a perticular time(after clicking on barchart)
     global user_cat
@@ -235,8 +236,7 @@ def commentcat(request):
         data = request.POST.get("date", None)
         print(data)
         user_catcopy  =  user_cat[user_cat["only_month"]==data]
-        ran3 = Path.joinpath(staticdir, "../"
-                                        "/git")
+        ran3 = Path.joinpath(staticdir, "../git")
         user_catcopy[["username","category"]].sort_values(by='category').to_csv(Path.joinpath(ran3, "user_catcopy.csv"),index=False)
 
 
