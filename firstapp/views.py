@@ -236,8 +236,9 @@ def commentcat(request):
         data = request.POST.get("date", None)
         print(data)
         user_catcopy  =  user_cat[user_cat["only_month"]==data]
-        ran3 = Path.joinpath(staticdir, "../git")
+        ran3 = Path.joinpath(staticdir, "../static/git")
         user_catcopy[["username","category"]].sort_values(by='category').to_csv(Path.joinpath(ran3, "user_catcopy.csv"),index=False)
+
 
 
     return HttpResponse(status=204)

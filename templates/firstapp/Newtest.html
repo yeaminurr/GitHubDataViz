@@ -654,8 +654,10 @@ d3.csv('{% static 'git/pulltable.csv' %}',function (data) {
             d.total = t;
             //d.time= d.time;
             console.log("barchart")
-            console.log(d3.timeParse("%Y-%m-%d")(start_date))
+            console.log(d3.timeParse("%Y-%m-%d")(d.time))
             console.log((d.time))
+            console.log(d.high)
+
 
             return d;
         }}, function(error, data) {
