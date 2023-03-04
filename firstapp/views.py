@@ -73,6 +73,9 @@ from functools import reduce
 # dataset = pd.read_csv(location)
 labelarraynew = []
 labellist = pd.read_csv(Path.joinpath(staticdir, "../static/git/labellist-react.csv"))
+
+
+
 # for i in dataset.iloc:
 #     if i["types"] not in labelarraynew:
 #         labelarraynew.append(i["types"])
@@ -80,6 +83,14 @@ labellist = pd.read_csv(Path.joinpath(staticdir, "../static/git/labellist-react.
 
 labelarray = list(labellist["name"])
 labelarray.append("Others")
+
+issue_pull = pd.read_csv(Path.joinpath(staticdir, "../static/git/issue_pull-react.csv"))
+
+scaler_ip = MinMaxScaler()
+scaled_ip = scaler_ip.fit_transform(issue_pull[["changed_files"]])
+issue_pull["changed_files_scaled"] = scaled_ip
+filedir = Path.joinpath(staticdir, "../static/git")
+issue_pull.to_csv(Path.joinpath(filedir, "issue_pull-react.csv"))
 
 date = {}
 def githubproject(request):
@@ -186,6 +197,10 @@ def labelsort(request):
         allissue = allissue.fillna(0)
         allissue = allissue.sort_values(by='just_month').rename(columns={'just_month': 'date'})
         allissue["date"]= pd.to_datetime(allissue["date"])
+
+        allissue_scaler = MinMaxScaler()
+        allissue_scaled = allissue_scaler.fit_transform(allissue[["changed_files"]])
+        allissue["changed_files_scaled"] = allissue_scaled
 
         ran3 = Path.joinpath(staticdir, "../static/git")
         allissue.to_csv(Path.joinpath(ran3, "issue_pull_temp.csv"),index=False)

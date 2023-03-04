@@ -1,313 +1,99 @@
-,id,Labels,unused,Closed At,issue_id,Importance Type
-0,24225,"Ran Commands,Platform: Android,Resolution: Locked,Bug",1,Completed,24225.0,High
-1,24226,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24226.0,Medium
-2,24227,"Platform: iOS,Platform: Android,Resolution: Locked,Bug",1,Completed,24227.0,High
-3,24228,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24228.0,Medium
-4,24229,"Platform: iOS,Resolution: Locked,Bug",1,Completed,24229.0,High
-5,24230,"Ran Commands,Component: WebView,Resolution: Locked,Type: Question",1,Completed,24230.0,Medium
-6,24231,"Stale,Tech: Bundler 📦,Bug",1,Completed,24231.0,Low
-7,24232,"Component: WebView,Resolution: Locked,Bug",1,Completed,24232.0,High
-8,24233,"Ran Commands,Impact: Regression,Resolution: Locked,Bug",1,Completed,24233.0,High
-9,24235,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24235.0,Medium
-10,24236,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24236.0,Medium
-11,24237,"Platform: iOS,Ran Commands,Platform: Android,Resolution: Locked,Type: Question",1,Completed,24237.0,Medium
-12,24239,Resolution: Locked,1,Completed,24239.0,Medium
-13,24240,"Stale,Platform: Linux,Bug",1,Completed,24240.0,Low
-14,24241,"Type: Discussion,Resolution: Locked,Component: InputAccessoryView",1,Completed,24241.0,Medium
-15,24243,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24243.0,Medium
-16,24244,"Platform: iOS,Platform: Android,Resolution: Locked,Bug",1,Completed,24244.0,High
-17,24245,"Ran Commands,Platform: Android,Resolution: Locked,Type: Question",1,Completed,24245.0,Medium
-18,24246,"Ran Commands,Platform: Android,Resolution: Locked",1,Completed,24246.0,High
-19,24247,"Ran Commands,Resolution: Locked,API: Share",1,Completed,24247.0,High
-20,24248,Resolution: Locked,1,Completed,24248.0,Medium
-21,24249,"Platform: iOS,🌐Networking,Platform: Android,Resolution: Locked,Bug",1,Completed,24249.0,Low
-22,24250,"Stale,Bug",1,Completed,24250.0,Low
-23,24251,"Ran Commands,Component: WebView,Resolution: Locked,Bug",1,Completed,24251.0,High
-24,24252,"Ran Commands,Platform: Linux,Resolution: Locked,Bug",1,Completed,24252.0,High
-25,24254,"Ran Commands,Platform: Android,Resolution: Locked,Type: Question",1,Completed,24254.0,Medium
-26,24255,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24255.0,Medium
-27,24256,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24256.0,Medium
-28,24257,"Impact: Regression,Resolution: Locked,Component: SectionList,Bug",1,Completed,24257.0,Medium
-29,24258,"Stale,Platform: Linux,Tech: Bundler 📦,Bug",1,Completed,24258.0,High
-30,24259,"Platform: Android,Resolution: Locked,Bug",1,Completed,24259.0,Medium
-31,24260,"Platform: Android,Resolution: Locked,Bug",1,Completed,24260.0,High
-32,24261,"Ran Commands,Platform: Android,Resolution: Locked,Bug",1,Completed,24261.0,High
-33,24263,"Platform: iOS,Component: TextInput,Resolution: Locked,Bug",1,Completed,24263.0,Low
-34,24265,"Platform: Android,Resolution: Locked,Bug",1,Completed,24265.0,Medium
-35,24267,"Platform: Android,Resolution: Locked,Component: Text,Bug",1,Completed,24267.0,High
-36,24268,"Resolution: Locked,Component: TouchableNativeFeedback,Bug",1,Completed,24268.0,Medium
-37,24269,"Ran Commands,Resolution: Locked",1,Completed,24269.0,High
-38,24270,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24270.0,High
-39,24271,"Resolution: Locked,Bug",1,Completed,24271.0,Medium
-40,24272,"Platform: iOS,Ran Commands,Resolution: Locked,Type: Question",1,Completed,24272.0,Low
-41,24273,"Ran Commands,Platform: Android,Resolution: Locked,Type: Question",1,Completed,24273.0,Medium
-42,24277,"Resolution: Locked,Component: Modal,Bug",1,Completed,24277.0,Low
-43,24278,"Resolution: Locked,Bug",1,Completed,24278.0,Medium
-44,24279,"Resolution: Locked,Bug",1,Completed,24279.0,Medium
-45,24280,"Ran Commands,Platform: Linux,Resolution: Locked,Bug",1,Completed,24280.0,Medium
-46,24281,"Type: Discussion,Resolution: Locked",1,Completed,24281.0,High
-47,24282,"Ran Commands,Platform: Android,Resolution: Locked,API: Linking",1,Completed,24282.0,Medium
-48,24285,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24285.0,Medium
-49,24286,"Ran Commands,Resolution: Locked,Type: Question,Flow",1,Completed,24286.0,Medium
-50,24287,"Stale,Bug",1,Completed,24287.0,Low
-51,24288,"Resolution: Locked,Bug",1,Completed,24288.0,High
-52,24289,"Platform: iOS,Ran Commands,Resolution: Locked,Bug",1,Completed,24289.0,High
-53,24290,"Ran Commands,Platform: Android,Resolution: Locked,Type: Question",1,Completed,24290.0,Medium
-54,24293,"Ran Commands,Stale,Bug",1,Completed,24293.0,Low
-55,24295,"Ran Commands,Resolution: Locked,Type: Question,Component: Button,Component: Switch",1,Completed,24295.0,Medium
-56,24297,"Stale,Component: FlatList,Bug",1,Completed,24297.0,Medium
-57,24298,"Ran Commands,Stale,Bug",1,Completed,24298.0,Low
-58,24299,"Ran Commands,Resolution: Locked,Type: Question,Component: FlatList",1,Completed,24299.0,Low
-59,24300,"Ran Commands,Stale,Bug",1,Completed,24300.0,Low
-60,24301,"Platform: iOS,Ran Commands,Resolution: Locked,Bug",1,Completed,24301.0,High
-61,24302,"Stale,Platform: Android,Bug",1,Completed,24302.0,Low
-62,24303,"Platform: iOS,Ran Commands,Resolution: Locked,Type: Question,Component: TabBarIOS",1,Completed,24303.0,Medium
-63,24304,"Platform: Android,Resolution: Locked,Bug",1,Completed,24304.0,Medium
-64,24305,"Ran Commands,Component: WebView,Resolution: Locked",1,Completed,24305.0,Medium
-65,24306,"Ran Commands,Resolution: Locked,Bug",1,Completed,24306.0,High
-66,24307,"Type: Docs,Resolution: Locked",1,Completed,24307.0,Medium
-67,24308,"Ran Commands,Component: WebView,Resolution: Locked,Type: Question",1,Completed,24308.0,Medium
-68,24309,"Platform: Android,Resolution: Locked,Bug",1,Completed,24309.0,High
-69,24310,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24310.0,Medium
-70,24311,"Resolution: Locked,Bug",1,Completed,24311.0,Medium
-71,24315,"Platform: iOS,Ran Commands,Resolution: Locked",1,Completed,24315.0,Medium
-72,24316,"Type: Discussion,Resolution: Locked,p: Expo,Partner,☂️ Umbrella",1,Completed,24316.0,Medium
-73,24322,"Platform: iOS,Ran Commands,Resolution: Locked,Bug",1,Completed,24322.0,High
-74,24324,"Ran Commands,Platform: Android,Resolution: Locked,Bug",1,Completed,24324.0,Medium
-75,24325,"Platform: iOS,Ran Commands,Resolution: Locked,Bug",1,Completed,24325.0,Low
-76,24326,"Platform: iOS,Impact: Regression,Component: ScrollView,Bug",1,Incomplete,24326.0,High
-77,24328,"Ran Commands,Resolution: Locked,Bug",1,Completed,24328.0,High
-78,24329,"Platform: iOS,Resolution: Locked,Bug",1,Completed,24329.0,Medium
-79,24330,"Platform: Android,Tech: Bundler 📦,Resolution: Locked,Bug",1,Completed,24330.0,Medium
-80,24332,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24332.0,Medium
-81,24333,"Ran Commands,Resolution: For Stack Overflow,Bug,Needs: Issue Template",1,Completed,24333.0,Low
-82,24334,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24334.0,Medium
-83,24336,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24336.0,Medium
-84,24340,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24340.0,Medium
-85,24341,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24341.0,Medium
-86,24345,"Stale,Bug",1,Completed,24345.0,Low
-87,24346,"Platform: Android,Resolution: Locked,Bug",1,Completed,24346.0,Medium
-88,24348,"Ran Commands,🌐Networking,Resolution: Locked,Type: Question",1,Completed,24348.0,Medium
-89,24349,"Ran Commands,Platform: Android,Resolution: Locked,Type: Question",1,Completed,24349.0,Medium
-90,24350,"Ran Commands,Platform: Android,Resolution: Locked,Component: Modal,Bug",1,Completed,24350.0,High
-91,24351,"Platform: Android,Resolution: Locked,Bug",1,Completed,24351.0,Low
-92,24352,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24352.0,Medium
-93,24353,"Platform: Android,Resolution: Locked,API: Keyboard,Bug",1,Completed,24353.0,Low
-94,24354,"Ran Commands,Resolution: Locked,Type: Question,Component: Image",1,Completed,24354.0,Medium
-95,24355,"Type: Discussion,Component: ScrollView",1,Incomplete,24355.0,Medium
-96,24356,"Ran Commands,Platform: Android,Resolution: Locked,Type: Question",1,Completed,24356.0,Medium
-97,24357,"Stale,Platform: Linux,Bug",1,Completed,24357.0,Low
-98,24358,"Ran Commands,Stale,Bug",1,Completed,24358.0,Low
-99,24361,"🌐Networking,Resolution: Locked,Bug",1,Completed,24361.0,Low
-100,24362,"Ran Commands,Resolution: Locked,Bug",1,Completed,24362.0,Medium
-101,24363,"Resolution: Locked,Bug",1,Completed,24363.0,Medium
-102,24364,"API: Animated,Resolution: Locked,Component: FlatList",1,Completed,24364.0,Medium
-103,24366,"Platform: Android,Resolution: Locked,Bug",1,Completed,24366.0,High
-104,24367,"Ran Commands,Resolution: Locked,Type: Question,Component: Image",1,Completed,24367.0,Medium
-105,24369,"Ran Commands,Stale,Bug",1,Completed,24369.0,Low
-106,24370,"Ran Commands,Resolution: Locked,Bug",1,Completed,24370.0,Low
-107,24371,"Ran Commands,Platform: Android,Tech: Bundler 📦,Resolution: Locked,Bug",1,Completed,24371.0,Low
-108,24374,"Platform: iOS,Type: Discussion,Resolution: Locked",1,Completed,24374.0,Medium
-109,24376,"Stale,Bug",1,Completed,24376.0,Low
-110,24378,"Platform: iOS,Stale,Bug",1,Completed,24378.0,Low
-111,24379,"Platform: iOS,Stale,Bug",1,Completed,24379.0,Low
-112,24382,"Resolution: PR Submitted,Resolution: Locked,Bug",1,Completed,24382.0,High
-113,24383,"Resolution: Locked,API: AppState,Bug",1,Completed,24383.0,High
-114,24384,"Resolution: Locked,Bug",1,Completed,24384.0,Medium
-115,24385,"Ran Commands,Resolution: For Stack Overflow,Platform: Android,Resolution: Locked,Component: Picker,Bug",1,Completed,24385.0,High
-116,24386,"Ran Commands,Resolution: Locked,Type: Question,API: Keyboard",1,Completed,24386.0,Medium
-117,24391,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24391.0,Low
-118,24392,"Ran Commands,🌐Networking,Platform: Android,Resolution: Locked,Type: Question",1,Completed,24392.0,Medium
-119,24393,"Platform: Linux,Resolution: Locked,API: Linking,Bug",1,Completed,24393.0,High
-120,24394,"🌐Networking,Platform: Android,Resolution: Locked,Bug",1,Completed,24394.0,Low
-121,24396,"Platform: iOS,Ran Commands,Resolution: Locked,Type: Question,Component: TabBarIOS",1,Completed,24396.0,Medium
-122,24397,"Ran Commands,Resolution: Locked,Type: Question,API: Keyboard",1,Completed,24397.0,Medium
-123,24401,"p: Expo,Partner,Bug",1,Completed,24401.0,Medium
-124,24402,"API: Animated,Tech: Bundler 📦,Resolution: Locked,Bug",1,Completed,24402.0,High
-125,24403,"Ran Commands,Platform: Android,Resolution: Locked,Type: Question",1,Completed,24403.0,Medium
-126,24406,"Platform: iOS,Ran Commands,Resolution: Locked,Component: TabBarIOS,Bug",1,Completed,24406.0,Low
-127,24407,"Ran Commands,Stale,API: Keyboard,Bug",1,Completed,24407.0,Low
-128,24408,"🌐Networking,Platform: Android,Platform: Linux,Resolution: Locked,Bug",1,Completed,24408.0,Low
-129,24409,"Stale,Component: TextInput,Platform: Android,Bug",1,Completed,24409.0,Low
-130,24410,"Stale,Component: FlatList,Bug",1,Completed,24410.0,Low
-131,24412,"Stale,Component: FlatList,Bug",1,Completed,24412.0,Medium
-132,24413,"Type: Discussion,Resolution: Locked,Component: ScrollView",1,Completed,24413.0,Medium
-133,24414,"Stale,Platform: Android,API: StyleSheet,Bug",1,Completed,24414.0,Low
-134,24415,"Component: WebView,Resolution: Locked,Bug",1,Completed,24415.0,Medium
-135,24416,"Type: Invalid,Tech: Bundler 📦,Resolution: Locked,Bug",1,Completed,24416.0,Low
-136,24417,"Ran Commands,Platform: Android,Resolution: Locked,Component: StatusBar,Bug",1,Completed,24417.0,High
-137,24420,"Resolution: Locked,Bug",1,Completed,24420.0,Medium
-138,24421,"Resolution: Locked,Component: FlatList,Bug",1,Completed,24421.0,Low
-139,24423,"Ran Commands,Platform: Android,Resolution: Locked,Bug",1,Completed,24423.0,High
-140,24424,"Ran Commands,Platform: Android,Resolution: Locked,Type: Question",1,Completed,24424.0,Medium
-141,24426,"Ran Commands,Resolution: Locked,Type: Question,API: Geolocation",1,Completed,24426.0,Medium
-142,24427,"Ran Commands,🌐Networking,Resolution: Locked,Bug",1,Completed,24427.0,High
-143,24428,"Stale,Bug",1,Completed,24428.0,Low
-144,24429,"Platform: iOS,API: Linking,Bug",1,Incomplete,24429.0,Low
-145,24430,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24430.0,Medium
-146,24431,"Resolution: Locked,Bug",1,Completed,,
-147,24432,"Tech: Bundler 📦,Resolution: Locked,Bug",1,Completed,24432.0,Low
-148,24433,"Platform: Android,Type: Invalid,Resolution: Locked,Bug",1,Completed,24433.0,Low
-149,24434,"Platform: Linux,Tech: Bundler 📦,Resolution: Locked,Bug",1,Completed,24434.0,Low
-150,24439,"Resolution: Locked,Component: Image,Bug",1,Completed,24439.0,Medium
-151,24440,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24440.0,Medium
-152,24442,"Ran Commands,Resolution: Locked,Type: Question,Component: TouchableOpacity",1,Completed,24442.0,Medium
-153,24443,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24443.0,Medium
-154,24444,"Ran Commands,Resolution: Locked,Bug",1,Completed,24444.0,Medium
-155,24446,"Stale,Platform: Linux,Component: FlatList,Bug",1,Completed,24446.0,Low
-156,24447,"Resolution: Locked,Bug",1,Completed,24447.0,Medium
-157,24448,"Platform: Android,Component: Modal,Component: TouchableHighlight,Bug",1,Completed,24448.0,Low
-158,24449,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24449.0,Medium
-159,24450,"Platform: iOS,Resolution: Locked,Bug",1,Completed,24450.0,High
-160,24451,"Stale,Platform: Android,API: PanResponder,Bug",1,Completed,24451.0,Low
-161,24452,"JavaScript,Resolution: Locked,Bug",1,Completed,24452.0,Low
-162,24453,"Ran Commands,Resolution: Locked,Bug",1,Completed,24453.0,Medium
-163,24454,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24454.0,Medium
-164,24455,"Ran Commands,Resolution: Locked,Bug",1,Completed,24455.0,Low
-165,24456,"Stale,Bug",1,Completed,24456.0,High
-166,24458,"Resolution: Locked,Bug",1,Completed,24458.0,Low
-167,24459,"Ran Commands,Platform: Android,Resolution: Locked,Bug",1,Completed,24459.0,Medium
-168,24460,"Stale,Tech: Bundler 📦,Bug",1,Completed,24460.0,Medium
-169,24461,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24461.0,Medium
-170,24462,"Platform: iOS,Ran Commands,Resolution: Locked,Bug",1,Completed,24462.0,Medium
-171,24464,"Platform: iOS,Ran Commands,Resolution: Locked,Type: Question",1,Completed,24464.0,Medium
-172,24465,"Issue: Author Provided Repro,Stale,Platform: Android,Component: Text,Bug",1,Completed,24465.0,Low
-173,24466,"Ran Commands,Platform: Android,Resolution: Locked,Type: Question,Component: ScrollView",1,Completed,24466.0,Low
-174,24468,"Impact: Regression,Resolution: Locked,API: CameraRoll,Bug",1,Completed,,
-175,24469,"Ran Commands,Tech: Bundler 📦,Resolution: Locked,Bug",1,Completed,24469.0,Low
-176,24470,"Platform: iOS,Ran Commands,Stale,Bug",1,Completed,24470.0,Low
-177,24471,"Type: Discussion,Resolution: Locked",1,Completed,24471.0,High
-178,24473,"Ran Commands,Issue: Author Provided Repro,Component: InputAccessoryView,Bug,Needs: Author Feedback,Needs: Environment Info",1,Completed,24473.0,Low
-179,24474,"Platform: Android,Resolution: Locked,Component: Image,Bug",1,Completed,24474.0,Medium
-180,24475,"Platform: iOS,Ran Commands,Resolution: Locked,Bug",1,Completed,24475.0,Medium
-181,24476,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24476.0,Medium
-182,24477,"Platform: iOS,Resolution: Locked,Bug",1,Completed,24477.0,Medium
-183,24478,"Ran Commands,Resolution: Locked",1,Completed,24478.0,Medium
-184,24479,"Tech: Bundler 📦,Resolution: Locked,Bug",1,Completed,24479.0,Medium
-185,24480,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24480.0,Medium
-186,24481,"Ran Commands,Platform: Android,Resolution: Locked,Bug",1,Completed,24481.0,Low
-187,24482,"Type: Discussion,Platform: Android,Resolution: Locked",1,Completed,24482.0,Medium
-188,24483,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24483.0,Medium
-189,24484,"Type: Discussion,Resolution: Locked",1,Completed,24484.0,Medium
-190,24485,"Component: TextInput,Platform: Android,Resolution: Locked,Component: ScrollView,Bug",1,Completed,24485.0,Medium
-191,24486,"Stale,Platform: Android,Bug",1,Completed,24486.0,Low
-192,24487,"Impact: Regression,Resolution: Locked,Bug",1,Completed,24487.0,High
-193,24488,"Resolution: Locked,Bug",1,Completed,24488.0,High
-194,24489,"Ran Commands,Resolution: Locked,Bug",1,Completed,24489.0,Low
-195,24490,"Type: Discussion,Resolution: Locked",1,Completed,24490.0,Medium
-196,24491,"Impact: Regression,Resolution: Locked,Bug",1,Completed,24491.0,Medium
-197,24494,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24494.0,Medium
-198,24495,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24495.0,Medium
-199,24498,"Platform: Android,Resolution: Locked,Bug",1,Completed,24498.0,Low
-200,24499,"Type: Discussion,Resolution: Locked",1,Completed,24499.0,High
-201,24500,"Resolution: Locked,Bug",1,Completed,24500.0,High
-202,24501,"Stale,Platform: Android,Bug",1,Completed,24501.0,Low
-203,24502,"Ran Commands,🌐Networking,Resolution: Locked,Bug",1,Completed,24502.0,Medium
-204,24503,"Resolution: Locked,Bug",1,Completed,24503.0,Low
-205,24504,"Ran Commands,API: Animated,Resolution: Locked,Type: Question",1,Completed,24504.0,Medium
-206,24505,"Platform: Linux,Resolution: Locked,Bug",1,Completed,24505.0,High
-207,24509,"Tech: Bundler 📦,Resolution: Locked,Bug",1,Completed,24509.0,Low
-208,24510,"Component: TextInput,Platform: Android,Resolution: Locked,Component: ScrollView,Bug",1,Completed,24510.0,Medium
-209,24511,"Component: TextInput,Platform: Android,Resolution: Locked,Component: ScrollView,Bug",1,Completed,24511.0,High
-210,24512,"Stale,Bug",1,Completed,24512.0,Low
-211,24514,"Resolution: Locked,Bug",1,Completed,24514.0,Low
-212,24515,"Platform: iOS,Ran Commands,Stale,Accessibility,Bug,Accessibility Team - Evaluated",1,Incomplete,24515.0,Low
-213,24519,"Component: TextInput,Platform: Android,Accessibility,Bug,Accessibility Team - Evaluated",1,Completed,24519.0,Low
-214,24520,"🌐Networking,Resolution: Locked,Bug",1,Completed,24520.0,Low
-215,24521,"Type: Discussion,Resolution: Locked",1,Completed,24521.0,Medium
-216,24522,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24522.0,Low
-217,24524,"Platform: iOS,Stale,Bug",1,Completed,24524.0,Low
-218,24525,"Platform: iOS,Type: Discussion,Resolution: Locked",1,Completed,24525.0,Medium
-219,24526,"Stale,Platform: Android,Bug",1,Completed,24526.0,Low
-220,24527,"Ran Commands,Platform: Android,Resolution: Locked,API: Alert,Bug",1,Completed,24527.0,Medium
-221,24528,"Stale,Component: Modal,API: Alert,Bug",1,Completed,24528.0,Low
-222,24529,"Resolution: Locked,Bug",1,Completed,24529.0,Low
-223,24530,"Platform: iOS,Ran Commands,Resolution: Locked,Type: Question,Component: RefreshControl,Component: ScrollView",1,Completed,24530.0,Medium
-224,24531,"Resolution: Locked,Component: ScrollView,Bug",1,Completed,24531.0,Low
-225,24532,"Ran Commands,Tech: Bundler 📦,Resolution: Locked,Type: Question",1,Completed,24532.0,Low
-226,24534,"🌐Networking,Resolution: Locked,Bug",1,Completed,24534.0,High
-227,24537,"Ran Commands,Platform: Android,❌CI Test Failure,Resolution: Locked,p: Facebook,Partner,Bug",1,Completed,,
-228,24539,"Resolution: Locked,Bug",1,Completed,24539.0,High
-229,24543,"Resolution: Locked,Bug",1,Completed,24543.0,Low
-230,24544,"Resolution: Locked,Bug",1,Completed,24544.0,Medium
-231,24548,"Ran Commands,Resolution: Locked",1,Completed,24548.0,Medium
-232,24549,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24549.0,Medium
-233,24550,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24550.0,Medium
-234,24551,"Ran Commands,Stale,Bug",1,Completed,24551.0,Low
-235,24552,"Resolution: Locked,Bug",1,Completed,24552.0,Low
-236,24553,"JavaScript,Tech: Bundler 📦,Resolution: Locked,📮Known Issues,React,Bug",1,Completed,24553.0,Medium
-237,24556,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24556.0,Medium
-238,24557,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24557.0,Medium
-239,24559,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24559.0,Medium
-240,24560,"Resolution: Locked,Bug",1,Completed,,
-241,24562,"Ran Commands,Resolution: Locked,Component: FlatList,Bug",1,Completed,24562.0,Medium
-242,24563,"Resolution: Locked,Bug",1,Completed,24563.0,High
-243,24564,"Resolution: Locked,Bug",1,Completed,24564.0,Low
-244,24565,"Platform: Android,Platform: Linux,Resolution: Locked,Component: Image,Bug",1,Completed,24565.0,High
-245,24566,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24566.0,Medium
-246,24569,"Platform: Linux,Resolution: Locked,Bug",1,Completed,24569.0,Medium
-247,24570,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24570.0,Medium
-248,24573,"Impact: Regression,Tech: Bundler 📦,Resolution: Locked,Bug",1,Completed,24573.0,Low
-249,24574,"Resolution: Locked,Bug",1,Completed,24574.0,Medium
-250,24575,"🌐Networking,Resolution: Locked,API: NetInfo,💻CLI,Bug",1,Completed,24575.0,Low
-251,24576,"Resolution: Locked,Component: SafeAreaView,Bug",1,Completed,,
-252,24577,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24577.0,Low
-253,24578,"Ran Commands,Resolution: Locked,Bug",1,Completed,24578.0,Medium
-254,24579,"Platform: iOS,Platform: Android,Component: SectionList,Bug",1,Completed,24579.0,Low
-255,24581,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24581.0,Medium
-256,24582,"Stale,Bug",1,Completed,24582.0,Low
-257,24584,"Stale,Platform: Android,Bug",1,Completed,24584.0,Low
-258,24585,"Component: TextInput,Resolution: Locked,Bug",1,Completed,24585.0,Low
-259,24586,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24586.0,Medium
-260,24587,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24587.0,Low
-261,24588,"Platform: iOS,Type: Discussion,Resolution: Locked",1,Completed,24588.0,Medium
-262,24590,"Type: Enhancement,p: Facebook,Partner",1,Incomplete,24590.0,High
-263,24592,"Resolution: Locked,Component: FlatList,Bug",1,Completed,,
-264,24594,"Resolution: Locked,Bug",1,Completed,24594.0,High
-265,24596,"Stale,Platform: Android,Component: StatusBar,Bug",1,Completed,24596.0,Low
-266,24597,"Stale,Component: FlatList,Bug",1,Completed,24597.0,Low
-267,24598,Resolution: Locked,1,Completed,,
-268,24599,"Platform: iOS,Ran Commands,Resolution: Locked,Type: Question",1,Completed,24599.0,Medium
-269,24600,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24600.0,Medium
-270,24601,"Resolution: Locked,Bug",1,Completed,24601.0,Medium
-271,24602,"Tech: Bundler 📦,Resolution: Locked,Bug",1,Completed,24602.0,High
-272,24603,"Ran Commands,Resolution: Locked,Component: StatusBar,Bug",1,Completed,24603.0,Medium
-273,24604,"Type: Discussion,Resolution: Locked",1,Completed,24604.0,Medium
-274,24605,"Ran Commands,Resolution: Locked,Type: Question,Component: FlatList",1,Completed,24605.0,Medium
-275,24606,"Ran Commands,API: PanResponder,Resolution: Locked,Type: Question",1,Completed,24606.0,Medium
-276,24607,"Platform: iOS,Impact: Regression,Resolution: Locked,Bug",1,Completed,24607.0,High
-277,24609,"Platform: iOS,Stale,Component: Modal,Bug",1,Completed,24609.0,Low
-278,24610,"Ran Commands,Resolution: Locked,Component: Image,Bug",1,Completed,24610.0,Medium
-279,24611,"Stale,Bug",1,Completed,24611.0,Low
-280,24612,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24612.0,Medium
-281,24613,"Ran Commands,Resolution: Locked,Component: Switch,Bug",1,Completed,24613.0,Medium
-282,24614,"Ran Commands,Platform: Android,Resolution: Locked,Type: Question",1,Completed,24614.0,Medium
-283,24616,"Type: Discussion,Resolution: Locked",1,Completed,24616.0,Low
-284,24617,"Resolution: Locked,Bug",1,Completed,24617.0,Medium
-285,24619,"Ran Commands,Resolution: Locked,Type: Question,API: Linking",1,Completed,24619.0,Medium
-286,24620,"Ran Commands,Resolution: Locked,API: Linking,Bug",1,Completed,24620.0,Low
-287,24621,"Ran Commands,🌐Networking,Resolution: Locked,Component: Image,Bug",1,Completed,24621.0,High
-288,24622,"Ran Commands,Resolution: Locked,p: Microsoft,Bug",1,Completed,24622.0,High
-289,24623,"Ran Commands,Platform: Android,Resolution: Locked,Bug",1,Completed,24623.0,Medium
-290,24624,"Stale,Platform: Linux,API: Linking,Bug,Needs: Verify on Latest Version",1,Incomplete,24624.0,Low
-291,24625,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24625.0,Medium
-292,24626,"Platform: iOS,Ran Commands,Stale,Platform: Android,p: Facebook,Bug",1,Completed,24626.0,Medium
-293,24627,"🌐Networking,Platform: Android,Bug",1,Incomplete,24627.0,High
-294,24632,"Ran Commands,Stale,Bug",1,Completed,24632.0,Low
-295,24634,"Platform: iOS,Ran Commands,Resolution: Locked,Type: Question",1,Completed,24634.0,Medium
-296,24636,"Ran Commands,Resolution: Locked,Type: Question,Component: TouchableOpacity,Component: Image",1,Completed,24636.0,Medium
-297,24637,"Ran Commands,Resolution: Locked,Bug",1,Completed,24637.0,High
-298,24639,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24639.0,Medium
-299,24644,"Ran Commands,Resolution: Locked,Component: Image,Bug",1,Completed,24644.0,Medium
-300,24645,"Ran Commands,Platform: Android,Resolution: Locked,Type: Question,Component: StatusBar",1,Completed,24645.0,Medium
-301,24646,"Stale,Platform: Android,API: Alert,Bug",1,Completed,24646.0,Low
-302,24647,"Help Wanted :octocat:,Ran Commands,Bug",1,Incomplete,24647.0,High
-303,24651,"Ran Commands,Resolution: Locked,Bug",1,Completed,24651.0,Medium
-304,24654,"Type: Discussion,Contributor",1,Incomplete,24654.0,Medium
-305,24656,"Ran Commands,Platform: Android,Resolution: Locked,Bug",1,Completed,24656.0,Low
-306,24657,"Platform: iOS,Stale,Bug",1,Completed,24657.0,Medium
-307,24660,"Resolution: Locked,Component: FlatList,Bug",1,Completed,24660.0,Medium
-308,24663,"Ran Commands,Component: TextInput,Resolution: Locked,Type: Question",1,Completed,24663.0,Medium
-309,24664,"Platform: Android,Resolution: Locked,Bug",1,Completed,24664.0,Low
-310,24665,"Ran Commands,Resolution: Locked,Type: Question",1,Completed,24665.0,Medium
-311,24667,"Platform: iOS,Resolution: Locked,Bug",1,Completed,24667.0,Medium
+,Unnamed: 0,date,Total_issue,closed_issue,ratio,scaled,Total_pull,changed_files,changed_files_scaled
+0,0,2015-01-01,13.0,13.0,1.0,1.0,0.0,0.0,0.0
+1,1,2015-02-01,65.0,65.0,1.0,1.0,0.0,0.0,0.0
+2,2,2015-03-01,248.0,248.0,1.0,1.0,6.0,9.0,0.00033790125774357045
+3,3,2015-04-01,321.0,321.0,1.0,1.0,4.0,36.0,0.0013516050309742818
+4,4,2015-05-01,252.0,252.0,1.0,1.0,9.0,32.0,0.0012014266941993616
+5,5,2015-06-01,229.0,228.0,0.9956331877729258,0.9929819089207734,4.0,5.0,0.00018772292096865025
+6,6,2015-07-01,238.0,238.0,1.0,1.0,8.0,63.0,0.0023653088042049934
+7,7,2015-08-01,210.0,210.0,1.0,1.0,3.0,12.0,0.00045053501032476064
+8,8,2015-09-01,428.0,428.0,1.0,1.0,8.0,10.0,0.0003754458419373005
+9,9,2015-10-01,450.0,450.0,1.0,1.0,9.0,29.0,0.0010887929416181716
+10,10,2015-11-01,451.0,451.0,1.0,1.0,8.0,11.0,0.00041299042613103054
+11,11,2015-12-01,384.0,384.0,1.0,1.0,11.0,123.0,0.004617983855828797
+12,12,2016-01-01,354.0,354.0,1.0,1.0,4.0,26635.0,0.9999999999999999
+13,13,2016-02-01,287.0,287.0,1.0,1.0,14.0,40.0,0.001501783367749202
+14,14,2016-03-01,283.0,283.0,1.0,1.0,2.0,2.0,7.50891683874601e-05
+15,15,2016-04-01,276.0,276.0,1.0,1.0,6.0,18.0,0.0006758025154871409
+16,16,2016-05-01,311.0,311.0,1.0,1.0,5.0,1437.0,0.05395156748639009
+17,17,2016-06-01,343.0,343.0,1.0,1.0,9.0,25.0,0.0009386146048432513
+18,18,2016-07-01,353.0,353.0,1.0,1.0,1.0,7.0,0.00026281208935611036
+19,19,2016-08-01,342.0,342.0,1.0,1.0,8.0,27.0,0.0010137037732307114
+20,20,2016-09-01,299.0,298.0,0.9966555183946488,0.994624940277114,10.0,86.0,0.0032288342406607846
+21,21,2016-10-01,286.0,286.0,1.0,1.0,5.0,15.0,0.0005631687629059507
+22,22,2016-11-01,348.0,347.0,0.9971264367816092,0.9953817733990148,7.0,41.0,0.001539327951942932
+23,23,2016-12-01,276.0,276.0,1.0,1.0,8.0,58.0,0.002177585883236343
+24,24,2017-01-01,273.0,273.0,1.0,1.0,14.0,94.0,0.003529190914210625
+25,25,2017-02-01,297.0,293.0,0.9865319865319864,0.9783549783549784,6.0,29.0,0.0010887929416181716
+26,26,2017-03-01,397.0,397.0,1.0,1.0,7.0,13.0,0.0004880795945184907
+27,27,2017-04-01,305.0,304.0,0.99672131147541,0.9947306791569088,7.0,80.0,0.003003566735498404
+28,28,2017-05-01,376.0,376.0,1.0,1.0,11.0,78.0,0.002928477567110944
+29,29,2017-06-01,382.0,381.0,0.9973821989528796,0.9957928197456992,5.0,20.0,0.000750891683874601
+30,30,2017-07-01,315.0,312.0,0.9904761904761904,0.9846938775510206,6.0,30.0,0.0011263375258119014
+31,31,2017-08-01,278.0,278.0,1.0,1.0,7.0,12.0,0.00045053501032476064
+32,32,2017-09-01,302.0,299.0,0.9900662251655628,0.984035004730369,8.0,212.0,0.007959451849070771
+33,33,2017-10-01,290.0,289.0,0.996551724137931,0.9944581280788176,3.0,11.0,0.00041299042613103054
+34,34,2017-11-01,320.0,318.0,0.99375,0.9899553571428572,3.0,16.0,0.0006007133470996808
+35,35,2017-12-01,290.0,289.0,0.996551724137931,0.9944581280788176,6.0,54.0,0.0020274075464614227
+36,36,2018-01-01,302.0,301.0,0.9966887417218544,0.9946783349101228,10.0,72.0,0.0027032100619485636
+37,37,2018-02-01,241.0,239.0,0.991701244813278,0.9866627148784826,11.0,140.0,0.005256241787122207
+38,38,2018-03-01,383.0,377.0,0.9843342036553524,0.9748228273032452,8.0,20.0,0.000750891683874601
+39,39,2018-04-01,361.0,359.0,0.994459833795014,0.9910961614562724,10.0,80.0,0.003003566735498404
+40,40,2018-05-01,358.0,356.0,0.994413407821229,0.991021548284118,13.0,126.0,0.004730617608409987
+41,41,2018-06-01,330.0,328.0,0.993939393939394,0.9902597402597402,7.0,146.0,0.005481509292284588
+42,42,2018-07-01,420.0,414.0,0.9857142857142858,0.9770408163265308,7.0,10.0,0.0003754458419373005
+43,43,2018-08-01,354.0,354.0,1.0,1.0,7.0,57.0,0.002140041299042613
+44,44,2018-09-01,356.0,355.0,0.9971910112359552,0.9954855537720706,7.0,17.0,0.0006382579312934109
+45,45,2018-10-01,405.0,398.0,0.982716049382716,0.9722222222222224,10.0,76.0,0.002853388398723484
+46,46,2018-11-01,283.0,278.0,0.9823321554770318,0.971605249873801,5.0,67.0,0.0025154871409799134
+47,47,2018-12-01,281.0,278.0,0.98932384341637,0.9828418912048806,5.0,109.0,0.004092359677116576
+48,48,2019-01-01,286.0,283.0,0.9895104895104896,0.983141858141858,6.0,6.0,0.00022526750516238032
+49,49,2019-02-01,262.0,256.0,0.9770992366412212,0.96319520174482,1.0,2.0,7.50891683874601e-05
+50,50,2019-03-01,345.0,340.0,0.9855072463768116,0.9767080745341616,9.0,123.0,0.004617983855828797
+51,51,2019-04-01,312.0,303.0,0.971153846153846,0.95364010989011,8.0,10.0,0.0003754458419373005
+52,52,2019-05-01,247.0,241.0,0.9757085020242916,0.9609600925390398,8.0,67.0,0.0025154871409799134
+53,53,2019-06-01,250.0,242.0,0.968,0.9485714285714286,3.0,3.0,0.00011263375258119016
+54,54,2019-07-01,376.0,368.0,0.9787234042553192,0.96580547112462,11.0,98.0,0.003679369250985545
+55,55,2019-08-01,312.0,306.0,0.9807692307692308,0.9690934065934064,12.0,34.0,0.0012765158625868218
+56,56,2019-09-01,294.0,284.0,0.9659863945578232,0.94533527696793,6.0,481.0,0.018058944997184155
+57,57,2019-10-01,339.0,323.0,0.952802359882006,0.9241466498103664,3.0,4.0,0.0001501783367749202
+58,58,2019-11-01,252.0,244.0,0.9682539682539684,0.9489795918367347,0.0,0.0,0.0
+59,59,2019-12-01,217.0,207.0,0.9539170506912442,0.9259381171823567,3.0,11.0,0.00041299042613103054
+60,60,2020-01-01,212.0,197.0,0.929245283018868,0.886287061994609,4.0,14.0,0.0005256241787122207
+61,61,2020-02-01,191.0,174.0,0.9109947643979056,0.856955871353777,5.0,16.0,0.0006007133470996808
+62,62,2020-03-01,195.0,174.0,0.8923076923076924,0.8269230769230771,9.0,20.0,0.000750891683874601
+63,63,2020-04-01,242.0,202.0,0.8347107438016529,0.7343565525383706,7.0,29.0,0.0010887929416181716
+64,64,2020-05-01,155.0,127.0,0.8193548387096774,0.7096774193548387,2.0,3.0,0.00011263375258119016
+65,65,2020-06-01,179.0,131.0,0.7318435754189944,0.5690343176376695,3.0,204.0,0.007659095175520931
+66,66,2020-07-01,218.0,120.0,0.5504587155963303,0.2775229357798165,3.0,2059.0,0.07730429885489018
+67,67,2020-08-01,190.0,108.0,0.5684210526315789,0.306390977443609,3.0,4.0,0.0001501783367749202
+68,68,2020-09-01,199.0,95.0,0.4773869346733668,0.1600861450107681,4.0,14.0,0.0005256241787122207
+69,69,2020-10-01,142.0,75.0,0.528169014084507,0.2417002012072433,4.0,20.0,0.000750891683874601
+70,70,2020-11-01,139.0,78.0,0.5611510791366906,0.2947070914696813,3.0,112.0,0.004204993429697766
+71,71,2020-12-01,124.0,82.0,0.6612903225806451,0.4556451612903225,2.0,7.0,0.00026281208935611036
+72,72,2021-01-01,112.0,75.0,0.6696428571428571,0.4690688775510203,4.0,149.0,0.005594143044865778
+73,73,2021-02-01,207.0,140.0,0.6763285024154589,0.4798136645962731,6.0,8.0,0.0003003566735498404
+74,74,2021-03-01,154.0,59.0,0.3831168831168831,0.0085807050092764,7.0,22.0,0.0008259808522620611
+75,75,2021-04-01,135.0,52.0,0.3851851851851852,0.0119047619047618,2.0,10.0,0.0003754458419373005
+76,76,2021-05-01,126.0,53.0,0.4206349206349206,0.0688775510204081,6.0,13.0,0.0004880795945184907
+77,77,2021-06-01,117.0,48.0,0.4102564102564102,0.0521978021978021,5.0,12.0,0.00045053501032476064
+78,78,2021-07-01,90.0,34.0,0.3777777777777777,0.0,9.0,33.0,0.0012389712783930917
+79,79,2021-08-01,139.0,112.0,0.8057553956834532,0.6878211716341212,2.0,2.0,7.50891683874601e-05
+80,80,2021-09-01,126.0,101.0,0.8015873015873016,0.681122448979592,5.0,26.0,0.0009761591890369814
+81,81,2021-10-01,138.0,107.0,0.7753623188405797,0.6389751552795031,8.0,81.0,0.0030411113196921343
+82,82,2021-11-01,113.0,87.0,0.7699115044247787,0.6302149178255372,10.0,57.0,0.002140041299042613
+83,83,2021-12-01,78.0,57.0,0.7307692307692307,0.5673076923076923,7.0,187.0,0.0070208372442275195
+84,84,2022-01-01,122.0,97.0,0.7950819672131147,0.6706674473067915,8.0,89.0,0.0033414679932419747
+85,85,2022-02-01,115.0,87.0,0.7565217391304347,0.6086956521739129,7.0,53.0,0.001989862962267693
+86,86,2022-03-01,118.0,86.0,0.7288135593220338,0.5641646489104115,4.0,23.0,0.0008635254364557912
+87,87,2022-04-01,124.0,96.0,0.7741935483870968,0.6370967741935483,3.0,32.0,0.0012014266941993616
+88,88,2022-05-01,99.0,86.0,0.8686868686868687,0.7889610389610391,7.0,798.0,0.02996057818659658
+89,89,2022-06-01,124.0,103.0,0.8306451612903226,0.7278225806451613,7.0,12.0,0.00045053501032476064
+90,90,2022-07-01,128.0,90.0,0.703125,0.5228794642857142,8.0,70.0,0.0026281208935611034
+91,91,2022-08-01,118.0,55.0,0.4661016949152542,0.1419491525423728,5.0,575.0,0.02158813591139478
+92,92,2022-09-01,145.0,73.0,0.503448275862069,0.2019704433497536,9.0,29.0,0.0010887929416181716
+93,93,2022-10-01,132.0,70.0,0.5303030303030303,0.2451298701298701,4.0,126.0,0.004730617608409987
+94,94,2022-11-01,183.0,102.0,0.5573770491803278,0.2886416861826697,7.0,54.0,0.0020274075464614227
+95,95,2022-12-01,137.0,53.0,0.3868613138686131,0.0145985401459853,4.0,20.0,0.000750891683874601
+96,96,2023-01-01,134.0,60.0,0.4477611940298507,0.1124733475479744,9.0,213.0,0.007996996433264502
+97,97,2023-02-01,0.0,0.0,0.0,0.0,5.0,53.0,0.001989862962267693

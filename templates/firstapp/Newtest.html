@@ -307,7 +307,9 @@ function labelsend(){
                     value : d.Total_issue,
                     rvalue:d.scaled,
                     pull : d.Total_pull,
-                    cf: d.changed_files/10}}
+                    cf: d.changed_files_scaled*100,
+                    cf_org: d.changed_files
+                }}
             },
 
 
@@ -359,7 +361,7 @@ function labelsend(){
                             .style("left",d3.event.pageX+"px")
                             .style("top",d3.event.pageY+10+"px")
                         .style("font-weight","bold");
-                        tooltip.html(Number(d.cf).toFixed(0)+" Files Changed");
+                        tooltip.html(Number(d.cf_org).toFixed(0)+" Files Changed");
                         })
                      .on("mouseout",function(){
                          tooltip.style("opacity",0)
