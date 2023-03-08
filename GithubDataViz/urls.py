@@ -24,6 +24,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     re_path(r'^$', views.githubproject, name='index'),
     path('firstapp/',include('firstapp.urls')),
+    path('haystack/',include('haystack.urls')),
     #path('admin/', ),
 
 
