@@ -134,8 +134,15 @@ text {
 <script>
 
 
+    var d = new Date();
+var year = d.getFullYear();
+var month = d.getMonth();
+var day = d.getDate();
+var c = new Date(year - 3, month, day);
+var d =  c.toISOString().substring(0, 10);
+
     //Datepicker
-    start_date = "1885-01-01"
+    start_date = d
     end_date = "2080-01-01"
     $( function() {
     $( "#datepicker" ).datepicker({ dateFormat: "yy-mm-dd" });
@@ -307,7 +314,7 @@ function labelsend(){
                     value : d.Total_issue,
                     rvalue:d.scaled,
                     pull : d.Total_pull,
-                    cf: d.changed_files_scaled*100,
+                    cf: d.changed_files_scaled,
                     cf_org: d.changed_files
                 }}
             },
@@ -351,7 +358,7 @@ function labelsend(){
                     .data(data)
 
                 selectCircle.enter().append("circle")
-                    .attr("r", function(d) { return d.cf*.018 })
+                    .attr("r", function(d) { return d.cf })
                     .attr("cx", function(d) { return x(d.date) })
                     .attr("cy", function(d) { return y(d.pull) })
                     .attr("fill", "steelblue")
@@ -365,7 +372,7 @@ function labelsend(){
                         })
                      .on("mouseout",function(){
                          tooltip.style("opacity",0)
-                        this.style.fill="steelblue"})
+                        this.style.fill="#FF8C00"})
 
                 .on("click",
                     function(d){
@@ -406,17 +413,18 @@ function labelsend(){
                     .attr("r", function(d) { return d.rvalue*9 })
                     .attr("cx", function(d) { return x(d.date) })
                     .attr("cy", function(d) { return y(d.value) })
+                    .attr("fill", "#299617")
                     .on("mousemove",function(d){
                         this.style.fill="red"
                         tooltip.style("opacity",1)
                             .style("left",d3.event.pageX+"px")
                             .style("top",d3.event.pageY+10+"px")
                         .style("font-weight","bold");
-                        tooltip.html(Number(d.rvalue*100).toFixed(2)+" %");
+                        tooltip.html(Number(d.rvalue*100).toFixed(2)+"% issue solved");
                         })
                      .on("mouseout",function(){
                          tooltip.style("opacity",0)
-                        this.style.fill="black"})
+                        this.style.fill="#299617"})
 
 
                     .on("click",
