@@ -89,7 +89,7 @@ issue_pull = pd.read_csv(Path.joinpath(staticdir, "../static/haystack/issue_pull
 scaler_ip = MinMaxScaler(feature_range=(3, 10))
 scaled_ip = scaler_ip.fit_transform(issue_pull[["changed_files"]])
 issue_pull["changed_files_scaled"] = scaled_ip
-issue_pull.loc[(issue_pull["changed_files_scaled"]==200),"changed_files_scaled"]=0
+issue_pull.loc[(issue_pull["changed_files_scaled"]==3),"changed_files_scaled"]=0
 filedir = Path.joinpath(staticdir, "../static/haystack")
 issue_pull.to_csv(Path.joinpath(filedir, "issue_pull.csv"))
 

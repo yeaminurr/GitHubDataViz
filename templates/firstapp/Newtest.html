@@ -622,14 +622,14 @@ d3.csv('{% static 'git/pulltable.csv' %}',function (data) {
 <div id="histviz" class="col-12 ">
     <div class="shadow-lg p-3 mb-5 bg-body rounded">
 
-    <svg id = "svgbar" width="1100" height="450" style="border: black; max-width: fit-content; width: 1600px"  ></svg>
+    <svg id = "svgbar" width="1100" height="500" style="border: black; max-width: fit-content; width: 1600px"  ></svg>
         </div>
     <script>
         var currentc = 0
         function updateBar(){
 
         var svg3 = d3.select("#svgbar"),
-            margin4 = {top: 10, right: 30, bottom: 30, left: 60},
+            margin4 = {top: 10, right: 30, bottom: 45, left: 60},
             width4 = +svg3.attr("width") - margin4.left - margin4.right,
             height4 = +svg3.attr("height") - margin.top - margin4.bottom,
             g = svg3.append("g").attr("transform", "translate(" + margin4.left + "," + margin4.top + ")");
@@ -637,6 +637,7 @@ d3.csv('{% static 'git/pulltable.csv' %}',function (data) {
         var x = d3.scaleBand()
             .rangeRound([0, width4])
             .paddingInner(0.05)
+            .padding(0.1)
             .align(0.5);
 
         var y = d3.scaleLinear()
@@ -746,7 +747,12 @@ d3.csv('{% static 'git/pulltable.csv' %}',function (data) {
                 .attr("class", "axis")
 
                 .attr("transform", "translate(0," + (height4) + ")")
-                .call(d3.axisBottom(xtime).tickFormat(d3.timeFormat("%m-%y")).ticks(d3.timeMonth.every(3)));
+                .call(d3.axisBottom(xtime).tickFormat(d3.timeFormat("%m-%y")).ticks(d3.timeMonth.every(3)))
+            .call(xtime)
+                .selectAll("text")
+                .attr("dx", "-2.0em")
+                .attr("dy", "-.55em")
+                .attr("transform", "rotate(-90)" );
 
             g.append("g")
                 .attr("class", "axis")

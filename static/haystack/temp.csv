@@ -1,46 +1,41 @@
 ,id,Labels,unused,Closed At,issue_id,Importance Type
-0,791,type:question,1,Completed,791,High
-1,793,Others,1,Completed,793,Medium
-2,797,"type:feature,good first issue",1,Completed,797,Low
-3,798,type:documentation,1,Completed,798,Low
-4,799,Others,1,Completed,799,High
-5,801,Others,1,Completed,801,Low
-6,802,type:bug,1,Completed,802,High
-7,804,"type:feature,stale",1,Completed,804,Low
-8,805,type:question,1,Completed,805,High
-9,806,type:question,1,Completed,806,Low
-10,807,"type:feature,stale",1,Completed,807,Low
-11,809,"type:feature,good first issue,Contributions wanted!",1,Completed,809,Low
-12,810,type:feature,1,Completed,810,High
-13,815,type:bug,1,Completed,815,Low
-14,817,type:bug,1,Completed,817,High
-15,818,type:bug,1,Completed,818,High
-16,821,type:feature,1,Completed,821,Low
-17,822,type:bug,1,Completed,822,High
-18,824,type:question,1,Completed,824,Medium
-19,827,"type:bug,topic:reader",1,Incomplete,827,Low
-20,829,type:bug,1,Completed,829,Medium
-21,830,"type:feature,good first issue,Contributions wanted!,topic:ui",1,Completed,830,High
-22,833,type:bug,1,Completed,833,High
-23,835,type:question,1,Completed,835,Medium
-24,839,type:question,1,Completed,839,Medium
-25,840,type:bug,1,Completed,840,Medium
-26,841,"type:feature,good first issue,Contributions wanted!",1,Completed,841,Low
-27,842,type:bug,1,Completed,842,Medium
-28,844,type:question,1,Completed,844,Medium
-29,846,type:question,1,Completed,846,Medium
-30,847,"type:question,topic:eval",1,Completed,847,Low
-31,848,Others,1,Completed,848,Medium
-32,849,type:bug,1,Completed,849,Medium
-33,851,type:question,1,Completed,851,Low
-34,853,type:bug,1,Completed,853,Medium
-35,854,type:question,1,Completed,854,Medium
-36,856,type:question,1,Completed,856,Medium
-37,857,"type:feature,good first issue,stale",1,Completed,857,Low
-38,858,type:bug,1,Completed,858,Low
-39,859,type:feature,1,Completed,859,Low
-40,861,type:question,1,Completed,861,Medium
-41,862,type:feature,1,Completed,862,Medium
-42,864,"type:feature,good first issue,stale",1,Completed,864,Low
-43,865,"type:feature,Contributions wanted!,topic:speed",1,Completed,865,Low
-44,1511,Others,1,Incomplete,1511,Low
+0,1244,Others,1,Completed,,
+1,1246,Others,1,Completed,1246.0,Medium
+2,1248,Others,1,Completed,1248.0,Medium
+3,1249,Others,1,Completed,1249.0,Low
+4,1250,Others,1,Completed,1250.0,High
+5,1254,Others,1,Completed,,
+6,1258,Others,1,Completed,1258.0,High
+7,1260,"type:question,topic:predictions",1,Completed,1260.0,Medium
+8,1261,Others,1,Completed,1261.0,Medium
+9,1262,Others,1,Completed,1262.0,Low
+10,1264,Others,1,Completed,1264.0,High
+11,1268,type:documentation,1,Incomplete,1268.0,Low
+12,1269,Others,1,Completed,1269.0,Low
+13,1270,"type:feature,topic:pipeline,topic:tests",1,Incomplete,1270.0,Low
+14,1272,Others,1,Completed,1272.0,Medium
+15,1273,Others,1,Completed,1273.0,Low
+16,1276,"type:bug,topic:sql,topic:document_store",1,Completed,1276.0,Medium
+17,1277,"type:feature,topic:models",1,Incomplete,1277.0,Medium
+18,1278,Others,1,Completed,1278.0,Low
+19,1280,Others,1,Completed,1280.0,Low
+20,1281,"type:feature,topic:pipeline",1,Completed,1281.0,High
+21,1282,Others,1,Completed,1282.0,Low
+22,1283,"good first issue,Contributions wanted!",1,Completed,,
+23,1285,type:feature,1,Completed,,
+24,1288,Others,1,Completed,,
+25,1290,"type:bug,topic:pipeline",1,Incomplete,,
+26,1292,Others,1,Completed,1292.0,Medium
+27,1295,Others,1,Completed,1295.0,Low
+28,1296,"type:feature,Contributions wanted!,topic:models,topic:pipeline,topic:preprocessing",1,Completed,1296.0,High
+29,1298,Others,1,Completed,1298.0,Medium
+30,1299,Others,1,Completed,1299.0,High
+31,1302,Others,1,Completed,1302.0,Medium
+32,1303,Others,1,Completed,1303.0,High
+33,1304,topic:DPR,1,Completed,1304.0,Medium
+34,1305,Others,1,Completed,1305.0,Medium
+35,1307,Others,1,Completed,1307.0,High
+36,1308,Others,1,Completed,1308.0,Low
+37,1310,"type:bug,topic:installation",1,Completed,1310.0,Medium
+38,1311,"type:question,topic:models",1,Completed,1311.0,Medium
+39,1312,Contributions wanted!,1,Incomplete,1312.0,Low
