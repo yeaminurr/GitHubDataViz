@@ -5,12 +5,12 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 urlpatterns = [
-    re_path(r'^$', views.githubproject, name='index'),
+    re_path(r'^$', views.githubproject, name='haystack/index'),
     #path('user/', views.user, name='user'),
-    path('github/', views.githubproject, name='GitHub'),
-    path('pullclick/', views.pull_table, name='pullclick'),
-    path('labelsort/', views.labelsort, name='labelsort'),
-    path('commentcat/', views.commentcat, name='commentcat')
+    path('github/', views.githubproject, name='haystack/GitHub'),
+    path('pullclick/', views.pull_table, name='haystack/pullclick'),
+    path('labelsort/', views.labelsort, name='haystack/labelsort'),
+    path('commentcat/', views.commentcat, name='haystack/commentcat')
 
 
 ]

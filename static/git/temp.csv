@@ -1,211 +1,208 @@
 ,id,Labels,unused,Closed At,issue_id,Importance Type
-0,2199,Resolution: Locked,1,Completed,2199.0,Medium
-1,2202,Resolution: Locked,1,Completed,2202.0,Medium
-2,2204,Resolution: Locked,1,Completed,2204.0,High
-3,2206,Resolution: Locked,1,Completed,2206.0,Low
-4,2207,"API: AsyncStorage,Resolution: Locked",1,Completed,,
-5,2209,Resolution: Locked,1,Completed,2209.0,Medium
-6,2210,Resolution: Locked,1,Completed,2210.0,Low
-7,2211,Resolution: Locked,1,Completed,2211.0,Medium
-8,2212,Resolution: Locked,1,Completed,2212.0,Low
-9,2213,Resolution: Locked,1,Completed,2213.0,Low
-10,2215,Resolution: Locked,1,Completed,2215.0,Low
-11,2217,Resolution: Locked,1,Completed,2217.0,Medium
-12,2218,Resolution: Locked,1,Completed,2218.0,High
-13,2219,Resolution: Locked,1,Completed,2219.0,Medium
-14,2220,Resolution: Locked,1,Completed,2220.0,Low
-15,2221,Resolution: Locked,1,Completed,2221.0,High
-16,2222,Resolution: Locked,1,Completed,2222.0,High
-17,2225,Resolution: Locked,1,Completed,2225.0,Medium
-18,2228,Resolution: Locked,1,Completed,2228.0,Low
-19,2229,Resolution: Locked,1,Completed,2229.0,Medium
-20,2230,Resolution: Locked,1,Completed,2230.0,Medium
-21,2231,Resolution: Locked,1,Completed,2231.0,Low
-22,2233,Resolution: Locked,1,Completed,2233.0,High
-23,2234,Resolution: Locked,1,Completed,2234.0,High
-24,2235,Resolution: Locked,1,Completed,2235.0,Medium
-25,2236,Resolution: Locked,1,Completed,2236.0,High
-26,2237,Resolution: Locked,1,Completed,2237.0,High
-27,2238,Resolution: Locked,1,Completed,2238.0,High
-28,2241,Resolution: Locked,1,Completed,2241.0,Low
-29,2243,Resolution: Locked,1,Completed,2243.0,Medium
-30,2244,Resolution: Locked,1,Completed,2244.0,Low
-31,2246,Resolution: Locked,1,Completed,2246.0,Low
-32,2247,Resolution: Locked,1,Completed,2247.0,Low
-33,2248,Resolution: Locked,1,Completed,2248.0,Low
-34,2249,Resolution: Locked,1,Completed,2249.0,High
-35,2250,Resolution: Locked,1,Completed,2250.0,Low
-36,2251,Resolution: Locked,1,Completed,2251.0,Low
-37,2253,Resolution: Locked,1,Completed,2253.0,High
-38,2254,Resolution: Locked,1,Completed,2254.0,Low
-39,2255,Resolution: Locked,1,Completed,2255.0,Low
-40,2256,Resolution: Locked,1,Completed,2256.0,Medium
-41,2257,Resolution: Locked,1,Completed,2257.0,Low
-42,2258,Resolution: Locked,1,Completed,2258.0,Medium
-43,2259,Resolution: Locked,1,Completed,2259.0,Medium
-44,2260,Resolution: Locked,1,Completed,2260.0,High
-45,2261,Resolution: Locked,1,Completed,2261.0,Low
-46,2262,Resolution: Locked,1,Completed,2262.0,Medium
-47,2266,Resolution: Locked,1,Completed,2266.0,Low
-48,2268,Resolution: Locked,1,Completed,,
-49,2270,Resolution: Locked,1,Completed,2270.0,Medium
-50,2271,"Good first issue,Resolution: Locked",1,Completed,2271.0,Low
-51,2272,Resolution: Locked,1,Completed,2272.0,Low
-52,2274,Resolution: Locked,1,Completed,2274.0,Low
-53,2275,Resolution: Locked,1,Completed,2275.0,Low
-54,2276,"Good first issue,Resolution: Locked",1,Completed,2276.0,Low
-55,2277,Resolution: Locked,1,Completed,2277.0,Low
-56,2280,Resolution: Locked,1,Completed,2280.0,Low
-57,2282,Resolution: Locked,1,Completed,2282.0,Low
-58,2283,Resolution: Locked,1,Completed,2283.0,High
-59,2284,Resolution: Locked,1,Completed,2284.0,Medium
-60,2285,Resolution: Locked,1,Completed,2285.0,High
-61,2286,Resolution: Locked,1,Completed,2286.0,Low
-62,2289,Resolution: Locked,1,Completed,2289.0,Low
-63,2290,Resolution: Locked,1,Completed,2290.0,Low
-64,2291,Resolution: Locked,1,Completed,2291.0,Medium
-65,2292,Resolution: Locked,1,Completed,2292.0,Medium
-66,2293,Resolution: Locked,1,Completed,2293.0,High
-67,2294,Resolution: Locked,1,Completed,2294.0,Low
-68,2295,Resolution: Locked,1,Completed,2295.0,Medium
-69,2296,Resolution: Locked,1,Completed,2296.0,Low
-70,2299,Resolution: Locked,1,Completed,2299.0,Medium
-71,2300,Resolution: Locked,1,Completed,2300.0,Low
-72,2301,Resolution: Locked,1,Completed,2301.0,Low
-73,2303,Resolution: Locked,1,Completed,2303.0,Low
-74,2304,Resolution: Locked,1,Completed,2304.0,Low
-75,2306,Resolution: Locked,1,Completed,2306.0,Low
-76,2307,Resolution: Locked,1,Completed,2307.0,High
-77,2309,Resolution: Locked,1,Completed,2309.0,Low
-78,2310,Resolution: Locked,1,Completed,2310.0,Medium
-79,2311,"Good first issue,Resolution: Locked",1,Completed,2311.0,Low
-80,2312,Resolution: Locked,1,Completed,2312.0,Low
-81,2313,Resolution: Locked,1,Completed,2313.0,Low
-82,2314,Resolution: Locked,1,Completed,2314.0,Low
-83,2316,Resolution: Locked,1,Completed,2316.0,Medium
-84,2317,Resolution: Locked,1,Completed,2317.0,Low
-85,2318,Resolution: Locked,1,Completed,2318.0,Medium
-86,2319,Resolution: Locked,1,Completed,2319.0,High
-87,2321,Resolution: Locked,1,Completed,2321.0,Low
-88,2322,Resolution: Locked,1,Completed,2322.0,High
-89,2324,Resolution: Locked,1,Completed,2324.0,Medium
-90,2325,Resolution: Locked,1,Completed,2325.0,Medium
-91,2326,Resolution: Locked,1,Completed,2326.0,Medium
-92,2328,Resolution: Locked,1,Completed,2328.0,Low
-93,2330,Resolution: Locked,1,Completed,2330.0,Medium
-94,2331,Resolution: Locked,1,Completed,2331.0,High
-95,2335,Resolution: Locked,1,Completed,2335.0,Low
-96,2338,Resolution: Locked,1,Completed,2338.0,Low
-97,2342,Resolution: Locked,1,Completed,2342.0,Medium
-98,2343,Resolution: Locked,1,Completed,2343.0,Low
-99,2344,"Help Wanted :octocat:,Resolution: Locked",1,Completed,2344.0,Low
-100,2345,"Ran Commands,Resolution: Locked",1,Completed,2345.0,Low
-101,2346,Resolution: Locked,1,Completed,2346.0,Low
-102,2347,Resolution: Locked,1,Completed,2347.0,High
-103,2348,Resolution: Locked,1,Completed,2348.0,High
-104,2349,"Type: Discussion,Resolution: Locked",1,Completed,2349.0,Low
-105,2352,Resolution: Locked,1,Completed,2352.0,Medium
-106,2353,Resolution: Locked,1,Completed,2353.0,High
-107,2354,Resolution: Locked,1,Completed,2354.0,Medium
-108,2355,Resolution: Locked,1,Completed,2355.0,Medium
-109,2356,Resolution: Locked,1,Completed,2356.0,High
-110,2357,Resolution: Locked,1,Completed,2357.0,Medium
-111,2358,Resolution: Locked,1,Completed,2358.0,Medium
-112,2359,Resolution: Locked,1,Completed,2359.0,High
-113,2361,"Platform: iOS,Resolution: Locked",1,Completed,2361.0,Low
-114,2362,Resolution: Locked,1,Completed,2362.0,Low
-115,2366,Resolution: Locked,1,Completed,2366.0,Medium
-116,2367,Resolution: Locked,1,Completed,2367.0,Low
-117,2368,Resolution: Locked,1,Completed,2368.0,High
-118,2369,Resolution: Locked,1,Completed,2369.0,Medium
-119,2370,Resolution: Locked,1,Completed,2370.0,Low
-120,2371,Resolution: Locked,1,Completed,2371.0,Low
-121,2372,Resolution: Locked,1,Completed,2372.0,Medium
-122,2376,Resolution: Locked,1,Completed,2376.0,Medium
-123,2377,Resolution: Locked,1,Completed,2377.0,High
-124,2378,Resolution: Locked,1,Completed,2378.0,High
-125,2379,Resolution: Locked,1,Completed,2379.0,Medium
-126,2380,"Good first issue,Resolution: Locked",1,Completed,2380.0,High
-127,2382,Resolution: Locked,1,Completed,2382.0,Medium
-128,2383,Resolution: Locked,1,Completed,2383.0,Medium
-129,2386,Resolution: Locked,1,Completed,2386.0,Low
-130,2387,Resolution: Locked,1,Completed,2387.0,High
-131,2390,Resolution: Locked,1,Completed,,
-132,2392,Resolution: Locked,1,Completed,2392.0,Medium
-133,2393,Resolution: Locked,1,Completed,2393.0,High
-134,2394,Resolution: Locked,1,Completed,2394.0,Low
-135,2395,Resolution: Locked,1,Completed,2395.0,High
-136,2396,Resolution: Locked,1,Completed,2396.0,Low
-137,2397,"Help Wanted :octocat:,Resolution: Locked",1,Completed,2397.0,Low
-138,2401,Resolution: Locked,1,Completed,2401.0,High
-139,2402,Resolution: Locked,1,Completed,,
-140,2407,Resolution: Locked,1,Completed,2407.0,Medium
-141,2408,Resolution: Locked,1,Completed,2408.0,High
-142,2409,"Good first issue,Resolution: Locked",1,Completed,2409.0,Low
-143,2411,"Good first issue,Resolution: Locked",1,Completed,2411.0,Low
-144,2413,Resolution: Locked,1,Completed,2413.0,Medium
-145,2414,Resolution: Locked,1,Completed,2414.0,High
-146,2416,Resolution: Locked,1,Completed,2416.0,Low
-147,2417,Resolution: Locked,1,Completed,,
-148,2418,Resolution: Locked,1,Completed,2418.0,Low
-149,2419,Resolution: Locked,1,Completed,2419.0,Medium
-150,2421,Resolution: Locked,1,Completed,,
-151,2422,Resolution: Locked,1,Completed,2422.0,Low
-152,2423,Resolution: Locked,1,Completed,2423.0,High
-153,2424,Resolution: Locked,1,Completed,2424.0,Low
-154,2425,"Good first issue,Resolution: Locked",1,Completed,2425.0,Low
-155,2427,Resolution: Locked,1,Completed,2427.0,High
-156,2429,Resolution: Locked,1,Completed,2429.0,High
-157,2430,Resolution: Locked,1,Completed,2430.0,Medium
-158,2431,Resolution: Locked,1,Completed,2431.0,High
-159,2432,Resolution: Locked,1,Completed,2432.0,Low
-160,2434,Resolution: Locked,1,Completed,2434.0,Low
-161,2436,Resolution: Locked,1,Completed,2436.0,Low
-162,2437,Resolution: Locked,1,Completed,2437.0,High
-163,2438,Resolution: Locked,1,Completed,2438.0,Medium
-164,2441,Resolution: Locked,1,Completed,2441.0,Medium
-165,2442,Resolution: Locked,1,Completed,2442.0,Low
-166,2444,Resolution: Locked,1,Completed,2444.0,High
-167,2445,Resolution: Locked,1,Completed,2445.0,Medium
-168,2446,Resolution: Locked,1,Completed,2446.0,High
-169,2447,Resolution: Locked,1,Completed,2447.0,Low
-170,2449,Resolution: Locked,1,Completed,2449.0,Medium
-171,2453,Resolution: Locked,1,Completed,2453.0,Low
-172,2454,Resolution: Locked,1,Completed,2454.0,Low
-173,2455,Resolution: Locked,1,Completed,2455.0,High
-174,2456,Resolution: Locked,1,Completed,2456.0,Low
-175,2457,Resolution: Locked,1,Completed,2457.0,Low
-176,2458,Resolution: Locked,1,Completed,2458.0,Medium
-177,2459,Resolution: Locked,1,Completed,2459.0,Medium
-178,2460,Resolution: Locked,1,Completed,2460.0,Medium
-179,2461,Resolution: Locked,1,Completed,2461.0,Medium
-180,2462,Resolution: Locked,1,Completed,2462.0,Medium
-181,2464,Resolution: Locked,1,Completed,2464.0,Medium
-182,2465,Resolution: Locked,1,Completed,2465.0,Medium
-183,2466,Resolution: Locked,1,Completed,2466.0,Low
-184,2467,Resolution: Locked,1,Completed,2467.0,High
-185,2468,Resolution: Locked,1,Completed,2468.0,Low
-186,2469,Resolution: Locked,1,Completed,2469.0,High
-187,2471,Resolution: Locked,1,Completed,2471.0,High
-188,2477,"API: AsyncStorage,Resolution: Locked",1,Completed,2477.0,Low
-189,2478,Resolution: Locked,1,Completed,2478.0,Low
-190,2479,Resolution: Locked,1,Completed,2479.0,Medium
-191,2480,Resolution: Locked,1,Completed,2480.0,High
-192,2481,Resolution: Locked,1,Completed,2481.0,Low
-193,2485,Resolution: Locked,1,Completed,2485.0,Low
-194,2489,Resolution: Locked,1,Completed,2489.0,Medium
-195,2490,Resolution: Locked,1,Completed,2490.0,High
-196,2492,Resolution: Locked,1,Completed,2492.0,High
-197,2493,Resolution: Locked,1,Completed,2493.0,High
-198,2495,"Good first issue,Resolution: Locked",1,Completed,2495.0,Medium
-199,2496,"Ran Commands,Stale,Type: Enhancement",1,Completed,2496.0,Low
-200,2497,Resolution: Locked,1,Completed,2497.0,Medium
-201,2498,Resolution: Locked,1,Completed,2498.0,High
-202,2500,Resolution: Locked,1,Completed,2500.0,High
-203,2501,Resolution: Locked,1,Completed,2501.0,Low
-204,2502,Resolution: Locked,1,Completed,2502.0,High
-205,2503,Resolution: Locked,1,Completed,2503.0,Medium
-206,2506,Resolution: Locked,1,Completed,2506.0,High
-207,2508,Resolution: Locked,1,Completed,2508.0,Medium
-208,2509,Resolution: Locked,1,Completed,2509.0,Low
-209,2510,Resolution: Locked,1,Completed,2510.0,Medium
+0,30822,"Resolution: Locked,Needs: Triage :mag:",1,Completed,,
+1,30825,"Stale,Needs: Triage :mag:",1,Incomplete,30825.0,Medium
+2,30826,"Stale,Needs: Triage :mag:",1,Incomplete,30826.0,Low
+3,30827,"p: Expo,Partner,Needs: Triage :mag:",1,Incomplete,30827.0,Low
+4,30828,"Resolution: Locked,Needs: Triage :mag:",1,Completed,30828.0,Medium
+5,30829,Needs: Triage :mag:,1,Incomplete,30829.0,Low
+6,30830,"Stale,Needs: Triage :mag:",1,Incomplete,30830.0,Medium
+7,30831,"Resolution: Locked,Needs: Triage :mag:",1,Completed,30831.0,Medium
+8,30833,"Stale,Needs: Triage :mag:",1,Incomplete,30833.0,Medium
+9,30834,"Stale,Needs: Triage :mag:",1,Incomplete,30834.0,Medium
+10,30835,"Resolution: Locked,Needs: Triage :mag:",1,Completed,30835.0,Medium
+11,30836,Needs: Triage :mag:,1,Incomplete,30836.0,High
+12,30838,"Resolution: Locked,Needs: Triage :mag:",1,Completed,,
+13,30839,"Platform: Android,Accessibility,Needs: Docs Website PR,Accessibility Team - Evaluated,React Native Engineering - Evaluated",1,Completed,30839.0,Low
+14,30840,"Good first issue,Platform: Android,Accessibility,Accessibility Team - Evaluated,React Native Engineering - Evaluated",1,Completed,30840.0,Low
+15,30841,"Platform: Android,Accessibility,Accessibility Team - Evaluated,React Native Engineering - Evaluated",1,Completed,30841.0,Low
+16,30842,"Good first issue,Platform: Android,Accessibility,Accessibility Team - Evaluated,React Native Engineering - Evaluated",1,Completed,30842.0,Low
+17,30843,"Platform: Android,Accessibility,Accessibility Team - Evaluated,React Native Engineering - Evaluated",1,Completed,30843.0,Medium
+18,30844,"Platform: Android,Resolution: Locked,Accessibility,Needs: Triage :mag:,Accessibility Team - Evaluated",1,Completed,30844.0,Medium
+19,30845,"Platform: Android,Accessibility,Accessibility Team - Evaluated",1,Completed,30845.0,Low
+20,30846,"Platform: Android,Accessibility,Needs: Docs Website PR,Accessibility Team - Evaluated,React Native Engineering - Evaluated",1,Completed,30846.0,Low
+21,30847,"Platform: Android,Accessibility,Accessibility Team - Evaluated",1,Completed,30847.0,Low
+22,30848,"Platform: iOS,Platform: Android,Accessibility,Accessibility Team - Evaluated,React Native Engineering - Evaluated",1,Incomplete,30848.0,Low
+23,30849,"Platform: Android,Accessibility,Accessibility Team - Evaluated",1,Incomplete,30849.0,Low
+24,30850,"Good first issue,Platform: Android,Accessibility,Accessibility Team - Evaluated",1,Completed,30850.0,Low
+25,30851,"Platform: Android,Accessibility,Accessibility Team - Evaluated,React Native Engineering - Evaluated",1,Completed,30851.0,Low
+26,30852,"Platform: iOS,Platform: Android,Accessibility,Needs: Docs Website PR,Accessibility Team - Evaluated,React Native Engineering - Evaluated",1,Completed,30852.0,Medium
+27,30853,"Platform: iOS,Platform: Android,Accessibility,Needs: Docs Website PR,Accessibility Team - Evaluated,React Native Engineering - Evaluated",1,Incomplete,,
+28,30854,"Good first issue,Platform: Android,Resolution: Locked,Accessibility,Accessibility Team - Evaluated",1,Completed,30854.0,Low
+29,30855,"Good first issue,Platform: Android,Resolution: Locked,Accessibility,Accessibility Team - Evaluated,React Native Engineering - Evaluated",1,Completed,30855.0,Low
+30,30856,"Platform: iOS,Accessibility,Needs: Docs Website PR,Accessibility Team - Evaluated,React Native Engineering - Evaluated",1,Incomplete,,
+31,30857,"Platform: Android,Resolution: Locked,Accessibility,Needs: Triage :mag:,Accessibility Team - Evaluated",1,Completed,30857.0,Medium
+32,30858,"Platform: Android,Accessibility,Accessibility Team - Evaluated,React Native Engineering - Evaluated,Closure Dependent on Other Issues",1,Incomplete,30858.0,Low
+33,30859,"Platform: iOS,Platform: Android,Accessibility,Accessibility Team - Evaluated,React Native Engineering - Evaluated",1,Incomplete,30859.0,Low
+34,30860,"Platform: Android,Accessibility,Needs: Docs Website PR,Accessibility Team - Evaluated",1,Incomplete,30860.0,Low
+35,30861,"Platform: Android,Accessibility,Needs: Docs Website PR,Accessibility Team - Evaluated,React Native Engineering - Evaluated",1,Completed,30861.0,Low
+36,30862,"Good first issue,Platform: Android,Accessibility,Accessibility Team - Evaluated",1,Incomplete,30862.0,Low
+37,30863,"Good first issue,Platform: Android,Resolution: Locked,Accessibility,Accessibility Team - Evaluated,React Native Engineering - Evaluated",1,Completed,30863.0,High
+38,30864,"Good first issue,Platform: Android,Accessibility,Needs: Docs Website PR,Accessibility Team - Evaluated",1,Incomplete,30864.0,Low
+39,30865,"Platform: Android,Accessibility,Accessibility Team - Evaluated,React Native Engineering - Evaluated",1,Completed,30865.0,Medium
+40,30866,"Good first issue,Platform: Android,Resolution: Locked,Accessibility,Accessibility Team - Evaluated,React Native Engineering - Evaluated",1,Completed,30866.0,Medium
+41,30867,"Platform: Android,Resolution: Locked,Accessibility,Needs: Triage :mag:",1,Completed,30867.0,Medium
+42,30868,"Platform: Android,Resolution: Locked,Accessibility,Needs: Triage :mag:",1,Completed,30868.0,Medium
+43,30869,"Platform: Android,Resolution: Locked,Accessibility,Needs: Triage :mag:",1,Completed,30869.0,Medium
+44,30870,"Good first issue,Platform: Android,Accessibility,Accessibility Team - Evaluated",1,Incomplete,30870.0,Low
+45,30871,"Platform: Android,Resolution: Locked,Accessibility,Needs: Triage :mag:",1,Completed,30871.0,Low
+46,30872,"Platform: Android,Resolution: Locked,Accessibility,Needs: Triage :mag:",1,Completed,30872.0,Medium
+47,30873,"Good first issue,Platform: iOS,Platform: Android,Resolution: Locked,Accessibility,Accessibility Team - Evaluated",1,Completed,30873.0,Medium
+48,30874,"Platform: iOS,Platform: Android,Accessibility,Needs: Docs Website PR,Accessibility Team - Evaluated,React Native Engineering - Evaluated",1,Incomplete,30874.0,Medium
+49,30875,"Platform: Android,Resolution: Locked,Accessibility,Needs: Triage :mag:,Accessibility Team - Evaluated",1,Completed,30875.0,Medium
+50,30876,"Platform: Android,Resolution: Locked,Accessibility,Needs: Triage :mag:",1,Completed,30876.0,High
+51,30877,"Platform: Android,Resolution: Locked,Accessibility,Needs: Triage :mag:",1,Completed,30877.0,High
+52,30878,"Stale,Needs: Triage :mag:",1,Incomplete,30878.0,Low
+53,30879,"Needs: Author Feedback,Needs: Repro,Needs: Verify on Latest Version",1,Incomplete,30879.0,Low
+54,30880,"Resolution: Locked,Needs: Triage :mag:",1,Completed,30880.0,Medium
+55,30881,Needs: Issue Manager Attention,1,Incomplete,30881.0,Low
+56,30882,Resolution: Duplicate,1,Incomplete,30882.0,Low
+57,30883,Stale,1,Incomplete,30883.0,Medium
+58,30884,"Resolution: Locked,Needs: Triage :mag:",1,Completed,30884.0,Medium
+59,30885,"Stale,🌐Networking,Platform: Android,Bug",1,Incomplete,30885.0,Low
+60,30886,"Resolution: Locked,Needs: Triage :mag:",1,Completed,30886.0,Medium
+61,30887,"Resolution: Locked,Needs: Triage :mag:,Needs: Author Feedback,Needs: Issue Template",1,Completed,30887.0,Medium
+62,30888,"Platform: iOS,Accessibility,Needs: Docs Website PR,Accessibility Team - Evaluated,React Native Engineering - Evaluated",1,Incomplete,30888.0,Low
+63,30889,"Stale,Needs: Author Feedback,Needs: Repro,Needs: Issue Template",1,Incomplete,30889.0,Low
+64,30890,"Platform: iOS,Accessibility,Needs: Docs Website PR,Accessibility Team - Evaluated",1,Incomplete,,
+65,30891,"Good first issue,Platform: iOS,Accessibility,Needs: Docs Website PR,Accessibility Team - Evaluated",1,Completed,30891.0,Low
+66,30892,"Platform: iOS,Stale,Accessibility,Accessibility Team - Evaluated",1,Incomplete,30892.0,Medium
+67,30893,"Platform: iOS,Stale,Accessibility,Accessibility Team - Evaluated",1,Incomplete,30893.0,Medium
+68,30894,"Resolution: For Stack Overflow,Resolution: Locked,Needs: Triage :mag:",1,Completed,30894.0,Medium
+69,30895,Resolution: Locked,1,Completed,30895.0,Medium
+70,30898,"Resolution: Locked,Needs: Triage :mag:,Needs: Author Feedback,Needs: Issue Template",1,Completed,30898.0,High
+71,30901,"Stale,Needs: Author Feedback,Needs: Repro",1,Completed,30901.0,Low
+72,30902,"Resolution: Locked,Needs: Triage :mag:",1,Completed,30902.0,Medium
+73,30903,"Platform: Android,Resolution: Locked,Impact: Platform Disparity",1,Completed,30903.0,Low
+74,30904,"Stale,Needs: Author Feedback,Needs: Repro,Needs: Verify on Latest Version",1,Completed,30904.0,Low
+75,30905,"Needs: Author Feedback,Needs: Repro",1,Incomplete,30905.0,Low
+76,30907,"Resolution: Locked,Needs: Triage :mag:",1,Completed,30907.0,Medium
+77,30908,"Stale,Needs: Triage :mag:",1,Completed,30908.0,Low
+78,30909,Needs: Triage :mag:,1,Incomplete,30909.0,Low
+79,30910,"Stale,Needs: Triage :mag:",1,Completed,30910.0,Medium
+80,30912,"Resolution: Locked,Needs: Triage :mag:",1,Completed,30912.0,Low
+81,30913,Needs: Triage :mag:,1,Incomplete,30913.0,Low
+82,30914,Needs: Triage :mag:,1,Incomplete,30914.0,Medium
+83,30917,"Stale,Needs: Triage :mag:",1,Completed,30917.0,Low
+84,30918,"Resolution: Locked,Needs: Triage :mag:",1,Completed,30918.0,Low
+85,30920,Needs: Triage :mag:,1,Incomplete,30920.0,Low
+86,30921,"Stale,Needs: Triage :mag:",1,Completed,30921.0,Low
+87,30922,"Resolution: Locked,Needs: Triage :mag:",1,Completed,30922.0,Low
+88,30923,"Resolution: Locked,Needs: Triage :mag:",1,Completed,30923.0,High
+89,30924,"Resolution: Locked,Needs: Triage :mag:",1,Completed,30924.0,Low
+90,30925,Needs: Triage :mag:,1,Incomplete,30925.0,Low
+91,30926,Stale,1,Completed,30926.0,High
+92,30927,"Resolution: Locked,Needs: Triage :mag:",1,Completed,30927.0,Medium
+93,30929,"Resolution: Locked,Needs: Triage :mag:",1,Completed,,
+94,30931,Needs: Triage :mag:,1,Incomplete,30931.0,Low
+95,30932,"Resolution: Locked,Needs: Triage :mag:",1,Completed,30932.0,High
+96,30933,Needs: Triage :mag:,1,Incomplete,30933.0,Low
+97,30934,"Good first issue,Platform: Android,Resolution: Locked,Component: Button,Accessibility",1,Completed,30934.0,Medium
+98,30935,"Good first issue,Platform: Android,Resolution: Locked,Component: Image,Accessibility",1,Completed,30935.0,High
+99,30936,"Good first issue,Platform: Android,Resolution: Locked,Component: ImageBackground,Accessibility",1,Completed,30936.0,Medium
+100,30937,"Good first issue,Platform: Android,Component: Text,Accessibility",1,Completed,30937.0,Low
+101,30938,"Good first issue,Component: TextInput,Platform: Android,Resolution: Locked,Accessibility",1,Completed,30938.0,Low
+102,30939,"Platform: Android,Component: Slider,Accessibility",1,Completed,30939.0,Low
+103,30940,"Good first issue,Platform: Android,Resolution: Locked,Component: Picker,Accessibility",1,Completed,30940.0,Low
+104,30941,"Good first issue,Platform: Android,Component: ProgressBarAndroid,Accessibility",1,Completed,30941.0,Low
+105,30942,"Stale,Needs: Triage :mag:",1,Completed,30942.0,High
+106,30943,"Good first issue,Platform: Android,Resolution: Locked,Component: Button,Accessibility",1,Completed,30943.0,Medium
+107,30944,"Good first issue,Platform: Android,Component: Switch,Accessibility",1,Completed,30944.0,Low
+108,30945,"Good first issue,Platform: Android,Resolution: Locked,Component: Slider,Accessibility",1,Completed,30945.0,High
+109,30946,"Good first issue,Platform: Android,Resolution: Locked,Component: Picker,Accessibility",1,Completed,30946.0,Medium
+110,30947,"Good first issue,Platform: iOS,Platform: Android,Resolution: Locked,Component: Text,Accessibility",1,Completed,30947.0,Low
+111,30948,"Good first issue,Component: TextInput,Platform: Android,Resolution: Locked,Accessibility",1,Completed,30948.0,Low
+112,30949,"Good first issue,Platform: Android,Resolution: Locked,Accessibility",1,Completed,30949.0,High
+113,30950,"Good first issue,Platform: Android,Resolution: Locked,Component: TouchableHighlight,Accessibility",1,Completed,30950.0,High
+114,30951,"Good first issue,Platform: Android,Resolution: Locked,Component: TouchableOpacity,Accessibility",1,Completed,30951.0,Medium
+115,30952,"Good first issue,Platform: Android,Resolution: Locked,Component: TouchableNativeFeedback,Accessibility",1,Completed,30952.0,Medium
+116,30953,"Good first issue,Platform: Android,Resolution: Locked,Component: TouchableWithoutFeedback,Accessibility",1,Completed,30953.0,High
+117,30954,"Good first issue,Platform: Android,Resolution: Locked,Component: Button,Accessibility",1,Completed,30954.0,High
+118,30955,"Good first issue,Component: TextInput,Platform: Android,Resolution: Locked,Accessibility",1,Completed,30955.0,High
+119,30956,"Good first issue,Platform: Android,Resolution: Locked,Component: Slider,Accessibility",1,Completed,30956.0,Low
+120,30957,"Good first issue,Platform: Android,Resolution: Locked,Component: Picker,Accessibility",1,Completed,30957.0,Medium
+121,30958,"Good first issue,Platform: Android,Resolution: Locked,Component: ProgressBarAndroid,Accessibility",1,Completed,30958.0,Low
+122,30959,"Platform: Android,Resolution: Locked,Component: Button,Accessibility",1,Completed,30959.0,High
+123,30960,"Component: TextInput,Platform: Android,Accessibility",1,Completed,30960.0,Low
+124,30961,"Platform: Android,Component: Slider,Accessibility",1,Completed,30961.0,Low
+125,30962,"Platform: Android,Resolution: Locked,Component: Picker,Accessibility,Needs: Triage :mag:",1,Completed,30962.0,Low
+126,30963,"Platform: Android,Component: ProgressBarAndroid,Accessibility",1,Completed,30963.0,Low
+127,30964,"Good first issue,Platform: Android,Component: FlatList,Accessibility",1,Completed,30964.0,Low
+128,30965,"Good first issue,Platform: Android,Component: SectionList,Accessibility",1,Completed,30965.0,Low
+129,30966,"Good first issue,Platform: Android,Component: VirtualizedList,Accessibility",1,Completed,30966.0,Low
+130,30967,"Good first issue,Platform: Android,Component: ScrollView,Accessibility",1,Completed,30967.0,Low
+131,30968,"Good first issue,Platform: Android,Component: FlatList,Accessibility",1,Completed,30968.0,Low
+132,30969,"Good first issue,Platform: Android,Component: SectionList,Accessibility",1,Incomplete,30969.0,Low
+133,30970,"Good first issue,Platform: Android,Component: VirtualizedList,Accessibility",1,Completed,30970.0,Low
+134,30971,"Good first issue,Platform: Android,Component: ScrollView,Accessibility",1,Completed,30971.0,Low
+135,30972,"Platform: Android,Accessibility,Accessibility Team - Evaluated",1,Completed,30972.0,Low
+136,30973,"Good first issue,Platform: Android,Component: FlatList,Accessibility",1,Incomplete,30973.0,Low
+137,30974,"Good first issue,Platform: Android,Component: SectionList,Accessibility",1,Incomplete,30974.0,Low
+138,30975,"Good first issue,Platform: Android,Component: VirtualizedList,Accessibility",1,Incomplete,30975.0,Low
+139,30976,"Good first issue,Platform: Android,Component: ScrollView,Accessibility",1,Incomplete,30976.0,Low
+140,30977,"Platform: Android,Accessibility,Accessibility Team - Evaluated",1,Incomplete,30977.0,Low
+141,30979,Needs: Triage :mag:,1,Incomplete,30979.0,Low
+142,30980,"Stale,Needs: Triage :mag:",1,Completed,30980.0,High
+143,30982,"Stale,Needs: Triage :mag:",1,Completed,30982.0,High
+144,30983,"Stale,Needs: Triage :mag:",1,Completed,30983.0,High
+145,30985,"Stale,Needs: Triage :mag:",1,Completed,30985.0,High
+146,30986,"Stale,Needs: Triage :mag:",1,Completed,30986.0,High
+147,30987,"Stale,Needs: Triage :mag:",1,Completed,30987.0,High
+148,30990,"Stale,Needs: Triage :mag:",1,Completed,30990.0,High
+149,30991,Needs: Triage :mag:,1,Incomplete,30991.0,Low
+150,30992,"Resolution: Locked,Needs: Triage :mag:",1,Completed,30992.0,Medium
+151,30997,"Stale,Needs: Triage :mag:",1,Completed,30997.0,High
+152,30998,"Resolution: Locked,Needs: Triage :mag:",1,Completed,30998.0,Medium
+153,30999,Needs: Triage :mag:,1,Incomplete,30999.0,Low
+154,31000,Needs: Triage :mag:,1,Incomplete,31000.0,Low
+155,31004,Stale,1,Completed,31004.0,High
+156,31005,Needs: Triage :mag:,1,Completed,31005.0,Medium
+157,31006,"Resolution: Locked,Needs: Triage :mag:",1,Completed,31006.0,High
+158,31008,Needs: Triage :mag:,1,Incomplete,31008.0,High
+159,31009,Others,1,Incomplete,31009.0,Low
+160,31012,"Resolution: Locked,Needs: Triage :mag:",1,Completed,31012.0,Medium
+161,31014,"Resolution: Locked,Needs: Triage :mag:",1,Completed,31014.0,Medium
+162,31015,"Resolution: Locked,Needs: Triage :mag:",1,Completed,31015.0,Low
+163,31016,"Stale,Needs: Triage :mag:",1,Completed,31016.0,High
+164,31017,"Resolution: Locked,Needs: Triage :mag:",1,Completed,31017.0,Medium
+165,31018,"Stale,Needs: Triage :mag:",1,Completed,31018.0,High
+166,31019,Stale,1,Completed,31019.0,Low
+167,31020,"Resolution: Locked,p: Expo,Partner,Needs: Triage :mag:",1,Completed,31020.0,Medium
+168,31021,"Resolution: Locked,Needs: Triage :mag:",1,Completed,31021.0,Medium
+169,31022,Needs: Triage :mag:,1,Completed,31022.0,Low
+170,31023,Stale,1,Incomplete,31023.0,Low
+171,31025,"Stale,Needs: Triage :mag:",1,Completed,31025.0,Low
+172,31026,"Stale,Needs: Triage :mag:",1,Completed,31026.0,Low
+173,31028,Needs: Triage :mag:,1,Incomplete,31028.0,Medium
+174,31029,"Resolution: Locked,Needs: Triage :mag:",1,Completed,31029.0,Medium
+175,31030,"Stale,Needs: Author Feedback,Needs: Environment Info,Needs: Issue Template",1,Completed,31030.0,Low
+176,31031,"Resolution: PR Submitted,API: PermissionsAndroid",1,Incomplete,31031.0,Low
+177,31033,"Stale,Platform: Android,Accessibility",1,Completed,31033.0,Low
+178,31034,"Resolution: Locked,Needs: Triage :mag:,Type: Upgrade Issue",1,Completed,31034.0,Low
+179,31035,"Stale,Needs: Author Feedback,Needs: Issue Template",1,Completed,31035.0,Low
+180,31036,"Platform: iOS,Needs: Author Feedback,Needs: Environment Info",1,Incomplete,31036.0,High
+181,31037,"Resolution: Locked,Needs: Triage :mag:",1,Completed,,
+182,31038,Others,1,Incomplete,31038.0,Low
+183,31039,"Platform: iOS,Stale",1,Completed,31039.0,Low
+184,31041,Others,1,Incomplete,31041.0,Medium
+185,31042,"Platform: Android,Accessibility,Accessibility Team - Evaluated,React Native Engineering - Evaluated",1,Completed,31042.0,Low
+186,31043,Stale,1,Incomplete,31043.0,Medium
+187,31044,"Resolution: Locked,Needs: Triage :mag:",1,Completed,,
+188,31045,Needs: Triage :mag:,1,Incomplete,31045.0,Low
+189,31046,"Resolution: Locked,Needs: Triage :mag:",1,Completed,,
+190,31047,Needs: Triage :mag:,1,Incomplete,31047.0,Low
+191,31048,"Stale,Needs: Triage :mag:",1,Incomplete,31048.0,Medium
+192,31050,"Stale,Needs: Triage :mag:",1,Incomplete,31050.0,Medium
+193,31051,"Stale,Needs: Author Feedback,Needs: Repro,Needs: Issue Template",1,Incomplete,31051.0,Low
+194,31052,Needs: Triage :mag:,1,Incomplete,31052.0,Low
+195,31054,Needs: Triage :mag:,1,Completed,31054.0,Low
+196,31055,"Stale,Needs: Triage :mag:",1,Incomplete,31055.0,Low
+197,31056,"Accessibility,Accessibility Team - Evaluated,React Native Engineering - Evaluated",1,Completed,31056.0,Low
+198,31057,"Accessibility,Needs: Author Feedback,Accessibility Team - Evaluated",1,Completed,31057.0,Low
+199,31058,Stale,1,Completed,31058.0,Low
+200,31059,"Stale,Needs: Author Feedback,Needs: Repro,Needs: Verify on Latest Version",1,Incomplete,31059.0,Low
+201,31060,Needs: Triage :mag:,1,Incomplete,31060.0,Medium
+202,31061,"Resolution: Locked,Needs: Triage :mag:",1,Completed,31061.0,Medium
+203,31066,Needs: Triage :mag:,1,Incomplete,31066.0,Medium
+204,31068,"Resolution: Locked,Needs: Author Feedback,Needs: Repro,Needs: Environment Info,Needs: Issue Template",1,Completed,31068.0,High
+205,31069,"Resolution: Locked,Needs: Triage :mag:",1,Completed,31069.0,Medium
+206,31071,"Resolution: Locked,Needs: Triage :mag:",1,Completed,31071.0,Medium

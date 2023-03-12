@@ -220,7 +220,7 @@ function labelsend(){
     let tempvar = getChex.toString();
     $.ajax({
                               type: "POST",
-                              url:"{% url 'labelsort' %}",
+                              url:"{% url 'haystack/labelsort' %}",
                               data:{  csrfmiddlewaretoken: '{{ csrf_token }}',
                                   labels: tempvar}
                             }).done(function(){
@@ -378,7 +378,7 @@ function labelsend(){
                     function(d){
                         $.ajax({
                               type: "POST",
-                              url: "{% url 'pullclick' %}",
+                              url: "{% url 'haystack/pullclick' %}",
                               data:{  csrfmiddlewaretoken: '{{ csrf_token }}',
                                   date: moment(Date.parse(d.date)).format("YYYY-MM-DD")}
                             }).done(function( o ) {
@@ -714,7 +714,7 @@ d3.csv('{% static 'haystack/pulltable.csv' %}',function (data) {
                        {#console.log(moment(Date.parse(d.data.time)).format("YYYY-MM-DD"))#}
                         $.ajax({
                               type: "POST",
-                              url: "{% url 'commentcat' %}",
+                              url: "{% url 'haystack/commentcat' %}",
                               data:{  csrfmiddlewaretoken: '{{ csrf_token }}',
                                   date: moment(Date.parse(d.data.time)).format("YYYY-MM-DD")}
                             })

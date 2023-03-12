@@ -711,6 +711,7 @@ d3.csv('{% static 'git/pulltable.csv' %}',function (data) {
                 .attr("width", x.bandwidth())
             .on("click",
                     function(d){
+                console.log('{% url 'commentcat' %}');
                        {#console.log(moment(Date.parse(d.data.time)).format("YYYY-MM-DD"))#}
                         $.ajax({
                               type: "POST",
