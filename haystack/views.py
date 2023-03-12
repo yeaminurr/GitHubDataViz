@@ -1,15 +1,10 @@
-
 from django.shortcuts import render , redirect
 from django.http import HttpResponse
 import pandas as pd
 
 import numpy as np
 
-from firstapp import form
-import sklearn
-import pickle
-import sys, os
-from pathlib import Path
+
 
 import pickle
 #base = os.path.dirname(os.path.abspath())
@@ -22,76 +17,24 @@ staticdir = Path.joinpath(BASE_DIR,"static")
 ran = Path.joinpath(staticdir, "../static/random")
 from django.core.files.storage import FileSystemStorage
 
-location = Path.joinpath(staticdir, "../static/haystack/datasetissueshortnot_othersc.csv")
-dataset = pd.read_csv(location)
-labelarray = []
-for i in dataset.iloc:
-    if i["types"] not in labelarray:
-        labelarray.append(i["types"])
 
-date = {}
-def githubproject(request):
-    global labelarray
-    send_data={}
-    send_data["Labels"]=labelarray
-    ran2 = Path.joinpath(staticdir, "../static/haystack/datasetissueshortnot_othersc.csv")
-    datasetissueshortnot_othersc = pd.read_csv(ran2)
 
-    icat = Path.joinpath(staticdir, "../static/haystack/issue_catelog.csv")
-    icatdata = pd.read_csv(icat)
-
-    #doing the popup task for issue table
-    if request.method == 'POST':
-        data = request.POST.get("date",None)
-        #print("asi")
-        print(data)
-        # ran2 = Path.joinpath(staticdir, "../static/haystack/datasetissueshortnot_othersc.csv")
-        # datasetissueshortnot_othersc = pd.read_csv(ran2)
-        print("Iam okay")
-        # temp = datasetissueshortnot_othersc.copy()
-        # temp = temp[temp["just_month"] == data]
-        # temp = temp[temp['Closed At'].notna()]
-        # temp = temp.groupby(["types"])["types",].count()
-        # temp = temp.rename(columns={'types': 'Count of Type'})
-
-        temp = datasetissueshortnot_othersc.copy()
-        temp = temp[temp["just_month"] == data]
-        #temp = temp[temp['Closed At'].notna()]
-        temp = temp.groupby(["id", "Labels"])["id",].count().rename(columns={'id': 'unused'})
-        temp = pd.merge(temp.reset_index(),datasetissueshortnot_othersc[["id","Closed At"]],on="id",how="left")
-        temp.drop_duplicates(inplace = True)
-
-        temp['Closed At'][temp['Closed At'].notnull()] = "Completed"
-        temp = temp.fillna({'Closed At':"Incomplete"})
-        temp =pd.merge(temp, icatdata[["issue_id","Importance Type"]], left_on='id',right_on="issue_id", how='left')
+# Create your views here.
+realdata = dict()
+recommendation=dict()
+actual = dict()
 
 
 
-        # temp.to_frame().rename(columns={'types': 'Count of Type'})
-        #temp.to_csv("temp.csv")
-        #print(temp.to_string)
-        ran3 = Path.joinpath(staticdir, "../static/haystack")
-
-        temp.to_csv(Path.joinpath(ran3, "temp.csv"))
-
-
-
-    return render(request, 'haystack/haystack.html',send_data)
+def index(request):
+    return render(request,'firstapp/bootstrap final.html')
+def front(request):
+    return HttpResponse("first page")
+# def user(request):
+#     return render(request,'firstapp/newfile.html')
+flag = True
 
 
-def pull_table(request):
-    if request.method == 'POST':
-        data = request.POST.get("date", None)
-        print("asi")
-        print(data)
-        ran2 = Path.joinpath(staticdir, "../static/haystack/pull_table.csv")
-        pulltable = pd.read_csv(ran2)
-        pulltable = pulltable[pulltable["just_month"] == data]
-        ran3 = Path.joinpath(staticdir, "../static/haystack")
-        pulltable.to_csv(Path.joinpath(ran3, "pulltable.csv"))
-
-        #temp.to_csv("temp.csv")
-    return HttpResponse(status=204)
 
 from sklearn.preprocessing import MinMaxScaler
 dataseti = pd.read_csv(Path.joinpath(staticdir, "../static/haystack/deepset-ai-haystack-issues.csv"))
@@ -124,6 +67,98 @@ t10colab = pd.merge(t10colab, user_cat[["username","category"]].drop_duplicates(
 t10colab = pd.merge(t10colab, datasetissueshort[["id","Labels"]].drop_duplicates(),left_on="issue_id", right_on="id", how='left')
 t10colab.rename(columns={"id": "issue_id"},inplace = True)
 from functools import reduce
+
+
+# location = Path.joinpath(staticdir, "../static/haystack/datasetissueshortnot_othersc.csv")
+# dataset = pd.read_csv(location)
+labelarraynew = []
+labellist = pd.read_csv(Path.joinpath(staticdir, "../static/haystack/labellist.csv"))
+
+
+
+# for i in dataset.iloc:
+#     if i["types"] not in labelarraynew:
+#         labelarraynew.append(i["types"])
+# print("label",len(labelarraynew))
+
+labelarray = list(labellist["name"])
+labelarray.append("Others")
+
+issue_pull = pd.read_csv(Path.joinpath(staticdir, "../static/haystack/issue_pull.csv"))
+
+scaler_ip = MinMaxScaler(feature_range=(3, 10))
+scaled_ip = scaler_ip.fit_transform(issue_pull[["changed_files"]])
+issue_pull["changed_files_scaled"] = scaled_ip
+issue_pull.loc[(issue_pull["changed_files_scaled"]==200),"changed_files_scaled"]=0
+filedir = Path.joinpath(staticdir, "../static/haystack")
+issue_pull.to_csv(Path.joinpath(filedir, "issue_pull.csv"))
+
+date = {}
+def githubproject(request):
+    global labelarray
+    send_data={}
+    send_data["Labels"]=labelarray
+    # ran2 = Path.joinpath(staticdir, "../static/haystack/datasetissueshortnot_othersc.csv")
+    # datasetissueshortnot_othersc = pd.read_csv(ran2)
+
+    icat = Path.joinpath(staticdir, "../static/haystack/issue_catelog.csv")
+    icatdata = pd.read_csv(icat)
+
+    #doing the popup task for issue table
+    if request.method == 'POST':
+        data = request.POST.get("date",None)
+        #print("asi")
+        print(data)
+        # ran2 = Path.joinpath(staticdir, "../static/haystack/datasetissueshortnot_othersc.csv")
+        # datasetissueshortnot_othersc = pd.read_csv(ran2)
+        print("Iam okay")
+        # temp = datasetissueshortnot_othersc.copy()
+        # temp = temp[temp["just_month"] == data]
+        # temp = temp[temp['Closed At'].notna()]
+        # temp = temp.groupby(["types"])["types",].count()
+        # temp = temp.rename(columns={'types': 'Count of Type'})
+
+        temp = datasetissueshort.copy()
+        temp = temp[temp["just_month"] == data]
+        #temp = temp[temp['Closed At'].notna()]
+        temp = temp.groupby(["id", "Labels"])["id",].count().rename(columns={'id': 'unused'})
+        temp = pd.merge(temp.reset_index(),datasetissueshort[["id","Closed At"]],on="id",how="left")
+        temp.drop_duplicates(inplace = True)
+
+        temp['Closed At'][temp['Closed At'].notnull()] = "Completed"
+        temp = temp.fillna({'Closed At':"Incomplete"})
+        temp =pd.merge(temp, icatdata[["issue_id","Importance Type"]], left_on='id',right_on="issue_id", how='left')
+
+
+
+        # temp.to_frame().rename(columns={'types': 'Count of Type'})
+        #temp.to_csv("temp.csv")
+        #print(temp.to_string)
+        ran3 = Path.joinpath(staticdir, "../static/haystack")
+
+        temp.to_csv(Path.joinpath(ran3, "temp.csv"))
+
+
+
+    return render(request, 'haystack/haystack.html',send_data)
+
+
+def pull_table(request):
+    if request.method == 'POST':
+        data = request.POST.get("date", None)
+        print("asi")
+        print(data)
+        ran2 = Path.joinpath(staticdir, "../static/haystack/pull_table.csv")
+        pulltable = pd.read_csv(ran2)
+        pulltable.rename(columns={"issue_id":"Pull ID","changed_files":"Code Changes"},inplace=True)
+        pulltable = pulltable[pulltable["just_month"] == data]
+        ran3 = Path.joinpath(staticdir, "../static/haystack")
+        pulltable.to_csv(Path.joinpath(ran3, "pulltable.csv"))
+
+        #temp.to_csv("temp.csv")
+    return HttpResponse(status=204)
+
+
 
 
 def labelsort(request):
@@ -163,6 +198,10 @@ def labelsort(request):
         allissue = allissue.fillna(0)
         allissue = allissue.sort_values(by='just_month').rename(columns={'just_month': 'date'})
         allissue["date"]= pd.to_datetime(allissue["date"])
+
+        allissue_scaler = MinMaxScaler()
+        allissue_scaled = allissue_scaler.fit_transform(allissue[["changed_files"]])
+        allissue["changed_files_scaled"] = allissue_scaled
 
         ran3 = Path.joinpath(staticdir, "../static/haystack")
         allissue.to_csv(Path.joinpath(ran3, "issue_pull_temp.csv"),index=False)
@@ -217,4 +256,6 @@ def commentcat(request):
         user_catcopy[["username","category"]].sort_values(by='category').to_csv(Path.joinpath(ran3, "user_catcopy.csv"),index=False)
 
 
+
     return HttpResponse(status=204)
+
