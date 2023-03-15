@@ -1,0 +1,53 @@
+,id,name
+0,4970792932,4.13.1
+1,4970793218,5.0.0
+2,4970793637,5.1.0
+3,136993487,answered
+4,2825062763,Better processes
+5,112370551,Bug
+6,313159626,c: Accessibility
+7,2084404719,c: APIs
+8,2170057727,c: Custom Dimensions
+9,171063645,c: Design / UI
+10,1678500922,c: Documentation
+11,4970533137,c: Ecommerce
+12,272370975,c: i18n
+13,112370580,c: Marketplace
+14,173323932,c: New plugin
+15,1412427421,c: Onboarding
+16,112370562,c: Performance
+17,127937670,c: Platform
+18,126437638,c: Privacy
+19,112370581,c: Security
+20,136420242,c: Tests & QA
+21,1992458592,c: Tracking
+22,137043266,c: Usability
+23,112370559,c: Website matomo.org
+24,1999726053,Can't reproduce (yet)
+25,112370561,Critical
+26,3113284028,dependencies
+27,2831840267,Do not close
+28,112370565,duplicate
+29,2741577674,Easier debugging
+30,112370560,Enhancement
+31,112370577,Help wanted
+32,1592987658,invalid
+33,1964375076,Likely a server config issue
+34,112370553,Major
+35,3985606094,Needs priority decision
+36,176285791,Needs Review
+37,4722932886,Needs_UX_input
+38,164789690,not-in-changelog
+39,2084322191,Potential Bug
+40,130101015,Pull Request WIP
+41,223149652,Regression
+42,139760960,RFC
+43,2647438636,Stability
+44,2831853227,Stale
+45,2915202421,Stale for long
+46,112370556,Task
+47,4777550511,To Triage
+48,2534479799,trackingspam
+49,291835293,Waiting for user feedback
+50,112370558,wontfix
+51,112370566,worksforme
