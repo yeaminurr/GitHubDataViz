@@ -1,0 +1,1793 @@
+,id,Closed At,Labels,just_month,types
+0,3159,,"Good First Contribution,maintenance",2023-01-01,Good First Contribution
+1,3159,,"Good First Contribution,maintenance",2023-01-01,maintenance
+2,3195,,,2023-01-01,Others
+3,2449,,build: docker,2021-03-01,build: docker
+4,2822,,"Good First Contribution,build: docker",2022-01-01,Good First Contribution
+5,2822,,"Good First Contribution,build: docker",2022-01-01,build: docker
+6,2467,,build: docker,2021-04-01,build: docker
+7,3185,,docs,2023-01-01,docs
+8,1821,,,2020-04-01,Others
+9,3193,2023-01-19T23:08:28Z,,2023-01-01,Others
+10,3122,,,2022-11-01,Others
+11,3182,,"Good First Contribution,maintenance",2023-01-01,Good First Contribution
+12,3182,,"Good First Contribution,maintenance",2023-01-01,maintenance
+13,2882,2023-01-17T02:35:19Z,,2022-03-01,Others
+14,3010,2023-01-17T02:34:42Z,,2022-07-01,Others
+15,3176,,"enhancement,Contribution Welcome",2023-01-01,enhancement
+16,3176,,"enhancement,Contribution Welcome",2023-01-01,Contribution Welcome
+17,2930,,"help wanted,Good First Contribution,Contribution Welcome",2022-06-01,help wanted
+18,2930,,"help wanted,Good First Contribution,Contribution Welcome",2022-06-01,Good First Contribution
+19,2930,,"help wanted,Good First Contribution,Contribution Welcome",2022-06-01,Contribution Welcome
+20,3154,,"discussion,refactor",2022-12-01,discussion
+21,3154,,"discussion,refactor",2022-12-01,refactor
+22,3060,2023-01-15T06:09:47Z,,2022-09-01,Others
+23,1294,,docs,2018-06-01,docs
+24,3175,,"Good First Contribution,docs",2023-01-01,Good First Contribution
+25,3175,,"Good First Contribution,docs",2023-01-01,docs
+26,3174,,docs,2023-01-01,docs
+27,3123,,,2022-11-01,Others
+28,3168,,duplicate,2023-01-01,duplicate
+29,3151,,maintenance,2022-12-01,maintenance
+30,3131,,,2022-12-01,Others
+31,2819,,"Good First Contribution,docs",2022-01-01,Good First Contribution
+32,2819,,"Good First Contribution,docs",2022-01-01,docs
+33,3130,2023-01-09T13:07:24Z,bug,2022-12-01,bug
+34,3161,,docs,2023-01-01,docs
+35,3162,,docs,2023-01-01,docs
+36,3156,2023-01-01T16:22:55Z,,2023-01-01,Others
+37,3149,,help wanted,2022-12-01,help wanted
+38,3155,,enhancement,2022-12-01,enhancement
+39,3117,2022-12-30T03:32:46Z,docs,2022-11-01,docs
+40,3153,,,2022-12-01,Others
+41,3134,,help wanted,2022-12-01,help wanted
+42,3144,,installation,2022-12-01,installation
+43,3142,2022-12-28T12:42:27Z,,2022-12-01,Others
+44,3150,,docs,2022-12-01,docs
+45,3139,,docs,2022-12-01,docs
+46,3148,,maintenance,2022-12-01,maintenance
+47,3137,,"Good First Contribution,maintenance",2022-12-01,Good First Contribution
+48,3137,,"Good First Contribution,maintenance",2022-12-01,maintenance
+49,3090,2022-12-23T15:37:19Z,,2022-10-01,Others
+50,3147,,"enhancement,maintenance",2022-12-01,enhancement
+51,3147,,"enhancement,maintenance",2022-12-01,maintenance
+52,3146,,"Good First Contribution,maintenance",2022-12-01,Good First Contribution
+53,3146,,"Good First Contribution,maintenance",2022-12-01,maintenance
+54,3145,,bug,2022-12-01,bug
+55,3133,,,2022-12-01,Others
+56,3120,,,2022-11-01,Others
+57,3132,2022-12-08T12:34:46Z,,2022-12-01,Others
+58,2333,2021-01-04T03:34:57Z,,2020-12-01,Others
+59,2956,,"bug,Contribution Welcome",2022-06-01,bug
+60,2956,,"bug,Contribution Welcome",2022-06-01,Contribution Welcome
+61,3012,2022-12-02T05:34:49Z,,2022-07-01,Others
+62,3129,,,2022-12-01,Others
+63,3109,2022-12-01T16:11:22Z,,2022-11-01,Others
+64,3119,2022-12-01T12:51:56Z,,2022-11-01,Others
+65,3128,,"Good First Contribution,Contribution Welcome",2022-11-01,Good First Contribution
+66,3128,,"Good First Contribution,Contribution Welcome",2022-11-01,Contribution Welcome
+67,3125,,,2022-11-01,Others
+68,3103,2022-11-29T19:32:05Z,,2022-11-01,Others
+69,3124,,,2022-11-01,Others
+70,2470,,,2021-04-01,Others
+71,3121,,,2022-11-01,Others
+72,1890,,,2020-06-01,Others
+73,657,2018-02-25T06:10:25Z,,2017-07-01,Others
+74,2680,,"Good First Contribution,Contribution Welcome",2021-08-01,Good First Contribution
+75,2680,,"Good First Contribution,Contribution Welcome",2021-08-01,Contribution Welcome
+76,3114,2022-11-22T06:58:26Z,,2022-11-01,Others
+77,3111,2022-11-18T12:14:16Z,,2022-11-01,Others
+78,3115,,,2022-11-01,Others
+79,3113,,,2022-11-01,Others
+80,3094,,,2022-10-01,Others
+81,3102,,,2022-11-01,Others
+82,3086,2022-11-16T10:42:11Z,,2022-10-01,Others
+83,1539,2022-11-16T07:26:48Z,,2019-03-01,Others
+84,3108,2022-11-15T15:24:51Z,,2022-11-01,Others
+85,3104,,,2022-11-01,Others
+86,3085,2022-11-10T08:32:34Z,bug,2022-10-01,bug
+87,3100,2022-11-10T08:30:26Z,,2022-11-01,Others
+88,2893,2022-11-08T15:57:18Z,,2022-03-01,Others
+89,2966,,,2022-06-01,Others
+90,3098,,,2022-10-01,Others
+91,2763,2022-11-02T14:56:46Z,Contribution Welcome,2021-11-01,Contribution Welcome
+92,3081,,,2022-10-01,Others
+93,3066,,,2022-09-01,Others
+94,3091,,,2022-10-01,Others
+95,3089,,,2022-10-01,Others
+96,3088,,,2022-10-01,Others
+97,2863,,"help wanted,Good First Contribution,Contribution Welcome",2022-02-01,help wanted
+98,2863,,"help wanted,Good First Contribution,Contribution Welcome",2022-02-01,Good First Contribution
+99,2863,,"help wanted,Good First Contribution,Contribution Welcome",2022-02-01,Contribution Welcome
+100,2907,,"Good First Contribution,Contribution Welcome",2022-05-01,Good First Contribution
+101,2907,,"Good First Contribution,Contribution Welcome",2022-05-01,Contribution Welcome
+102,3087,,,2022-10-01,Others
+103,3083,2022-10-17T16:50:40Z,,2022-10-01,Others
+104,3082,,,2022-10-01,Others
+105,3070,2022-10-16T09:19:21Z,"bug,Contribution Welcome",2022-09-01,bug
+106,3070,2022-10-16T09:19:21Z,"bug,Contribution Welcome",2022-09-01,Contribution Welcome
+107,2894,2022-10-16T07:11:08Z,Good First Contribution,2022-04-01,Good First Contribution
+108,3078,,"help wanted,Contribution Welcome,Good Intermediate Contribution",2022-10-01,help wanted
+109,3078,,"help wanted,Contribution Welcome,Good Intermediate Contribution",2022-10-01,Contribution Welcome
+110,3078,,"help wanted,Contribution Welcome,Good Intermediate Contribution",2022-10-01,Good Intermediate Contribution
+111,3068,,,2022-09-01,Others
+112,3077,2022-10-05T10:51:23Z,,2022-10-01,Others
+113,3064,2022-10-04T06:28:24Z,,2022-09-01,Others
+114,3071,,,2022-09-01,Others
+115,3069,,,2022-09-01,Others
+116,3067,2022-09-20T14:10:35Z,,2022-09-01,Others
+117,2989,,"help wanted,Good First Contribution",2022-07-01,help wanted
+118,2989,,"help wanted,Good First Contribution",2022-07-01,Good First Contribution
+119,3048,2022-09-14T07:50:36Z,,2022-09-01,Others
+120,3061,,,2022-09-01,Others
+121,3044,2022-09-12T07:59:29Z,Good First Contribution,2022-08-01,Good First Contribution
+122,3054,2022-09-11T17:09:30Z,,2022-09-01,Others
+123,3062,,,2022-09-01,Others
+124,3057,2022-09-06T16:39:34Z,,2022-09-01,Others
+125,3059,,,2022-09-01,Others
+126,3049,2022-09-06T00:02:36Z,,2022-09-01,Others
+127,3043,,,2022-08-01,Others
+128,3045,2022-08-26T15:03:26Z,"Good First Contribution,Contribution Welcome",2022-08-01,Good First Contribution
+129,3045,2022-08-26T15:03:26Z,"Good First Contribution,Contribution Welcome",2022-08-01,Contribution Welcome
+130,1712,2022-08-18T07:02:14Z,,2019-11-01,Others
+131,3031,2022-08-14T11:14:36Z,,2022-08-01,Others
+132,3033,,,2022-08-01,Others
+133,3032,,,2022-08-01,Others
+134,707,,"Good First Contribution,Contribution Welcome",2017-07-01,Good First Contribution
+135,707,,"Good First Contribution,Contribution Welcome",2017-07-01,Contribution Welcome
+136,3002,,,2022-07-01,Others
+137,3006,2022-08-07T04:45:36Z,,2022-07-01,Others
+138,2070,,,2020-08-01,Others
+139,3019,,,2022-07-01,Others
+140,2933,,,2022-06-01,Others
+141,3003,,,2022-07-01,Others
+142,2574,2022-07-18T06:55:32Z,,2021-06-01,Others
+143,2981,,,2022-07-01,Others
+144,1892,2022-07-18T05:32:30Z,,2020-06-01,Others
+145,2992,,,2022-07-01,Others
+146,2990,2022-07-13T17:52:09Z,,2022-07-01,Others
+147,2975,2022-07-11T06:59:11Z,,2022-07-01,Others
+148,2986,2022-07-08T15:58:00Z,,2022-07-01,Others
+149,2982,2022-07-07T16:38:28Z,,2022-07-01,Others
+150,2978,2022-07-06T16:27:35Z,,2022-07-01,Others
+151,2957,,,2022-06-01,Others
+152,2976,,,2022-07-01,Others
+153,2946,,bug,2022-06-01,bug
+154,2969,2022-07-01T15:55:34Z,,2022-06-01,Others
+155,2317,,,2020-12-01,Others
+156,2905,2022-06-18T07:51:20Z,,2022-05-01,Others
+157,2861,2022-06-17T16:04:33Z,"Good First Contribution,Contribution Welcome",2022-02-01,Good First Contribution
+158,2861,2022-06-17T16:04:33Z,"Good First Contribution,Contribution Welcome",2022-02-01,Contribution Welcome
+159,2895,,"Good First Contribution,Contribution Welcome",2022-04-01,Good First Contribution
+160,2895,,"Good First Contribution,Contribution Welcome",2022-04-01,Contribution Welcome
+161,2943,,,2022-06-01,Others
+162,2936,2022-06-10T16:04:40Z,,2022-06-01,Others
+163,1603,2020-03-23T00:00:50Z,,2019-05-01,Others
+164,2915,2022-06-03T03:47:55Z,,2022-05-01,Others
+165,2917,,,2022-05-01,Others
+166,2842,,discussion,2022-02-01,discussion
+167,1823,2020-06-10T18:44:02Z,,2020-04-01,Others
+168,2913,,,2022-05-01,Others
+169,2910,2022-05-20T15:48:58Z,,2022-05-01,Others
+170,2871,,,2022-02-01,Others
+171,2900,,,2022-04-01,Others
+172,2899,,,2022-04-01,Others
+173,2884,2022-04-08T02:13:38Z,,2022-03-01,Others
+174,2534,,,2021-06-01,Others
+175,2891,,,2022-03-01,Others
+176,2849,2022-03-18T16:44:35Z,,2022-02-01,Others
+177,2879,,,2022-03-01,Others
+178,2878,2022-02-28T08:56:17Z,,2022-02-01,Others
+179,2869,2022-02-27T16:08:41Z,,2022-02-01,Others
+180,2827,2022-02-27T16:07:50Z,"Good First Contribution,Contribution Welcome",2022-01-01,Good First Contribution
+181,2827,2022-02-27T16:07:50Z,"Good First Contribution,Contribution Welcome",2022-01-01,Contribution Welcome
+182,2876,,,2022-02-01,Others
+183,2867,,,2022-02-01,Others
+184,2868,2022-02-22T04:47:48Z,,2022-02-01,Others
+185,2477,,"bug,Contribution Welcome",2021-04-01,bug
+186,2477,,"bug,Contribution Welcome",2021-04-01,Contribution Welcome
+187,2803,,,2022-01-01,Others
+188,2824,,discussion,2022-01-01,discussion
+189,2854,,,2022-02-01,Others
+190,2106,,bug,2020-08-01,bug
+191,2853,,,2022-02-01,Others
+192,2852,,,2022-02-01,Others
+193,2155,,,2020-09-01,Others
+194,2839,,"Contribution Welcome,Good Intermediate Contribution,discussion",2022-01-01,Contribution Welcome
+195,2839,,"Contribution Welcome,Good Intermediate Contribution,discussion",2022-01-01,Good Intermediate Contribution
+196,2839,,"Contribution Welcome,Good Intermediate Contribution,discussion",2022-01-01,discussion
+197,2847,2022-02-04T01:41:58Z,,2022-02-01,Others
+198,2845,,"Good First Contribution,Contribution Welcome",2022-02-01,Good First Contribution
+199,2845,,"Good First Contribution,Contribution Welcome",2022-02-01,Contribution Welcome
+200,2844,,"Good First Contribution,Contribution Welcome",2022-02-01,Good First Contribution
+201,2844,,"Good First Contribution,Contribution Welcome",2022-02-01,Contribution Welcome
+202,2841,,"Good First Contribution,Contribution Welcome",2022-01-01,Good First Contribution
+203,2841,,"Good First Contribution,Contribution Welcome",2022-01-01,Contribution Welcome
+204,2809,2022-01-31T14:40:41Z,tutorials,2022-01-01,tutorials
+205,2810,2022-01-31T14:40:01Z,tutorials,2022-01-01,tutorials
+206,2830,2022-01-31T14:39:13Z,,2022-01-01,Others
+207,2836,,,2022-01-01,Others
+208,2684,,"help wanted,Good First Contribution,Contribution Welcome",2021-09-01,help wanted
+209,2684,,"help wanted,Good First Contribution,Contribution Welcome",2021-09-01,Good First Contribution
+210,2684,,"help wanted,Good First Contribution,Contribution Welcome",2021-09-01,Contribution Welcome
+211,2835,,,2022-01-01,Others
+212,2816,,,2022-01-01,Others
+213,2832,2022-01-23T20:39:34Z,,2022-01-01,Others
+214,2808,2022-01-09T09:50:48Z,,2022-01-01,Others
+215,2831,,,2022-01-01,Others
+216,2820,,,2022-01-01,Others
+217,2770,2022-01-18T13:50:39Z,,2021-11-01,Others
+218,2701,2021-09-24T03:22:32Z,,2021-09-01,Others
+219,2647,,"Good First Contribution,Contribution Welcome",2021-08-01,Good First Contribution
+220,2647,,"Good First Contribution,Contribution Welcome",2021-08-01,Contribution Welcome
+221,2801,,tutorials,2021-12-01,tutorials
+222,2785,,tutorials,2021-12-01,tutorials
+223,2813,,,2022-01-01,Others
+224,2811,,,2022-01-01,Others
+225,1899,,"Good First Contribution,Contribution Welcome",2020-06-01,Good First Contribution
+226,1899,,"Good First Contribution,Contribution Welcome",2020-06-01,Contribution Welcome
+227,2772,2022-01-08T13:55:47Z,Good Intermediate Contribution,2021-11-01,Good Intermediate Contribution
+228,2782,2022-01-06T16:44:29Z,Good Intermediate Contribution,2021-12-01,Good Intermediate Contribution
+229,2792,2022-01-06T14:07:23Z,,2021-12-01,Others
+230,2804,,,2022-01-01,Others
+231,2800,,,2021-12-01,Others
+232,2797,,,2021-12-01,Others
+233,2794,,,2021-12-01,Others
+234,2617,2021-12-15T16:36:07Z,"bug,Good First Contribution,Contribution Welcome",2021-07-01,bug
+235,2617,2021-12-15T16:36:07Z,"bug,Good First Contribution,Contribution Welcome",2021-07-01,Good First Contribution
+236,2617,2021-12-15T16:36:07Z,"bug,Good First Contribution,Contribution Welcome",2021-07-01,Contribution Welcome
+237,2743,2021-12-15T16:34:57Z,"Good First Contribution,Contribution Welcome",2021-11-01,Good First Contribution
+238,2743,2021-12-15T16:34:57Z,"Good First Contribution,Contribution Welcome",2021-11-01,Contribution Welcome
+239,2716,2021-12-15T03:54:41Z,,2021-10-01,Others
+240,2791,,,2021-12-01,Others
+241,1932,2021-12-14T16:58:37Z,,2020-06-01,Others
+242,2050,2021-12-14T16:58:08Z,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,help wanted
+243,2050,2021-12-14T16:58:08Z,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,Good First Contribution
+244,2050,2021-12-14T16:58:08Z,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,Contribution Welcome
+245,2369,2021-12-14T16:57:46Z,bug,2021-01-01,bug
+246,2112,2021-12-14T16:56:57Z,,2020-08-01,Others
+247,2362,2021-12-14T15:04:50Z,"bug,Contribution Welcome",2021-01-01,bug
+248,2362,2021-12-14T15:04:50Z,"bug,Contribution Welcome",2021-01-01,Contribution Welcome
+249,2775,,,2021-11-01,Others
+250,2787,,,2021-12-01,Others
+251,2521,2021-12-07T16:14:41Z,"Good First Contribution,Contribution Welcome",2021-05-01,Good First Contribution
+252,2521,2021-12-07T16:14:41Z,"Good First Contribution,Contribution Welcome",2021-05-01,Contribution Welcome
+253,2744,2021-12-07T10:46:30Z,,2021-11-01,Others
+254,2635,2021-12-06T17:23:26Z,"Good First Contribution,Contribution Welcome",2021-08-01,Good First Contribution
+255,2635,2021-12-06T17:23:26Z,"Good First Contribution,Contribution Welcome",2021-08-01,Contribution Welcome
+256,2548,2021-12-06T17:19:58Z,,2021-06-01,Others
+257,2498,2021-12-06T17:15:15Z,,2021-04-01,Others
+258,2677,2021-12-06T17:13:17Z,"bug,Good First Contribution,Contribution Welcome",2021-08-01,bug
+259,2677,2021-12-06T17:13:17Z,"bug,Good First Contribution,Contribution Welcome",2021-08-01,Good First Contribution
+260,2677,2021-12-06T17:13:17Z,"bug,Good First Contribution,Contribution Welcome",2021-08-01,Contribution Welcome
+261,2781,,,2021-12-01,Others
+262,2727,2021-12-06T13:01:53Z,,2021-10-01,Others
+263,2593,2021-12-03T11:58:44Z,"Good First Contribution,Contribution Welcome",2021-07-01,Good First Contribution
+264,2593,2021-12-03T11:58:44Z,"Good First Contribution,Contribution Welcome",2021-07-01,Contribution Welcome
+265,2780,2021-12-01T18:27:10Z,,2021-12-01,Others
+266,2779,,,2021-11-01,Others
+267,2778,,,2021-11-01,Others
+268,2776,,,2021-11-01,Others
+269,2553,,,2021-06-01,Others
+270,1798,2021-11-26T18:54:22Z,,2020-04-01,Others
+271,2771,,,2021-11-01,Others
+272,1849,,,2020-05-01,Others
+273,2764,2021-11-23T22:41:22Z,,2021-11-01,Others
+274,2363,2021-11-23T17:18:22Z,,2021-01-01,Others
+275,2761,,,2021-11-01,Others
+276,2758,,,2021-11-01,Others
+277,2728,,,2021-10-01,Others
+278,2754,,,2021-11-01,Others
+279,2747,,,2021-11-01,Others
+280,2755,2021-11-15T11:16:24Z,,2021-11-01,Others
+281,2373,,bug,2021-01-01,bug
+282,2753,,,2021-11-01,Others
+283,2734,2021-11-11T22:06:44Z,,2021-10-01,Others
+284,2750,,,2021-11-01,Others
+285,2749,,,2021-11-01,Others
+286,2748,,,2021-11-01,Others
+287,2738,2021-11-08T14:11:04Z,,2021-10-01,Others
+288,1977,,"enhancement,help wanted,Contribution Welcome",2020-07-01,enhancement
+289,1977,,"enhancement,help wanted,Contribution Welcome",2020-07-01,help wanted
+290,1977,,"enhancement,help wanted,Contribution Welcome",2020-07-01,Contribution Welcome
+291,1956,,"enhancement,help wanted,Contribution Welcome",2020-07-01,enhancement
+292,1956,,"enhancement,help wanted,Contribution Welcome",2020-07-01,help wanted
+293,1956,,"enhancement,help wanted,Contribution Welcome",2020-07-01,Contribution Welcome
+294,2737,2021-11-05T17:51:04Z,,2021-10-01,Others
+295,2736,,,2021-10-01,Others
+296,2739,,,2021-10-01,Others
+297,2644,,"Good First Contribution,Contribution Welcome",2021-08-01,Good First Contribution
+298,2644,,"Good First Contribution,Contribution Welcome",2021-08-01,Contribution Welcome
+299,2629,2021-11-02T15:50:07Z,"Good First Contribution,Contribution Welcome",2021-07-01,Good First Contribution
+300,2629,2021-11-02T15:50:07Z,"Good First Contribution,Contribution Welcome",2021-07-01,Contribution Welcome
+301,2613,2021-11-02T15:50:07Z,"bug,help wanted,Good First Contribution,Contribution Welcome",2021-07-01,bug
+302,2613,2021-11-02T15:50:07Z,"bug,help wanted,Good First Contribution,Contribution Welcome",2021-07-01,help wanted
+303,2613,2021-11-02T15:50:07Z,"bug,help wanted,Good First Contribution,Contribution Welcome",2021-07-01,Good First Contribution
+304,2613,2021-11-02T15:50:07Z,"bug,help wanted,Good First Contribution,Contribution Welcome",2021-07-01,Contribution Welcome
+305,2700,,,2021-09-01,Others
+306,2735,2021-10-30T06:43:34Z,,2021-10-01,Others
+307,2723,,,2021-10-01,Others
+308,2730,2021-10-26T18:26:53Z,,2021-10-01,Others
+309,2600,2021-10-26T17:02:20Z,"Good First Contribution,Contribution Welcome",2021-07-01,Good First Contribution
+310,2600,2021-10-26T17:02:20Z,"Good First Contribution,Contribution Welcome",2021-07-01,Contribution Welcome
+311,2703,2021-10-26T03:08:24Z,,2021-09-01,Others
+312,2731,,,2021-10-01,Others
+313,2627,,,2021-07-01,Others
+314,2714,,,2021-10-01,Others
+315,1999,2021-10-19T23:39:07Z,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,help wanted
+316,1999,2021-10-19T23:39:07Z,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,Good First Contribution
+317,1999,2021-10-19T23:39:07Z,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,Contribution Welcome
+318,2057,2021-10-19T23:38:45Z,"help wanted,Contribution Welcome,Good Intermediate Contribution",2020-07-01,help wanted
+319,2057,2021-10-19T23:38:45Z,"help wanted,Contribution Welcome,Good Intermediate Contribution",2020-07-01,Contribution Welcome
+320,2057,2021-10-19T23:38:45Z,"help wanted,Contribution Welcome,Good Intermediate Contribution",2020-07-01,Good Intermediate Contribution
+321,2175,2021-10-19T23:38:21Z,,2020-09-01,Others
+322,2210,2021-10-19T23:38:10Z,,2020-10-01,Others
+323,2231,2021-10-19T23:37:56Z,,2020-10-01,Others
+324,2237,2021-10-19T23:37:19Z,,2020-10-01,Others
+325,2273,2021-10-19T23:34:43Z,,2020-11-01,Others
+326,2274,2021-10-19T23:34:26Z,,2020-11-01,Others
+327,2311,2021-10-19T23:34:15Z,,2020-12-01,Others
+328,2327,2021-10-19T23:33:38Z,,2020-12-01,Others
+329,2662,2021-10-19T22:48:02Z,,2021-08-01,Others
+330,2659,,,2021-08-01,Others
+331,2253,2021-10-18T18:15:00Z,,2020-10-01,Others
+332,2268,2021-10-18T18:10:52Z,,2020-11-01,Others
+333,2710,,,2021-10-01,Others
+334,2717,2021-10-15T20:32:05Z,,2021-10-01,Others
+335,2640,2021-10-15T02:54:05Z,,2021-08-01,Others
+336,2346,2021-10-15T02:50:45Z,,2021-01-01,Others
+337,2420,2021-10-15T02:50:30Z,,2021-03-01,Others
+338,2452,2021-10-15T02:50:08Z,,2021-03-01,Others
+339,2669,2021-10-15T02:49:31Z,,2021-08-01,Others
+340,2688,2021-10-15T02:49:13Z,"Good First Contribution,Contribution Welcome",2021-09-01,Good First Contribution
+341,2688,2021-10-15T02:49:13Z,"Good First Contribution,Contribution Welcome",2021-09-01,Contribution Welcome
+342,2359,2021-10-15T02:48:54Z,,2021-01-01,Others
+343,2379,2021-10-15T02:48:43Z,bug,2021-02-01,bug
+344,2389,2021-10-15T02:48:25Z,,2021-02-01,Others
+345,2392,2021-10-15T02:47:59Z,,2021-02-01,Others
+346,2393,2021-10-15T02:47:23Z,,2021-02-01,Others
+347,2478,2021-10-15T02:47:11Z,,2021-04-01,Others
+348,2718,2021-10-15T01:44:47Z,,2021-10-01,Others
+349,2499,2021-10-07T17:38:26Z,,2021-04-01,Others
+350,2225,,,2020-10-01,Others
+351,2705,,,2021-09-01,Others
+352,2702,,"help wanted,Contribution Welcome",2021-09-01,help wanted
+353,2702,,"help wanted,Contribution Welcome",2021-09-01,Contribution Welcome
+354,2699,2021-09-23T13:12:27Z,,2021-09-01,Others
+355,2697,,,2021-09-01,Others
+356,2668,,,2021-08-01,Others
+357,2685,,,2021-09-01,Others
+358,2588,,,2021-07-01,Others
+359,2687,2021-09-15T03:09:21Z,,2021-09-01,Others
+360,2693,2021-09-14T06:35:36Z,,2021-09-01,Others
+361,2692,2021-09-11T12:02:28Z,,2021-09-01,Others
+362,2690,,,2021-09-01,Others
+363,2689,2021-09-10T01:45:13Z,,2021-09-01,Others
+364,2686,2021-09-08T00:02:01Z,,2021-09-01,Others
+365,2150,,,2020-09-01,Others
+366,1699,,,2019-10-01,Others
+367,2672,,"bug,help wanted,Contribution Welcome",2021-08-01,bug
+368,2672,,"bug,help wanted,Contribution Welcome",2021-08-01,help wanted
+369,2672,,"bug,help wanted,Contribution Welcome",2021-08-01,Contribution Welcome
+370,2683,,,2021-08-01,Others
+371,2681,2021-08-27T20:20:36Z,,2021-08-01,Others
+372,2679,2021-08-27T02:34:09Z,,2021-08-01,Others
+373,2673,2021-08-25T11:55:21Z,,2021-08-01,Others
+374,2678,2021-08-25T01:09:56Z,,2021-08-01,Others
+375,2665,2021-08-24T18:06:17Z,bug,2021-08-01,bug
+376,2675,2021-08-23T23:20:09Z,,2021-08-01,Others
+377,2633,2021-08-23T20:10:23Z,"Good First Contribution,Contribution Welcome",2021-08-01,Good First Contribution
+378,2633,2021-08-23T20:10:23Z,"Good First Contribution,Contribution Welcome",2021-08-01,Contribution Welcome
+379,1248,,,2018-05-01,Others
+380,2663,2021-08-23T06:25:29Z,,2021-08-01,Others
+381,2674,2021-08-21T17:20:58Z,,2021-08-01,Others
+382,2670,2021-08-20T12:45:39Z,,2021-08-01,Others
+383,2661,2021-08-17T19:25:43Z,,2021-08-01,Others
+384,2660,2021-08-17T09:48:49Z,,2021-08-01,Others
+385,2657,,,2021-08-01,Others
+386,2646,2021-08-05T20:41:32Z,,2021-08-01,Others
+387,2558,,"bug,Contribution Welcome",2021-06-01,bug
+388,2558,,"bug,Contribution Welcome",2021-06-01,Contribution Welcome
+389,2639,2021-08-04T17:00:06Z,,2021-08-01,Others
+390,2638,,,2021-08-01,Others
+391,2602,,"bug,Contribution Welcome",2021-07-01,bug
+392,2602,,"bug,Contribution Welcome",2021-07-01,Contribution Welcome
+393,2611,2021-08-03T16:13:20Z,"help wanted,Good First Contribution,Contribution Welcome",2021-07-01,help wanted
+394,2611,2021-08-03T16:13:20Z,"help wanted,Good First Contribution,Contribution Welcome",2021-07-01,Good First Contribution
+395,2611,2021-08-03T16:13:20Z,"help wanted,Good First Contribution,Contribution Welcome",2021-07-01,Contribution Welcome
+396,2569,,"bug,help wanted,Contribution Welcome",2021-06-01,bug
+397,2569,,"bug,help wanted,Contribution Welcome",2021-06-01,help wanted
+398,2569,,"bug,help wanted,Contribution Welcome",2021-06-01,Contribution Welcome
+399,2632,2021-08-02T21:39:34Z,,2021-08-01,Others
+400,2631,2021-07-31T12:02:48Z,,2021-07-01,Others
+401,1467,2020-02-29T00:23:24Z,,2018-12-01,Others
+402,2575,,,2021-06-01,Others
+403,2612,2021-07-25T02:04:51Z,,2021-07-01,Others
+404,2615,2021-07-25T02:04:07Z,,2021-07-01,Others
+405,2606,,,2021-07-01,Others
+406,1802,,,2020-04-01,Others
+407,2609,2021-07-21T17:59:52Z,,2021-07-01,Others
+408,2547,,,2021-06-01,Others
+409,1679,,,2019-09-01,Others
+410,2596,2021-07-15T09:27:12Z,,2021-07-01,Others
+411,2490,2021-07-14T17:01:14Z,bug,2021-04-01,bug
+412,2580,,,2021-07-01,Others
+413,2594,,,2021-07-01,Others
+414,2564,2021-07-09T21:55:04Z,,2021-06-01,Others
+415,1909,2020-06-30T00:05:59Z,"bug,Good First Contribution,Contribution Welcome",2020-06-01,bug
+416,1909,2020-06-30T00:05:59Z,"bug,Good First Contribution,Contribution Welcome",2020-06-01,Good First Contribution
+417,1909,2020-06-30T00:05:59Z,"bug,Good First Contribution,Contribution Welcome",2020-06-01,Contribution Welcome
+418,2543,,,2021-06-01,Others
+419,2579,,,2021-07-01,Others
+420,2513,,"help wanted,Good First Contribution,Contribution Welcome",2021-05-01,help wanted
+421,2513,,"help wanted,Good First Contribution,Contribution Welcome",2021-05-01,Good First Contribution
+422,2513,,"help wanted,Good First Contribution,Contribution Welcome",2021-05-01,Contribution Welcome
+423,2552,,,2021-06-01,Others
+424,2561,2021-06-28T01:44:23Z,,2021-06-01,Others
+425,1924,,"Good First Contribution,Contribution Welcome",2020-06-01,Good First Contribution
+426,1924,,"Good First Contribution,Contribution Welcome",2020-06-01,Contribution Welcome
+427,2422,2021-06-22T01:23:08Z,,2021-03-01,Others
+428,2562,,,2021-06-01,Others
+429,2023,,,2020-07-01,Others
+430,2551,,,2021-06-01,Others
+431,2330,,,2020-12-01,Others
+432,2533,,,2021-06-01,Others
+433,2453,2021-04-05T11:35:27Z,,2021-03-01,Others
+434,2512,,,2021-05-01,Others
+435,2536,2021-06-10T06:56:29Z,,2021-06-01,Others
+436,2537,,,2021-06-01,Others
+437,2519,2021-06-04T19:07:31Z,"bug,Good First Contribution,Contribution Welcome",2021-05-01,bug
+438,2519,2021-06-04T19:07:31Z,"bug,Good First Contribution,Contribution Welcome",2021-05-01,Good First Contribution
+439,2519,2021-06-04T19:07:31Z,"bug,Good First Contribution,Contribution Welcome",2021-05-01,Contribution Welcome
+440,2529,2021-06-07T09:08:37Z,,2021-06-01,Others
+441,2400,2021-06-04T00:50:34Z,,2021-02-01,Others
+442,2530,,,2021-06-01,Others
+443,2527,2021-05-31T20:51:29Z,,2021-05-01,Others
+444,2517,,,2021-05-01,Others
+445,2515,2021-05-15T02:26:46Z,,2021-05-01,Others
+446,2476,2021-05-16T07:13:22Z,"bug,help wanted",2021-04-01,bug
+447,2476,2021-05-16T07:13:22Z,"bug,help wanted",2021-04-01,help wanted
+448,2514,,,2021-05-01,Others
+449,2511,2021-05-13T15:28:45Z,,2021-05-01,Others
+450,2504,,discussion,2021-04-01,discussion
+451,2481,2021-05-09T22:48:52Z,,2021-04-01,Others
+452,2474,2021-05-09T22:47:59Z,"bug,Good First Contribution",2021-04-01,bug
+453,2474,2021-05-09T22:47:59Z,"bug,Good First Contribution",2021-04-01,Good First Contribution
+454,2456,2021-05-07T22:25:30Z,,2021-03-01,Others
+455,2489,2021-05-07T12:02:58Z,,2021-04-01,Others
+456,2434,,"bug,help wanted",2021-03-01,bug
+457,2434,,"bug,help wanted",2021-03-01,help wanted
+458,2487,2021-05-05T03:18:22Z,,2021-04-01,Others
+459,1598,,"help wanted,Contribution Welcome",2019-05-01,help wanted
+460,1598,,"help wanted,Contribution Welcome",2019-05-01,Contribution Welcome
+461,2500,,,2021-04-01,Others
+462,2502,2021-04-29T05:02:05Z,,2021-04-01,Others
+463,2468,2021-04-22T13:26:32Z,,2021-04-01,Others
+464,2421,,,2021-03-01,Others
+465,1900,2021-04-21T04:18:12Z,"enhancement,help wanted,Good First Contribution,Contribution Welcome",2020-06-01,enhancement
+466,1900,2021-04-21T04:18:12Z,"enhancement,help wanted,Good First Contribution,Contribution Welcome",2020-06-01,help wanted
+467,1900,2021-04-21T04:18:12Z,"enhancement,help wanted,Good First Contribution,Contribution Welcome",2020-06-01,Good First Contribution
+468,1900,2021-04-21T04:18:12Z,"enhancement,help wanted,Good First Contribution,Contribution Welcome",2020-06-01,Contribution Welcome
+469,2494,2021-04-21T03:43:05Z,,2021-04-01,Others
+470,2433,2021-04-20T00:51:52Z,,2021-03-01,Others
+471,631,,"Good First Contribution,Contribution Welcome",2017-06-01,Good First Contribution
+472,631,,"Good First Contribution,Contribution Welcome",2017-06-01,Contribution Welcome
+473,2475,,"bug,help wanted",2021-04-01,bug
+474,2475,,"bug,help wanted",2021-04-01,help wanted
+475,1953,2021-04-15T00:11:35Z,"enhancement,help wanted,Good First Contribution",2020-07-01,enhancement
+476,1953,2021-04-15T00:11:35Z,"enhancement,help wanted,Good First Contribution",2020-07-01,help wanted
+477,1953,2021-04-15T00:11:35Z,"enhancement,help wanted,Good First Contribution",2020-07-01,Good First Contribution
+478,2472,2021-04-14T02:51:37Z,,2021-04-01,Others
+479,2459,2021-04-13T13:59:05Z,bug,2021-03-01,bug
+480,2430,2021-04-08T08:58:50Z,"bug,help wanted",2021-03-01,bug
+481,2430,2021-04-08T08:58:50Z,"bug,help wanted",2021-03-01,help wanted
+482,2067,2021-04-06T17:57:32Z,"help wanted,Good First Contribution,Contribution Welcome",2020-08-01,help wanted
+483,2067,2021-04-06T17:57:32Z,"help wanted,Good First Contribution,Contribution Welcome",2020-08-01,Good First Contribution
+484,2067,2021-04-06T17:57:32Z,"help wanted,Good First Contribution,Contribution Welcome",2020-08-01,Contribution Welcome
+485,2451,,,2021-03-01,Others
+486,2457,2021-04-05T18:49:52Z,,2021-03-01,Others
+487,2465,2021-04-05T11:35:04Z,,2021-04-01,Others
+488,2454,,,2021-03-01,Others
+489,2439,2021-03-26T23:02:33Z,,2021-03-01,Others
+490,2455,,,2021-03-01,Others
+491,2448,2021-03-23T19:46:01Z,,2021-03-01,Others
+492,2444,2021-03-20T00:09:20Z,,2021-03-01,Others
+493,2436,,,2021-03-01,Others
+494,2443,2021-03-18T13:51:58Z,,2021-03-01,Others
+495,2427,2021-03-18T09:15:19Z,bug,2021-03-01,bug
+496,2214,,,2020-10-01,Others
+497,2438,2021-03-17T16:50:49Z,,2021-03-01,Others
+498,2440,,,2021-03-01,Others
+499,2399,2021-03-11T18:46:19Z,,2021-02-01,Others
+500,2425,2021-03-09T22:58:15Z,,2021-03-01,Others
+501,736,2018-02-26T14:32:49Z,,2017-08-01,Others
+502,2217,,,2020-10-01,Others
+503,2366,2021-03-05T15:49:31Z,bug,2021-01-01,bug
+504,2403,,,2021-02-01,Others
+505,2314,,,2020-12-01,Others
+506,2417,,,2021-03-01,Others
+507,2413,2021-02-26T21:10:33Z,,2021-02-01,Others
+508,613,2017-06-27T00:17:43Z,,2017-06-01,Others
+509,2411,2021-02-24T16:20:54Z,,2021-02-01,Others
+510,2410,,,2021-02-01,Others
+511,2398,2021-02-23T05:37:20Z,,2021-02-01,Others
+512,2404,,,2021-02-01,Others
+513,2353,,,2021-01-01,Others
+514,2401,,,2021-02-01,Others
+515,2355,2021-02-19T19:19:24Z,bug,2021-01-01,bug
+516,2372,2021-02-19T18:56:32Z,,2021-01-01,Others
+517,2357,2021-02-18T18:46:33Z,,2021-01-01,Others
+518,2397,,,2021-02-01,Others
+519,2394,,,2021-02-01,Others
+520,2395,2021-02-12T22:37:45Z,,2021-02-01,Others
+521,2388,2021-02-10T05:00:38Z,,2021-02-01,Others
+522,2350,,"bug,Good First Contribution,Contribution Welcome",2021-01-01,bug
+523,2350,,"bug,Good First Contribution,Contribution Welcome",2021-01-01,Good First Contribution
+524,2350,,"bug,Good First Contribution,Contribution Welcome",2021-01-01,Contribution Welcome
+525,2384,2021-02-05T23:03:07Z,,2021-02-01,Others
+526,2385,2021-02-05T04:44:01Z,,2021-02-01,Others
+527,2324,2021-02-03T19:04:08Z,,2020-12-01,Others
+528,1198,,"Contribution Welcome,Good Intermediate Contribution",2018-03-01,Contribution Welcome
+529,1198,,"Contribution Welcome,Good Intermediate Contribution",2018-03-01,Good Intermediate Contribution
+530,2376,2021-02-01T01:10:39Z,,2021-01-01,Others
+531,2375,,,2021-01-01,Others
+532,2194,2021-01-27T03:50:39Z,"help wanted,Contribution Welcome",2020-09-01,help wanted
+533,2194,2021-01-27T03:50:39Z,"help wanted,Contribution Welcome",2020-09-01,Contribution Welcome
+534,2367,2021-01-24T11:08:52Z,,2021-01-01,Others
+535,2343,2021-01-21T03:31:46Z,,2020-12-01,Others
+536,2361,,Contribution Welcome,2021-01-01,Contribution Welcome
+537,1605,,Contribution Welcome,2019-05-01,Contribution Welcome
+538,2368,,,2021-01-01,Others
+539,1581,,,2019-04-01,Others
+540,2303,,,2020-11-01,Others
+541,2140,,,2020-09-01,Others
+542,1868,2021-01-19T01:02:28Z,,2020-05-01,Others
+543,2003,,"enhancement,help wanted,Good First Contribution,Contribution Welcome",2020-07-01,enhancement
+544,2003,,"enhancement,help wanted,Good First Contribution,Contribution Welcome",2020-07-01,help wanted
+545,2003,,"enhancement,help wanted,Good First Contribution,Contribution Welcome",2020-07-01,Good First Contribution
+546,2003,,"enhancement,help wanted,Good First Contribution,Contribution Welcome",2020-07-01,Contribution Welcome
+547,2309,,,2020-12-01,Others
+548,1978,2021-01-19T00:52:33Z,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,help wanted
+549,1978,2021-01-19T00:52:33Z,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,Good First Contribution
+550,1978,2021-01-19T00:52:33Z,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,Contribution Welcome
+551,2289,2021-01-16T00:32:20Z,,2020-11-01,Others
+552,2080,2021-01-16T00:31:16Z,,2020-08-01,Others
+553,1883,2021-01-16T00:31:03Z,,2020-06-01,Others
+554,2354,2021-01-14T21:48:46Z,,2021-01-01,Others
+555,2334,,bug,2020-12-01,bug
+556,2348,,enhancement,2021-01-01,enhancement
+557,2345,,,2021-01-01,Others
+558,2248,2020-11-02T18:04:50Z,,2020-10-01,Others
+559,1122,,,2018-03-01,Others
+560,2347,,,2021-01-01,Others
+561,1048,2018-02-26T14:24:55Z,,2018-01-01,Others
+562,2344,2021-01-02T03:11:18Z,,2020-12-01,Others
+563,2266,,,2020-11-01,Others
+564,2312,,"bug,help wanted,Contribution Welcome",2020-12-01,bug
+565,2312,,"bug,help wanted,Contribution Welcome",2020-12-01,help wanted
+566,2312,,"bug,help wanted,Contribution Welcome",2020-12-01,Contribution Welcome
+567,2336,,,2020-12-01,Others
+568,2323,2020-12-23T03:44:47Z,,2020-12-01,Others
+569,2329,,,2020-12-01,Others
+570,2310,2020-12-22T08:02:55Z,"bug,help wanted",2020-12-01,bug
+571,2310,2020-12-22T08:02:55Z,"bug,help wanted",2020-12-01,help wanted
+572,1931,,discussion,2020-06-01,discussion
+573,1817,,,2020-04-01,Others
+574,2279,2020-12-15T17:46:53Z,,2020-11-01,Others
+575,2159,,,2020-09-01,Others
+576,2308,,,2020-12-01,Others
+577,1752,2020-12-13T18:03:33Z,,2020-02-01,Others
+578,2299,2020-12-13T02:48:30Z,,2020-11-01,Others
+579,1861,2020-07-09T06:55:00Z,,2020-05-01,Others
+580,2286,,,2020-11-01,Others
+581,2229,,,2020-10-01,Others
+582,2192,,,2020-09-01,Others
+583,2301,,"Good First Contribution,Contribution Welcome",2020-11-01,Good First Contribution
+584,2301,,"Good First Contribution,Contribution Welcome",2020-11-01,Contribution Welcome
+585,2296,2020-11-12T17:37:18Z,,2020-11-01,Others
+586,2207,2020-11-11T21:10:53Z,,2020-10-01,Others
+587,2292,,,2020-11-01,Others
+588,2295,,,2020-11-01,Others
+589,2291,2020-11-11T02:40:35Z,,2020-11-01,Others
+590,2281,2020-11-09T17:53:22Z,,2020-11-01,Others
+591,2277,,,2020-11-01,Others
+592,2285,,,2020-11-01,Others
+593,2282,2020-11-05T12:06:33Z,,2020-11-01,Others
+594,2265,2020-11-04T01:14:22Z,,2020-11-01,Others
+595,2267,,,2020-11-01,Others
+596,2230,,,2020-10-01,Others
+597,2006,2020-10-30T22:30:56Z,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,help wanted
+598,2006,2020-10-30T22:30:56Z,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,Good First Contribution
+599,2006,2020-10-30T22:30:56Z,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,Contribution Welcome
+600,1676,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2019-09-01,Contribution Welcome
+601,1676,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2019-09-01,Good Intermediate Contribution
+602,1676,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2019-09-01,Deep Learning Project
+603,2254,2020-10-27T21:29:08Z,,2020-10-01,Others
+604,2211,2020-10-27T04:00:00Z,,2020-10-01,Others
+605,2206,,,2020-10-01,Others
+606,2245,2020-10-26T22:27:37Z,,2020-10-01,Others
+607,2189,2020-10-26T09:04:01Z,,2020-09-01,Others
+608,2247,2020-10-24T04:04:05Z,,2020-10-01,Others
+609,2241,,,2020-10-01,Others
+610,2233,,,2020-10-01,Others
+611,2205,2020-10-21T07:44:50Z,,2020-10-01,Others
+612,2226,2020-10-19T09:02:20Z,,2020-10-01,Others
+613,1560,2020-03-24T15:52:49Z,,2019-04-01,Others
+614,2160,,,2020-09-01,Others
+615,2204,2020-10-14T07:20:53Z,,2020-10-01,Others
+616,2196,2020-10-13T17:18:34Z,,2020-10-01,Others
+617,2201,2020-10-09T23:24:33Z,,2020-10-01,Others
+618,2191,2020-10-09T09:17:03Z,,2020-09-01,Others
+619,2185,2020-10-06T03:36:01Z,,2020-09-01,Others
+620,2198,2020-10-05T20:31:46Z,,2020-10-01,Others
+621,2193,,,2020-09-01,Others
+622,2137,,,2020-09-01,Others
+623,2187,2020-09-28T03:00:48Z,,2020-09-01,Others
+624,2087,2020-09-25T08:33:43Z,,2020-08-01,Others
+625,2183,,,2020-09-01,Others
+626,2168,,,2020-09-01,Others
+627,2178,,,2020-09-01,Others
+628,2170,,,2020-09-01,Others
+629,2131,,,2020-08-01,Others
+630,1907,2020-09-17T06:11:21Z,discussion,2020-06-01,discussion
+631,2133,2020-09-17T05:47:26Z,,2020-09-01,Others
+632,2172,2020-09-17T02:42:48Z,,2020-09-01,Others
+633,2158,2020-09-17T02:41:03Z,,2020-09-01,Others
+634,1848,2020-09-17T02:30:04Z,,2020-05-01,Others
+635,1829,,,2020-04-01,Others
+636,2173,,,2020-09-01,Others
+637,2162,2020-09-13T02:32:25Z,,2020-09-01,Others
+638,2049,2020-09-11T08:47:51Z,,2020-07-01,Others
+639,2156,2020-09-11T02:57:49Z,,2020-09-01,Others
+640,2154,2020-09-09T20:27:30Z,,2020-09-01,Others
+641,2130,2020-09-09T06:56:52Z,,2020-08-01,Others
+642,2144,2020-09-07T15:10:57Z,,2020-09-01,Others
+643,2142,2020-09-04T03:01:59Z,,2020-09-01,Others
+644,2135,2020-09-03T21:25:15Z,,2020-09-01,Others
+645,2129,,,2020-08-01,Others
+646,2134,,bug,2020-09-01,bug
+647,2126,2020-09-01T18:10:10Z,,2020-08-01,Others
+648,1973,2020-08-31T22:56:24Z,,2020-07-01,Others
+649,2069,2020-08-30T19:21:35Z,"bug,Contribution Welcome,Good Intermediate Contribution",2020-08-01,bug
+650,2069,2020-08-30T19:21:35Z,"bug,Contribution Welcome,Good Intermediate Contribution",2020-08-01,Contribution Welcome
+651,2069,2020-08-30T19:21:35Z,"bug,Contribution Welcome,Good Intermediate Contribution",2020-08-01,Good Intermediate Contribution
+652,2007,,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,help wanted
+653,2007,,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,Good First Contribution
+654,2007,,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,Contribution Welcome
+655,2120,,,2020-08-01,Others
+656,2125,,,2020-08-01,Others
+657,2009,2020-08-26T19:31:41Z,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,help wanted
+658,2009,2020-08-26T19:31:41Z,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,Good First Contribution
+659,2009,2020-08-26T19:31:41Z,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,Contribution Welcome
+660,2005,2020-08-26T14:37:30Z,discussion,2020-07-01,discussion
+661,2122,,,2020-08-01,Others
+662,2114,2020-08-25T06:25:31Z,,2020-08-01,Others
+663,2092,2020-08-25T02:49:49Z,,2020-08-01,Others
+664,1737,2020-08-21T20:08:03Z,,2020-02-01,Others
+665,2102,,bug,2020-08-01,bug
+666,2093,,,2020-08-01,Others
+667,2094,,,2020-08-01,Others
+668,2084,,,2020-08-01,Others
+669,2059,2020-08-12T17:37:58Z,,2020-07-01,Others
+670,2078,,,2020-08-01,Others
+671,2079,,,2020-08-01,Others
+672,2073,2020-08-09T07:43:59Z,,2020-08-01,Others
+673,2076,,,2020-08-01,Others
+674,2075,,,2020-08-01,Others
+675,2072,,,2020-08-01,Others
+676,1944,2020-08-06T17:27:33Z,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,help wanted
+677,1944,2020-08-06T17:27:33Z,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,Good First Contribution
+678,1944,2020-08-06T17:27:33Z,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,Contribution Welcome
+679,2065,,,2020-08-01,Others
+680,2064,,,2020-07-01,Others
+681,2056,2020-07-31T23:52:24Z,bug,2020-07-01,bug
+682,2063,,,2020-07-01,Others
+683,2013,,"bug,help wanted",2020-07-01,bug
+684,2013,,"bug,help wanted",2020-07-01,help wanted
+685,2058,2020-07-31T00:26:26Z,discussion,2020-07-01,discussion
+686,1922,2020-07-30T02:18:04Z,"Good First Contribution,Contribution Welcome",2020-06-01,Good First Contribution
+687,1922,2020-07-30T02:18:04Z,"Good First Contribution,Contribution Welcome",2020-06-01,Contribution Welcome
+688,1908,,"bug,Contribution Welcome",2020-06-01,bug
+689,1908,,"bug,Contribution Welcome",2020-06-01,Contribution Welcome
+690,2055,,discussion,2020-07-01,discussion
+691,2052,,bug,2020-07-01,bug
+692,2051,,,2020-07-01,Others
+693,2014,,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,help wanted
+694,2014,,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,Good First Contribution
+695,2014,,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,Contribution Welcome
+696,2047,,"bug,help wanted,Contribution Welcome,Good Intermediate Contribution",2020-07-01,bug
+697,2047,,"bug,help wanted,Contribution Welcome,Good Intermediate Contribution",2020-07-01,help wanted
+698,2047,,"bug,help wanted,Contribution Welcome,Good Intermediate Contribution",2020-07-01,Contribution Welcome
+699,2047,,"bug,help wanted,Contribution Welcome,Good Intermediate Contribution",2020-07-01,Good Intermediate Contribution
+700,1942,,discussion,2020-07-01,discussion
+701,2043,2020-07-23T21:58:47Z,,2020-07-01,Others
+702,2041,2020-07-22T21:38:54Z,,2020-07-01,Others
+703,2022,2020-07-22T19:28:42Z,"bug,help wanted,Good First Contribution,Contribution Welcome",2020-07-01,bug
+704,2022,2020-07-22T19:28:42Z,"bug,help wanted,Good First Contribution,Contribution Welcome",2020-07-01,help wanted
+705,2022,2020-07-22T19:28:42Z,"bug,help wanted,Good First Contribution,Contribution Welcome",2020-07-01,Good First Contribution
+706,2022,2020-07-22T19:28:42Z,"bug,help wanted,Good First Contribution,Contribution Welcome",2020-07-01,Contribution Welcome
+707,2037,,"enhancement,help wanted,Contribution Welcome,Good Intermediate Contribution",2020-07-01,enhancement
+708,2037,,"enhancement,help wanted,Contribution Welcome,Good Intermediate Contribution",2020-07-01,help wanted
+709,2037,,"enhancement,help wanted,Contribution Welcome,Good Intermediate Contribution",2020-07-01,Contribution Welcome
+710,2037,,"enhancement,help wanted,Contribution Welcome,Good Intermediate Contribution",2020-07-01,Good Intermediate Contribution
+711,2030,,,2020-07-01,Others
+712,2034,,bug,2020-07-01,bug
+713,1990,2020-07-20T17:42:22Z,discussion,2020-07-01,discussion
+714,1806,2020-07-20T13:16:09Z,,2020-04-01,Others
+715,2016,2020-07-19T23:11:15Z,,2020-07-01,Others
+716,2029,,,2020-07-01,Others
+717,1975,2020-07-18T16:55:20Z,,2020-07-01,Others
+718,2021,,,2020-07-01,Others
+719,1974,2020-07-15T19:30:55Z,,2020-07-01,Others
+720,1984,,,2020-07-01,Others
+721,1941,2020-07-12T15:26:55Z,,2020-07-01,Others
+722,2004,,discussion,2020-07-01,discussion
+723,1754,,,2020-02-01,Others
+724,1814,2020-07-09T19:40:48Z,,2020-04-01,Others
+725,1985,2020-07-09T14:16:10Z,,2020-07-01,Others
+726,1841,2020-07-09T07:15:28Z,,2020-05-01,Others
+727,1350,2020-07-09T07:03:43Z,,2018-08-01,Others
+728,1726,2020-07-09T06:58:26Z,,2020-01-01,Others
+729,1725,2020-07-09T06:56:42Z,,2019-12-01,Others
+730,1842,2020-07-09T06:53:43Z,,2020-05-01,Others
+731,1622,2020-07-09T06:51:34Z,,2019-06-01,Others
+732,1579,2020-07-09T06:50:56Z,,2019-04-01,Others
+733,1955,2020-07-09T06:40:09Z,discussion,2020-07-01,discussion
+734,1880,2020-06-02T16:51:42Z,,2020-06-01,Others
+735,1971,,discussion,2020-07-01,discussion
+736,1972,,discussion,2020-07-01,discussion
+737,1961,,,2020-07-01,Others
+738,1969,,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,help wanted
+739,1969,,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,Good First Contribution
+740,1969,,"help wanted,Good First Contribution,Contribution Welcome",2020-07-01,Contribution Welcome
+741,1940,,"bug,help wanted",2020-07-01,bug
+742,1940,,"bug,help wanted",2020-07-01,help wanted
+743,1959,,discussion,2020-07-01,discussion
+744,1901,,"enhancement,help wanted,Good First Contribution,Contribution Welcome",2020-06-01,enhancement
+745,1901,,"enhancement,help wanted,Good First Contribution,Contribution Welcome",2020-06-01,help wanted
+746,1901,,"enhancement,help wanted,Good First Contribution,Contribution Welcome",2020-06-01,Good First Contribution
+747,1901,,"enhancement,help wanted,Good First Contribution,Contribution Welcome",2020-06-01,Contribution Welcome
+748,1952,,discussion,2020-07-01,discussion
+749,1951,,discussion,2020-07-01,discussion
+750,1939,2020-07-02T23:02:01Z,"enhancement,help wanted,Good First Contribution,Contribution Welcome",2020-06-01,enhancement
+751,1939,2020-07-02T23:02:01Z,"enhancement,help wanted,Good First Contribution,Contribution Welcome",2020-06-01,help wanted
+752,1939,2020-07-02T23:02:01Z,"enhancement,help wanted,Good First Contribution,Contribution Welcome",2020-06-01,Good First Contribution
+753,1939,2020-07-02T23:02:01Z,"enhancement,help wanted,Good First Contribution,Contribution Welcome",2020-06-01,Contribution Welcome
+754,1946,2020-07-02T21:41:41Z,bug,2020-07-01,bug
+755,1943,,"bug,help wanted",2020-07-01,bug
+756,1943,,"bug,help wanted",2020-07-01,help wanted
+757,1936,,,2020-06-01,Others
+758,1930,2020-06-30T00:13:39Z,,2020-06-01,Others
+759,1935,,discussion,2020-06-01,discussion
+760,1933,,discussion,2020-06-01,discussion
+761,1914,,discussion,2020-06-01,discussion
+762,1911,2020-06-26T23:51:32Z,discussion,2020-06-01,discussion
+763,1898,2020-06-26T20:41:53Z,,2020-06-01,Others
+764,1888,,,2020-06-01,Others
+765,1929,2020-06-26T19:04:31Z,,2020-06-01,Others
+766,1925,,discussion,2020-06-01,discussion
+767,1927,2020-06-25T23:51:57Z,,2020-06-01,Others
+768,1760,,,2020-03-01,Others
+769,1919,2020-06-24T19:08:57Z,,2020-06-01,Others
+770,1910,,"bug,discussion",2020-06-01,bug
+771,1910,,"bug,discussion",2020-06-01,discussion
+772,1850,,,2020-05-01,Others
+773,1906,,,2020-06-01,Others
+774,1905,2020-06-19T11:25:12Z,,2020-06-01,Others
+775,1903,,,2020-06-01,Others
+776,1897,,,2020-06-01,Others
+777,1891,2020-06-16T00:15:35Z,bug,2020-06-01,bug
+778,1885,2020-06-14T18:43:56Z,,2020-06-01,Others
+779,1728,2020-06-12T21:51:49Z,"bug,Contribution Welcome",2020-01-01,bug
+780,1728,2020-06-12T21:51:49Z,"bug,Contribution Welcome",2020-01-01,Contribution Welcome
+781,1528,2020-06-12T17:42:31Z,,2019-03-01,Others
+782,1881,2020-06-12T04:01:45Z,,2020-06-01,Others
+783,1767,,,2020-03-01,Others
+784,1538,2020-04-10T23:38:46Z,,2019-03-01,Others
+785,1869,,,2020-05-01,Others
+786,1887,,,2020-06-01,Others
+787,1879,,,2020-06-01,Others
+788,1761,,,2020-03-01,Others
+789,1827,,,2020-04-01,Others
+790,1796,,,2020-04-01,Others
+791,1799,,,2020-04-01,Others
+792,1809,,,2020-04-01,Others
+793,1815,,,2020-04-01,Others
+794,1816,2020-05-29T17:53:10Z,,2020-04-01,Others
+795,1856,,,2020-05-01,Others
+796,1133,,,2018-03-01,Others
+797,1860,2020-05-21T02:20:10Z,,2020-05-01,Others
+798,1853,2020-05-20T22:40:02Z,,2020-05-01,Others
+799,1852,,,2020-05-01,Others
+800,1855,2020-05-19T16:39:02Z,,2020-05-01,Others
+801,1719,,,2019-11-01,Others
+802,1851,2020-05-13T12:21:54Z,,2020-05-01,Others
+803,1845,,,2020-05-01,Others
+804,1449,,,2018-11-01,Others
+805,1807,2020-05-06T18:21:53Z,,2020-04-01,Others
+806,1810,2020-05-06T18:21:40Z,,2020-04-01,Others
+807,1836,,,2020-05-01,Others
+808,1833,,,2020-05-01,Others
+809,1831,2020-05-01T00:03:03Z,,2020-04-01,Others
+810,1830,,,2020-04-01,Others
+811,1412,,,2018-09-01,Others
+812,1820,,,2020-04-01,Others
+813,1824,,,2020-04-01,Others
+814,1822,,,2020-04-01,Others
+815,1819,2020-04-25T19:03:16Z,,2020-04-01,Others
+816,1065,2018-02-25T06:22:02Z,,2018-02-01,Others
+817,1812,,,2020-04-01,Others
+818,1813,,,2020-04-01,Others
+819,1793,,,2020-04-01,Others
+820,1811,,,2020-04-01,Others
+821,1805,,,2020-04-01,Others
+822,1800,2020-04-14T22:02:46Z,,2020-04-01,Others
+823,967,,,2017-12-01,Others
+824,1258,2020-04-11T00:57:08Z,,2018-05-01,Others
+825,1619,2020-04-11T00:48:27Z,,2019-06-01,Others
+826,1715,2020-04-11T00:43:53Z,,2019-11-01,Others
+827,1657,2020-04-11T00:37:03Z,,2019-08-01,Others
+828,1505,2020-04-10T23:40:08Z,,2019-02-01,Others
+829,1518,2020-04-10T23:39:26Z,,2019-02-01,Others
+830,1559,,,2019-03-01,Others
+831,1575,2020-04-10T23:36:54Z,,2019-04-01,Others
+832,1247,2020-04-10T23:28:58Z,,2018-05-01,Others
+833,1326,,,2018-07-01,Others
+834,1036,2020-04-10T23:26:19Z,,2018-01-01,Others
+835,1795,,,2020-04-01,Others
+836,1794,,,2020-04-01,Others
+837,1722,,,2019-12-01,Others
+838,1142,2020-04-01T18:44:27Z,"Contribution Welcome,Good Intermediate Contribution",2018-03-01,Contribution Welcome
+839,1142,2020-04-01T18:44:27Z,"Contribution Welcome,Good Intermediate Contribution",2018-03-01,Good Intermediate Contribution
+840,1073,2020-04-01T18:38:59Z,,2018-02-01,Others
+841,1714,,,2019-11-01,Others
+842,1720,2020-04-01T16:54:49Z,,2019-12-01,Others
+843,1771,2020-04-01T16:54:21Z,,2020-03-01,Others
+844,1791,2020-04-01T16:22:53Z,,2020-04-01,Others
+845,1436,,"Good First Contribution,Contribution Welcome",2018-10-01,Good First Contribution
+846,1436,,"Good First Contribution,Contribution Welcome",2018-10-01,Contribution Welcome
+847,1790,2020-03-29T12:17:23Z,,2020-03-01,Others
+848,1788,,,2020-03-01,Others
+849,1785,2020-03-25T22:31:47Z,,2020-03-01,Others
+850,1684,2020-03-23T00:01:36Z,,2019-09-01,Others
+851,1678,2020-03-22T23:58:58Z,,2019-09-01,Others
+852,1599,2020-03-22T23:58:31Z,,2019-05-01,Others
+853,1680,2020-03-22T23:57:48Z,,2019-09-01,Others
+854,1563,2020-03-22T23:55:51Z,,2019-04-01,Others
+855,1580,2020-03-22T23:55:27Z,,2019-04-01,Others
+856,1427,2020-03-22T23:55:02Z,,2018-10-01,Others
+857,1472,2020-03-22T23:51:36Z,,2018-12-01,Others
+858,1263,2020-03-22T23:49:13Z,,2018-05-01,Others
+859,1356,2020-03-22T23:48:19Z,,2018-08-01,Others
+860,1374,2020-03-22T23:48:05Z,"bug,help wanted,Contribution Welcome",2018-08-01,bug
+861,1374,2020-03-22T23:48:05Z,"bug,help wanted,Contribution Welcome",2018-08-01,help wanted
+862,1374,2020-03-22T23:48:05Z,"bug,help wanted,Contribution Welcome",2018-08-01,Contribution Welcome
+863,1375,2020-03-22T23:47:16Z,,2018-08-01,Others
+864,1380,2020-03-22T23:44:54Z,,2018-08-01,Others
+865,1384,2020-03-22T23:44:42Z,,2018-08-01,Others
+866,747,2020-03-22T23:43:02Z,"Good First Contribution,Contribution Welcome",2017-08-01,Good First Contribution
+867,747,2020-03-22T23:43:02Z,"Good First Contribution,Contribution Welcome",2017-08-01,Contribution Welcome
+868,867,2020-03-22T23:42:25Z,"Contribution Welcome,Scientific Knowledge Required",2017-10-01,Contribution Welcome
+869,867,2020-03-22T23:42:25Z,"Contribution Welcome,Scientific Knowledge Required",2017-10-01,Scientific Knowledge Required
+870,702,2020-03-22T23:39:38Z,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-07-01,Contribution Welcome
+871,702,2020-03-22T23:39:38Z,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-07-01,Good Intermediate Contribution
+872,702,2020-03-22T23:39:38Z,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-07-01,Deep Learning Project
+873,368,2020-03-22T23:34:00Z,"Contribution Welcome,Good Intermediate Contribution,Scientific Knowledge Required",2017-01-01,Contribution Welcome
+874,368,2020-03-22T23:34:00Z,"Contribution Welcome,Good Intermediate Contribution,Scientific Knowledge Required",2017-01-01,Good Intermediate Contribution
+875,368,2020-03-22T23:34:00Z,"Contribution Welcome,Good Intermediate Contribution,Scientific Knowledge Required",2017-01-01,Scientific Knowledge Required
+876,426,2020-03-22T23:27:39Z,"Good First Contribution,Contribution Welcome",2017-02-01,Good First Contribution
+877,426,2020-03-22T23:27:39Z,"Good First Contribution,Contribution Welcome",2017-02-01,Contribution Welcome
+878,425,2020-03-22T23:24:35Z,"Good First Contribution,Contribution Welcome",2017-02-01,Good First Contribution
+879,425,2020-03-22T23:24:35Z,"Good First Contribution,Contribution Welcome",2017-02-01,Contribution Welcome
+880,1775,,,2020-03-01,Others
+881,1309,,"Good First Contribution,Contribution Welcome",2018-07-01,Good First Contribution
+882,1309,,"Good First Contribution,Contribution Welcome",2018-07-01,Contribution Welcome
+883,1734,2020-03-16T21:11:53Z,,2020-01-01,Others
+884,1768,,,2020-03-01,Others
+885,1764,2020-03-09T19:18:29Z,,2020-03-01,Others
+886,1723,2020-03-09T19:14:17Z,,2019-12-01,Others
+887,1708,2020-03-09T19:14:00Z,,2019-11-01,Others
+888,1721,2020-03-09T19:12:51Z,,2019-12-01,Others
+889,1732,2020-03-09T18:39:05Z,,2020-01-01,Others
+890,1716,2020-03-08T22:52:55Z,"bug,Contribution Welcome",2019-11-01,bug
+891,1716,2020-03-08T22:52:55Z,"bug,Contribution Welcome",2019-11-01,Contribution Welcome
+892,1647,2020-03-07T17:02:35Z,"bug,Good First Contribution,Contribution Welcome",2019-07-01,bug
+893,1647,2020-03-07T17:02:35Z,"bug,Good First Contribution,Contribution Welcome",2019-07-01,Good First Contribution
+894,1647,2020-03-07T17:02:35Z,"bug,Good First Contribution,Contribution Welcome",2019-07-01,Contribution Welcome
+895,1289,2020-03-06T18:42:05Z,,2018-06-01,Others
+896,1354,2020-03-06T18:41:09Z,,2018-08-01,Others
+897,1170,,,2018-03-01,Others
+898,1626,2020-03-06T17:40:34Z,,2019-06-01,Others
+899,1654,2020-03-06T17:40:09Z,,2019-08-01,Others
+900,1547,2020-03-06T17:39:11Z,,2019-03-01,Others
+901,1551,,,2019-03-01,Others
+902,1570,2020-03-06T17:37:19Z,,2019-04-01,Others
+903,1482,2020-03-06T17:35:36Z,,2019-01-01,Others
+904,1336,2020-03-06T17:34:51Z,,2018-07-01,Others
+905,1390,2020-03-06T17:33:53Z,,2018-08-01,Others
+906,1185,2020-03-06T17:30:51Z,"Good First Contribution,Contribution Welcome",2018-03-01,Good First Contribution
+907,1185,2020-03-06T17:30:51Z,"Good First Contribution,Contribution Welcome",2018-03-01,Contribution Welcome
+908,1270,,,2018-05-01,Others
+909,1297,2020-03-06T17:28:10Z,,2018-06-01,Others
+910,1444,,,2018-10-01,Others
+911,1731,2020-03-05T20:03:05Z,,2020-01-01,Others
+912,1696,2020-03-05T20:02:13Z,,2019-10-01,Others
+913,1616,2020-03-05T20:01:48Z,,2019-06-01,Others
+914,1681,2020-03-05T20:00:29Z,,2019-09-01,Others
+915,1685,2020-03-05T19:58:37Z,,2019-09-01,Others
+916,1650,2020-03-05T19:58:04Z,,2019-08-01,Others
+917,1659,2020-03-05T19:56:59Z,,2019-08-01,Others
+918,1648,2020-03-05T19:54:08Z,,2019-07-01,Others
+919,1655,2020-03-05T19:51:08Z,,2019-08-01,Others
+920,1639,2020-03-05T19:50:21Z,,2019-07-01,Others
+921,1631,2020-03-05T19:49:28Z,,2019-07-01,Others
+922,1691,2020-03-05T19:37:14Z,,2019-10-01,Others
+923,1530,2020-03-05T19:36:08Z,,2019-03-01,Others
+924,1537,2020-03-05T19:34:58Z,,2019-03-01,Others
+925,1562,2020-03-05T19:32:04Z,,2019-04-01,Others
+926,1736,2020-03-05T19:30:08Z,,2020-02-01,Others
+927,1160,2020-03-05T19:28:52Z,"Contribution Welcome,Good Intermediate Contribution",2018-03-01,Contribution Welcome
+928,1160,2020-03-05T19:28:52Z,"Contribution Welcome,Good Intermediate Contribution",2018-03-01,Good Intermediate Contribution
+929,1219,2020-03-05T19:27:50Z,"Contribution Welcome,Good Intermediate Contribution",2018-04-01,Contribution Welcome
+930,1219,2020-03-05T19:27:50Z,"Contribution Welcome,Good Intermediate Contribution",2018-04-01,Good Intermediate Contribution
+931,1255,2020-03-05T19:25:36Z,,2018-05-01,Others
+932,1750,2020-03-05T19:23:58Z,,2020-02-01,Others
+933,897,2018-02-25T06:04:36Z,,2017-10-01,Others
+934,1738,2020-03-05T12:58:27Z,,2020-02-01,Others
+935,1756,,,2020-03-01,Others
+936,1210,2020-02-29T22:30:21Z,Contribution Welcome,2018-04-01,Contribution Welcome
+937,1693,2020-02-29T10:39:53Z,"bug,Good First Contribution,Contribution Welcome",2019-10-01,bug
+938,1693,2020-02-29T10:39:53Z,"bug,Good First Contribution,Contribution Welcome",2019-10-01,Good First Contribution
+939,1693,2020-02-29T10:39:53Z,"bug,Good First Contribution,Contribution Welcome",2019-10-01,Contribution Welcome
+940,1727,,,2020-01-01,Others
+941,1735,2020-02-27T16:52:49Z,,2020-02-01,Others
+942,1470,2020-02-27T06:14:28Z,,2018-12-01,Others
+943,1359,2020-02-27T06:13:29Z,,2018-08-01,Others
+944,1373,2020-02-27T06:13:12Z,,2018-08-01,Others
+945,1629,2020-02-27T06:11:07Z,,2019-07-01,Others
+946,1749,2020-02-27T06:10:33Z,,2020-02-01,Others
+947,1246,2020-02-27T00:15:36Z,,2018-05-01,Others
+948,1015,2020-02-27T00:14:06Z,"Good First Contribution,Contribution Welcome",2018-01-01,Good First Contribution
+949,1015,2020-02-27T00:14:06Z,"Good First Contribution,Contribution Welcome",2018-01-01,Contribution Welcome
+950,1021,2020-02-27T00:13:38Z,Contribution Welcome,2018-01-01,Contribution Welcome
+951,1110,2020-02-27T00:11:47Z,"Good First Contribution,Contribution Welcome",2018-02-01,Good First Contribution
+952,1110,2020-02-27T00:11:47Z,"Good First Contribution,Contribution Welcome",2018-02-01,Contribution Welcome
+953,1062,2020-02-27T00:11:18Z,"Good First Contribution,Contribution Welcome",2018-02-01,Good First Contribution
+954,1062,2020-02-27T00:11:18Z,"Good First Contribution,Contribution Welcome",2018-02-01,Contribution Welcome
+955,1461,2020-02-26T02:32:08Z,,2018-12-01,Others
+956,1468,,,2018-12-01,Others
+957,1351,2020-02-26T02:29:30Z,,2018-08-01,Others
+958,1382,,Good Intermediate Contribution,2018-08-01,Good Intermediate Contribution
+959,1469,2020-02-26T02:22:25Z,,2018-12-01,Others
+960,1741,2020-02-26T02:14:33Z,,2020-02-01,Others
+961,1396,2020-02-26T02:10:06Z,,2018-09-01,Others
+962,1152,2020-02-26T02:08:50Z,,2018-03-01,Others
+963,734,2020-02-26T02:07:12Z,"Good First Contribution,Contribution Welcome",2017-08-01,Good First Contribution
+964,734,2020-02-26T02:07:12Z,"Good First Contribution,Contribution Welcome",2017-08-01,Contribution Welcome
+965,1705,2020-02-25T15:12:55Z,,2019-10-01,Others
+966,1707,2020-02-25T05:06:29Z,,2019-11-01,Others
+967,1285,2020-02-25T05:05:52Z,,2018-06-01,Others
+968,1306,2020-02-25T05:00:34Z,,2018-07-01,Others
+969,1744,2020-02-25T05:00:04Z,,2020-02-01,Others
+970,1241,2020-02-25T04:33:37Z,bug,2018-04-01,bug
+971,1200,2020-02-25T04:28:59Z,,2018-03-01,Others
+972,1554,2020-02-21T23:29:26Z,,2019-03-01,Others
+973,1529,2020-02-21T23:28:42Z,,2019-03-01,Others
+974,1526,2020-02-21T22:47:01Z,,2019-03-01,Others
+975,1574,2020-02-21T22:46:28Z,,2019-04-01,Others
+976,1415,2020-02-21T22:40:12Z,,2018-09-01,Others
+977,1739,2020-02-20T00:29:09Z,,2020-02-01,Others
+978,1137,2020-02-20T00:28:53Z,,2018-03-01,Others
+979,1238,2020-02-20T00:27:47Z,,2018-04-01,Others
+980,781,2020-02-20T00:27:12Z,"Good First Contribution,Contribution Welcome,Scientific Knowledge Required",2017-08-01,Good First Contribution
+981,781,2020-02-20T00:27:12Z,"Good First Contribution,Contribution Welcome,Scientific Knowledge Required",2017-08-01,Contribution Welcome
+982,781,2020-02-20T00:27:12Z,"Good First Contribution,Contribution Welcome,Scientific Knowledge Required",2017-08-01,Scientific Knowledge Required
+983,775,2020-02-20T00:26:26Z,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-08-01,Contribution Welcome
+984,775,2020-02-20T00:26:26Z,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-08-01,Good Intermediate Contribution
+985,775,2020-02-20T00:26:26Z,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-08-01,Deep Learning Project
+986,1045,2020-02-20T00:20:40Z,bug,2018-01-01,bug
+987,988,2020-01-30T01:14:38Z,,2017-12-01,Others
+988,971,2020-01-30T01:14:18Z,,2017-12-01,Others
+989,999,2020-01-30T01:13:48Z,,2018-01-01,Others
+990,1709,2020-01-22T16:37:24Z,,2019-11-01,Others
+991,1730,2020-01-20T06:55:41Z,,2020-01-01,Others
+992,1212,2020-01-18T19:51:02Z,,2018-04-01,Others
+993,1220,2020-01-18T19:50:28Z,,2018-04-01,Others
+994,1237,2020-01-18T19:50:17Z,,2018-04-01,Others
+995,1154,2020-01-18T19:49:28Z,,2018-03-01,Others
+996,1097,2020-01-18T19:48:46Z,Contribution Welcome,2018-02-01,Contribution Welcome
+997,1095,2020-01-18T19:48:23Z,,2018-02-01,Others
+998,1076,2020-01-18T19:47:58Z,,2018-02-01,Others
+999,1172,2020-01-18T19:46:32Z,,2018-03-01,Others
+1000,1040,2020-01-18T19:45:53Z,,2018-01-01,Others
+1001,1002,2020-01-18T19:40:55Z,Contribution Welcome,2018-01-01,Contribution Welcome
+1002,978,2020-01-18T19:40:17Z,,2017-12-01,Others
+1003,856,2020-01-18T19:40:05Z,,2017-09-01,Others
+1004,936,2020-01-18T19:39:35Z,,2017-11-01,Others
+1005,825,2020-01-18T19:37:01Z,,2017-09-01,Others
+1006,842,2020-01-18T19:36:43Z,,2017-09-01,Others
+1007,878,2020-01-18T19:33:53Z,,2017-10-01,Others
+1008,872,2020-01-18T19:31:22Z,"Good First Contribution,Contribution Welcome",2017-10-01,Good First Contribution
+1009,872,2020-01-18T19:31:22Z,"Good First Contribution,Contribution Welcome",2017-10-01,Contribution Welcome
+1010,862,2020-01-18T19:30:18Z,,2017-09-01,Others
+1011,832,2020-01-18T19:29:56Z,,2017-09-01,Others
+1012,787,2020-01-18T19:29:25Z,,2017-08-01,Others
+1013,779,2020-01-18T19:28:59Z,"Good First Contribution,Contribution Welcome",2017-08-01,Good First Contribution
+1014,779,2020-01-18T19:28:59Z,"Good First Contribution,Contribution Welcome",2017-08-01,Contribution Welcome
+1015,771,2020-01-18T19:28:38Z,,2017-08-01,Others
+1016,741,2020-01-18T19:28:11Z,,2017-08-01,Others
+1017,596,2020-01-18T19:27:26Z,,2017-06-01,Others
+1018,572,2020-01-18T19:26:33Z,Contribution Welcome,2017-05-01,Contribution Welcome
+1019,562,2020-01-16T17:41:58Z,,2017-05-01,Others
+1020,316,2020-01-16T17:41:20Z,,2016-12-01,Others
+1021,1710,2020-01-16T17:33:34Z,,2019-11-01,Others
+1022,1729,2020-01-16T17:31:00Z,"bug,Contribution Welcome",2020-01-01,bug
+1023,1729,2020-01-16T17:31:00Z,"bug,Contribution Welcome",2020-01-01,Contribution Welcome
+1024,251,2020-01-16T03:35:47Z,,2016-10-01,Others
+1025,1711,,,2019-11-01,Others
+1026,1493,,,2019-01-01,Others
+1027,1717,2019-11-26T22:23:57Z,,2019-11-01,Others
+1028,1706,,,2019-11-01,Others
+1029,1609,,,2019-05-01,Others
+1030,1704,2019-10-29T16:17:35Z,,2019-10-01,Others
+1031,1703,2019-10-25T11:45:31Z,,2019-10-01,Others
+1032,1698,,,2019-10-01,Others
+1033,1694,2019-10-16T03:39:24Z,,2019-10-01,Others
+1034,1695,2019-10-16T01:20:33Z,,2019-10-01,Others
+1035,1689,2019-10-14T22:36:11Z,,2019-10-01,Others
+1036,1640,2019-10-12T23:28:14Z,,2019-07-01,Others
+1037,1692,2019-10-04T23:33:17Z,,2019-10-01,Others
+1038,1688,2019-10-04T19:50:43Z,,2019-10-01,Others
+1039,1690,2019-10-03T02:36:45Z,,2019-10-01,Others
+1040,1687,2019-10-01T19:42:48Z,,2019-09-01,Others
+1041,1669,2019-09-26T10:48:30Z,,2019-08-01,Others
+1042,1381,2018-08-24T13:07:20Z,,2018-08-01,Others
+1043,1464,,,2018-12-01,Others
+1044,1668,,,2019-08-01,Others
+1045,1674,2019-09-18T17:38:48Z,"help wanted,Good First Contribution",2019-09-01,help wanted
+1046,1674,2019-09-18T17:38:48Z,"help wanted,Good First Contribution",2019-09-01,Good First Contribution
+1047,1556,2019-05-17T21:36:36Z,,2019-03-01,Others
+1048,1496,,,2019-01-01,Others
+1049,1667,2019-09-13T21:26:32Z,,2019-08-01,Others
+1050,1675,2019-09-07T15:40:54Z,,2019-09-01,Others
+1051,1677,2019-09-07T09:16:59Z,,2019-09-01,Others
+1052,1673,2019-09-04T02:50:26Z,,2019-09-01,Others
+1053,1670,,,2019-08-01,Others
+1054,1079,2018-02-26T14:23:17Z,,2018-02-01,Others
+1055,1663,2019-08-26T22:12:53Z,,2019-08-01,Others
+1056,1644,2019-08-22T22:16:49Z,,2019-07-01,Others
+1057,1443,2018-11-23T00:25:54Z,,2018-10-01,Others
+1058,1653,,,2019-08-01,Others
+1059,1628,2019-08-13T20:42:41Z,,2019-06-01,Others
+1060,1572,2019-07-27T12:06:13Z,,2019-04-01,Others
+1061,1646,,,2019-07-01,Others
+1062,1642,2019-07-19T15:30:50Z,,2019-07-01,Others
+1063,1641,2019-07-18T08:59:04Z,,2019-07-01,Others
+1064,1634,2019-07-05T23:19:13Z,,2019-07-01,Others
+1065,1630,,,2019-07-01,Others
+1066,1632,,,2019-07-01,Others
+1067,1627,2019-06-26T03:03:56Z,,2019-06-01,Others
+1068,1585,2019-05-01T19:49:03Z,,2019-05-01,Others
+1069,1611,2019-06-14T21:12:03Z,,2019-06-01,Others
+1070,1066,2019-06-13T17:16:50Z,,2018-02-01,Others
+1071,1617,,,2019-06-01,Others
+1072,1613,2019-06-07T17:01:05Z,,2019-06-01,Others
+1073,1614,,,2019-06-01,Others
+1074,1610,,,2019-05-01,Others
+1075,1576,,,2019-04-01,Others
+1076,1577,,,2019-04-01,Others
+1077,1608,,,2019-05-01,Others
+1078,1606,,,2019-05-01,Others
+1079,1607,2019-05-27T14:02:56Z,,2019-05-01,Others
+1080,1604,2019-05-24T22:44:38Z,,2019-05-01,Others
+1081,1601,2019-05-23T13:37:32Z,,2019-05-01,Others
+1082,1592,2019-05-18T21:40:05Z,,2019-05-01,Others
+1083,1593,2019-05-18T21:39:08Z,,2019-05-01,Others
+1084,1597,,,2019-05-01,Others
+1085,1590,2019-05-17T20:43:01Z,,2019-05-01,Others
+1086,1555,2019-05-17T18:24:02Z,,2019-03-01,Others
+1087,1589,2019-05-17T17:01:24Z,,2019-05-01,Others
+1088,1582,2019-05-06T18:31:44Z,,2019-04-01,Others
+1089,1586,,,2019-05-01,Others
+1090,1573,,,2019-04-01,Others
+1091,1571,2019-04-16T05:29:00Z,,2019-04-01,Others
+1092,1568,,,2019-04-01,Others
+1093,1569,,,2019-04-01,Others
+1094,1565,,bug,2019-04-01,bug
+1095,1422,2019-04-10T10:31:08Z,,2018-10-01,Others
+1096,1564,2019-04-06T23:47:05Z,,2019-04-01,Others
+1097,1489,2019-03-31T02:59:14Z,"bug,help wanted,Contribution Welcome",2019-01-01,bug
+1098,1489,2019-03-31T02:59:14Z,"bug,help wanted,Contribution Welcome",2019-01-01,help wanted
+1099,1489,2019-03-31T02:59:14Z,"bug,help wanted,Contribution Welcome",2019-01-01,Contribution Welcome
+1100,1549,2019-03-29T12:55:57Z,,2019-03-01,Others
+1101,1442,,"Good First Contribution,Contribution Welcome",2018-10-01,Good First Contribution
+1102,1442,,"Good First Contribution,Contribution Welcome",2018-10-01,Contribution Welcome
+1103,1541,2019-03-28T23:43:09Z,,2019-03-01,Others
+1104,1523,2019-03-27T19:58:53Z,,2019-03-01,Others
+1105,1232,2019-03-27T19:54:52Z,"bug,Good First Contribution,Contribution Welcome",2018-04-01,bug
+1106,1232,2019-03-27T19:54:52Z,"bug,Good First Contribution,Contribution Welcome",2018-04-01,Good First Contribution
+1107,1232,2019-03-27T19:54:52Z,"bug,Good First Contribution,Contribution Welcome",2018-04-01,Contribution Welcome
+1108,1545,2019-03-25T21:17:53Z,,2019-03-01,Others
+1109,1544,2019-03-25T19:13:40Z,,2019-03-01,Others
+1110,926,2017-11-22T19:22:36Z,,2017-11-01,Others
+1111,1543,2019-03-23T19:51:15Z,,2019-03-01,Others
+1112,1486,,"help wanted,Good First Contribution,Contribution Welcome",2019-01-01,help wanted
+1113,1486,,"help wanted,Good First Contribution,Contribution Welcome",2019-01-01,Good First Contribution
+1114,1486,,"help wanted,Good First Contribution,Contribution Welcome",2019-01-01,Contribution Welcome
+1115,599,2019-03-18T09:19:21Z,"Good First Contribution,Contribution Welcome",2017-06-01,Good First Contribution
+1116,599,2019-03-18T09:19:21Z,"Good First Contribution,Contribution Welcome",2017-06-01,Contribution Welcome
+1117,1531,2019-03-18T02:26:53Z,,2019-03-01,Others
+1118,1534,2019-03-18T02:26:39Z,,2019-03-01,Others
+1119,1536,,,2019-03-01,Others
+1120,1533,2019-03-14T07:33:46Z,,2019-03-01,Others
+1121,1532,,,2019-03-01,Others
+1122,1511,2019-03-10T19:33:12Z,,2019-02-01,Others
+1123,1362,2019-03-10T19:33:03Z,"Contribution Welcome,Good Intermediate Contribution",2018-08-01,Contribution Welcome
+1124,1362,2019-03-10T19:33:03Z,"Contribution Welcome,Good Intermediate Contribution",2018-08-01,Good Intermediate Contribution
+1125,630,2019-03-10T19:32:43Z,"Good First Contribution,Contribution Welcome",2017-06-01,Good First Contribution
+1126,630,2019-03-10T19:32:43Z,"Good First Contribution,Contribution Welcome",2017-06-01,Contribution Welcome
+1127,1349,2019-03-10T19:32:01Z,enhancement,2018-08-01,enhancement
+1128,412,2019-03-10T19:31:51Z,"Good First Contribution,Contribution Welcome",2017-02-01,Good First Contribution
+1129,412,2019-03-10T19:31:51Z,"Good First Contribution,Contribution Welcome",2017-02-01,Contribution Welcome
+1130,1401,2019-03-10T19:31:34Z,Contribution Welcome,2018-09-01,Contribution Welcome
+1131,1317,2019-03-10T19:30:47Z,enhancement,2018-07-01,enhancement
+1132,1404,2019-03-10T19:30:10Z,,2018-09-01,Others
+1133,1504,2019-03-10T19:29:59Z,bug,2019-02-01,bug
+1134,1519,2019-03-05T13:44:06Z,,2019-02-01,Others
+1135,1491,,"bug,help wanted,Contribution Welcome",2019-01-01,bug
+1136,1491,,"bug,help wanted,Contribution Welcome",2019-01-01,help wanted
+1137,1491,,"bug,help wanted,Contribution Welcome",2019-01-01,Contribution Welcome
+1138,1517,2019-02-25T17:25:55Z,,2019-02-01,Others
+1139,1501,2019-02-21T18:42:48Z,,2019-01-01,Others
+1140,1510,2019-02-21T12:24:31Z,,2019-02-01,Others
+1141,1502,2019-02-20T14:59:17Z,,2019-01-01,Others
+1142,1506,2019-02-11T22:48:43Z,,2019-02-01,Others
+1143,650,2017-07-11T22:23:56Z,,2017-07-01,Others
+1144,1394,,bug,2018-08-01,bug
+1145,1481,2019-01-17T09:11:09Z,,2019-01-01,Others
+1146,644,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-07-01,Contribution Welcome
+1147,644,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-07-01,Good Intermediate Contribution
+1148,644,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-07-01,Deep Learning Project
+1149,1392,,,2018-08-01,Others
+1150,1459,2019-01-16T13:07:25Z,"bug,help wanted",2018-12-01,bug
+1151,1459,2019-01-16T13:07:25Z,"bug,help wanted",2018-12-01,help wanted
+1152,1490,,"enhancement,help wanted,Good First Contribution",2019-01-01,enhancement
+1153,1490,,"enhancement,help wanted,Good First Contribution",2019-01-01,help wanted
+1154,1490,,"enhancement,help wanted,Good First Contribution",2019-01-01,Good First Contribution
+1155,1494,2019-01-12T00:35:45Z,,2019-01-01,Others
+1156,482,,"Good First Contribution,Contribution Welcome",2017-03-01,Good First Contribution
+1157,482,,"Good First Contribution,Contribution Welcome",2017-03-01,Contribution Welcome
+1158,835,,"Contribution Welcome,Good Intermediate Contribution,Scientific Knowledge Required,Deep Learning Project",2017-09-01,Contribution Welcome
+1159,835,,"Contribution Welcome,Good Intermediate Contribution,Scientific Knowledge Required,Deep Learning Project",2017-09-01,Good Intermediate Contribution
+1160,835,,"Contribution Welcome,Good Intermediate Contribution,Scientific Knowledge Required,Deep Learning Project",2017-09-01,Scientific Knowledge Required
+1161,835,,"Contribution Welcome,Good Intermediate Contribution,Scientific Knowledge Required,Deep Learning Project",2017-09-01,Deep Learning Project
+1162,1466,2018-12-20T18:10:25Z,,2018-12-01,Others
+1163,890,2017-12-24T22:17:08Z,,2017-10-01,Others
+1164,1460,2018-12-11T09:20:16Z,"bug,help wanted",2018-12-01,bug
+1165,1460,2018-12-11T09:20:16Z,"bug,help wanted",2018-12-01,help wanted
+1166,1301,,"Contribution Welcome,Deep Learning Project",2018-06-01,Contribution Welcome
+1167,1301,,"Contribution Welcome,Deep Learning Project",2018-06-01,Deep Learning Project
+1168,1463,2018-12-06T21:46:30Z,,2018-12-01,Others
+1169,1400,,"Good First Contribution,Contribution Welcome",2018-09-01,Good First Contribution
+1170,1400,,"Good First Contribution,Contribution Welcome",2018-09-01,Contribution Welcome
+1171,1440,,"Good First Contribution,Contribution Welcome",2018-10-01,Good First Contribution
+1172,1440,,"Good First Contribution,Contribution Welcome",2018-10-01,Contribution Welcome
+1173,1426,,Contribution Welcome,2018-10-01,Contribution Welcome
+1174,1435,2018-11-23T00:26:45Z,,2018-10-01,Others
+1175,1143,,"Good First Contribution,Contribution Welcome",2018-03-01,Good First Contribution
+1176,1143,,"Good First Contribution,Contribution Welcome",2018-03-01,Contribution Welcome
+1177,1451,,bug,2018-11-01,bug
+1178,1448,,,2018-11-01,Others
+1179,1446,2018-11-08T06:21:12Z,,2018-11-01,Others
+1180,1441,,discussion,2018-10-01,discussion
+1181,1430,,,2018-10-01,Others
+1182,752,,"Good First Contribution,Contribution Welcome",2017-08-01,Good First Contribution
+1183,752,,"Good First Contribution,Contribution Welcome",2017-08-01,Contribution Welcome
+1184,1379,2018-10-05T18:23:34Z,,2018-08-01,Others
+1185,1035,,"Good First Contribution,Contribution Welcome",2018-01-01,Good First Contribution
+1186,1035,,"Good First Contribution,Contribution Welcome",2018-01-01,Contribution Welcome
+1187,1403,2018-10-04T19:04:08Z,"help wanted,Contribution Welcome",2018-09-01,help wanted
+1188,1403,2018-10-04T19:04:08Z,"help wanted,Contribution Welcome",2018-09-01,Contribution Welcome
+1189,1318,2018-10-01T22:41:30Z,"Good First Contribution,Contribution Welcome",2018-07-01,Good First Contribution
+1190,1318,2018-10-01T22:41:30Z,"Good First Contribution,Contribution Welcome",2018-07-01,Contribution Welcome
+1191,951,2018-09-29T07:57:45Z,,2017-11-01,Others
+1192,1398,2018-09-29T05:17:54Z,,2018-09-01,Others
+1193,1279,,"bug,Contribution Welcome",2018-05-01,bug
+1194,1279,,"bug,Contribution Welcome",2018-05-01,Contribution Welcome
+1195,1399,2018-09-23T01:50:32Z,,2018-09-01,Others
+1196,1410,,,2018-09-01,Others
+1197,1409,,,2018-09-01,Others
+1198,1405,2018-09-19T18:55:39Z,,2018-09-01,Others
+1199,1402,,,2018-09-01,Others
+1200,1395,,,2018-08-01,Others
+1201,1386,2018-08-28T20:12:13Z,,2018-08-01,Others
+1202,1389,2018-08-24T19:22:42Z,,2018-08-01,Others
+1203,1388,,,2018-08-01,Others
+1204,1361,2018-08-23T23:01:06Z,"Contribution Welcome,Good Intermediate Contribution",2018-08-01,Contribution Welcome
+1205,1361,2018-08-23T23:01:06Z,"Contribution Welcome,Good Intermediate Contribution",2018-08-01,Good Intermediate Contribution
+1206,1387,,,2018-08-01,Others
+1207,1357,2018-08-23T07:05:39Z,,2018-08-01,Others
+1208,682,,"Contribution Welcome,Research Question",2017-07-01,Contribution Welcome
+1209,682,,"Contribution Welcome,Research Question",2017-07-01,Research Question
+1210,1376,2018-08-21T06:17:11Z,,2018-08-01,Others
+1211,1378,,,2018-08-01,Others
+1212,1377,,,2018-08-01,Others
+1213,1367,,Contribution Welcome,2018-08-01,Contribution Welcome
+1214,1363,2018-08-14T19:09:38Z,Contribution Welcome,2018-08-01,Contribution Welcome
+1215,1368,,Contribution Welcome,2018-08-01,Contribution Welcome
+1216,1288,,,2018-06-01,Others
+1217,1352,2018-08-11T19:53:27Z,,2018-08-01,Others
+1218,1358,2018-08-11T19:52:22Z,,2018-08-01,Others
+1219,1355,,Contribution Welcome,2018-08-01,Contribution Welcome
+1220,1312,2018-08-06T00:46:29Z,,2018-07-01,Others
+1221,1345,2018-08-06T00:45:37Z,,2018-08-01,Others
+1222,1333,2018-08-04T19:22:43Z,,2018-07-01,Others
+1223,1171,2018-07-20T13:11:47Z,,2018-03-01,Others
+1224,1329,2018-07-26T21:57:17Z,,2018-07-01,Others
+1225,1321,2018-07-21T19:49:10Z,,2018-07-01,Others
+1226,915,2018-07-20T13:20:25Z,"Good First Contribution,Contribution Welcome",2017-10-01,Good First Contribution
+1227,915,2018-07-20T13:20:25Z,"Good First Contribution,Contribution Welcome",2017-10-01,Contribution Welcome
+1228,985,,"Contribution Welcome,Good Intermediate Contribution",2017-12-01,Contribution Welcome
+1229,985,,"Contribution Welcome,Good Intermediate Contribution",2017-12-01,Good Intermediate Contribution
+1230,1038,2018-07-20T13:19:29Z,,2018-01-01,Others
+1231,1060,2018-07-20T13:18:56Z,"Good First Contribution,Contribution Welcome",2018-01-01,Good First Contribution
+1232,1060,2018-07-20T13:18:56Z,"Good First Contribution,Contribution Welcome",2018-01-01,Contribution Welcome
+1233,1071,2018-07-20T13:18:40Z,Contribution Welcome,2018-02-01,Contribution Welcome
+1234,1074,2018-07-20T13:18:19Z,,2018-02-01,Others
+1235,1119,2018-07-20T13:17:24Z,,2018-02-01,Others
+1236,1121,2018-07-20T13:16:39Z,,2018-02-01,Others
+1237,1144,2018-07-20T13:15:44Z,bug,2018-03-01,bug
+1238,1161,,"Good First Contribution,Contribution Welcome",2018-03-01,Good First Contribution
+1239,1161,,"Good First Contribution,Contribution Welcome",2018-03-01,Contribution Welcome
+1240,1194,2018-07-20T13:09:59Z,,2018-03-01,Others
+1241,1203,2018-07-20T13:09:08Z,,2018-04-01,Others
+1242,1222,2018-07-20T13:08:08Z,,2018-04-01,Others
+1243,1223,2018-07-20T13:07:45Z,,2018-04-01,Others
+1244,1316,2018-07-20T13:03:29Z,,2018-07-01,Others
+1245,1315,2018-07-20T07:31:51Z,,2018-07-01,Others
+1246,1245,,,2018-05-01,Others
+1247,1314,2018-07-17T12:26:24Z,,2018-07-01,Others
+1248,1303,2018-07-07T16:19:43Z,,2018-07-01,Others
+1249,1304,,"Contribution Welcome,Deep Learning Project",2018-07-01,Contribution Welcome
+1250,1304,,"Contribution Welcome,Deep Learning Project",2018-07-01,Deep Learning Project
+1251,1302,2018-07-01T02:26:21Z,,2018-06-01,Others
+1252,1179,,"Good First Contribution,Contribution Welcome",2018-03-01,Good First Contribution
+1253,1179,,"Good First Contribution,Contribution Welcome",2018-03-01,Contribution Welcome
+1254,1299,2018-06-25T23:14:41Z,,2018-06-01,Others
+1255,1292,2018-06-18T10:04:03Z,,2018-06-01,Others
+1256,1240,,"Good First Contribution,Contribution Welcome",2018-04-01,Good First Contribution
+1257,1240,,"Good First Contribution,Contribution Welcome",2018-04-01,Contribution Welcome
+1258,479,2017-12-24T23:49:17Z,,2017-03-01,Others
+1259,1284,2018-06-13T14:27:00Z,,2018-06-01,Others
+1260,1275,2018-06-11T17:33:42Z,,2018-05-01,Others
+1261,1287,2018-06-11T06:20:54Z,,2018-06-01,Others
+1262,1281,2018-06-05T22:49:15Z,,2018-05-01,Others
+1263,1280,2018-06-03T19:49:50Z,,2018-05-01,Others
+1264,1282,,"Good First Contribution,Contribution Welcome",2018-05-01,Good First Contribution
+1265,1282,,"Good First Contribution,Contribution Welcome",2018-05-01,Contribution Welcome
+1266,1257,2018-06-03T19:46:29Z,,2018-05-01,Others
+1267,1244,2018-06-03T19:44:31Z,,2018-05-01,Others
+1268,1243,2018-06-03T19:43:49Z,,2018-05-01,Others
+1269,1239,2018-06-03T19:41:23Z,,2018-04-01,Others
+1270,1234,2018-06-03T19:41:00Z,,2018-04-01,Others
+1271,1224,2018-06-03T19:38:48Z,,2018-04-01,Others
+1272,1209,2018-06-03T19:36:44Z,,2018-04-01,Others
+1273,1208,2018-06-03T19:36:22Z,,2018-04-01,Others
+1274,1206,2018-06-03T19:35:48Z,,2018-04-01,Others
+1275,1199,2018-06-03T19:34:05Z,,2018-03-01,Others
+1276,1197,2018-06-03T19:33:48Z,,2018-03-01,Others
+1277,1268,2018-06-01T04:44:24Z,"Good First Contribution,Contribution Welcome",2018-05-01,Good First Contribution
+1278,1268,2018-06-01T04:44:24Z,"Good First Contribution,Contribution Welcome",2018-05-01,Contribution Welcome
+1279,1271,2018-05-30T06:59:53Z,,2018-05-01,Others
+1280,1277,2018-05-28T11:24:40Z,,2018-05-01,Others
+1281,1266,2018-05-25T20:16:26Z,,2018-05-01,Others
+1282,1096,2018-05-18T19:39:07Z,,2018-02-01,Others
+1283,1262,2018-05-18T19:37:18Z,,2018-05-01,Others
+1284,1186,,"Good First Contribution,Contribution Welcome",2018-03-01,Good First Contribution
+1285,1186,,"Good First Contribution,Contribution Welcome",2018-03-01,Contribution Welcome
+1286,1214,2018-05-18T14:37:43Z,,2018-04-01,Others
+1287,1216,2018-05-16T18:01:13Z,,2018-04-01,Others
+1288,1256,2018-05-12T01:34:26Z,,2018-05-01,Others
+1289,1250,2018-05-10T01:21:15Z,,2018-05-01,Others
+1290,1253,2018-05-10T01:20:08Z,,2018-05-01,Others
+1291,1162,2018-05-09T20:59:37Z,"Good First Contribution,Contribution Welcome",2018-03-01,Good First Contribution
+1292,1162,2018-05-09T20:59:37Z,"Good First Contribution,Contribution Welcome",2018-03-01,Contribution Welcome
+1293,1236,2018-05-02T17:38:11Z,,2018-04-01,Others
+1294,1114,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2018-02-01,Contribution Welcome
+1295,1114,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2018-02-01,Good Intermediate Contribution
+1296,1114,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2018-02-01,Deep Learning Project
+1297,1231,2018-04-20T19:40:46Z,,2018-04-01,Others
+1298,1217,2018-04-12T09:13:01Z,,2018-04-01,Others
+1299,1204,2018-04-04T19:32:26Z,,2018-04-01,Others
+1300,1211,2018-04-06T22:28:37Z,,2018-04-01,Others
+1301,1193,2018-04-03T09:01:04Z,,2018-03-01,Others
+1302,1205,2018-04-02T23:30:26Z,,2018-04-01,Others
+1303,1138,2018-04-02T23:02:34Z,"Good First Contribution,Contribution Welcome",2018-03-01,Good First Contribution
+1304,1138,2018-04-02T23:02:34Z,"Good First Contribution,Contribution Welcome",2018-03-01,Contribution Welcome
+1305,1188,2018-03-29T20:35:51Z,,2018-03-01,Others
+1306,1192,2018-03-28T06:07:07Z,,2018-03-01,Others
+1307,1115,,"Good First Contribution,Contribution Welcome",2018-02-01,Good First Contribution
+1308,1115,,"Good First Contribution,Contribution Welcome",2018-02-01,Contribution Welcome
+1309,1166,2018-03-26T18:21:12Z,"bug,Good First Contribution,Contribution Welcome",2018-03-01,bug
+1310,1166,2018-03-26T18:21:12Z,"bug,Good First Contribution,Contribution Welcome",2018-03-01,Good First Contribution
+1311,1166,2018-03-26T18:21:12Z,"bug,Good First Contribution,Contribution Welcome",2018-03-01,Contribution Welcome
+1312,1157,2018-03-26T13:50:52Z,"Good First Contribution,Contribution Welcome",2018-03-01,Good First Contribution
+1313,1157,2018-03-26T13:50:52Z,"Good First Contribution,Contribution Welcome",2018-03-01,Contribution Welcome
+1314,1159,,"Good First Contribution,Contribution Welcome",2018-03-01,Good First Contribution
+1315,1159,,"Good First Contribution,Contribution Welcome",2018-03-01,Contribution Welcome
+1316,1175,2018-03-22T17:08:14Z,,2018-03-01,Others
+1317,1168,2018-03-22T07:40:08Z,,2018-03-01,Others
+1318,1094,2018-03-21T02:08:23Z,,2018-02-01,Others
+1319,1126,2018-03-20T17:31:36Z,"Good First Contribution,Contribution Welcome",2018-03-01,Good First Contribution
+1320,1126,2018-03-20T17:31:36Z,"Good First Contribution,Contribution Welcome",2018-03-01,Contribution Welcome
+1321,986,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-12-01,Contribution Welcome
+1322,986,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-12-01,Good Intermediate Contribution
+1323,986,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-12-01,Deep Learning Project
+1324,1150,2018-03-16T20:40:38Z,,2018-03-01,Others
+1325,616,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-06-01,Contribution Welcome
+1326,616,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-06-01,Good Intermediate Contribution
+1327,616,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-06-01,Deep Learning Project
+1328,1148,2018-03-14T18:34:57Z,,2018-03-01,Others
+1329,1093,2018-03-13T20:08:13Z,,2018-02-01,Others
+1330,1092,2018-03-13T20:05:47Z,,2018-02-01,Others
+1331,1146,,,2018-03-01,Others
+1332,683,,"Good First Contribution,Contribution Welcome",2017-07-01,Good First Contribution
+1333,683,,"Good First Contribution,Contribution Welcome",2017-07-01,Contribution Welcome
+1334,1069,2018-03-08T18:49:41Z,,2018-02-01,Others
+1335,908,,"Contribution Welcome,Good Intermediate Contribution,Scientific Knowledge Required,Deep Learning Project",2017-10-01,Contribution Welcome
+1336,908,,"Contribution Welcome,Good Intermediate Contribution,Scientific Knowledge Required,Deep Learning Project",2017-10-01,Good Intermediate Contribution
+1337,908,,"Contribution Welcome,Good Intermediate Contribution,Scientific Knowledge Required,Deep Learning Project",2017-10-01,Scientific Knowledge Required
+1338,908,,"Contribution Welcome,Good Intermediate Contribution,Scientific Knowledge Required,Deep Learning Project",2017-10-01,Deep Learning Project
+1339,1089,2018-03-08T00:10:42Z,"Good First Contribution,Contribution Welcome",2018-02-01,Good First Contribution
+1340,1089,2018-03-08T00:10:42Z,"Good First Contribution,Contribution Welcome",2018-02-01,Contribution Welcome
+1341,991,,"Contribution Welcome,Good Intermediate Contribution,Scientific Knowledge Required,Deep Learning Project",2017-12-01,Contribution Welcome
+1342,991,,"Contribution Welcome,Good Intermediate Contribution,Scientific Knowledge Required,Deep Learning Project",2017-12-01,Good Intermediate Contribution
+1343,991,,"Contribution Welcome,Good Intermediate Contribution,Scientific Knowledge Required,Deep Learning Project",2017-12-01,Scientific Knowledge Required
+1344,991,,"Contribution Welcome,Good Intermediate Contribution,Scientific Knowledge Required,Deep Learning Project",2017-12-01,Deep Learning Project
+1345,1103,2018-03-08T00:06:58Z,,2018-02-01,Others
+1346,1055,2018-03-08T00:00:55Z,,2018-01-01,Others
+1347,1014,,"Good First Contribution,Contribution Welcome",2018-01-01,Good First Contribution
+1348,1014,,"Good First Contribution,Contribution Welcome",2018-01-01,Contribution Welcome
+1349,1039,2018-03-07T23:56:53Z,,2018-01-01,Others
+1350,935,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-11-01,Contribution Welcome
+1351,935,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-11-01,Good Intermediate Contribution
+1352,935,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-11-01,Deep Learning Project
+1353,905,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-10-01,Contribution Welcome
+1354,905,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-10-01,Good Intermediate Contribution
+1355,905,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-10-01,Deep Learning Project
+1356,809,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-08-01,Contribution Welcome
+1357,809,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-08-01,Good Intermediate Contribution
+1358,809,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-08-01,Deep Learning Project
+1359,844,2018-03-07T23:36:05Z,,2017-09-01,Others
+1360,757,2018-03-07T23:26:33Z,,2017-08-01,Others
+1361,770,2018-03-07T23:26:17Z,,2017-08-01,Others
+1362,725,2018-03-07T23:22:31Z,,2017-08-01,Others
+1363,681,2018-03-07T23:21:10Z,,2017-07-01,Others
+1364,658,,"Contribution Welcome,Good Intermediate Contribution,Scientific Knowledge Required",2017-07-01,Contribution Welcome
+1365,658,,"Contribution Welcome,Good Intermediate Contribution,Scientific Knowledge Required",2017-07-01,Good Intermediate Contribution
+1366,658,,"Contribution Welcome,Good Intermediate Contribution,Scientific Knowledge Required",2017-07-01,Scientific Knowledge Required
+1367,617,,"Contribution Welcome,Good Intermediate Contribution",2017-06-01,Contribution Welcome
+1368,617,,"Contribution Welcome,Good Intermediate Contribution",2017-06-01,Good Intermediate Contribution
+1369,620,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-06-01,Contribution Welcome
+1370,620,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-06-01,Good Intermediate Contribution
+1371,620,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-06-01,Deep Learning Project
+1372,664,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-07-01,Contribution Welcome
+1373,664,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-07-01,Good Intermediate Contribution
+1374,664,,"Contribution Welcome,Good Intermediate Contribution,Deep Learning Project",2017-07-01,Deep Learning Project
+1375,671,,"Contribution Welcome,Research Question",2017-07-01,Contribution Welcome
+1376,671,,"Contribution Welcome,Research Question",2017-07-01,Research Question
+1377,503,,"Contribution Welcome,Good Intermediate Contribution,Scientific Knowledge Required",2017-04-01,Contribution Welcome
+1378,503,,"Contribution Welcome,Good Intermediate Contribution,Scientific Knowledge Required",2017-04-01,Good Intermediate Contribution
+1379,503,,"Contribution Welcome,Good Intermediate Contribution,Scientific Knowledge Required",2017-04-01,Scientific Knowledge Required
+1380,420,,"Contribution Welcome,Research Question",2017-02-01,Contribution Welcome
+1381,420,,"Contribution Welcome,Research Question",2017-02-01,Research Question
+1382,350,,"Contribution Welcome,Good Intermediate Contribution,Scientific Knowledge Required",2017-01-01,Contribution Welcome
+1383,350,,"Contribution Welcome,Good Intermediate Contribution,Scientific Knowledge Required",2017-01-01,Good Intermediate Contribution
+1384,350,,"Contribution Welcome,Good Intermediate Contribution,Scientific Knowledge Required",2017-01-01,Scientific Knowledge Required
+1385,545,2018-03-04T01:00:09Z,,2017-05-01,Others
+1386,1129,2018-03-04T05:40:32Z,,2018-03-01,Others
+1387,1127,,"Good First Contribution,Contribution Welcome",2018-03-01,Good First Contribution
+1388,1127,,"Good First Contribution,Contribution Welcome",2018-03-01,Contribution Welcome
+1389,553,2018-03-04T00:59:35Z,,2017-05-01,Others
+1390,571,2018-03-04T00:58:53Z,,2017-05-01,Others
+1391,651,2018-03-04T00:55:22Z,,2017-07-01,Others
+1392,672,2018-03-04T00:53:47Z,,2017-07-01,Others
+1393,687,2018-03-04T00:51:06Z,,2017-07-01,Others
+1394,529,2018-03-04T00:50:40Z,,2017-04-01,Others
+1395,527,2018-03-04T00:50:17Z,,2017-04-01,Others
+1396,346,2018-03-04T00:41:41Z,,2017-01-01,Others
+1397,234,2018-03-04T00:40:58Z,,2016-09-01,Others
+1398,1120,2018-03-03T20:15:24Z,"Good First Contribution,Contribution Welcome",2018-02-01,Good First Contribution
+1399,1120,2018-03-03T20:15:24Z,"Good First Contribution,Contribution Welcome",2018-02-01,Contribution Welcome
+1400,586,2018-02-26T14:34:43Z,,2017-06-01,Others
+1401,431,2018-02-26T14:37:33Z,,2017-03-01,Others
+1402,538,2018-02-26T14:36:46Z,,2017-04-01,Others
+1403,559,2018-02-26T14:35:54Z,,2017-05-01,Others
+1404,565,2018-02-26T14:35:26Z,,2017-05-01,Others
+1405,598,2018-02-26T14:34:08Z,,2017-06-01,Others
+1406,749,2018-02-26T14:32:02Z,,2017-08-01,Others
+1407,837,2018-02-26T14:30:58Z,,2017-09-01,Others
+1408,864,2018-02-26T14:29:46Z,,2017-10-01,Others
+1409,889,2018-02-26T14:28:47Z,,2017-10-01,Others
+1410,993,2018-02-26T14:27:40Z,,2017-12-01,Others
+1411,1037,2018-02-26T14:25:52Z,,2018-01-01,Others
+1412,1047,2018-02-26T14:24:33Z,,2018-01-01,Others
+1413,1087,2018-02-26T03:29:54Z,"Good First Contribution,Contribution Welcome",2018-02-01,Good First Contribution
+1414,1087,2018-02-26T03:29:54Z,"Good First Contribution,Contribution Welcome",2018-02-01,Contribution Welcome
+1415,762,2018-02-25T06:21:32Z,,2017-08-01,Others
+1416,776,2018-02-25T06:21:08Z,,2017-08-01,Others
+1417,177,2018-02-25T06:20:04Z,,2016-05-01,Others
+1418,106,2018-02-25T06:19:35Z,,2016-02-01,Others
+1419,468,2018-02-25T06:17:59Z,,2017-03-01,Others
+1420,475,2018-02-25T06:17:05Z,,2017-03-01,Others
+1421,445,2018-02-25T06:16:35Z,,2017-03-01,Others
+1422,472,2018-02-25T06:16:03Z,,2017-03-01,Others
+1423,540,,"Good First Contribution,Contribution Welcome",2017-04-01,Good First Contribution
+1424,540,,"Good First Contribution,Contribution Welcome",2017-04-01,Contribution Welcome
+1425,614,2018-02-25T06:11:41Z,,2017-06-01,Others
+1426,754,2018-02-25T06:09:04Z,,2017-08-01,Others
+1427,756,2018-02-25T06:08:34Z,,2017-08-01,Others
+1428,780,2018-02-25T06:08:01Z,,2017-08-01,Others
+1429,789,2018-02-25T06:07:20Z,,2017-08-01,Others
+1430,882,2018-02-25T06:05:42Z,,2017-10-01,Others
+1431,891,2018-02-25T06:05:14Z,,2017-10-01,Others
+1432,963,2018-02-25T06:01:36Z,,2017-12-01,Others
+1433,1064,2018-02-25T05:59:20Z,,2018-02-01,Others
+1434,875,,"Good First Contribution,Contribution Welcome",2017-10-01,Good First Contribution
+1435,875,,"Good First Contribution,Contribution Welcome",2017-10-01,Contribution Welcome
+1436,1075,2018-02-24T03:05:37Z,,2018-02-01,Others
+1437,1109,2018-02-23T19:37:10Z,"Good First Contribution,Contribution Welcome",2018-02-01,Good First Contribution
+1438,1109,2018-02-23T19:37:10Z,"Good First Contribution,Contribution Welcome",2018-02-01,Contribution Welcome
+1439,990,2018-02-22T23:52:59Z,"Good First Contribution,Contribution Welcome",2017-12-01,Good First Contribution
+1440,990,2018-02-22T23:52:59Z,"Good First Contribution,Contribution Welcome",2017-12-01,Contribution Welcome
+1441,610,2018-02-22T16:25:18Z,"Good First Contribution,Contribution Welcome",2017-06-01,Good First Contribution
+1442,610,2018-02-22T16:25:18Z,"Good First Contribution,Contribution Welcome",2017-06-01,Contribution Welcome
+1443,1100,2018-02-20T03:16:32Z,,2018-02-01,Others
+1444,498,2018-02-17T17:13:47Z,,2017-04-01,Others
+1445,902,2018-02-17T17:12:09Z,,2017-10-01,Others
+1446,1078,2018-02-14T22:15:35Z,,2018-02-01,Others
+1447,1017,2018-02-14T19:27:04Z,,2018-01-01,Others
+1448,604,2018-02-14T15:12:00Z,,2017-06-01,Others
+1449,605,2018-02-14T15:11:35Z,,2017-06-01,Others
+1450,733,2018-02-14T15:09:11Z,,2017-08-01,Others
+1451,849,,"Good First Contribution,Contribution Welcome",2017-09-01,Good First Contribution
+1452,849,,"Good First Contribution,Contribution Welcome",2017-09-01,Contribution Welcome
+1453,808,2018-02-14T15:06:27Z,,2017-08-01,Others
+1454,841,2018-02-14T15:06:06Z,,2017-09-01,Others
+1455,846,2018-02-14T15:05:26Z,,2017-09-01,Others
+1456,877,2018-02-14T15:03:21Z,,2017-10-01,Others
+1457,906,2018-02-14T15:02:57Z,,2017-10-01,Others
+1458,944,2018-02-14T15:02:39Z,,2017-11-01,Others
+1459,960,2018-02-14T15:01:46Z,,2017-12-01,Others
+1460,1016,2018-02-14T14:59:09Z,Contribution Welcome,2018-01-01,Contribution Welcome
+1461,1070,2018-02-06T18:41:35Z,,2018-02-01,Others
+1462,1058,2018-02-05T21:49:49Z,,2018-01-01,Others
+1463,1019,2018-01-12T00:16:41Z,,2018-01-01,Others
+1464,1052,2018-02-02T21:37:52Z,,2018-01-01,Others
+1465,1043,2018-01-26T16:48:20Z,,2018-01-01,Others
+1466,1044,2018-01-26T15:50:12Z,,2018-01-01,Others
+1467,1025,2018-01-23T18:54:56Z,,2018-01-01,Others
+1468,1030,2018-01-22T20:44:49Z,,2018-01-01,Others
+1469,1029,2018-01-19T17:52:23Z,,2018-01-01,Others
+1470,1027,2018-01-18T22:23:54Z,,2018-01-01,Others
+1471,984,2018-01-16T21:46:24Z,,2017-12-01,Others
+1472,1000,2018-01-16T21:46:02Z,,2018-01-01,Others
+1473,1010,2018-01-16T21:45:55Z,,2018-01-01,Others
+1474,921,2018-01-16T20:52:57Z,,2017-11-01,Others
+1475,983,2018-01-13T20:47:50Z,,2017-12-01,Others
+1476,708,2017-07-31T11:43:44Z,,2017-07-01,Others
+1477,995,2018-01-03T02:36:34Z,"Good First Contribution,Contribution Welcome",2017-12-01,Good First Contribution
+1478,995,2018-01-03T02:36:34Z,"Good First Contribution,Contribution Welcome",2017-12-01,Contribution Welcome
+1479,994,2017-12-26T22:07:39Z,,2017-12-01,Others
+1480,462,2017-12-26T05:37:12Z,,2017-03-01,Others
+1481,471,2017-12-26T05:36:44Z,,2017-03-01,Others
+1482,507,2017-12-26T05:36:05Z,,2017-04-01,Others
+1483,525,2017-12-26T05:35:13Z,,2017-04-01,Others
+1484,570,2017-12-26T05:34:30Z,,2017-05-01,Others
+1485,612,2017-12-26T05:33:46Z,,2017-06-01,Others
+1486,660,2017-12-26T05:32:09Z,,2017-07-01,Others
+1487,748,2017-12-26T05:31:38Z,,2017-08-01,Others
+1488,767,2017-12-26T05:30:48Z,,2017-08-01,Others
+1489,820,2017-12-26T05:29:57Z,,2017-09-01,Others
+1490,911,2017-12-25T00:05:56Z,,2017-10-01,Others
+1491,950,2017-12-25T00:05:08Z,,2017-11-01,Others
+1492,292,2017-12-25T00:04:08Z,,2016-11-01,Others
+1493,235,2017-12-25T00:03:40Z,,2016-09-01,Others
+1494,254,2017-12-25T00:03:17Z,,2016-10-01,Others
+1495,326,2017-12-25T00:01:49Z,,2016-12-01,Others
+1496,291,2017-12-25T00:01:11Z,,2016-11-01,Others
+1497,214,2017-12-25T00:00:36Z,,2016-08-01,Others
+1498,407,2017-12-24T23:59:48Z,,2017-02-01,Others
+1499,199,2017-12-24T23:58:43Z,,2016-06-01,Others
+1500,303,2017-12-24T23:58:03Z,,2016-12-01,Others
+1501,372,2017-12-24T23:57:26Z,,2017-01-01,Others
+1502,373,2017-12-24T23:56:00Z,,2017-01-01,Others
+1503,422,2017-12-24T23:55:18Z,,2017-02-01,Others
+1504,228,2017-12-24T23:52:17Z,,2016-09-01,Others
+1505,288,2017-12-24T23:51:52Z,,2016-11-01,Others
+1506,343,2017-12-24T23:51:26Z,,2017-01-01,Others
+1507,359,2017-12-24T23:51:00Z,,2017-01-01,Others
+1508,366,2017-12-24T23:50:44Z,,2017-01-01,Others
+1509,501,2017-12-24T23:48:30Z,,2017-04-01,Others
+1510,510,2017-12-24T23:47:57Z,,2017-04-01,Others
+1511,515,,Contribution Welcome,2017-04-01,Contribution Welcome
+1512,526,,Contribution Welcome,2017-04-01,Contribution Welcome
+1513,532,2017-12-24T23:47:24Z,,2017-04-01,Others
+1514,558,2017-12-24T23:46:53Z,,2017-05-01,Others
+1515,585,,Contribution Welcome,2017-06-01,Contribution Welcome
+1516,601,2017-12-24T23:45:52Z,,2017-06-01,Others
+1517,691,2017-12-24T22:23:02Z,,2017-07-01,Others
+1518,692,2017-12-24T22:22:38Z,,2017-07-01,Others
+1519,810,2017-12-24T22:20:55Z,,2017-08-01,Others
+1520,843,2017-12-24T22:19:56Z,,2017-09-01,Others
+1521,894,2017-12-24T22:18:04Z,,2017-10-01,Others
+1522,900,2017-12-24T22:03:44Z,,2017-10-01,Others
+1523,953,2017-12-24T22:02:25Z,,2017-11-01,Others
+1524,974,2017-12-22T01:13:34Z,,2017-12-01,Others
+1525,980,2017-12-21T23:04:29Z,,2017-12-01,Others
+1526,768,2017-12-13T19:10:04Z,,2017-08-01,Others
+1527,959,2017-12-12T01:51:59Z,,2017-12-01,Others
+1528,912,2017-12-11T01:11:36Z,,2017-10-01,Others
+1529,955,2017-12-06T22:48:34Z,Good First Contribution,2017-12-01,Good First Contribution
+1530,956,2017-12-05T18:54:38Z,,2017-12-01,Others
+1531,947,2017-12-03T20:42:02Z,,2017-11-01,Others
+1532,913,2017-11-30T06:17:16Z,,2017-10-01,Others
+1533,946,2017-11-29T04:24:06Z,,2017-11-01,Others
+1534,941,2017-11-29T02:30:50Z,,2017-11-01,Others
+1535,942,2017-11-22T19:22:10Z,,2017-11-01,Others
+1536,938,2017-11-14T23:38:53Z,,2017-11-01,Others
+1537,415,2017-02-24T18:57:33Z,,2017-02-01,Others
+1538,922,2017-11-06T00:03:16Z,,2017-11-01,Others
+1539,876,2017-11-03T05:54:56Z,,2017-10-01,Others
+1540,896,2017-10-29T07:53:46Z,,2017-10-01,Others
+1541,898,2017-10-27T14:53:00Z,,2017-10-01,Others
+1542,881,2017-10-26T23:11:43Z,,2017-10-01,Others
+1543,903,2017-10-26T23:08:54Z,,2017-10-01,Others
+1544,669,2017-10-24T18:22:10Z,,2017-07-01,Others
+1545,785,2017-10-20T21:10:24Z,,2017-08-01,Others
+1546,535,2017-10-19T04:56:46Z,,2017-04-01,Others
+1547,884,2017-10-17T23:41:01Z,,2017-10-01,Others
+1548,591,2017-10-15T22:01:40Z,,2017-06-01,Others
+1549,600,2017-10-15T22:01:19Z,,2017-06-01,Others
+1550,602,2017-10-15T22:00:52Z,,2017-06-01,Others
+1551,668,2017-10-15T22:00:25Z,,2017-07-01,Others
+1552,673,2017-10-12T18:05:54Z,,2017-07-01,Others
+1553,777,2017-10-12T18:05:08Z,,2017-08-01,Others
+1554,790,2017-10-12T18:04:04Z,,2017-08-01,Others
+1555,792,2017-10-12T18:00:28Z,,2017-08-01,Others
+1556,870,2017-10-07T17:53:24Z,,2017-10-01,Others
+1557,858,2017-10-03T14:00:52Z,,2017-09-01,Others
+1558,838,2017-09-21T19:30:07Z,,2017-09-01,Others
+1559,834,2017-09-11T21:47:45Z,,2017-09-01,Others
+1560,827,2017-09-08T00:42:03Z,,2017-09-01,Others
+1561,821,2017-09-06T01:09:56Z,,2017-09-01,Others
+1562,818,2017-09-06T01:08:17Z,,2017-09-01,Others
+1563,812,2017-09-01T19:15:51Z,,2017-08-01,Others
+1564,795,2017-08-26T19:27:32Z,,2017-08-01,Others
+1565,715,2017-08-22T12:53:35Z,,2017-08-01,Others
+1566,720,2017-08-21T23:42:33Z,,2017-08-01,Others
+1567,761,2017-08-21T23:37:29Z,,2017-08-01,Others
+1568,728,2017-08-21T23:36:55Z,,2017-08-01,Others
+1569,742,2017-08-21T23:35:35Z,,2017-08-01,Others
+1570,744,2017-08-21T23:34:58Z,,2017-08-01,Others
+1571,676,2017-08-19T01:04:11Z,,2017-07-01,Others
+1572,769,2017-08-18T11:54:03Z,,2017-08-01,Others
+1573,764,2017-08-16T13:27:04Z,,2017-08-01,Others
+1574,743,2017-08-10T20:19:40Z,,2017-08-01,Others
+1575,716,2017-08-07T10:55:59Z,,2017-08-01,Others
+1576,722,2017-08-04T21:37:00Z,,2017-08-01,Others
+1577,714,2017-08-04T21:00:34Z,,2017-08-01,Others
+1578,679,2017-08-04T19:39:00Z,,2017-07-01,Others
+1579,726,2017-08-04T17:09:07Z,,2017-08-01,Others
+1580,677,2017-08-02T18:50:15Z,,2017-07-01,Others
+1581,659,2017-08-01T23:26:16Z,,2017-07-01,Others
+1582,695,2017-07-29T06:56:51Z,,2017-07-01,Others
+1583,700,2017-07-29T06:53:02Z,,2017-07-01,Others
+1584,684,2017-07-27T22:36:21Z,,2017-07-01,Others
+1585,699,2017-07-27T22:18:48Z,,2017-07-01,Others
+1586,685,2017-07-21T03:57:12Z,,2017-07-01,Others
+1587,678,2017-07-20T05:31:40Z,,2017-07-01,Others
+1588,663,2017-07-17T16:16:49Z,,2017-07-01,Others
+1589,649,2017-07-12T22:53:36Z,,2017-07-01,Others
+1590,576,2017-07-12T16:00:31Z,,2017-05-01,Others
+1591,639,2017-07-11T03:45:05Z,,2017-06-01,Others
+1592,579,2017-07-11T00:17:25Z,,2017-05-01,Others
+1593,624,2017-07-11T00:16:56Z,,2017-06-01,Others
+1594,625,2017-07-11T00:15:54Z,,2017-06-01,Others
+1595,648,2017-07-08T15:42:46Z,,2017-07-01,Others
+1596,645,2017-07-06T22:00:25Z,,2017-07-01,Others
+1597,623,2017-07-05T23:18:30Z,,2017-06-01,Others
+1598,555,2017-07-05T22:42:24Z,,2017-05-01,Others
+1599,490,2017-07-05T22:40:23Z,,2017-03-01,Others
+1600,489,2017-07-05T22:39:01Z,,2017-03-01,Others
+1601,486,2017-07-05T22:38:47Z,,2017-03-01,Others
+1602,476,2017-07-05T22:38:36Z,,2017-03-01,Others
+1603,467,2017-07-05T22:38:01Z,,2017-03-01,Others
+1604,441,2017-07-05T22:37:41Z,,2017-03-01,Others
+1605,463,2017-07-05T22:37:21Z,,2017-03-01,Others
+1606,439,2017-07-05T22:37:00Z,,2017-03-01,Others
+1607,376,2017-07-05T22:36:17Z,,2017-01-01,Others
+1608,349,2017-07-05T22:35:57Z,,2017-01-01,Others
+1609,333,2017-07-05T22:35:15Z,,2016-12-01,Others
+1610,215,2017-07-05T22:34:52Z,,2016-08-01,Others
+1611,619,2017-07-05T02:47:23Z,,2017-06-01,Others
+1612,622,2017-07-05T02:30:54Z,,2017-06-01,Others
+1613,626,2017-06-29T18:10:02Z,,2017-06-01,Others
+1614,632,2017-06-29T18:09:19Z,,2017-06-01,Others
+1615,207,2017-06-28T13:54:27Z,,2016-07-01,Others
+1616,371,2017-05-22T21:15:53Z,,2017-01-01,Others
+1617,590,2017-06-13T01:52:43Z,,2017-06-01,Others
+1618,593,2017-06-13T01:52:01Z,,2017-06-01,Others
+1619,583,2017-06-07T13:19:33Z,,2017-06-01,Others
+1620,573,2017-06-06T20:03:31Z,,2017-05-01,Others
+1621,581,2017-06-06T00:23:03Z,,2017-06-01,Others
+1622,398,2017-05-22T21:15:27Z,,2017-02-01,Others
+1623,536,2017-05-04T05:39:08Z,,2017-04-01,Others
+1624,534,2017-05-04T04:00:46Z,,2017-04-01,Others
+1625,329,2017-04-19T16:28:05Z,,2016-12-01,Others
+1626,331,2017-04-19T16:27:45Z,,2016-12-01,Others
+1627,338,2017-04-19T16:27:29Z,,2016-12-01,Others
+1628,494,2017-04-14T04:51:54Z,,2017-03-01,Others
+1629,502,2017-04-06T23:40:30Z,,2017-04-01,Others
+1630,457,2017-04-06T00:43:48Z,,2017-03-01,Others
+1631,499,2017-04-01T19:02:16Z,,2017-04-01,Others
+1632,429,2017-03-29T21:46:27Z,,2017-03-01,Others
+1633,427,2017-03-29T18:32:37Z,,2017-02-01,Others
+1634,469,2017-03-29T18:31:52Z,,2017-03-01,Others
+1635,491,2017-03-27T22:49:47Z,,2017-03-01,Others
+1636,480,2017-03-20T06:17:01Z,,2017-03-01,Others
+1637,456,2017-03-14T17:52:59Z,,2017-03-01,Others
+1638,466,2017-03-14T20:05:56Z,,2017-03-01,Others
+1639,453,2017-03-13T19:23:21Z,,2017-03-01,Others
+1640,433,2017-03-12T01:09:03Z,,2017-03-01,Others
+1641,451,2017-03-12T01:08:07Z,,2017-03-01,Others
+1642,458,2017-03-11T00:23:13Z,,2017-03-01,Others
+1643,450,2017-03-09T22:30:35Z,,2017-03-01,Others
+1644,437,2017-03-09T00:03:36Z,,2017-03-01,Others
+1645,421,2017-03-06T18:37:56Z,,2017-02-01,Others
+1646,430,2017-03-03T06:33:48Z,,2017-03-01,Others
+1647,413,2017-02-26T02:46:19Z,,2017-02-01,Others
+1648,414,2017-02-24T01:14:34Z,,2017-02-01,Others
+1649,375,2017-02-20T07:58:10Z,,2017-01-01,Others
+1650,378,2017-02-17T06:37:49Z,,2017-01-01,Others
+1651,397,2017-02-16T23:48:29Z,,2017-02-01,Others
+1652,387,2017-02-16T23:48:20Z,,2017-02-01,Others
+1653,402,2017-02-16T23:06:16Z,,2017-02-01,Others
+1654,408,2017-02-16T21:47:35Z,,2017-02-01,Others
+1655,394,2017-02-16T21:34:55Z,,2017-02-01,Others
+1656,401,2017-02-16T19:15:30Z,,2017-02-01,Others
+1657,299,2017-02-16T18:55:55Z,,2016-12-01,Others
+1658,386,2017-02-11T03:11:48Z,,2017-02-01,Others
+1659,389,2017-02-11T02:53:06Z,,2017-02-01,Others
+1660,391,2017-02-08T02:22:00Z,,2017-02-01,Others
+1661,384,2017-02-02T19:15:04Z,,2017-02-01,Others
+1662,132,2017-02-02T17:15:12Z,,2016-03-01,Others
+1663,263,2017-02-02T17:09:38Z,,2016-10-01,Others
+1664,367,2017-01-21T22:07:38Z,,2017-01-01,Others
+1665,355,2017-01-16T09:08:43Z,,2017-01-01,Others
+1666,275,2017-01-15T03:09:46Z,,2016-11-01,Others
+1667,301,2017-01-15T03:09:08Z,,2016-12-01,Others
+1668,296,2017-01-15T03:01:31Z,,2016-11-01,Others
+1669,345,2017-01-15T02:59:18Z,,2017-01-01,Others
+1670,351,2017-01-10T18:40:02Z,,2017-01-01,Others
+1671,352,2017-01-10T18:32:09Z,,2017-01-01,Others
+1672,328,2017-01-07T23:18:04Z,,2016-12-01,Others
+1673,342,2017-01-07T23:17:20Z,,2017-01-01,Others
+1674,341,2017-01-06T00:21:02Z,,2017-01-01,Others
+1675,334,2016-12-31T04:25:35Z,,2016-12-01,Others
+1676,321,2016-12-27T07:01:01Z,,2016-12-01,Others
+1677,248,2016-12-27T04:25:11Z,,2016-10-01,Others
+1678,322,2016-12-20T18:53:13Z,,2016-12-01,Others
+1679,293,2016-12-20T04:05:53Z,,2016-11-01,Others
+1680,29,2016-12-20T01:37:29Z,,2015-11-01,Others
+1681,209,2016-12-18T00:35:21Z,,2016-07-01,Others
+1682,123,2016-12-18T00:34:09Z,,2016-03-01,Others
+1683,31,2016-12-17T22:50:56Z,,2015-11-01,Others
+1684,195,2016-12-17T22:49:38Z,,2016-05-01,Others
+1685,105,2016-12-17T21:48:35Z,,2016-02-01,Others
+1686,256,2016-12-17T21:47:41Z,,2016-10-01,Others
+1687,253,2016-12-17T21:46:30Z,,2016-10-01,Others
+1688,255,2016-12-17T21:45:44Z,,2016-10-01,Others
+1689,267,2016-12-17T21:45:20Z,,2016-10-01,Others
+1690,265,2016-12-17T21:44:56Z,,2016-10-01,Others
+1691,279,2016-12-17T21:41:23Z,,2016-11-01,Others
+1692,314,2016-12-17T21:41:02Z,,2016-12-01,Others
+1693,315,2016-12-17T21:40:46Z,,2016-12-01,Others
+1694,318,2016-12-17T21:39:46Z,,2016-12-01,Others
+1695,310,2016-12-10T19:15:22Z,,2016-12-01,Others
+1696,308,2016-12-09T01:11:56Z,,2016-12-01,Others
+1697,307,2016-12-07T01:13:02Z,,2016-12-01,Others
+1698,304,2016-12-05T21:43:53Z,,2016-12-01,Others
+1699,264,2016-11-03T19:47:59Z,,2016-10-01,Others
+1700,250,2016-10-29T19:38:40Z,,2016-10-01,Others
+1701,257,2016-10-18T04:12:56Z,,2016-10-01,Others
+1702,243,2016-10-15T23:23:15Z,,2016-09-01,Others
+1703,236,2016-10-04T21:03:12Z,,2016-09-01,Others
+1704,25,2016-09-29T23:48:29Z,,2015-11-01,Others
+1705,200,2016-09-21T22:25:50Z,,2016-06-01,Others
+1706,197,2016-09-21T22:24:39Z,,2016-06-01,Others
+1707,21,2016-09-21T22:23:15Z,,2015-11-01,Others
+1708,232,2016-09-21T20:51:44Z,,2016-09-01,Others
+1709,160,2016-09-14T01:50:08Z,,2016-04-01,Others
+1710,224,2016-09-07T08:24:01Z,,2016-09-01,Others
+1711,222,2016-09-07T08:23:19Z,,2016-09-01,Others
+1712,169,2016-09-07T08:19:25Z,,2016-05-01,Others
+1713,223,2016-09-06T20:13:44Z,,2016-09-01,Others
+1714,221,2016-09-06T19:08:23Z,,2016-09-01,Others
+1715,208,2016-09-02T00:57:23Z,,2016-07-01,Others
+1716,198,2016-08-14T20:02:11Z,,2016-06-01,Others
+1717,137,2016-08-02T19:02:56Z,,2016-03-01,Others
+1718,97,2016-08-02T19:02:16Z,,2016-02-01,Others
+1719,52,2016-08-02T19:01:09Z,,2016-01-01,Others
+1720,43,2016-08-02T19:00:21Z,,2015-12-01,Others
+1721,90,2016-08-02T18:58:54Z,,2016-02-01,Others
+1722,150,2016-08-02T18:58:21Z,,2016-04-01,Others
+1723,118,2016-08-02T18:57:57Z,,2016-03-01,Others
+1724,121,2016-08-02T18:55:56Z,,2016-03-01,Others
+1725,152,2016-08-02T18:50:23Z,,2016-04-01,Others
+1726,164,2016-08-02T18:43:21Z,,2016-04-01,Others
+1727,168,2016-08-02T18:40:47Z,,2016-05-01,Others
+1728,181,2016-08-02T18:39:35Z,,2016-05-01,Others
+1729,183,2016-08-02T18:36:47Z,,2016-05-01,Others
+1730,83,2016-05-23T23:54:15Z,,2016-02-01,Others
+1731,84,2016-05-23T23:53:11Z,,2016-02-01,Others
+1732,86,2016-05-23T23:52:14Z,,2016-02-01,Others
+1733,88,2016-05-23T23:51:31Z,,2016-02-01,Others
+1734,107,2016-05-23T23:49:41Z,,2016-02-01,Others
+1735,172,2016-05-23T23:48:41Z,,2016-05-01,Others
+1736,95,2016-05-23T23:47:25Z,,2016-02-01,Others
+1737,108,2016-05-23T23:38:39Z,,2016-02-01,Others
+1738,180,2016-05-23T23:37:58Z,,2016-05-01,Others
+1739,185,2016-05-14T11:18:46Z,,2016-05-01,Others
+1740,41,2016-05-09T21:46:24Z,,2015-12-01,Others
+1741,68,2016-05-09T21:45:30Z,,2016-01-01,Others
+1742,66,2016-05-09T21:44:41Z,,2016-01-01,Others
+1743,79,2016-05-09T21:43:34Z,,2016-02-01,Others
+1744,56,2016-05-09T21:41:55Z,,2016-01-01,Others
+1745,62,2016-05-09T21:40:14Z,,2016-01-01,Others
+1746,85,2016-05-09T21:38:42Z,,2016-02-01,Others
+1747,111,2016-05-09T21:35:36Z,,2016-03-01,Others
+1748,149,2016-05-09T21:34:58Z,,2016-04-01,Others
+1749,161,2016-05-09T21:33:56Z,,2016-04-01,Others
+1750,174,2016-05-09T21:18:59Z,,2016-05-01,Others
+1751,158,2016-04-30T23:09:17Z,,2016-04-01,Others
+1752,148,2016-04-19T00:49:14Z,,2016-04-01,Others
+1753,140,2016-04-03T05:27:24Z,,2016-03-01,Others
+1754,47,2016-04-03T05:26:54Z,,2016-01-01,Others
+1755,134,2016-04-03T05:25:51Z,,2016-03-01,Others
+1756,143,2016-03-30T07:07:05Z,,2016-03-01,Others
+1757,131,2016-03-29T01:30:53Z,,2016-03-01,Others
+1758,130,2016-03-29T00:34:34Z,,2016-03-01,Others
+1759,129,2016-03-29T00:02:26Z,,2016-03-01,Others
+1760,98,2016-03-21T22:25:59Z,,2016-02-01,Others
+1761,67,2016-03-13T03:55:44Z,,2016-01-01,Others
+1762,112,2016-03-10T06:50:01Z,,2016-03-01,Others
+1763,51,2016-02-24T04:26:53Z,,2016-01-01,Others
+1764,80,2016-02-24T04:26:41Z,,2016-02-01,Others
+1765,89,2016-02-24T04:26:28Z,,2016-02-01,Others
+1766,61,2016-02-24T04:20:21Z,,2016-01-01,Others
+1767,92,2016-02-18T01:52:05Z,,2016-02-01,Others
+1768,65,2016-02-04T00:19:05Z,,2016-01-01,Others
+1769,42,2016-02-04T00:20:15Z,,2015-12-01,Others
+1770,64,2016-02-04T00:19:36Z,,2016-01-01,Others
+1771,78,2016-02-04T00:17:46Z,,2016-02-01,Others
+1772,63,2016-01-29T10:20:12Z,,2016-01-01,Others
+1773,53,2016-01-26T06:06:21Z,,2016-01-01,Others
+1774,54,2016-01-26T06:05:57Z,,2016-01-01,Others
+1775,37,2016-01-26T06:04:50Z,,2015-12-01,Others
+1776,10,2016-01-26T01:11:19Z,,2015-11-01,Others
+1777,40,2016-01-26T01:09:41Z,,2015-12-01,Others
+1778,23,2016-01-19T00:56:30Z,,2015-11-01,Others
+1779,33,2016-01-18T01:30:13Z,,2015-12-01,Others
+1780,38,2016-01-18T01:28:55Z,,2015-12-01,Others
+1781,17,2016-01-18T00:27:03Z,,2015-11-01,Others
+1782,18,2016-01-18T00:25:51Z,,2015-11-01,Others
+1783,20,2016-01-18T00:25:33Z,,2015-11-01,Others
+1784,22,2016-01-18T00:24:49Z,,2015-11-01,Others
+1785,24,2016-01-18T00:23:58Z,,2015-11-01,Others
+1786,34,2016-01-18T00:21:07Z,,2015-12-01,Others
+1787,36,2016-01-18T00:19:24Z,,2015-12-01,Others
+1788,39,2016-01-18T00:16:58Z,,2015-12-01,Others
+1789,15,2015-11-20T01:22:43Z,,2015-11-01,Others
+1790,11,2015-11-09T22:34:07Z,,2015-11-01,Others
+1791,9,2015-11-02T23:20:34Z,,2015-11-01,Others

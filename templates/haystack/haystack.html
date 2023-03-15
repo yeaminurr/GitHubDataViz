@@ -1,84 +1,17 @@
 <!DOCTYPE html>
+{% extends 'base.html' %}
 {% load static %}
 
-<head>
-<meta charset="utf-8">
-<style>
 
-.links line {
-  stroke-width: 3px;
-  stroke-opacity: 80%;
-}
-
-.nodes circle {
-  stroke: #fff;
-  stroke-width: 1.5px;
-}
-
-text {
-  font-family: sans-serif;
-  font-size: 10px;
-}
+{% block body_block %}
 
 
 
 
-#myInput {
-  box-sizing: border-box;
-  background-image: url('searchicon.png');
-  background-position: 14px 5px;
-  background-repeat: no-repeat;
-  font-size: 16px;
-  padding: 10px 50px 8px 45px;
-  border: none;
-  border-bottom: 1px solid #ddd;
-    background-color: #dddddd;
-    color: #333333;
-
-
-}
-
-
-#myInput:focus {outline: 3px solid #ddd;}
-
-#containerforscroll{ border:2px solid #ccc; width:300px; height: 300px; overflow-y: scroll;}
 
 
 
 
-</style>
-    <script src="http://www.w3schools.com/lib/w3data.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-
-    <script src=
-"https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js">
-    </script>
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-     <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
-
-
-<script>
-    $(function(){
-      $("#includedContent").load('{% static 'haystack/render.html' %}');
-    });
-    </script>
-
-</head>
-
-
-<body style="background-color: #F7F7F7">
-
-<nav class="navbar sticky-top navbar-expand-sm navbar-light" style="background-color: #1d3557;">
-    <div class="container-fluid" style="text-align: center">
- <a class="navbar-brand text-white mx-auto" href="#" style="text-align: center">GitHub</a>
-     </div>
-
-    </div>
-
-</nav>
 
 
 <div class="container">
@@ -128,7 +61,7 @@ text {
  <div class="col-3">
     </div>
 
- </div>
+
 
 
 <script>
@@ -989,4 +922,4 @@ d3.csv('{% static 'haystack/user_catcopy.csv' %}',function (data) {
 
 
 </div>
-</body>
+{% endblock %}

@@ -37,7 +37,7 @@ flag = True
 
 
 from sklearn.preprocessing import MinMaxScaler
-dataseti = pd.read_csv(Path.joinpath(staticdir, "../static/git/facebook-react-native-issues.csv"))
+dataseti = pd.read_csv(Path.joinpath(staticdir, "../static/git/deepchem-deepchem-issues.csv"))
 dataseti["Created At"]= pd.to_datetime(dataseti["Created At"])
 dataseti["just_month"]=dataseti["Created At"].dt.strftime('%Y-%m')
 dataseti["just_month"]= pd.to_datetime(dataseti["just_month"])
@@ -50,14 +50,14 @@ datasetissueshort = datasetissue[["id","Created At","Closed At","Labels","just_m
 # datasetissueshort["just_month"]=datasetissueshort["Created At"].dt.strftime('%Y-%m')
 # datasetissueshort["just_month"]= pd.to_datetime(datasetissueshort["just_month"])
 # datasetissueshort["Labels"]=datasetissueshort["Labels"].fillna("Others")
-pullset = pd.read_csv(Path.joinpath(staticdir, "../static/git/facebook-react-native-pulls (latest).csv"))
+pullset = pd.read_csv(Path.joinpath(staticdir, "../static/git/deepchem-deepchem-pulls.csv"))
 pullset = pullset[pullset['merged'].notna()]
 pullset["merged"] = pd.to_datetime(pullset["merged"],format="%Y-%m-%d")
 pullbytime = pullset[["issue_id","merged","changed_files","pull_id"]]
 #pullbytime['just_date'] =
 
 pullbytime["just_month"] = pd.to_datetime(pullbytime["merged"].dt.strftime('%Y-%m'))
-user_cat = pd.read_csv(Path.joinpath(staticdir, "../static/git/user_catelog-react.csv"))
+user_cat = pd.read_csv(Path.joinpath(staticdir, "../static/git/user_catelog.csv"))
 datasetcomment = dataseti[dataseti["Type"]=="comment"]
 t10colab = datasetcomment[["id","just_month","Title"]]
 t10colab.rename(columns={"id": "issue_id","Title":"username","just_month":"only_month"	},inplace = True)
@@ -72,7 +72,7 @@ from functools import reduce
 # location = Path.joinpath(staticdir, "../static/git/datasetissueshortnot_othersc.csv")
 # dataset = pd.read_csv(location)
 labelarraynew = []
-labellist = pd.read_csv(Path.joinpath(staticdir, "../static/git/labellist-react.csv"))
+labellist = pd.read_csv(Path.joinpath(staticdir, "../static/git/labellist.csv"))
 
 
 
@@ -84,14 +84,14 @@ labellist = pd.read_csv(Path.joinpath(staticdir, "../static/git/labellist-react.
 labelarray = list(labellist["name"])
 labelarray.append("Others")
 
-issue_pull = pd.read_csv(Path.joinpath(staticdir, "../static/git/issue_pull-react.csv"))
+issue_pull = pd.read_csv(Path.joinpath(staticdir, "../static/git/issue_pull.csv"))
 
 scaler_ip = MinMaxScaler(feature_range=(3, 10))
 scaled_ip = scaler_ip.fit_transform(issue_pull[["changed_files"]])
 issue_pull["changed_files_scaled"] = scaled_ip
 issue_pull.loc[(issue_pull["changed_files_scaled"]==200),"changed_files_scaled"]=0
 filedir = Path.joinpath(staticdir, "../static/git")
-issue_pull.to_csv(Path.joinpath(filedir, "issue_pull-react.csv"))
+issue_pull.to_csv(Path.joinpath(filedir, "issue_pull.csv"))
 
 date = {}
 def githubproject(request):
@@ -101,7 +101,7 @@ def githubproject(request):
     # ran2 = Path.joinpath(staticdir, "../static/git/datasetissueshortnot_othersc.csv")
     # datasetissueshortnot_othersc = pd.read_csv(ran2)
 
-    icat = Path.joinpath(staticdir, "../static/git/issue_catelog-react.csv")
+    icat = Path.joinpath(staticdir, "../static/git/issue_catelog.csv")
     icatdata = pd.read_csv(icat)
 
     #doing the popup task for issue table
@@ -148,7 +148,7 @@ def pull_table(request):
         data = request.POST.get("date", None)
         print("asi")
         print(data)
-        ran2 = Path.joinpath(staticdir, "../static/git/pull_table-react.csv")
+        ran2 = Path.joinpath(staticdir, "../static/git/pull_table.csv")
         pulltable = pd.read_csv(ran2)
         pulltable.rename(columns={"issue_id":"Pull ID","changed_files":"Code Changes"},inplace=True)
         pulltable = pulltable[pulltable["just_month"] == data]
@@ -244,7 +244,7 @@ def labelsort(request):
     return HttpResponse(status=204)
 
 
-user_cat = pd.read_csv(Path.joinpath(staticdir, "../static/git/user_catelog-react.csv"))
+user_cat = pd.read_csv(Path.joinpath(staticdir, "../static/git/user_catelog.csv"))
 def commentcat(request):
     #This function is only for fetching the user list who commented on a perticular time(after clicking on barchart)
     global user_cat
