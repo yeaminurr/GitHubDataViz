@@ -70,34 +70,41 @@ var c = new Date(year - 3, month, day);
 var d =  c.toISOString().substring(0, 10);
 
     //Datepicker
-    start_date = d
-    end_date = "2080-01-01"
+    let start_date = d
+    let end_date = "2080-01-01"
+    let getChex=""
     $( function() {
     $( "#datepicker" ).datepicker({ dateFormat: "yy-mm-dd" });
     $("#datepicker").on("change",function(){
         start_date = $(this).val();
         //console.log(start_date);
-        d3.select("#svg1 g").remove();
-        d3.select("#svg1 path").remove();
+        labelsend();
 
-        updateLine();
 
-        d3.select("#svgbar g").remove();
-        d3.select("#svgbar path").remove();
-        updateBar();
+        // d3.select("#svg1 g").remove();
+        // d3.select("#svg1 path").remove();
+        //
+        // updateLine();
+        //
+        // d3.select("#svgbar g").remove();
+        // d3.select("#svgbar path").remove();
+        // updateBar();
     });
     $( "#datepicker2" ).datepicker({ dateFormat: "yy-mm-dd" });
     $("#datepicker2").on("change",function(){
         end_date = $(this).val();
         //console.log(start_date);
-        d3.select("#svg1 g").remove();
-        d3.select("#svg1 path").remove();
 
-        updateLine();
+        labelsend();
 
-        d3.select("#svgbar g").remove();
-        d3.select("#svgbar path").remove();
-        updateBar();
+        // d3.select("#svg1 g").remove();
+        // d3.select("#svg1 path").remove();
+        //
+        // updateLine();
+        //
+        // d3.select("#svgbar g").remove();
+        // d3.select("#svgbar path").remove();
+        // updateBar();
     });
 
 
@@ -131,6 +138,7 @@ elem.forEach(item => item.addEventListener('change', getChecked))
 function getChecked() {
   getChex = elem.filter(item => item.checked).map(item => item.value)
   //console.log(getChex)
+
 }
 var srca = '{% static 'git/issue_pull.csv' %}';
 var baraddress = '{% static 'git/commentboard.csv' %}';
@@ -150,7 +158,7 @@ function labelsend(){
                               type: "POST",
                               url:"{% url 'labelsort' %}",
                               data:{  csrfmiddlewaretoken: '{{ csrf_token }}',
-                                  labels: tempvar}
+                                  labels: tempvar,st_date:start_date,end_date:end_date}
                             }).done(function(){
                                 d3.select("#svg1 g").remove();
                                 d3.select("#svg1 path").remove();
@@ -243,7 +251,8 @@ function labelsend(){
                     rvalue:d.scaled,
                     pull : d.Total_pull,
                     cf: d.changed_files_scaled,
-                    cf_org: d.changed_files
+                    cf_org: d.changed_files,
+                    issue_ratio : d.ratio
                 }}
             },
 
@@ -348,7 +357,7 @@ function labelsend(){
                             .style("left",d3.event.pageX+"px")
                             .style("top",d3.event.pageY+10+"px")
                         .style("font-weight","bold");
-                        tooltip.html(Number(d.rvalue*100).toFixed(2)+"% issue solved");
+                        tooltip.html(Number(d.issue_ratio*100).toFixed(2)+"% issue solved");
                         })
                      .on("mouseout",function(){
                          tooltip.style("opacity",0)

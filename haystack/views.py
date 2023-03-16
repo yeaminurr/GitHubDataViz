@@ -168,6 +168,8 @@ def labelsort(request):
     send_data["Labels"] = labelarray
     if request.method == 'POST':
         data = request.POST.get("labels", None)
+        st_date = request.POST.get("st_date", None)
+        en_date = request.POST.get("end_date", None)
         print(data)
 
 
@@ -199,7 +201,17 @@ def labelsort(request):
         allissue = allissue.sort_values(by='just_month').rename(columns={'just_month': 'date'})
         allissue["date"]= pd.to_datetime(allissue["date"])
 
-        allissue_scaler = MinMaxScaler()
+        print(st_date, en_date)
+        if st_date != None:
+            allissue = allissue[(allissue["date"] > st_date)]
+        if en_date != None:
+            allissue = allissue[(allissue["date"] < en_date)]
+
+        scaler = MinMaxScaler()
+        scaled = scaler.fit_transform(allissue[["ratio"]])
+        allissue["scaled"] = scaled
+
+        allissue_scaler = MinMaxScaler(feature_range=(3, 10))
         allissue_scaled = allissue_scaler.fit_transform(allissue[["changed_files"]])
         allissue["changed_files_scaled"] = allissue_scaled
 

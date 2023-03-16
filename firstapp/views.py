@@ -168,11 +168,17 @@ def labelsort(request):
     send_data["Labels"] = labelarray
     if request.method == 'POST':
         data = request.POST.get("labels", None)
+        st_date = request.POST.get("st_date", None)
+        en_date= request.POST.get("end_date", None)
         print(data)
 
 
         data = data.split(",")
         temp_datasetissueshort=datasetissueshort.copy()
+
+
+
+
         temp_datasetissueshort = temp_datasetissueshort[temp_datasetissueshort["Labels"].str.contains('|'.join(data))]
         newforviz = temp_datasetissueshort.groupby(["just_month"])["just_month"].count()
 
@@ -183,9 +189,11 @@ def labelsort(request):
         issuewith_time["closed_issue"] = onlyclosedissue
         issuewith_time["ratio"] = issuewith_time["closed_issue"] / issuewith_time["Total_issue"]
 
-        scaler = MinMaxScaler()
-        scaled = scaler.fit_transform(issuewith_time[["ratio"]])
-        issuewith_time["scaled"] = scaled
+        print(issuewith_time)
+
+        # scaler = MinMaxScaler()
+        # scaled = scaler.fit_transform(issuewith_time[["ratio"]])
+        # issuewith_time["scaled"] = scaled
         temp_pullbytime = pullbytime[pullbytime['issue_id'].isin(temp_datasetissueshort['id'])]
         g = temp_pullbytime.groupby(["just_month"])["just_month"].count().to_frame()
         g = g.rename(columns={'just_month': 'Total_pull'})
@@ -197,11 +205,28 @@ def labelsort(request):
         allissue = pd.merge(Pull_Issue, s["just_month"], on='just_month', how='outer')
         allissue = allissue.fillna(0)
         allissue = allissue.sort_values(by='just_month').rename(columns={'just_month': 'date'})
+
+
+
         allissue["date"]= pd.to_datetime(allissue["date"])
 
-        allissue_scaler = MinMaxScaler()
+
+        print(st_date,en_date)
+        if st_date!=None:
+            allissue= allissue[(allissue["date"]>st_date)]
+        if en_date!=None:
+            allissue= allissue[(allissue["date"] < en_date)]
+
+        scaler = MinMaxScaler()
+        scaled = scaler.fit_transform(allissue[["ratio"]])
+        allissue["scaled"] = scaled
+
+
+        allissue_scaler = MinMaxScaler(feature_range=(3, 10))
         allissue_scaled = allissue_scaler.fit_transform(allissue[["changed_files"]])
         allissue["changed_files_scaled"] = allissue_scaled
+
+
 
         ran3 = Path.joinpath(staticdir, "../static/git")
         allissue.to_csv(Path.joinpath(ran3, "issue_pull_temp.csv"),index=False)
