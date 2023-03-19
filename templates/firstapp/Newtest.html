@@ -468,11 +468,13 @@ function labelsend(){
 	    .enter()
 	  .append('th')
 	    .text(function (d) { return d })
+        .style('border', '1px solid #000000');
 
 	var rows = tbody.selectAll('tr')
 	    .data(data)
 	    .enter()
 	  .append('tr')
+        .style('border', '1px solid #000000');
 
 	var cells = rows.selectAll('td')
 	    .data(function(row) {
@@ -483,6 +485,7 @@ function labelsend(){
       .enter()
     .append('td')
       .text(function (d) { return d.value })
+        .style('border', '1px solid #000000');
 
 
   return table;
@@ -551,8 +554,12 @@ d3.csv('{% static 'git/pulltable.csv' %}',function (data) {
 </div>
 
 
+ <div class="shadow-lg p-3 mb-5 bg-body rounded" >
 
-
+<div style="margin: auto; justify-content: center; position: relative;">
+{% include "firstapp/render (5).html" %}
+</div>
+ </div>
 
 {#BarChart#}
 

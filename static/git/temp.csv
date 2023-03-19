@@ -1,16 +1,38 @@
 ,id,Labels,unused,Closed At,issue_id,Importance Type
-0,3048,Others,1,Completed,3048.0,High
-1,3049,Others,1,Completed,3049.0,Medium
-2,3054,Others,1,Completed,3054.0,Medium
-3,3057,Others,1,Completed,,
-4,3059,Others,1,Incomplete,,
-5,3060,Others,1,Completed,3060.0,Low
-6,3061,Others,1,Incomplete,3061.0,Medium
-7,3062,Others,1,Incomplete,,
-8,3064,Others,1,Completed,3064.0,Medium
-9,3066,Others,1,Incomplete,3066.0,Medium
-10,3067,Others,1,Completed,3067.0,Medium
-11,3068,Others,1,Incomplete,3068.0,Medium
-12,3069,Others,1,Incomplete,3069.0,High
-13,3070,"bug,Contribution Welcome",1,Completed,,
-14,3071,Others,1,Incomplete,,
+0,1879,Others,1,Incomplete,1879.0,High
+1,1880,Others,1,Completed,1880.0,Medium
+2,1881,Others,1,Completed,1881.0,High
+3,1883,Others,1,Completed,1883.0,Low
+4,1885,Others,1,Completed,1885.0,Medium
+5,1887,Others,1,Incomplete,,
+6,1888,Others,1,Incomplete,1888.0,Medium
+7,1890,Others,1,Incomplete,1890.0,Low
+8,1891,bug,1,Completed,,
+9,1892,Others,1,Completed,1892.0,Low
+10,1897,Others,1,Incomplete,,
+11,1898,Others,1,Completed,1898.0,High
+12,1899,"Good First Contribution,Contribution Welcome",1,Incomplete,1899.0,High
+13,1900,"enhancement,help wanted,Good First Contribution,Contribution Welcome",1,Completed,1900.0,Medium
+14,1901,"enhancement,help wanted,Good First Contribution,Contribution Welcome",1,Incomplete,1901.0,Medium
+15,1903,Others,1,Incomplete,1903.0,Medium
+16,1905,Others,1,Completed,1905.0,High
+17,1906,Others,1,Incomplete,1906.0,High
+18,1907,discussion,1,Completed,1907.0,Low
+19,1908,"bug,Contribution Welcome",1,Incomplete,1908.0,Low
+20,1909,"bug,Good First Contribution,Contribution Welcome",1,Completed,,
+21,1910,"bug,discussion",1,Incomplete,1910.0,High
+22,1911,discussion,1,Completed,1911.0,Medium
+23,1914,discussion,1,Incomplete,1914.0,Medium
+24,1919,Others,1,Completed,,
+25,1922,"Good First Contribution,Contribution Welcome",1,Completed,1922.0,Medium
+26,1924,"Good First Contribution,Contribution Welcome",1,Incomplete,1924.0,High
+27,1925,discussion,1,Incomplete,1925.0,Medium
+28,1927,Others,1,Completed,1927.0,Medium
+29,1929,Others,1,Completed,1929.0,Medium
+30,1930,Others,1,Completed,1930.0,Medium
+31,1931,discussion,1,Incomplete,1931.0,Low
+32,1932,Others,1,Completed,1932.0,Medium
+33,1933,discussion,1,Incomplete,1933.0,Medium
+34,1935,discussion,1,Incomplete,1935.0,Medium
+35,1936,Others,1,Incomplete,1936.0,High
+36,1939,"enhancement,help wanted,Good First Contribution,Contribution Welcome",1,Completed,,

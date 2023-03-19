@@ -456,6 +456,8 @@ function labelsend(){
   <div class="row">
     <div class="col">
 
+
+
         <div id="mytable">
 <h5 id = "svgtable" width="1260" height="450" style="border: black"  ></h5>
 <script id = "tablescript">
@@ -472,11 +474,13 @@ function labelsend(){
 	    .enter()
 	  .append('th')
 	    .text(function (d) { return d })
+        .style('border', '1px solid #000000');
 
 	var rows = tbody.selectAll('tr')
 	    .data(data)
 	    .enter()
 	  .append('tr')
+        .style('border', '1px solid #000000');
 
 	var cells = rows.selectAll('td')
 	    .data(function(row) {
@@ -487,6 +491,7 @@ function labelsend(){
       .enter()
     .append('td')
       .text(function (d) { return d.value })
+                .style('border', '1px solid #000000');
 
 
   return table;
@@ -555,8 +560,11 @@ d3.csv('{% static 'haystack/pulltable.csv' %}',function (data) {
 </div>
 
 
-
-
+ <div class="shadow-lg p-3 mb-5 bg-body rounded" >
+<div style="margin: auto; justify-content: center; position: relative;">
+{% include "haystack/render.html" %}
+</div>
+      </div>
 
 {#BarChart#}
 
@@ -922,9 +930,7 @@ d3.csv('{% static 'haystack/user_catcopy.csv' %}',function (data) {
 
 
 
-<div style="margin: auto; justify-content: center; position: relative;">
-{% include "haystack/render.html" %}
-</div>
+
 
 
 
