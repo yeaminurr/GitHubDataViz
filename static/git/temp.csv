@@ -1,25 +1,56 @@
 ,id,Labels,unused,Closed At,issue_id,Importance Type
-0,2196,Others,1,Completed,2196.0,Medium
-1,2198,Others,1,Completed,2198.0,High
-2,2201,Others,1,Completed,2201.0,Medium
-3,2204,Others,1,Completed,2204.0,Medium
-4,2205,Others,1,Completed,,
-5,2206,Others,1,Incomplete,2206.0,High
-6,2207,Others,1,Completed,2207.0,Medium
-7,2210,Others,1,Completed,2210.0,High
-8,2211,Others,1,Completed,2211.0,Medium
-9,2214,Others,1,Incomplete,2214.0,Low
-10,2217,Others,1,Incomplete,2217.0,Medium
-11,2225,Others,1,Incomplete,2225.0,Medium
-12,2226,Others,1,Completed,2226.0,Medium
-13,2229,Others,1,Incomplete,2229.0,High
-14,2230,Others,1,Incomplete,2230.0,Medium
-15,2231,Others,1,Completed,2231.0,Low
-16,2233,Others,1,Incomplete,2233.0,Medium
-17,2237,Others,1,Completed,2237.0,Low
-18,2241,Others,1,Incomplete,2241.0,Medium
-19,2245,Others,1,Completed,2245.0,Medium
-20,2247,Others,1,Completed,2247.0,High
-21,2248,Others,1,Completed,2248.0,Medium
-22,2253,Others,1,Completed,2253.0,Low
-23,2254,Others,1,Completed,2254.0,Medium
+0,1940,"bug,help wanted",1,Incomplete,1940.0,High
+1,1941,Others,1,Completed,1941.0,High
+2,1942,discussion,1,Incomplete,1942.0,High
+3,1943,"bug,help wanted",1,Incomplete,,
+4,1944,"help wanted,Good First Contribution,Contribution Welcome",1,Completed,1944.0,High
+5,1946,bug,1,Completed,1946.0,High
+6,1951,discussion,1,Incomplete,,
+7,1952,discussion,1,Incomplete,,
+8,1953,"enhancement,help wanted,Good First Contribution",1,Completed,1953.0,Medium
+9,1955,discussion,1,Completed,1955.0,High
+10,1956,"enhancement,help wanted,Contribution Welcome",1,Incomplete,1956.0,Medium
+11,1959,discussion,1,Incomplete,,
+12,1961,Others,1,Incomplete,1961.0,Medium
+13,1969,"help wanted,Good First Contribution,Contribution Welcome",1,Incomplete,1969.0,Medium
+14,1971,discussion,1,Incomplete,1971.0,Medium
+15,1972,discussion,1,Incomplete,1972.0,Medium
+16,1973,Others,1,Completed,1973.0,Medium
+17,1974,Others,1,Completed,1974.0,Medium
+18,1975,Others,1,Completed,1975.0,Medium
+19,1977,"enhancement,help wanted,Contribution Welcome",1,Incomplete,1977.0,Medium
+20,1978,"help wanted,Good First Contribution,Contribution Welcome",1,Completed,1978.0,Low
+21,1984,Others,1,Incomplete,1984.0,High
+22,1985,Others,1,Completed,1985.0,Medium
+23,1990,discussion,1,Completed,1990.0,High
+24,1999,"help wanted,Good First Contribution,Contribution Welcome",1,Completed,1999.0,Low
+25,2003,"enhancement,help wanted,Good First Contribution,Contribution Welcome",1,Incomplete,2003.0,Medium
+26,2004,discussion,1,Incomplete,,
+27,2005,discussion,1,Completed,2005.0,Medium
+28,2006,"help wanted,Good First Contribution,Contribution Welcome",1,Completed,2006.0,Medium
+29,2007,"help wanted,Good First Contribution,Contribution Welcome",1,Incomplete,2007.0,Low
+30,2009,"help wanted,Good First Contribution,Contribution Welcome",1,Completed,2009.0,Medium
+31,2013,"bug,help wanted",1,Incomplete,2013.0,High
+32,2014,"help wanted,Good First Contribution,Contribution Welcome",1,Incomplete,2014.0,High
+33,2016,Others,1,Completed,2016.0,Medium
+34,2021,Others,1,Incomplete,2021.0,High
+35,2022,"bug,help wanted,Good First Contribution,Contribution Welcome",1,Completed,2022.0,Medium
+36,2023,Others,1,Incomplete,2023.0,Low
+37,2029,Others,1,Incomplete,,
+38,2030,Others,1,Incomplete,2030.0,High
+39,2034,bug,1,Incomplete,,
+40,2037,"enhancement,help wanted,Contribution Welcome,Good Intermediate Contribution",1,Incomplete,,
+41,2041,Others,1,Completed,2041.0,Medium
+42,2043,Others,1,Completed,2043.0,Medium
+43,2047,"bug,help wanted,Contribution Welcome,Good Intermediate Contribution",1,Incomplete,,
+44,2049,Others,1,Completed,2049.0,Medium
+45,2050,"help wanted,Good First Contribution,Contribution Welcome",1,Completed,2050.0,Medium
+46,2051,Others,1,Incomplete,2051.0,Medium
+47,2052,bug,1,Incomplete,,
+48,2055,discussion,1,Incomplete,2055.0,Medium
+49,2056,bug,1,Completed,2056.0,Medium
+50,2057,"help wanted,Contribution Welcome,Good Intermediate Contribution",1,Completed,,
+51,2058,discussion,1,Completed,2058.0,High
+52,2059,Others,1,Completed,2059.0,High
+53,2063,Others,1,Incomplete,2063.0,Medium
+54,2064,Others,1,Incomplete,2064.0,Medium

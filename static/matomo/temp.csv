@@ -1,68 +1,105 @@
 ,id,Labels,unused,Closed At,issue_id,Importance Type
-0,16642,duplicate,1,Completed,16642.0,Low
-1,16643,duplicate,1,Completed,16643.0,Medium
-2,16644,duplicate,1,Completed,16644.0,High
-3,16646,"Help wanted,c: Usability",1,Incomplete,,
-4,16647,answered,1,Completed,16647.0,Medium
-5,16648,c: Privacy,1,Incomplete,16648.0,Medium
-6,16657,"Task,answered,not-in-changelog",1,Completed,16657.0,High
-7,16659,Others,1,Completed,16659.0,Low
-8,16666,answered,1,Completed,16666.0,High
-9,16667,not-in-changelog,1,Completed,,
-10,16669,"c: Usability,not-in-changelog",1,Completed,16669.0,Medium
-11,16672,Bug,1,Completed,16672.0,Low
-12,16674,not-in-changelog,1,Completed,,
-13,16679,"duplicate,answered",1,Completed,16679.0,Medium
-14,16682,Task,1,Completed,16682.0,Medium
-15,16689,"Bug,not-in-changelog",1,Completed,16689.0,High
-16,16693,answered,1,Completed,16693.0,High
-17,16700,"answered,not-in-changelog",1,Completed,16700.0,Medium
-18,16703,duplicate,1,Completed,16703.0,Medium
-19,16706,not-in-changelog,1,Completed,16706.0,High
-20,16707,"c: Performance,not-in-changelog",1,Completed,16707.0,High
-21,16712,"c: Usability,not-in-changelog",1,Completed,16712.0,High
-22,16714,Can't reproduce (yet),1,Incomplete,16714.0,High
-23,16719,Others,1,Incomplete,16719.0,Medium
-24,16722,answered,1,Completed,16722.0,Medium
-25,16726,Bug,1,Completed,16726.0,Medium
-26,16729,"Enhancement,Help wanted,c: Platform",1,Incomplete,16729.0,Medium
-27,16732,Enhancement,1,Incomplete,16732.0,Medium
-28,16741,"answered,not-in-changelog",1,Completed,16741.0,High
-29,16742,"c: Usability,RFC",1,Completed,16742.0,High
-30,16743,answered,1,Completed,16743.0,Medium
-31,16749,"Bug,not-in-changelog",1,Completed,,
-32,16750,"not-in-changelog,Needs Review",1,Completed,,
-33,16757,not-in-changelog,1,Completed,16757.0,Medium
-34,16761,answered,1,Completed,16761.0,Medium
-35,16762,c: Usability,1,Incomplete,,
-36,16767,c: Usability,1,Incomplete,16767.0,Low
-37,16775,Regression,1,Completed,,
-38,16776,"Enhancement,Help wanted,c: Security,c: Usability",1,Completed,16776.0,Medium
-39,16778,Regression,1,Completed,16778.0,Medium
-40,16786,Bug,1,Completed,16786.0,High
-41,16787,c: Onboarding,1,Completed,16787.0,Medium
-42,16788,Regression,1,Completed,,
-43,16789,c: Onboarding,1,Completed,16789.0,High
-44,16790,c: Onboarding,1,Completed,16790.0,High
-45,16791,Others,1,Incomplete,16791.0,Low
-46,16792,"c: Usability,c: Onboarding",1,Completed,,
-47,16793,"c: Usability,c: Onboarding",1,Completed,,
-48,16794,"Help wanted,c: New plugin,trackingspam",1,Completed,16794.0,Medium
-49,16798,Bug,1,Completed,16798.0,Medium
-50,16801,"c: Usability,not-in-changelog",1,Completed,16801.0,Medium
-51,16802,trackingspam,1,Completed,16802.0,Medium
-52,16803,Task,1,Completed,16803.0,Low
-53,16804,Bug,1,Completed,16804.0,High
-54,16805,"Task,c: Onboarding",1,Completed,,
-55,16810,Regression,1,Completed,16810.0,High
-56,16811,"Regression,Can't reproduce (yet)",1,Completed,16811.0,Medium
-57,16812,"duplicate,c: Privacy,answered",1,Completed,16812.0,Low
-58,16817,5.0.0,1,Incomplete,16817.0,Medium
-59,16818,answered,1,Completed,16818.0,Medium
-60,16824,"not-in-changelog,Regression",1,Completed,16824.0,High
-61,16825,answered,1,Completed,16825.0,Medium
-62,16827,not-in-changelog,1,Completed,16827.0,Medium
-63,16828,Task,1,Completed,,
-64,16832,"not-in-changelog,Regression",1,Completed,16832.0,Medium
-65,16833,answered,1,Completed,16833.0,Medium
-66,16834,"Task,Help wanted",1,Completed,16834.0,Medium
+0,16842,Regression,1,Completed,16842.0,High
+1,16847,Bug,1,Completed,16847.0,High
+2,16848,not-in-changelog,1,Completed,16848.0,Medium
+3,16850,answered,1,Completed,16850.0,Medium
+4,16853,"Task,Regression,c: Documentation",1,Completed,16853.0,High
+5,16854,c: Usability,1,Incomplete,16854.0,High
+6,16855,duplicate,1,Completed,16855.0,Medium
+7,16856,c: Performance,1,Incomplete,16856.0,High
+8,16857,Bug,1,Completed,16857.0,High
+9,16859,"Enhancement,Help wanted",1,Completed,,
+10,16861,duplicate,1,Completed,16861.0,Medium
+11,16862,Regression,1,Completed,16862.0,Medium
+12,16863,answered,1,Completed,16863.0,High
+13,16864,"worksforme,Can't reproduce (yet)",1,Completed,16864.0,Low
+14,16865,c: Platform,1,Incomplete,16865.0,High
+15,16866,"Bug,Major,not-in-changelog,Regression",1,Completed,16866.0,High
+16,16867,Regression,1,Completed,16867.0,High
+17,16868,answered,1,Completed,16868.0,Low
+18,16869,Regression,1,Completed,,
+19,16873,answered,1,Completed,16873.0,High
+20,16874,answered,1,Completed,16874.0,Medium
+21,16876,"Enhancement,c: New plugin",1,Incomplete,16876.0,Medium
+22,16877,answered,1,Completed,16877.0,High
+23,16879,"Bug,Help wanted",1,Completed,16879.0,Medium
+24,16884,answered,1,Completed,16884.0,High
+25,16885,Bug,1,Completed,16885.0,High
+26,16888,answered,1,Completed,16888.0,High
+27,16889,Regression,1,Completed,16889.0,Medium
+28,16891,answered,1,Completed,16891.0,Medium
+29,16892,Regression,1,Completed,,
+30,16898,answered,1,Completed,16898.0,High
+31,16904,"Major,c: Performance,5.0.0",1,Incomplete,16904.0,Medium
+32,16905,"Task,5.0.0",1,Incomplete,16905.0,Medium
+33,16906,answered,1,Completed,16906.0,Medium
+34,16907,"wontfix,Can't reproduce (yet)",1,Completed,16907.0,High
+35,16912,"Bug,not-in-changelog",1,Completed,,
+36,16914,answered,1,Completed,16914.0,Medium
+37,16915,Enhancement,1,Incomplete,16915.0,Medium
+38,16916,Others,1,Incomplete,,
+39,16918,Bug,1,Completed,16918.0,Medium
+40,16919,Bug,1,Completed,16919.0,Medium
+41,16922,"Help wanted,c: Usability",1,Completed,16922.0,Low
+42,16924,c: Performance,1,Completed,16924.0,High
+43,16927,Others,1,Completed,16927.0,Medium
+44,16928,answered,1,Completed,16928.0,Medium
+45,16929,not-in-changelog,1,Completed,16929.0,Medium
+46,16931,not-in-changelog,1,Completed,16931.0,Medium
+47,16933,answered,1,Completed,16933.0,Low
+48,16935,c: Documentation,1,Completed,16935.0,High
+49,16937,Others,1,Completed,16937.0,High
+50,16938,Regression,1,Completed,16938.0,High
+51,16939,Others,1,Incomplete,16939.0,Medium
+52,16942,"Enhancement,not-in-changelog",1,Completed,16942.0,Low
+53,16944,answered,1,Completed,16944.0,High
+54,16945,answered,1,Completed,16945.0,Medium
+55,16948,answered,1,Completed,16948.0,Medium
+56,16949,answered,1,Completed,16949.0,Medium
+57,16953,Bug,1,Completed,,
+58,16955,"not-in-changelog,c: Documentation",1,Completed,16955.0,Low
+59,16956,answered,1,Completed,16956.0,High
+60,16959,answered,1,Completed,16959.0,Medium
+61,16961,answered,1,Completed,16961.0,Medium
+62,16962,answered,1,Completed,16962.0,Low
+63,16963,Others,1,Incomplete,16963.0,Medium
+64,16964,Others,1,Completed,16964.0,High
+65,16965,Enhancement,1,Completed,16965.0,Medium
+66,16969,"Help wanted,c: i18n",1,Incomplete,,
+67,16973,"Bug,Regression",1,Completed,,
+68,16975,c: Usability,1,Incomplete,,
+69,16978,Bug,1,Completed,16978.0,Medium
+70,16980,answered,1,Completed,16980.0,Medium
+71,16981,Others,1,Completed,16981.0,Medium
+72,16982,Others,1,Incomplete,16982.0,High
+73,16983,"Bug,Regression",1,Completed,,
+74,16984,Bug,1,Completed,16984.0,Medium
+75,16985,c: Platform,1,Incomplete,16985.0,Medium
+76,16990,c: Usability,1,Completed,16990.0,Low
+77,16993,answered,1,Completed,16993.0,Medium
+78,16998,"answered,Can't reproduce (yet)",1,Completed,16998.0,Medium
+79,16999,Regression,1,Completed,16999.0,High
+80,17000,answered,1,Completed,17000.0,Medium
+81,17001,"Bug,Help wanted",1,Completed,17001.0,Medium
+82,17002,c: Documentation,1,Incomplete,17002.0,Low
+83,17003,Bug,1,Completed,,
+84,17007,"c: Security,c: Privacy",1,Incomplete,17007.0,Medium
+85,17010,"Help wanted,c: Usability",1,Completed,17010.0,Low
+86,17011,"c: Usability,c: Documentation",1,Incomplete,,
+87,17012,Bug,1,Completed,17012.0,Medium
+88,17013,Enhancement,1,Incomplete,17013.0,Low
+89,17015,Regression,1,Completed,17015.0,High
+90,17017,"c: Privacy,5.0.0",1,Completed,17017.0,Low
+91,17018,answered,1,Completed,17018.0,High
+92,17019,answered,1,Completed,17019.0,High
+93,17020,duplicate,1,Completed,17020.0,Medium
+94,17023,Bug,1,Completed,17023.0,High
+95,17024,"answered,c: Onboarding,c: Documentation",1,Completed,17024.0,Low
+96,17026,Regression,1,Completed,17026.0,High
+97,17027,answered,1,Completed,17027.0,Medium
+98,17028,answered,1,Completed,17028.0,Medium
+99,17030,answered,1,Completed,17030.0,Medium
+100,17031,duplicate,1,Completed,17031.0,Medium
+101,17032,answered,1,Completed,17032.0,Medium
+102,17034,c: Performance,1,Incomplete,,
+103,17035,"Bug,Help wanted,not-in-changelog",1,Completed,17035.0,Medium
