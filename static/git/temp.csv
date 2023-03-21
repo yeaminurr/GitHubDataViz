@@ -1,38 +1,25 @@
 ,id,Labels,unused,Closed At,issue_id,Importance Type
-0,1879,Others,1,Incomplete,1879.0,High
-1,1880,Others,1,Completed,1880.0,Medium
-2,1881,Others,1,Completed,1881.0,High
-3,1883,Others,1,Completed,1883.0,Low
-4,1885,Others,1,Completed,1885.0,Medium
-5,1887,Others,1,Incomplete,,
-6,1888,Others,1,Incomplete,1888.0,Medium
-7,1890,Others,1,Incomplete,1890.0,Low
-8,1891,bug,1,Completed,,
-9,1892,Others,1,Completed,1892.0,Low
-10,1897,Others,1,Incomplete,,
-11,1898,Others,1,Completed,1898.0,High
-12,1899,"Good First Contribution,Contribution Welcome",1,Incomplete,1899.0,High
-13,1900,"enhancement,help wanted,Good First Contribution,Contribution Welcome",1,Completed,1900.0,Medium
-14,1901,"enhancement,help wanted,Good First Contribution,Contribution Welcome",1,Incomplete,1901.0,Medium
-15,1903,Others,1,Incomplete,1903.0,Medium
-16,1905,Others,1,Completed,1905.0,High
-17,1906,Others,1,Incomplete,1906.0,High
-18,1907,discussion,1,Completed,1907.0,Low
-19,1908,"bug,Contribution Welcome",1,Incomplete,1908.0,Low
-20,1909,"bug,Good First Contribution,Contribution Welcome",1,Completed,,
-21,1910,"bug,discussion",1,Incomplete,1910.0,High
-22,1911,discussion,1,Completed,1911.0,Medium
-23,1914,discussion,1,Incomplete,1914.0,Medium
-24,1919,Others,1,Completed,,
-25,1922,"Good First Contribution,Contribution Welcome",1,Completed,1922.0,Medium
-26,1924,"Good First Contribution,Contribution Welcome",1,Incomplete,1924.0,High
-27,1925,discussion,1,Incomplete,1925.0,Medium
-28,1927,Others,1,Completed,1927.0,Medium
-29,1929,Others,1,Completed,1929.0,Medium
-30,1930,Others,1,Completed,1930.0,Medium
-31,1931,discussion,1,Incomplete,1931.0,Low
-32,1932,Others,1,Completed,1932.0,Medium
-33,1933,discussion,1,Incomplete,1933.0,Medium
-34,1935,discussion,1,Incomplete,1935.0,Medium
-35,1936,Others,1,Incomplete,1936.0,High
-36,1939,"enhancement,help wanted,Good First Contribution,Contribution Welcome",1,Completed,,
+0,2196,Others,1,Completed,2196.0,Medium
+1,2198,Others,1,Completed,2198.0,High
+2,2201,Others,1,Completed,2201.0,Medium
+3,2204,Others,1,Completed,2204.0,Medium
+4,2205,Others,1,Completed,,
+5,2206,Others,1,Incomplete,2206.0,High
+6,2207,Others,1,Completed,2207.0,Medium
+7,2210,Others,1,Completed,2210.0,High
+8,2211,Others,1,Completed,2211.0,Medium
+9,2214,Others,1,Incomplete,2214.0,Low
+10,2217,Others,1,Incomplete,2217.0,Medium
+11,2225,Others,1,Incomplete,2225.0,Medium
+12,2226,Others,1,Completed,2226.0,Medium
+13,2229,Others,1,Incomplete,2229.0,High
+14,2230,Others,1,Incomplete,2230.0,Medium
+15,2231,Others,1,Completed,2231.0,Low
+16,2233,Others,1,Incomplete,2233.0,Medium
+17,2237,Others,1,Completed,2237.0,Low
+18,2241,Others,1,Incomplete,2241.0,Medium
+19,2245,Others,1,Completed,2245.0,Medium
+20,2247,Others,1,Completed,2247.0,High
+21,2248,Others,1,Completed,2248.0,Medium
+22,2253,Others,1,Completed,2253.0,Low
+23,2254,Others,1,Completed,2254.0,Medium

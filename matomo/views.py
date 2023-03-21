@@ -178,10 +178,11 @@ def labelsort(request):
         temp_datasetissueshort = temp_datasetissueshort[temp_datasetissueshort["Labels"].str.contains('|'.join(data))]
         newforviz = temp_datasetissueshort.groupby(["just_month"])["just_month"].count()
 
+
         issuewith_time = newforviz.copy()
         issuewith_time = issuewith_time.to_frame()
         issuewith_time = issuewith_time.rename(columns={'just_month': 'Total_issue'})
-        onlyclosedissue = datasetissueshort[datasetissueshort['Closed At'].notna()].groupby(["just_month"])["just_month"].count()
+        onlyclosedissue = temp_datasetissueshort[temp_datasetissueshort['Closed At'].notna()].groupby(["just_month"])["just_month"].count()
         issuewith_time["closed_issue"] = onlyclosedissue
         issuewith_time["ratio"] = issuewith_time["closed_issue"] / issuewith_time["Total_issue"]
 

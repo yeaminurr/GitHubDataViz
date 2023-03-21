@@ -289,7 +289,9 @@ function labelsend(){
                 //     .call(d3.axisLeft(z1));
 
                 //addcircle for pull
+                var pull_circle_click = false;
                 var currentp = 0
+
 
                 var selectCircle = svg1.selectAll(".circle")
                     .data(data)
@@ -300,7 +302,8 @@ function labelsend(){
                     .attr("cy", function(d) { return y(d.pull) })
                     .attr("fill", "steelblue")
                     .on("mousemove",function(d){
-                        this.style.fill="red"
+                        if (pull_circle_click==false){
+                        this.style.fill="red"}
                         tooltip.style("opacity",1)
                             .style("left",d3.event.pageX+"px")
                             .style("top",d3.event.pageY+10+"px")
@@ -309,16 +312,20 @@ function labelsend(){
                         })
                      .on("mouseout",function(){
                          tooltip.style("opacity",0)
-                        this.style.fill="#FF8C00"})
+                         if (pull_circle_click==false){
+                        this.style.fill="steelblue"}})
 
                 .on("click",
                     function(d){
+                    this.style.fill = "#FF8C00"
                         $.ajax({
                               type: "POST",
                               url: "{% url 'pullclick' %}",
                               data:{  csrfmiddlewaretoken: '{{ csrf_token }}',
                                   date: moment(Date.parse(d.date)).format("YYYY-MM-DD")}
                             }).done(function( o ) {
+
+                                pull_circle_click=true;
                                 //const d1 = new Date(d.date);
                                 //console.log(Date.parse(d.date))
                                 //moment(d.date, "MM-DD-YYY")
@@ -503,11 +510,11 @@ d3.csv('{% static 'git/temp.csv' %}',function (data) {
     </div>
     <div class="col">
       <div id="tableforpull">
-<h4 id = "tableforpull" width="1260" height="450" style="border: black"  ></h4>
+<h5 id = "tableforpull_svg" width="1260" height="450" style="border: black"  ></h5>
 <script id = "tablescript2">
 
     var tabulate2 = function (data,columns) {
-  var table2 = d3.select('#tableforpull').append('table')
+  var table2 = d3.select('#tableforpull_svg').append('table')
 	var thead = table2.append('thead')
 	var tbody = table2.append('tbody')
 

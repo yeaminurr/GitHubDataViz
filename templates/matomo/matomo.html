@@ -566,7 +566,7 @@ d3.csv('{% static 'matomo/pulltable.csv' %}',function (data) {
       </div>
 {#BarChart#}
 
-<div id="histviz" class="col-12 ">
+<div id="histviz" class="col-12" style="overflow: auto">
     <div class="shadow-lg p-3 mb-5 bg-body rounded">
 
     <svg id = "svgbar" width="1100" height="500" style="border: black; max-width: fit-content; width: 1600px"  ></svg>
