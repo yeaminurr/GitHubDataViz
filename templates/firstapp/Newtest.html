@@ -580,7 +580,7 @@ d3.csv('{% static 'git/pulltable.csv' %}',function (data) {
         </div>
     <script>
         var currentc = 0
-        let swi = 1;
+        let swi = 0;
         function updateBar(){
 
         var svg3 = d3.select("#svgbar"),
@@ -619,10 +619,10 @@ d3.csv('{% static 'git/pulltable.csv' %}',function (data) {
 
             d.total = t;
             //d.time= d.time;
-            console.log("barchart")
-            console.log(d3.timeParse("%Y-%m-%d")(d.time))
-            console.log((d.time))
-            console.log(d.high)
+            // console.log("barchart")
+            // console.log(d3.timeParse("%Y-%m-%d")(d.time))
+            // console.log((d.time))
+            // console.log(d.high)
 
 
             return d;
@@ -695,7 +695,7 @@ d3.csv('{% static 'git/pulltable.csv' %}',function (data) {
                                 if(swi%2 == 0){
                                     updatetablecomm();
                             //$("#tableforcomm").hide("slow")
-                            $("#tableforcomm").show("slow")
+                            $("#tableforcomm").show()
                                     swi=swi+1;
 
                                 }
