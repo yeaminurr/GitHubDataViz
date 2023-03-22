@@ -580,6 +580,7 @@ d3.csv('{% static 'git/pulltable.csv' %}',function (data) {
         </div>
     <script>
         var currentc = 0
+        let swi = 1;
         function updateBar(){
 
         var svg3 = d3.select("#svgbar"),
@@ -665,6 +666,7 @@ d3.csv('{% static 'git/pulltable.csv' %}',function (data) {
                 .attr("width", x.bandwidth())
             .on("click",
                     function(d){
+
                 console.log('{% url 'commentcat' %}');
                        {#console.log(moment(Date.parse(d.data.time)).format("YYYY-MM-DD"))#}
                         $.ajax({
@@ -681,14 +683,26 @@ d3.csv('{% static 'git/pulltable.csv' %}',function (data) {
                             var normalc = moment(Date.parse(d.data.time)).format("MM-DD-YYYY")
 
                                 {#console.log(moment(Date.parse(d.data.time)).format("MM-DD-YYYY"))#}
-                            if (currentc !=normalc){
-                            updatetablecomm();
-                            $("#tableforcomm").hide("slow")
-                            $("#tableforcomm").show("slow")}
-                            else{
-                                $("#tableforcomm").hide("slow")
-                            }
-                            currentc = normalc
+                            // if (currentc !=normalc){
+                            // updatetablecomm();
+                            // $("#tableforcomm").hide("slow")
+                            // $("#tableforcomm").show("slow")}
+                            // else{
+                            //     $("#tableforcomm").hide("slow")
+                            // }
+                            // currentc = normalc
+
+                                if(swi%2 == 0){
+                                    updatetablecomm();
+                            //$("#tableforcomm").hide("slow")
+                            $("#tableforcomm").show("slow")
+                                    swi=swi+1;
+
+                                }
+                                else{
+                                    $("#tableforcomm").hide("slow")
+                                    swi=swi+1;
+                                }
 
                             })
                         $("#tableforcomm").load(location.href + " #tableforcomm");
