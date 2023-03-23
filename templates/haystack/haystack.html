@@ -351,6 +351,7 @@ function labelsend(){
 
 
                 // Add circle for issue
+                var issue_circle_click = false;
                 var current = 0
                 var selectCircle1 = svg1.selectAll(".circle")
                     .data(data)
@@ -361,7 +362,8 @@ function labelsend(){
                     .attr("cy", function(d) { return y(d.value) })
                     .attr("fill", "#299617")
                     .on("mousemove",function(d){
-                        this.style.fill="red"
+                       if (issue_circle_click==false){
+                        this.style.fill="red"}
                         tooltip.style("opacity",1)
                             .style("left",d3.event.pageX+"px")
                             .style("top",d3.event.pageY+10+"px")
@@ -370,17 +372,21 @@ function labelsend(){
                         })
                      .on("mouseout",function(){
                          tooltip.style("opacity",0)
-                        this.style.fill="#299617"})
+                        if (issue_circle_click==false){
+
+                        this.style.fill="#299617"}})
 
 
                     .on("click",
                     function(d){
+                        this.style.fill = "#FF8C00"
                         $.ajax({
                               type: "POST",
                               url:  "",
                               data:{  csrfmiddlewaretoken: '{{ csrf_token }}',
                                   date: moment(Date.parse(d.date)).format("YYYY-MM-DD")}
                             }).done(function( o ) {
+                                issue_circle_click=true;
                                 //const d1 = new Date(d.date);
                                 //console.log(Date.parse(d.date))
                                 //moment(d.date, "MM-DD-YYYY")
@@ -426,7 +432,7 @@ function labelsend(){
                 svg1.append("path")
                     .datum(data)
                     .attr("fill", "none")
-                    .attr("stroke", "steelblue")
+                    .attr("stroke", "red")
                     .attr("stroke-width", 1.5)
                     .attr("d", d3.line()
                         .x(function(d) { if(d.date>endd){return x(d.date) }})
@@ -438,7 +444,7 @@ function labelsend(){
                 svg1.append("path")
                     .datum(data)
                     .attr("fill", "none")
-                    .attr("stroke", "red")
+                    .attr("stroke", "steelblue")
                     .attr("stroke-width", 1.5)
                     .attr("d", d3.line()
                         .x(function(d) { if(d.date>endd){return x(d.date) }})
@@ -937,16 +943,16 @@ d3.csv('{% static 'haystack/user_catcopy.csv' %}',function (data) {
             d.fy = d3.event.y;
         }
 
+        // function dragended(d) {
+        //     if (!d3.event.active) simulation.alphaTarget(0);
+        //     d.fx = null;
+        //     d.fy = null;
+        // }
         function dragended(d) {
             if (!d3.event.active) simulation.alphaTarget(0);
-            d.fx = null;
-            d.fy = null;
-        }
-        function dragended(d) {
-            if (!d3.event.active) simulation.alphaTarget(0);
-            //d.fx = nodeFixX(d); // snap to its target position
-            d.fx = null; // or let the force figure it out
-            d.fy = null;
+            d.fx = nodeFixX(d); // snap to its target position
+            // d.fx = null; // or let the force figure it out
+            // d.fy = null;
         }
 
     </script>

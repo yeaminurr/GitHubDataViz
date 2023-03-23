@@ -1,105 +1,83 @@
 ,id,Labels,unused,Closed At,issue_id,Importance Type
-0,16842,Regression,1,Completed,16842.0,High
-1,16847,Bug,1,Completed,16847.0,High
-2,16848,not-in-changelog,1,Completed,16848.0,Medium
-3,16850,answered,1,Completed,16850.0,Medium
-4,16853,"Task,Regression,c: Documentation",1,Completed,16853.0,High
-5,16854,c: Usability,1,Incomplete,16854.0,High
-6,16855,duplicate,1,Completed,16855.0,Medium
-7,16856,c: Performance,1,Incomplete,16856.0,High
-8,16857,Bug,1,Completed,16857.0,High
-9,16859,"Enhancement,Help wanted",1,Completed,,
-10,16861,duplicate,1,Completed,16861.0,Medium
-11,16862,Regression,1,Completed,16862.0,Medium
-12,16863,answered,1,Completed,16863.0,High
-13,16864,"worksforme,Can't reproduce (yet)",1,Completed,16864.0,Low
-14,16865,c: Platform,1,Incomplete,16865.0,High
-15,16866,"Bug,Major,not-in-changelog,Regression",1,Completed,16866.0,High
-16,16867,Regression,1,Completed,16867.0,High
-17,16868,answered,1,Completed,16868.0,Low
-18,16869,Regression,1,Completed,,
-19,16873,answered,1,Completed,16873.0,High
-20,16874,answered,1,Completed,16874.0,Medium
-21,16876,"Enhancement,c: New plugin",1,Incomplete,16876.0,Medium
-22,16877,answered,1,Completed,16877.0,High
-23,16879,"Bug,Help wanted",1,Completed,16879.0,Medium
-24,16884,answered,1,Completed,16884.0,High
-25,16885,Bug,1,Completed,16885.0,High
-26,16888,answered,1,Completed,16888.0,High
-27,16889,Regression,1,Completed,16889.0,Medium
-28,16891,answered,1,Completed,16891.0,Medium
-29,16892,Regression,1,Completed,,
-30,16898,answered,1,Completed,16898.0,High
-31,16904,"Major,c: Performance,5.0.0",1,Incomplete,16904.0,Medium
-32,16905,"Task,5.0.0",1,Incomplete,16905.0,Medium
-33,16906,answered,1,Completed,16906.0,Medium
-34,16907,"wontfix,Can't reproduce (yet)",1,Completed,16907.0,High
-35,16912,"Bug,not-in-changelog",1,Completed,,
-36,16914,answered,1,Completed,16914.0,Medium
-37,16915,Enhancement,1,Incomplete,16915.0,Medium
-38,16916,Others,1,Incomplete,,
-39,16918,Bug,1,Completed,16918.0,Medium
-40,16919,Bug,1,Completed,16919.0,Medium
-41,16922,"Help wanted,c: Usability",1,Completed,16922.0,Low
-42,16924,c: Performance,1,Completed,16924.0,High
-43,16927,Others,1,Completed,16927.0,Medium
-44,16928,answered,1,Completed,16928.0,Medium
-45,16929,not-in-changelog,1,Completed,16929.0,Medium
-46,16931,not-in-changelog,1,Completed,16931.0,Medium
-47,16933,answered,1,Completed,16933.0,Low
-48,16935,c: Documentation,1,Completed,16935.0,High
-49,16937,Others,1,Completed,16937.0,High
-50,16938,Regression,1,Completed,16938.0,High
-51,16939,Others,1,Incomplete,16939.0,Medium
-52,16942,"Enhancement,not-in-changelog",1,Completed,16942.0,Low
-53,16944,answered,1,Completed,16944.0,High
-54,16945,answered,1,Completed,16945.0,Medium
-55,16948,answered,1,Completed,16948.0,Medium
-56,16949,answered,1,Completed,16949.0,Medium
-57,16953,Bug,1,Completed,,
-58,16955,"not-in-changelog,c: Documentation",1,Completed,16955.0,Low
-59,16956,answered,1,Completed,16956.0,High
-60,16959,answered,1,Completed,16959.0,Medium
-61,16961,answered,1,Completed,16961.0,Medium
-62,16962,answered,1,Completed,16962.0,Low
-63,16963,Others,1,Incomplete,16963.0,Medium
-64,16964,Others,1,Completed,16964.0,High
-65,16965,Enhancement,1,Completed,16965.0,Medium
-66,16969,"Help wanted,c: i18n",1,Incomplete,,
-67,16973,"Bug,Regression",1,Completed,,
-68,16975,c: Usability,1,Incomplete,,
-69,16978,Bug,1,Completed,16978.0,Medium
-70,16980,answered,1,Completed,16980.0,Medium
-71,16981,Others,1,Completed,16981.0,Medium
-72,16982,Others,1,Incomplete,16982.0,High
-73,16983,"Bug,Regression",1,Completed,,
-74,16984,Bug,1,Completed,16984.0,Medium
-75,16985,c: Platform,1,Incomplete,16985.0,Medium
-76,16990,c: Usability,1,Completed,16990.0,Low
-77,16993,answered,1,Completed,16993.0,Medium
-78,16998,"answered,Can't reproduce (yet)",1,Completed,16998.0,Medium
-79,16999,Regression,1,Completed,16999.0,High
-80,17000,answered,1,Completed,17000.0,Medium
-81,17001,"Bug,Help wanted",1,Completed,17001.0,Medium
-82,17002,c: Documentation,1,Incomplete,17002.0,Low
-83,17003,Bug,1,Completed,,
-84,17007,"c: Security,c: Privacy",1,Incomplete,17007.0,Medium
-85,17010,"Help wanted,c: Usability",1,Completed,17010.0,Low
-86,17011,"c: Usability,c: Documentation",1,Incomplete,,
-87,17012,Bug,1,Completed,17012.0,Medium
-88,17013,Enhancement,1,Incomplete,17013.0,Low
-89,17015,Regression,1,Completed,17015.0,High
-90,17017,"c: Privacy,5.0.0",1,Completed,17017.0,Low
-91,17018,answered,1,Completed,17018.0,High
-92,17019,answered,1,Completed,17019.0,High
-93,17020,duplicate,1,Completed,17020.0,Medium
-94,17023,Bug,1,Completed,17023.0,High
-95,17024,"answered,c: Onboarding,c: Documentation",1,Completed,17024.0,Low
-96,17026,Regression,1,Completed,17026.0,High
-97,17027,answered,1,Completed,17027.0,Medium
-98,17028,answered,1,Completed,17028.0,Medium
-99,17030,answered,1,Completed,17030.0,Medium
-100,17031,duplicate,1,Completed,17031.0,Medium
-101,17032,answered,1,Completed,17032.0,Medium
-102,17034,c: Performance,1,Incomplete,,
-103,17035,"Bug,Help wanted,not-in-changelog",1,Completed,17035.0,Medium
+0,17037,answered,1,Completed,17037.0,High
+1,17042,Waiting for user feedback,1,Incomplete,17042.0,Medium
+2,17044,Others,1,Incomplete,17044.0,High
+3,17046,answered,1,Completed,17046.0,Low
+4,17047,"answered,c: Documentation",1,Completed,17047.0,Medium
+5,17048,answered,1,Completed,17048.0,Medium
+6,17049,answered,1,Completed,17049.0,High
+7,17050,Others,1,Incomplete,17050.0,Low
+8,17051,answered,1,Completed,17051.0,Medium
+9,17052,"Help wanted,c: Privacy",1,Completed,17052.0,Medium
+10,17053,"Task,c: Platform,Easier debugging",1,Completed,17053.0,Low
+11,17054,"c: Platform,Stability",1,Completed,17054.0,Medium
+12,17055,c: New plugin,1,Incomplete,17055.0,Low
+13,17056,answered,1,Completed,17056.0,Medium
+14,17057,duplicate,1,Completed,17057.0,Medium
+15,17066,duplicate,1,Completed,17066.0,Medium
+16,17067,c: i18n,1,Completed,17067.0,Medium
+17,17068,Task,1,Completed,17068.0,Low
+18,17069,Enhancement,1,Incomplete,17069.0,Medium
+19,17070,"Bug,Help wanted",1,Completed,17070.0,Medium
+20,17071,answered,1,Completed,17071.0,High
+21,17074,Regression,1,Completed,17074.0,Medium
+22,17075,Others,1,Incomplete,,
+23,17077,Regression,1,Completed,17077.0,Medium
+24,17078,"duplicate,c: Platform",1,Completed,17078.0,High
+25,17079,"Major,Regression",1,Completed,17079.0,Medium
+26,17080,"Bug,Help wanted",1,Completed,17080.0,Low
+27,17083,duplicate,1,Completed,17083.0,Medium
+28,17086,"Bug,Help wanted,c: i18n",1,Completed,17086.0,Medium
+29,17087,duplicate,1,Completed,17087.0,High
+30,17088,Can't reproduce (yet),1,Incomplete,17088.0,Low
+31,17089,c: Documentation,1,Incomplete,17089.0,Medium
+32,17090,answered,1,Completed,17090.0,Medium
+33,17091,"Help wanted,c: Security",1,Completed,17091.0,Low
+34,17092,"Bug,Help wanted",1,Completed,17092.0,Medium
+35,17094,"c: Performance,Help wanted,c: New plugin",1,Incomplete,17094.0,Low
+36,17095,Regression,1,Completed,17095.0,Medium
+37,17096,"Bug,duplicate",1,Completed,17096.0,Medium
+38,17098,answered,1,Completed,17098.0,High
+39,17099,Regression,1,Completed,17099.0,Medium
+40,17102,"Major,Task,c: Platform,RFC",1,Completed,17102.0,Medium
+41,17104,"Bug,Help wanted,c: Usability",1,Completed,17104.0,Medium
+42,17106,"Bug,Help wanted",1,Completed,17106.0,Medium
+43,17107,Task,1,Completed,,
+44,17108,c: Onboarding,1,Completed,,
+45,17109,Enhancement,1,Incomplete,17109.0,High
+46,17111,answered,1,Completed,,
+47,17113,answered,1,Completed,17113.0,Medium
+48,17119,"Bug,c: Custom Dimensions",1,Incomplete,17119.0,Medium
+49,17120,answered,1,Completed,17120.0,Medium
+50,17122,"Help wanted,c: Usability",1,Incomplete,17122.0,High
+51,17123,"Bug,Regression",1,Incomplete,17123.0,Medium
+52,17124,answered,1,Completed,17124.0,High
+53,17125,Enhancement,1,Incomplete,17125.0,Medium
+54,17126,answered,1,Completed,17126.0,High
+55,17128,"duplicate,answered",1,Completed,17128.0,High
+56,17129,"Help wanted,c: Usability,not-in-changelog",1,Completed,17129.0,Medium
+57,17135,answered,1,Completed,17135.0,Medium
+58,17136,Bug,1,Completed,17136.0,Medium
+59,17138,Others,1,Incomplete,17138.0,High
+60,17140,duplicate,1,Completed,17140.0,Medium
+61,17141,answered,1,Completed,17141.0,Medium
+62,17142,answered,1,Completed,17142.0,Medium
+63,17145,Enhancement,1,Incomplete,17145.0,Low
+64,17146,answered,1,Completed,17146.0,Low
+65,17147,Others,1,Completed,17147.0,Low
+66,17149,answered,1,Completed,17149.0,High
+67,17150,answered,1,Completed,17150.0,Medium
+68,17154,answered,1,Completed,17154.0,Medium
+69,17156,Enhancement,1,Incomplete,17156.0,Low
+70,17157,answered,1,Completed,17157.0,High
+71,17159,"Bug,Regression",1,Completed,17159.0,Low
+72,17160,Others,1,Incomplete,17160.0,High
+73,17161,Others,1,Completed,17161.0,Medium
+74,17162,c: Design / UI,1,Completed,17162.0,Low
+75,17163,"c: Performance,Help wanted",1,Completed,,
+76,17164,"Enhancement,c: New plugin",1,Incomplete,17164.0,Medium
+77,17165,answered,1,Completed,17165.0,Low
+78,17167,Likely a server config issue,1,Incomplete,17167.0,Medium
+79,17169,"Enhancement,c: Privacy",1,Incomplete,17169.0,Medium
+80,17170,answered,1,Completed,17170.0,Medium
+81,17171,Bug,1,Completed,17171.0,High
