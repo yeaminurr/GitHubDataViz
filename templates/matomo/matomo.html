@@ -20,7 +20,7 @@
     </div>
 <div class="col-6">
 <div class="dropdown" style="margin: auto" >
-  <button id="dropdownMenuButton2" onclick="myFunction()" class="btn btn-secondary dropdown-toggle" style="width: 600px;text-align: center">Dropdown</button>
+  <button id="dropdownMenuButton2" onclick="myFunction()" class="btn btn-secondary dropdown-toggle" style="width: 600px;text-align: center">Tag List and Date</button>
 
         <ul class="dropdown-menu dropdown-menu-dark"  id="myDropdown" aria-labelledby="dropdownMenuButton2" style="text-align: center">
             <input  type="text" class = "dropdown-item" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
@@ -186,7 +186,7 @@ function labelsend(){
 <p>&nbsp;</p>
 {#LineChart#}
 
-<h4 id = "testm">hello bello</h4>
+<h4 id = "testm" style="text-align: center">Monthly activity of Issues and Pull requests</h4>
 
  <div class="shadow-lg p-3 mb-5 bg-body rounded" >
      <p>&nbsp;</p>
@@ -199,7 +199,7 @@ function labelsend(){
 
     <script>
 
-         $( "#testm" ).hide( 0 )
+
          var SelectedDate = 0
 
         // set the dimensions and margins of the graph
@@ -300,7 +300,7 @@ function labelsend(){
                     .attr("r", function(d) { return d.cf })
                     .attr("cx", function(d) { return x(d.date) })
                     .attr("cy", function(d) { return y(d.pull) })
-                    .attr("fill", "steelblue")
+                    .attr("fill", "#702963")
                     .on("mousemove",function(d){
                         if (pull_circle_click==false){
                         this.style.fill="red"}
@@ -313,7 +313,7 @@ function labelsend(){
                      .on("mouseout",function(){
                          tooltip.style("opacity",0)
                         if (pull_circle_click==false){
-                        this.style.fill="steelblue"}})
+                        this.style.fill="#702963"}})
 
                 .on("click",
                     function(d){
@@ -406,11 +406,11 @@ function labelsend(){
 
 
 
-                        $( "#testm" ).text(d.date)
+
                         SelectedDate = d.date
 
 
-                        $( "#testm" ).show( "slow" )
+
                          {#$( "#mytable" ).show( "slow" )#}
                         setTimeout(() => {  console.log("World!"); }, 5000);
 
@@ -573,13 +573,17 @@ d3.csv('{% static 'matomo/pulltable.csv' %}',function (data) {
   </div>
 </div>
 
-
+<h4 style="text-align: center">Version-wise Issue Count</h4>
  <div class="shadow-lg p-3 mb-5 bg-body rounded" >
 <div style="margin: auto; justify-content: center; position: relative;">
 {% include "matomo/render.html" %}
 </div>
       </div>
+
+
 {#BarChart#}
+
+    <h4 style="text-align: center">Monthly activity of the contributors</h4>
 
 <div id="histviz" class="col-12" style="overflow: auto">
     <div class="shadow-lg p-3 mb-5 bg-body rounded">
@@ -615,7 +619,7 @@ d3.csv('{% static 'matomo/pulltable.csv' %}',function (data) {
 
 
 
-
+        var tooltip = d3.select('body').append("div").style("position","absolute").style("opacity",0);
 
         d3.csv(baraddress,
 
@@ -673,6 +677,25 @@ d3.csv('{% static 'matomo/pulltable.csv' %}',function (data) {
                     //console.log(y(d[0]) - y(d[1]))
                     return y(d[0]) - y(d[1]); })
                 .attr("width", x.bandwidth())
+
+                .on("mousemove",function(d){
+
+                        tooltip.style("opacity",1)
+                            .style("left",d3.event.pageX+"px")
+                            .style("top",d3.event.pageY+10+"px")
+                        .style("background","#5A5A5A")
+                            .style("color","white")
+                        .style("border-radius","5px")
+                        .style("box-shadow","7px 7px 10px #c0c0c0");
+                        tooltip.html("&nbsp User Categories &nbsp<br>&nbsp High - "+d.data.high+"<br>&nbsp Mid - "+d.data.mid+
+                        "<br>&nbsp Low - "+d.data.low);
+
+                        })
+                     .on("mouseout",function(){
+                         tooltip.html("");
+                         tooltip.style("opacity",0)
+                        })
+
             .on("click",
                     function(d){
                        {#console.log(moment(Date.parse(d.data.time)).format("YYYY-MM-DD"))#}
@@ -702,14 +725,17 @@ d3.csv('{% static 'matomo/pulltable.csv' %}',function (data) {
                                 if(swi%2 == 0){
                                     updatetablecomm();
                             //$("#tableforcomm").hide("slow")
-                            $("#tableforcomm").show()
                                     swi=swi+1;
+                            $("#tableforcomm").show()
+
 
                                 }
                                 else{
-                                    $("#tableforcomm").hide("slow")
                                     swi=swi+1;
+                                    $("#tableforcomm").hide("slow")
+
                                 }
+                                console.log(swi)
 
                             })
                         $("#tableforcomm").load(location.href + " #tableforcomm");
@@ -777,14 +803,14 @@ d3.csv('{% static 'matomo/pulltable.csv' %}',function (data) {
 <h5 id = "tableforcomm_svg" width="1260" height="450" style="border: black"  ></h5>
 <script id = "tablescript3">
 
-    var tabulate3 = function (data,columns) {
+    var tabulate3 = function (data,columns,column_name) {
   var table3 = d3.select('#tableforcomm_svg').append('table')
 	var thead = table3.append('thead')
 	var tbody = table3.append('tbody')
 
 	thead.append('tr')
 	  .selectAll('th')
-	    .data(columns)
+	    .data(column_name)
 	    .enter()
 	  .append('th')
 	    .text(function (d) {
@@ -817,14 +843,15 @@ function updatetablecomm(){
 d3.csv('{% static 'matomo/user_catcopy.csv' %}',function (data) {
 
 
-	var columns = ['username','category']
-  tabulate3(data,columns)
+	var columns = data.columns;
+	column_name = ["Username","Contribution Type"]
+  tabulate3(data,columns,column_name)
 })}
 
 </script>
 </div>
 
-
+<h4 style="text-align: center">Collaboration Network of the contributors</h4>
 
 
 
@@ -845,8 +872,9 @@ d3.csv('{% static 'matomo/user_catcopy.csv' %}',function (data) {
         var simulation = d3.forceSimulation()
             .force("link", d3.forceLink().id(function(d) { return d.id; })
                 .distance(80))
-            .force("charge", d3.forceManyBody().strength(-90))
+            .force("charge", d3.forceManyBody().strength(-80))
             .force("center", d3.forceCenter(width / 2, height / 2));
+
 
         d3.json("{% static 'matomo/sample.json' %}", function(error, graph) {
             if (error) throw error;
@@ -855,8 +883,11 @@ d3.csv('{% static 'matomo/user_catcopy.csv' %}',function (data) {
                 .attr("class", "links")
                 .selectAll("line")
                 .data(graph.links)
+
                 .enter().append("line")
                 .attr("stroke-width", function(d) { return Math.sqrt(d.value); })
+                .attr('height','600')
+                .attr('width','1100')
                 .attr("stroke",
                     function(d){
                     {#color(d.relation)#}
@@ -882,7 +913,10 @@ d3.csv('{% static 'matomo/user_catcopy.csv' %}',function (data) {
             var node = svg.append("g")
                 .attr("class", "nodes")
                 .selectAll("g")
+
                 .data(graph.nodes)
+                .attr('height','600')
+                .attr('width','1100')
                 .enter().append("g")
 
             var circles = node.append("circle")
@@ -962,9 +996,6 @@ d3.csv('{% static 'matomo/user_catcopy.csv' %}',function (data) {
 
 
 
-<div style="margin: auto; justify-content: center; position: relative;">
-{% include "matomo/render.html" %}
-</div>
 
 
 

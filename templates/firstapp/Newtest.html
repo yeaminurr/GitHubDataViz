@@ -18,7 +18,7 @@
     </div>
 <div class="col-6">
 <div class="dropdown" style="margin: auto" >
-  <button id="dropdownMenuButton2" onclick="myFunction()" class="btn btn-secondary dropdown-toggle" style="width: 600px;text-align: center">Dropdown</button>
+  <button id="dropdownMenuButton2" onclick="myFunction()" class="btn btn-secondary dropdown-toggle" style="width: 600px;text-align: center">Tag List and Date</button>
 
         <ul class="dropdown-menu dropdown-menu-dark"  id="myDropdown" aria-labelledby="dropdownMenuButton2" style="text-align: center">
             <input  type="text" class = "dropdown-item" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
@@ -185,7 +185,7 @@ function labelsend(){
 <p>&nbsp;</p>
 {#LineChart#}
 
-<h4 id = "testm">hello bello</h4>
+<h4 id = "testm" style="text-align: center">Monthly activity of Issues and Pull requests</h4>
 
  <div class="shadow-lg p-3 mb-5 bg-body rounded" >
      <p>&nbsp;</p>
@@ -198,7 +198,7 @@ function labelsend(){
 
     <script>
 
-         $( "#testm" ).hide( 0 )
+
          var SelectedDate = 0
 
         // set the dimensions and margins of the graph
@@ -300,7 +300,7 @@ function labelsend(){
                     .attr("r", function(d) { return d.cf })
                     .attr("cx", function(d) { return x(d.date) })
                     .attr("cy", function(d) { return y(d.pull) })
-                    .attr("fill", "steelblue")
+                    .attr("fill", "#702963")
                     .on("mousemove",function(d){
                         if (pull_circle_click==false){
                         this.style.fill="red"}
@@ -313,7 +313,7 @@ function labelsend(){
                      .on("mouseout",function(){
                          tooltip.style("opacity",0)
                          if (pull_circle_click==false){
-                        this.style.fill="steelblue"}})
+                        this.style.fill="#702963"}})
 
                 .on("click",
                     function(d){
@@ -406,11 +406,11 @@ function labelsend(){
 
 
 
-                        $( "#testm" ).text(d.date)
+
                         SelectedDate = d.date
 
 
-                        $( "#testm" ).show( "slow" )
+
                          {#$( "#mytable" ).show( "slow" )#}
                         setTimeout(() => {  console.log("World!"); }, 5000);
 
@@ -569,7 +569,7 @@ d3.csv('{% static 'git/pulltable.csv' %}',function (data) {
   </div>
 </div>
 
-
+<h4 style="text-align: center">Version-wise Issue Count</h4>
  <div class="shadow-lg p-3 mb-5 bg-body rounded" >
 
 <div style="margin: auto; justify-content: center; position: relative;">
@@ -578,7 +578,7 @@ d3.csv('{% static 'git/pulltable.csv' %}',function (data) {
  </div>
 
 {#BarChart#}
-
+<h4 style="text-align: center">Monthly activity of the contributors</h4>
 <div id="histviz" class="col-12 ">
     <div class="shadow-lg p-3 mb-5 bg-body rounded">
 
@@ -613,7 +613,7 @@ d3.csv('{% static 'git/pulltable.csv' %}',function (data) {
 
 
 
-
+        var tooltip = d3.select('body').append("div").style("position","absolute").style("opacity",0);
 
         d3.csv(baraddress,
 
@@ -670,6 +670,23 @@ d3.csv('{% static 'git/pulltable.csv' %}',function (data) {
                     //console.log(y(d[0]) - y(d[1]))
                     return y(d[0]) - y(d[1]); })
                 .attr("width", x.bandwidth())
+                .on("mousemove",function(d){
+
+                        tooltip.style("opacity",1)
+                            .style("left",d3.event.pageX+"px")
+                            .style("top",d3.event.pageY+10+"px")
+                        .style("background","#5A5A5A")
+                            .style("color","white")
+                        .style("border-radius","5px")
+                        .style("box-shadow","7px 7px 10px #c0c0c0");
+                        tooltip.html("&nbsp User Categories &nbsp<br>&nbsp High - "+d.data.high+"<br>&nbsp Mid - "+d.data.mid+
+                        "<br>&nbsp Low - "+d.data.low);
+
+                        })
+                     .on("mouseout",function(){
+                         tooltip.html("");
+                         tooltip.style("opacity",0)
+                        })
             .on("click",
                     function(d){
 
@@ -773,14 +790,14 @@ d3.csv('{% static 'git/pulltable.csv' %}',function (data) {
 <h5 id = "tableforcomm_svg" width="1260" height="450" style="border: black"  ></h5>
 <script id = "tablescript3">
 
-    var tabulate3 = function (data,columns) {
+    var tabulate3 = function (data,columns,column_name) {
   var table3 = d3.select('#tableforcomm_svg').append('table')
 	var thead = table3.append('thead')
 	var tbody = table3.append('tbody')
 
 	thead.append('tr')
 	  .selectAll('th')
-	    .data(columns)
+	    .data(column_name)
 	    .enter()
 	  .append('th')
 	    .text(function (d) {
@@ -813,8 +830,9 @@ function updatetablecomm(){
 d3.csv('{% static 'git/user_catcopy.csv' %}',function (data) {
 
 
-	var columns = ['username','category']
-  tabulate3(data,columns)
+	var columns = data.columns;
+	column_name = ["Username","Contribution Type"]
+  tabulate3(data,columns,column_name)
 })}
 
 </script>
@@ -822,7 +840,7 @@ d3.csv('{% static 'git/user_catcopy.csv' %}',function (data) {
 
 
 
-
+<h4 style="text-align: center">Collaboration Network of the contributors</h4>
 
 <div id="my_dataviz2" >
     <div class="shadow-lg p-3 mb-5 bg-body rounded">
