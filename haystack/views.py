@@ -1,8 +1,9 @@
 from django.shortcuts import render , redirect
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 import pandas as pd
 
 import numpy as np
+from django.core import serializers
 
 
 
@@ -66,7 +67,10 @@ t10colab["username"]=t10colab["username"].str.replace("'","")
 t10colab = pd.merge(t10colab, user_cat[["username","category"]].drop_duplicates(), on='username', how='left')
 t10colab = pd.merge(t10colab, datasetissueshort[["id","Labels"]].drop_duplicates(),left_on="issue_id", right_on="id", how='left')
 t10colab.rename(columns={"id": "issue_id"},inplace = True)
+#t10colab = t10colab.drop_duplicates(subset=['username'])
 from functools import reduce
+print("printing t10colab")
+print(t10colab["category"].unique())
 
 
 # location = Path.joinpath(staticdir, "../static/haystack/datasetissueshortnot_othersc.csv")
@@ -271,3 +275,22 @@ def commentcat(request):
 
     return HttpResponse(status=204)
 
+
+t10colab_temp = t10colab[pd.notnull(t10colab["category"])&(t10colab["category"]!="not available")]
+t10colab_temp = t10colab_temp.loc[:, ~t10colab_temp.columns.duplicated()]
+import json
+def graphAPI(request,name):
+    t10colab_user = t10colab_temp[t10colab_temp["username"] == str(name)]
+    response_inside = {}
+    response_inside['number_of_comments'] =  len(t10colab_user.index)
+    # issues_id = t10colab_user["issue_id"]
+    #print(t10colab_user["issue_id"])
+    response_inside['unique_issues_contributed'] = len(t10colab_user["issue_id"].unique())
+    response = list()
+    response.append(response_inside)
+    #posts_serialized = serializers.serialize('json', response, fields=('structure',))
+    response = json.dumps(response)
+
+
+
+    return HttpResponse(response)
