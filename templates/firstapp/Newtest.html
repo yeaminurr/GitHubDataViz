@@ -900,6 +900,7 @@ d3.csv('{% static 'git/user_catcopy.csv' %}',function (data) {
                 .distance(80))
             .force("charge", d3.forceManyBody().strength(-90))
             .force("center", d3.forceCenter(width / 2, height / 2));
+        var tooltip_graph = d3.select('body').append("div").style("position","absolute").style("opacity",0);
 
         d3.json("{% static 'git/sample.json' %}", function(error, graph) {
             if (error) throw error;
@@ -937,6 +938,41 @@ d3.csv('{% static 'git/user_catcopy.csv' %}',function (data) {
                 .selectAll("g")
                 .data(graph.nodes)
                 .enter().append("g")
+            .on("click",function(d){
+                tooltip_graph.style("opacity",1)
+                                     .style("left",d3.event.pageX+"px")
+                                     .style("top",d3.event.pageY+10+"px")
+                                    .style("background","#5A5A5A")
+                                     .style("color","white")
+                                     .style("border-radius","5px")
+                                     .style("box-shadow","7px 7px 10px #c0c0c0");
+                $.ajax({
+                              type: "GET",
+                              url:"{% url 'firstapp/userinfo/' %}"+d['id'],
+                              data:{
+                                  name:d['id']}
+                            }).done(function(data){
+                                console.log(d['id'])
+                                //console.log(JSON.parse(data)[0]);
+                                newdata = JSON.parse(data)[0]
+
+
+                    tooltip_graph.html("&nbsp User Info &nbsp<br>&nbsp Name - "+d['id']+"<br>&nbsp Number of Comments - "+newdata["number_of_comments"]+  "<br>&nbsp Unique Issues Contributed - "+newdata["unique_issues_contributed"]+
+                    "<br>&nbsp Percentage of Issue Solved - "+newdata['percentage_issue_solved'] + "% ");
+
+
+
+
+
+
+
+
+    })
+                         })
+                     .on("mouseout",function(){
+                         tooltip_graph.style("opacity",0);
+                         tooltip_graph.html("");
+                         })
 
             var circles = node.append("circle")
                 .attr("r", 6)
