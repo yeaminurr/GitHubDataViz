@@ -187,6 +187,7 @@ function labelsend(){
 {#LineChart#}
 
 <h4 id = "testm" style="text-align: center">Monthly activity of Issues and Pull requests</h4>
+    <h6 style="text-align: center">Hover and Click the Circles to See Details</h6>
 
  <div class="shadow-lg p-3 mb-5 bg-body rounded" >
      <p>&nbsp;</p>
@@ -203,7 +204,7 @@ function labelsend(){
          var SelectedDate = 0
 
         // set the dimensions and margins of the graph
-        var margin = {top: 10, right: 30, bottom: 30, left: 60},
+        var margin = {top: 10, right: 30, bottom: 40,left: 60},
             // width = 460 - margin.left - margin.right,
             width1 = 1000,
             height1 = 400 - margin.top - margin.bottom;
@@ -280,6 +281,25 @@ function labelsend(){
                     .range([ height1, 0 ]);
                 svg1.append("g")
                     .call(d3.axisLeft(y));
+
+
+                          // Add X axis label:
+                svg1.append("text")
+                    .attr("text-anchor", "end")
+                    .attr("x", width1/2)
+                    .attr("y", height1 + margin.top + 30)
+                    .style("font-size", "1em")
+                    .text("Months");
+
+                // Add Y axis label:
+
+                svg1.append("text")
+            .attr("text-anchor", "end")
+            .attr("transform", "rotate(-90)")
+            .attr("y", -margin.left+25)
+            .attr("x", (-margin.top))
+            .style("font-size", "1em")
+            .text("Number of new Issues or Pull Requests");
 
 
                 // // Add Y1 axis for pull
@@ -584,6 +604,7 @@ d3.csv('{% static 'matomo/pulltable.csv' %}',function (data) {
 {#BarChart#}
 
     <h4 style="text-align: center">Monthly activity of the contributors</h4>
+    <h6 style="text-align: center">Hover and Click the Bars to See Details</h6>
 
 <div id="histviz" class="col-12" style="overflow: auto">
     <div class="shadow-lg p-3 mb-5 bg-body rounded">
@@ -793,6 +814,23 @@ d3.csv('{% static 'matomo/pulltable.csv' %}',function (data) {
                 .attr("y", 9.5)
                 .attr("dy", "0.32em")
                 .text(function(d) { return d; });
+            // Add X axis label:
+                svg3.append("text")
+                    .attr("text-anchor", "end")
+                    .attr("x", width4/2)
+                    .attr("y", height4 + margin4.top + 50)
+                    .style("font-size", "1em")
+                    .text("Months");
+
+                // Add Y axis label:
+
+                svg3.append("text")
+            .attr("text-anchor", "end")
+            .attr("transform", "rotate(-90)")
+            .attr("y", y(y.ticks().pop()) + 20)
+            .attr("x", (-margin4.top)-150)
+            .style("font-size", "1em")
+            .text("Total Comments");
 
         });}
 
@@ -853,7 +891,7 @@ d3.csv('{% static 'matomo/user_catcopy.csv' %}',function (data) {
 
 <h4 style="text-align: center">Collaboration Network of the contributors</h4>
 
-
+<h6 style="text-align: center">Click on Blue Circles to See the Details</h6>
 
 <div id="my_dataviz2" >
     <div class="shadow-lg p-3 mb-5 bg-body rounded">

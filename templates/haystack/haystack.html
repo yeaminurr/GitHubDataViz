@@ -190,6 +190,7 @@ function labelsend(){
 {#LineChart#}
 
 <h4 id = "testm" style="text-align: center">Monthly activity of Issues and Pull requests</h4>
+    <h6 style="text-align: center">Hover and Click the Circles to See Details</h6>
 
  <div class="shadow-lg p-3 mb-5 bg-body rounded" >
      <p>&nbsp;</p>
@@ -292,7 +293,7 @@ function labelsend(){
                     .attr("x", width1/2)
                     .attr("y", height1 + margin.top + 30)
                     .style("font-size", "1em")
-                    .text("X axis title");
+                    .text("Months");
 
                 // Add Y axis label:
 
@@ -300,9 +301,9 @@ function labelsend(){
             .attr("text-anchor", "end")
             .attr("transform", "rotate(-90)")
             .attr("y", -margin.left+25)
-            .attr("x", (-height1/2)+35)
+            .attr("x", (-margin.top))
             .style("font-size", "1em")
-            .text("Y axis title");
+            .text("Number of new Issues or Pull Requests");
 
 
 
@@ -613,6 +614,7 @@ d3.csv('{% static 'haystack/pulltable.csv' %}',function (data) {
 {#BarChart#}
 
     <h4 style="text-align: center">Monthly activity of the contributors</h4>
+    <h6 style="text-align: center">Hover and Click the Bars to See Details</h6>
 
 <div id="histviz" class="col-12 ">
     <div class="shadow-lg p-3 mb-5 bg-body rounded">
@@ -625,7 +627,7 @@ d3.csv('{% static 'haystack/pulltable.csv' %}',function (data) {
         function updateBar(){
 
         var svg3 = d3.select("#svgbar"),
-            margin4 = {top: 10, right: 30, bottom: 45, left: 60},
+            margin4 = {top: 10, right: 30, bottom: 50, left: 70},
             width4 = +svg3.attr("width") - margin4.left - margin4.right,
             height4 = +svg3.attr("height") - margin.top - margin4.bottom,
             g = svg3.append("g").attr("transform", "translate(" + margin4.left + "," + margin4.top + ")");
@@ -818,6 +820,24 @@ d3.csv('{% static 'haystack/pulltable.csv' %}',function (data) {
                 .attr("dy", "0.32em")
                 .text(function(d) { return d; });
 
+             // Add X axis label:
+                svg3.append("text")
+                    .attr("text-anchor", "end")
+                    .attr("x", width4/2)
+                    .attr("y", height4 + margin4.top + 50)
+                    .style("font-size", "1em")
+                    .text("Months");
+
+                // Add Y axis label:
+
+                svg3.append("text")
+            .attr("text-anchor", "end")
+            .attr("transform", "rotate(-90)")
+            .attr("y", y(y.ticks().pop()) + 20)
+            .attr("x", (-margin4.top)-150)
+            .style("font-size", "1em")
+            .text("Total Comments");
+
         });}
 
     </script>
@@ -877,6 +897,7 @@ d3.csv('{% static 'haystack/user_catcopy.csv' %}',function (data) {
 
 
 <h4 style="text-align: center">Collaboration Network of the contributors</h4>
+    <h6 style="text-align: center">Click on Blue Circles to See the Details</h6>
 
 
 <div id="my_dataviz2" >
