@@ -10,7 +10,9 @@ urlpatterns = [
     path('github/', views.githubproject, name='matomo/GitHub'),
     path('pullclick/', views.pull_table, name='matomo/pullclick'),
     path('labelsort/', views.labelsort, name='matomo/labelsort'),
-    path('commentcat/', views.commentcat, name='matomo/commentcat')
+    path('commentcat/', views.commentcat, name='matomo/commentcat'),
+    path('userinfo/', views.graphAPI, name='matomo/userinfo/'),
+    path('userinfo/<str:name>', views.graphAPI, name='matomo/userinfo/')
 
 
 ]

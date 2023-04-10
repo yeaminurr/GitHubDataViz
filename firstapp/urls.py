@@ -10,7 +10,9 @@ urlpatterns = [
     path('github/', views.githubproject, name='GitHub'),
     path('pullclick/', views.pull_table, name='pullclick'),
     path('labelsort/', views.labelsort, name='labelsort'),
-    path('commentcat/', views.commentcat, name='commentcat')
+    path('commentcat/', views.commentcat, name='commentcat'),
+    path('userinfo/', views.graphAPI, name='firstapp/userinfo/'),
+    path('userinfo/<str:name>', views.graphAPI, name='firstapp/userinfo/')
 
 
 ]

@@ -206,7 +206,7 @@ function labelsend(){
          var SelectedDate = 0
 
         // set the dimensions and margins of the graph
-        var margin = {top: 10, right: 30, bottom: 30, left: 60},
+        var margin = {top: 10, right: 30, bottom: 40, left: 60},
             // width = 460 - margin.left - margin.right,
             width1 = 1000,
             height1 = 400 - margin.top - margin.bottom;
@@ -265,7 +265,9 @@ function labelsend(){
 
             // Now I can use this dataset:
             function(data) {
-            console.log(data)
+            //console.log(data)
+
+
 
 
 
@@ -283,6 +285,33 @@ function labelsend(){
                     .range([ height1, 0 ]);
                 svg1.append("g")
                     .call(d3.axisLeft(y));
+
+                // Add X axis label:
+                svg1.append("text")
+                    .attr("text-anchor", "end")
+                    .attr("x", width1/2)
+                    .attr("y", height1 + margin.top + 30)
+                    .style("font-size", "1em")
+                    .text("X axis title");
+
+                // Add Y axis label:
+
+                svg1.append("text")
+            .attr("text-anchor", "end")
+            .attr("transform", "rotate(-90)")
+            .attr("y", -margin.left+25)
+            .attr("x", (-height1/2)+35)
+            .style("font-size", "1em")
+            .text("Y axis title");
+
+
+
+
+
+
+
+
+
 
 
                 // // Add Y1 axis for pull
@@ -919,14 +948,16 @@ d3.csv('{% static 'haystack/user_catcopy.csv' %}',function (data) {
                 $.ajax({
                               type: "GET",
                               url:"{% url 'haystack/userinfo/' %}"+d['id'],
-                              data:{  csrfmiddlewaretoken: '{{ csrf_token }}',
-                                  name:d}
+                              data:{
+                                  name:d['id']}
                             }).done(function(data){
                                 console.log(d['id'])
                                 //console.log(JSON.parse(data)[0]);
                                 newdata = JSON.parse(data)[0]
 
-                    tooltip_graph.html("&nbsp User Info &nbsp<br>&nbsp Name - "+d['id']+"<br>&nbsp Number of Comments - "+newdata["number_of_comments"]+  "<br>&nbsp Unique Issues Contributed - "+newdata["unique_issues_contributed"]);
+
+                    tooltip_graph.html("&nbsp User Info &nbsp<br>&nbsp Name - "+d['id']+"<br>&nbsp Number of Comments - "+newdata["number_of_comments"]+  "<br>&nbsp Unique Issues Contributed - "+newdata["unique_issues_contributed"]+
+                    "<br>&nbsp Percentage of Issue Solved - "+newdata['percentage_issue_solved'] + "% ");
 
 
 

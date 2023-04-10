@@ -272,3 +272,27 @@ def commentcat(request):
 
     return HttpResponse(status=204)
 
+
+t10colab_temp = t10colab[pd.notnull(t10colab["category"])&(t10colab["category"]!="not available")]
+t10colab_temp = t10colab_temp.loc[:, ~t10colab_temp.columns.duplicated()]
+t10colab_tempnew =pd.merge(t10colab_temp,datasetissueshort[['id','Closed At']] , how='left', left_on = 'issue_id',right_on = "id")
+import json
+def graphAPI(request,name):
+    t10colab_user = t10colab_tempnew[t10colab_tempnew["username"] == str(name)]
+    response_inside = {}
+    response_inside['number_of_comments'] =  len(t10colab_user.index)
+    # issues_id = t10colab_user["issue_id"]
+    #print(t10colab_user["issue_id"])
+    response_inside['unique_issues_contributed'] = len(t10colab_user["issue_id"].unique())
+    response_inside['percentage_issue_solved'] = round(
+        (t10colab_user["Closed At"].isnull().sum() / response_inside['unique_issues_contributed']) * 100, 2)
+    response = list()
+    response.append(response_inside)
+
+    #posts_serialized = serializers.serialize('json', response, fields=('structure',))
+    response = json.dumps(response)
+
+
+
+    return HttpResponse(response)
+
