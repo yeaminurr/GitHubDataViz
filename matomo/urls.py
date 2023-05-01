@@ -12,7 +12,8 @@ urlpatterns = [
     path('labelsort/', views.labelsort, name='matomo/labelsort'),
     path('commentcat/', views.commentcat, name='matomo/commentcat'),
     path('userinfo/', views.graphAPI, name='matomo/userinfo/'),
-    path('userinfo/<str:name>', views.graphAPI, name='matomo/userinfo/')
+    path('userinfo/<str:name>', views.graphAPI, name='matomo/userinfo/'),
+    path('normalize/', views.normalize_API, name='matomo/normalize')
 
 
 ]

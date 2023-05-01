@@ -12,7 +12,8 @@ urlpatterns = [
     path('labelsort/', views.labelsort, name='haystack/labelsort'),
     path('commentcat/', views.commentcat, name='haystack/commentcat'),
     path('userinfo/', views.graphAPI, name='haystack/userinfo/'),
-    path('userinfo/<str:name>', views.graphAPI, name='haystack/userinfo/')
+    path('userinfo/<str:name>', views.graphAPI, name='haystack/userinfo/'),
+    path('normalize/', views.normalize_API, name='haystack/normalize')
 
 
 ]

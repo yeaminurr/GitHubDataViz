@@ -153,9 +153,11 @@ updateBar();
 updateLine();
 
 };
-
+let load_on = 0;
 function labelsend(){
+    load_on=1;
     console.log(getChex)
+
     document.getElementById("myDropdown").classList.toggle("show");
     let tempvar = getChex.toString();
     $.ajax({
@@ -164,6 +166,8 @@ function labelsend(){
                               data:{  csrfmiddlewaretoken: '{{ csrf_token }}',
                                   labels: tempvar,st_date:start_date,end_date:end_date}
                             }).done(function(){
+                                $("#btnradio1").prop('checked', true);
+
                                 d3.select("#svg1 g").remove();
                                 d3.select("#svg1 path").remove();
                                 d3.select("#svgbar g").remove();
@@ -186,13 +190,72 @@ function labelsend(){
 }
 </script>
 
+
+
+
+
+
 <p>&nbsp;</p>
 {#LineChart#}
 
 <h4 id = "testm" style="text-align: center">Monthly activity of Issues and Pull requests</h4>
     <h6 style="text-align: center">Hover and Click the Circles to See Details</h6>
 
+
+
  <div class="shadow-lg p-3 mb-5 bg-body rounded" >
+     <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked onclick="real_value()">
+  <label class="btn btn-outline-primary" for="btnradio1">Real Value</label>
+
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" onclick="normalized_value()">
+  <label class="btn btn-outline-primary" for="btnradio2">Normalized</label>
+
+<script>
+   function real_value(){
+       console.log("ff")
+       if (load_on == 0){
+       srca = '{% static 'haystack/issue_pull.csv' %}';
+       d3.select("#svg1 g").remove();
+       d3.select("#svg1 path").remove();
+       updateLine()}
+       else{
+           d3.select("#svg1 g").remove();
+           d3.select("#svg1 path").remove();
+           srca = '{% static 'haystack/issue_pull_temp.csv' %}';
+            updateLine()
+       }
+
+   }
+   function normalized_value(){
+       if (load_on == 0){
+           d3.select("#svg1 g").remove();
+           d3.select("#svg1 path").remove();
+       srca = '{% static 'haystack/issue_pull_normalized.csv' %}';
+       updateLine()}
+       else{
+            $.ajax({
+                              type: "POST",
+                              url:"{% url 'haystack/normalize' %}",
+                              data:{  csrfmiddlewaretoken: '{{ csrf_token }}',
+                                  page:"1"}
+                            }).done(function(){
+                                d3.select("#svg1 g").remove();
+                                d3.select("#svg1 path").remove();
+
+                                srca = '{% static 'haystack/issue_pull_temp_normalized.csv' %}'
+                                updateLine()
+
+
+    })
+       }
+
+   }
+
+</script>
+
+</div>
+
      <p>&nbsp;</p>
 <svg id = "svg1" width="1200" height="450" style="border: black"  ></svg>
 </div>
@@ -280,9 +343,20 @@ function labelsend(){
                     .attr("transform", "translate(0," + height1 + ")")
                     .call(d3.axisBottom(x));
 
+                //getting the max
+                var issuemax = d3.max(data, function(d) { return +d.value; })
+                var pullmax = d3.max(data, function(d) { return +d.pull; })
+                if (issuemax>pullmax){
+                    var mymax = issuemax
+                }
+                else{
+                    var mymax = pullmax
+                }
+                console.log(mymax)
+
                 // Add Y axis
                 var y = d3.scaleLinear()
-                    .domain([0, d3.max(data, function(d) { return +d.value; })])
+                    .domain([0, mymax])
                     .range([ height1, 0 ]);
                 svg1.append("g")
                     .call(d3.axisLeft(y));

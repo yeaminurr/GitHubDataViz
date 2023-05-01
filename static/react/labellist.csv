@@ -1,0 +1,206 @@
+,id,name
+0,4884403361,☂️ Umbrella
+1,1207200873,Accessibility
+2,2726583423,Accessibility Team - Evaluated
+3,1113219688,API: AccessibilityInfo
+4,1113219690,API: ActionSheetIOS
+5,1113219691,API: Alert
+6,1113219692,API: AlertIOS
+7,870851887,API: Animated
+8,1113219693,API: AppRegistry
+9,1113219694,API: AppState
+10,1113219699,API: BackAndroid
+11,1113219704,API: BackHandler
+12,1113219706,API: CameraRoll
+13,1113219707,API: Clipboard
+14,1113219709,API: Dimensions
+15,1113219710,API: Easing
+16,1113219711,API: Geolocation
+17,1113219712,API: ImageEditor
+18,1113219713,API: ImagePickerIOS
+19,1113219714,API: ImageStore
+20,1113219715,API: InteractionManager
+21,1113219716,API: Keyboard
+22,1113219717,API: LayoutAnimation
+23,1113225513,API: Linking
+24,1113219719,API: ListViewDataSource
+25,1113219720,API: NetInfo
+26,978346108,API: PanResponder
+27,1113219722,API: PermissionsAndroid
+28,1113219723,API: PixelRatio
+29,1113219724,API: PushNotificationIOS
+30,1113219726,API: Settings
+31,1113219732,API: Share
+32,1113219735,API: StatusBarIOS
+33,1113219736,API: StyleSheet
+34,1113219737,API: Systrace
+35,1113219738,API: TimePickerAndroid
+36,1113219739,API: ToastAndroid
+37,1113219740,API: Transforms
+38,1113219741,API: Vibration
+39,1113219742,API: VibrationIOS
+40,1304117544,Bug
+41,196858975,CLA Signed
+42,1113225467,Component: ActivityIndicator
+43,1113219622,Component: Button
+44,1113219627,Component: DrawerLayoutAndroid
+45,1113225538,Component: FlatList
+46,1113225504,Component: Image
+47,1114202991,Component: ImageBackground
+48,1113219635,Component: InputAccessoryView
+49,1113219637,Component: KeyboardAvoidingView
+50,1620249148,Component: ListView
+51,1113219646,Component: Modal
+52,1755755571,Component: NavigatorIOS
+53,1113219650,Component: PickerIOS
+54,1113219651,Component: ProgressBarAndroid
+55,1113219652,Component: ProgressViewIOS
+56,1113219653,Component: RefreshControl
+57,1113219654,Component: SafeAreaView
+58,1113219655,Component: ScrollView
+59,1113219656,Component: SectionList
+60,1113219657,Component: SegmentedControlIOS
+61,1113219658,Component: Slider
+62,1113219660,Component: SnapshotViewIOS
+63,1113219664,Component: StatusBar
+64,1113219667,Component: Switch
+65,1113219670,Component: TabBarIOS
+66,1113225403,Component: Text
+67,869668024,Component: TextInput
+68,1113219673,Component: ToolbarAndroid
+69,1113219674,Component: TouchableHighlight
+70,1113219675,Component: TouchableNativeFeedback
+71,1113219676,Component: TouchableOpacity
+72,1113219677,Component: TouchableWithoutFeedback
+73,1113225428,Component: View
+74,1113219680,Component: ViewPagerAndroid
+75,1113219684,Component: VirtualizedList
+76,860843215,Component: WebView
+77,1221922311,Contributor
+78,1159503141,Debugging
+79,963985377,DX
+80,1690952236,fb-exported
+81,1904859610,fh:direct-merge-enabled
+82,1117070725,Flow
+83,1278564944,Follow Up
+84,192797868,Good first issue
+85,4618751674,hacktoberfest-accepted
+86,267325512,Help Wanted :octocat:
+87,1877798401,Impact: App Rejected
+88,4139913691,Impact: Bug
+89,1207189852,Impact: Crash
+90,1215374514,Impact: Errors During Build
+91,4139607114,Impact: Misconfiguration
+92,4139609275,Impact: Performance
+93,1241489147,Impact: Platform Disparity
+94,650767894,Impact: Regression
+95,4139610800,Impact: Security
+96,1204204455,Impact: UBN
+97,1264792046,Import Failed
+98,1261666924,Import Requested
+99,358768107,Import Started
+100,542043367,Issue: Author Provided Repro
+101,257498156,JavaScript
+102,1946874797,LogBox
+103,982010329,Merged
+104,869757822,Missing Changelog
+105,869858033,Missing Test Plan
+106,1368725237,Native Module
+107,4512470853,Needs TypeScript Update
+108,1877909121,Needs: Attention
+109,1794148631,Needs: Author Feedback
+110,2420292505,Needs: Docs Website PR
+111,1794379263,Needs: Environment Info
+112,1213471401,Needs: Imported Diff Review
+113,1213527208,Needs: Imported Diff Waiting on Meta
+114,1954142386,Needs: Issue Manager Attention
+115,1794384927,Needs: Issue Template
+116,2195577108,Needs: React Native Team Attention
+117,1216306999,Needs: Rebase
+118,1794376073,Needs: Repro
+119,4139866596,Needs: Task
+120,1794148347,Needs: Triage :mag:
+121,1794380150,Needs: Verify on Latest Version
+122,5191728962,Needs: Version Info
+123,5400809968,Never gets stale
+124,1213227167,No CLA
+125,1294328133,p: Amazon
+126,1271618881,p: Callstack
+127,2287307105,p: contributor
+128,1208509940,p: Expo
+129,1208510250,p: Facebook
+130,1271619116,p: Infinite Red
+131,1208509568,p: Microsoft
+132,5159143375,p: Sentry
+133,3583211853,p: Shopify
+134,1282006477,p: Software Mansion
+135,1275123703,p: Sony
+136,1215208045,Partner
+137,5297756365,Pick Request
+138,4139565593,Platform: All
+139,870851515,Platform: Android
+140,257497884,Platform: iOS
+141,873908497,Platform: Linux
+142,873908232,Platform: macOS
+143,857177693,Platform: tvOS
+144,276636680,Platform: Windows
+145,4139622381,Priority: High
+146,1278566613,Priority: Low
+147,1278567031,Priority: Mid
+148,337217254,Ran Commands
+149,1159495380,React
+150,2726585517,React Native Engineering - Evaluated
+151,3595503894,Release Improvements
+152,3358356605,release-blocking
+153,4139937040,Resolution: Answered
+154,1261104394,Resolution: Backlog
+155,1261489149,Resolution: Duplicate
+156,872682019,Resolution: Fixed
+157,470324689,Resolution: For Stack Overflow
+158,4431653875,Resolution: Issue in another tool or repo
+159,998095527,Resolution: Locked
+160,856933610,Resolution: PR Submitted
+161,1215116864,Reverted
+162,1341167382,RN Team
+163,1667685366,RNTester
+164,3253537094,Shared with React Native Team
+165,718241807,Stale
+166,992655625,Tech: Bundler 📦
+167,1975293739,Tech: Codegen
+168,1234896021,Tech: Fabric
+169,1455987166,Tech: Hermes
+170,4147562954,Tech: Jest
+171,4524087434,Tech: Monorepo
+172,4139570609,Tech: React Native Core
+173,4147073362,Tech: Watchman
+174,1041941899,Tests
+175,1031374926,Tool: CocoaPods
+176,1972007841,Tool: Flipper
+177,1031375183,Tool: Gradle
+178,1213524684,Tool: Systrace
+179,1213523162,Tool: Xcode
+180,869762716,Type: Breaking Change💥
+181,1207172568,Type: Deprecation
+182,298626951,Type: Discussion
+183,862087200,Type: Docs
+184,872547321,Type: Enhancement
+185,5218210928,Type: Expo
+186,872683359,Type: Invalid
+187,3815166274,Type: New Architecture
+188,4139601962,Type: Old Architecture
+189,1056201940,Type: Question
+190,1207174556,Type: Removal
+191,1207172849,Type: Security
+192,5021085328,Type: Unsupported Version
+193,1977413289,Type: Upgrade Issue
+194,4167976560,Typescript
+195,3512284495,Version: unspecified
+196,4212744050,Violation: CoC
+197,3335870626,Waiting on Dependency
+198,1946874485,YellowBox
+199,860603247,🌐Networking
+200,1293762185,💻CLI
+201,3514436432,📝 Changelog
+202,5381829209,📦Bundler
+203,1059590552,📮Known Issues
+204,895944742,🔩Test Infrastructure

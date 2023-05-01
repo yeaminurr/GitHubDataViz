@@ -26,6 +26,8 @@ urlpatterns = [
     path('firstapp/',include('firstapp.urls')),
     path('haystack/',include('haystack.urls')),
     path('matomo/',include('matomo.urls')),
+    path('react/',include('react.urls')),
+
     #path('admin/', ),
 
 

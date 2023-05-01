@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block body_block %}
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+
+
+{##DropDown#}
+ <div class="row">
+    <div class="col-3">
+    </div>
+<div class="col-6">
+<div class="dropdown" style="margin: auto" >
+  <button id="dropdownMenuButton2" onclick="myFunction()" class="btn btn-secondary dropdown-toggle" style="width: 600px;text-align: center">Tag List and Date</button>
+
+        <ul class="dropdown-menu dropdown-menu-dark"  id="myDropdown" aria-labelledby="dropdownMenuButton2" style="text-align: center">
+            <input  type="text" class = "dropdown-item" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+
+
+
+
+            <div id="containerforscroll" style="width: 600px; text-align: left">
+
+
+            {% for i in Labels %}
+                <a class="mysort">
+            <div class="dropdown-item">
+
+             <input class="form-check-input" type="checkbox" style="padding: 10px" id ={{ i }} value={{ i }} >
+            <label class="form-check-label"  for={{ i }}>
+                {{ i }}
+            </label>
+            </div></a>
+            {% endfor %}
+            </div>
+            <p>Start Date: <input type="text" id="datepicker" style="width: 500px"></p>
+            <p>End Date: <input type="text" id="datepicker2" style="width: 500px"></p>
+
+            <li style="background-color: #dddddd"><a  type="submit" class="dropdown-item" value="Confirm" onclick="labelsend()" style="color: #333333;">Submit</a></li>
+
+
+
+{#    <li><a class="dropdown-item" href="#">Another action</a></li>#}
+{#    <li><a class="dropdown-item" href="#">Something else here</a></li>#}
+  </ul>
+{#  </div>#}
+</div></div>
+
+ <div class="col-3">
+    </div>
+
+
+
+
+<script>
+
+
+    var d = new Date();
+var year = d.getFullYear();
+var month = d.getMonth();
+var day = d.getDate();
+var c = new Date(year - 3, month, day);
+var d =  c.toISOString().substring(0, 10);
+
+    //Datepicker
+    let start_date = d
+    let end_date = "2080-01-01"
+    let getChex=""
+    $( function() {
+    $( "#datepicker" ).datepicker({ dateFormat: "yy-mm-dd" });
+    $("#datepicker").on("change",function(){
+        start_date = $(this).val();
+        //console.log(start_date);
+
+        labelsend();
+
+        // d3.select("#svg1 g").remove();
+        // d3.select("#svg1 path").remove();
+        //
+        // updateLine();
+        //
+        // d3.select("#svgbar g").remove();
+        // d3.select("#svgbar path").remove();
+        // updateBar();
+    });
+    $( "#datepicker2" ).datepicker({ dateFormat: "yy-mm-dd" });
+    $("#datepicker2").on("change",function(){
+        end_date = $(this).val();
+        //console.log(start_date);
+
+        labelsend();
+
+        // d3.select("#svg1 g").remove();
+        // d3.select("#svg1 path").remove();
+        //
+        // updateLine();
+        //
+        // d3.select("#svgbar g").remove();
+        // d3.select("#svgbar path").remove();
+        // updateBar();
+    });
+
+
+  } );
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByClassName("mysort");
+  //a= div.getElementsByClassName("dropdown-item")
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+
+    }
+  }
+}
+let elem = [...document.querySelectorAll('.form-check-input')]
+elem.forEach(item => item.addEventListener('change', getChecked))
+
+function getChecked() {
+  getChex = elem.filter(item => item.checked).map(item => item.value)
+  //console.log(getChex)
+}
+var srca = '{% static 'react/issue_pull.csv' %}';
+var baraddress = '{% static 'react/commentboard.csv' %}';
+window.onload = function() {
+
+
+updateBar();
+updateLine();
+
+};
+let load_on = 0;
+function labelsend(){
+    load_on=1;
+    console.log(getChex)
+
+    document.getElementById("myDropdown").classList.toggle("show");
+    let tempvar = getChex.toString();
+    $.ajax({
+                              type: "POST",
+                              url:"{% url 'react/labelsort' %}",
+                              data:{  csrfmiddlewaretoken: '{{ csrf_token }}',
+                                  labels: tempvar,st_date:start_date,end_date:end_date}
+                            }).done(function(){
+                                $("#btnradio1").prop('checked', true);
+
+                                d3.select("#svg1 g").remove();
+                                d3.select("#svg1 path").remove();
+                                d3.select("#svgbar g").remove();
+                                d3.select("#svgbar path").remove();
+                                baraddress = '{% static 'react/commentboard_copy.csv' %}'
+                                updateBar();
+
+
+                                srca = '{% static 'react/issue_pull_temp.csv' %}'
+                                updateLine()
+       //$('#my_dataviz').hide()
+
+
+
+
+
+
+
+    })
+}
+</script>
+
+
+
+
+
+
+<p>&nbsp;</p>
+{#LineChart#}
+
+<h4 id = "testm" style="text-align: center">Monthly activity of Issues and Pull requests</h4>
+    <h6 style="text-align: center">Hover and Click the Circles to See Details</h6>
+
+
+
+ <div class="shadow-lg p-3 mb-5 bg-body rounded" >
+     <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked onclick="real_value()">
+  <label class="btn btn-outline-primary" for="btnradio1">Real Value</label>
+
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" onclick="normalized_value()">
+  <label class="btn btn-outline-primary" for="btnradio2">Normalized</label>
+
+<script>
+   function real_value(){
+       console.log("ff")
+       if (load_on == 0){
+       srca = '{% static 'react/issue_pull.csv' %}';
+       d3.select("#svg1 g").remove();
+       d3.select("#svg1 path").remove();
+       updateLine()}
+       else{
+           d3.select("#svg1 g").remove();
+           d3.select("#svg1 path").remove();
+           srca = '{% static 'react/issue_pull_temp.csv' %}';
+            updateLine()
+       }
+
+   }
+   function normalized_value(){
+       if (load_on == 0){
+           d3.select("#svg1 g").remove();
+           d3.select("#svg1 path").remove();
+       srca = '{% static 'react/issue_pull_normalized.csv' %}';
+       updateLine()}
+       else{
+            $.ajax({
+                              type: "POST",
+                              url:"{% url 'react/normalize' %}",
+                              data:{  csrfmiddlewaretoken: '{{ csrf_token }}',
+                                  page:"1"}
+                            }).done(function(){
+                                d3.select("#svg1 g").remove();
+                                d3.select("#svg1 path").remove();
+
+                                srca = '{% static 'react/issue_pull_temp_normalized.csv' %}'
+                                updateLine()
+
+
+    })
+       }
+
+   }
+
+</script>
+
+</div>
+
+     <p>&nbsp;</p>
+<svg id = "svg1" width="1200" height="450" style="border: black"  ></svg>
+</div>
+
+<div id="my_dataviz" style="border: black">
+
+    {% csrf_token %}
+
+    <script>
+
+
+         var SelectedDate = 0
+
+        // set the dimensions and margins of the graph
+        var margin = {top: 10, right: 30, bottom: 40, left: 60},
+            // width = 460 - margin.left - margin.right,
+            width1 = 1000,
+            height1 = 400 - margin.top - margin.bottom;
+
+         // append the svg object to the body of the page
+         function updateLine(){
+
+        var svg1 = d3.select("#svg1")
+            .append("svg")
+            .attr("width", width1 + margin.left + margin.right)
+            .attr("height", height1 + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
+
+        // var svg1 = d3.select("#svg1").selectAll("*"),
+        //     width = "1200",
+        //     height = "1000";
+        parseTime = d3.timeParse("%m/%d/%Y");
+
+        const startd = parseTime('05-23-20');
+        const endd = new Date('2001-01-01');
+        var tooltip = d3.select('body').append("div").style("position","absolute").style("opacity",0);
+        //Read the data
+{#{% static 'react/issue_pull.csv' %}#}
+        //console.log(d1 == d2);
+
+        d3.csv(
+             srca
+            ,
+
+            // When reading the csv, I must format variables:
+            function(d){
+                {#console.log(endd<=d3.timeParse("%m/%d/%Y")(d.date))#}
+                {#console.log(d3.timeParse("%Y-%m-%d")(d.date))#}
+                {#console.log((d.date))#}
+                {#console.log((start_date))#}
+                {#console.log(d3.timeParse("%Y-%m-%d")(start_date))#}
+                {#console.log((start_date))#}
+
+
+                console.log((d.scaled))
+            if (d3.timeParse("%Y-%m-%d")(start_date)<=d3.timeParse("%Y-%m-%d")(d.date)&& d3.timeParse("%Y-%m-%d")(d.date)<=d3.timeParse("%Y-%m-%d")(end_date)){
+                return { date : d3.timeParse("%Y-%m-%d")(d.date),
+                    value : d.Total_issue,
+                    rvalue:d.scaled,
+                    pull : d.Total_pull,
+                    cf: d.changed_files_scaled,
+                    cf_org: d.changed_files,
+                    issue_ratio : d.ratio
+                }}
+            },
+
+
+
+
+            // Now I can use this dataset:
+            function(data) {
+            //console.log(data)
+
+
+
+
+
+                // Add X axis --> it is a date format
+                var x = d3.scaleTime()
+                    .domain(d3.extent(data, function(d) { return d.date; }))
+                    .range([ 0, width1 ]);
+                svg1.append("g")
+                    .attr("transform", "translate(0," + height1 + ")")
+                    .call(d3.axisBottom(x));
+
+
+
+                //getting the max
+                var issuemax = d3.max(data, function(d) { return +d.value; })
+                var pullmax = d3.max(data, function(d) { return +d.pull; })
+                if (issuemax>pullmax){
+                    var mymax = issuemax
+                }
+                else{
+                    var mymax = pullmax
+                }
+                console.log(mymax)
+                // Add Y axis
+                var y = d3.scaleLinear()
+                    .domain([0, mymax])
+                    .range([ height1, 0 ]);
+                svg1.append("g")
+                    .call(d3.axisLeft(y));
+
+                // Add X axis label:
+                svg1.append("text")
+                    .attr("text-anchor", "end")
+                    .attr("x", width1/2)
+                    .attr("y", height1 + margin.top + 30)
+                    .style("font-size", "1em")
+                    .text("Months");
+
+                // Add Y axis label:
+
+                svg1.append("text")
+            .attr("text-anchor", "end")
+            .attr("transform", "rotate(-90)")
+            .attr("y", -margin.left+25)
+            .attr("x", (-margin.top))
+            .style("font-size", "1em")
+            .text("Number of new Issues or Pull Requests");
+
+
+
+
+
+
+
+
+
+
+
+                // // Add Y1 axis for pull
+                // var z1 = d3.scaleLinear()
+                //     .domain([0, d3.max(data, function(d) { return +d.pull; })])
+                //     .range([ height1, 0 ]);
+                // svg1.append("g")
+                //     .call(d3.axisLeft(z1));
+
+                //addcircle for pull
+                var pull_circle_click = false;
+                var currentp = 0
+
+                var selectCircle = svg1.selectAll(".circle")
+                    .data(data)
+
+                selectCircle.enter().append("circle")
+                    .attr("r", function(d) { return d.cf })
+                    .attr("cx", function(d) { return x(d.date) })
+                    .attr("cy", function(d) { return y(d.pull) })
+                    .attr("fill", "#702963")
+                    .on("mousemove",function(d){
+                        if (pull_circle_click==false){
+                        this.style.fill="red"}
+                        tooltip.style("opacity",1)
+                            .style("left",d3.event.pageX+"px")
+                            .style("top",d3.event.pageY+10+"px")
+                        .style("font-weight","bold");
+                        tooltip.html(Number(d.cf_org).toFixed(0)+" Files Changed");
+                        })
+                     .on("mouseout",function(){
+                         tooltip.style("opacity",0)
+                        if (pull_circle_click==false){
+                        this.style.fill="#702963"}})
+
+                .on("click",
+                    function(d){
+                    this.style.fill = "#FF8C00"
+                        $.ajax({
+                              type: "POST",
+                              url: "{% url 'react/pullclick' %}",
+                              data:{  csrfmiddlewaretoken: '{{ csrf_token }}',
+                                  date: moment(Date.parse(d.date)).format("YYYY-MM-DD")}
+                            }).done(function( o ) {
+                                pull_circle_click=true;
+                                //const d1 = new Date(d.date);
+                                //console.log(Date.parse(d.date))
+                                //moment(d.date, "MM-DD-YYY")
+                            var normalp = moment(Date.parse(d.date)).format("MM-DD-YYYY")
+
+                                {#console.log(moment(Date.parse(d.date)).format("MM-DD-YYYY"))#}
+                            if (currentp !=normalp){
+                            updatetablepull()
+                            $("#tableforpull").hide("slow")
+                            $("#tableforpull").show("slow")}
+                            else{
+                                $("#tableforpull").hide("slow")
+                            }
+                            currentp = normalp
+
+                            })
+                        $("#tableforpull").load(location.href + " #tableforpull");
+                        $("#tablescript2").load(location.href + " #tablescript2");
+
+                        } )
+
+
+                // Add circle for issue
+                var issue_circle_click = false;
+                var current = 0
+                var selectCircle1 = svg1.selectAll(".circle")
+                    .data(data)
+
+                selectCircle.enter().append("circle")
+                    .attr("r", function(d) { return d.rvalue*9 })
+                    .attr("cx", function(d) { return x(d.date) })
+                    .attr("cy", function(d) { return y(d.value) })
+                    .attr("fill", "#299617")
+                    .on("mousemove",function(d){
+                       if (issue_circle_click==false){
+                        this.style.fill="red"}
+                        tooltip.style("opacity",1)
+                            .style("left",d3.event.pageX+"px")
+                            .style("top",d3.event.pageY+10+"px")
+                        .style("font-weight","bold");
+                        tooltip.html(Number(d.issue_ratio*100).toFixed(2)+"% issue solved");
+                        })
+                     .on("mouseout",function(){
+                         tooltip.style("opacity",0)
+                        if (issue_circle_click==false){
+
+                        this.style.fill="#299617"}})
+
+
+                    .on("click",
+                    function(d){
+                        this.style.fill = "#FF8C00"
+                        $.ajax({
+                              type: "POST",
+                              url:  "",
+                              data:{  csrfmiddlewaretoken: '{{ csrf_token }}',
+                                  date: moment(Date.parse(d.date)).format("YYYY-MM-DD")}
+                            }).done(function( o ) {
+                                issue_circle_click=true;
+                                //const d1 = new Date(d.date);
+                                //console.log(Date.parse(d.date))
+                                //moment(d.date, "MM-DD-YYYY")
+                            var normal = moment(Date.parse(d.date)).format("MM-DD-YYYY")
+
+                                {#console.log(moment(Date.parse(d.date)).format("MM-DD-YYYY"))#}
+                            if (current !=normal){
+                            updatetable()
+                            $("#mytable").hide("slow")
+                            $("#mytable").show("slow")}
+                            else{
+                                $("#mytable").hide("slow")
+                            }
+                            current = normal
+
+                            });
+
+
+
+
+
+
+                        SelectedDate = d.date
+
+
+
+                         {#$( "#mytable" ).show( "slow" )#}
+                        setTimeout(() => {  console.log("World!"); }, 5000);
+
+                        $("#mytable").load(location.href + " #mytable");
+                        $("#tablescript").load(location.href + " #tablescript");
+
+
+
+
+
+
+                    } )
+
+
+
+                // Add the line
+                svg1.append("path")
+                    .datum(data)
+                    .attr("fill", "none")
+                    .attr("stroke", "red")
+                    .attr("stroke-width", 1.5)
+                    .attr("d", d3.line()
+                        .x(function(d) { if(d.date>endd){return x(d.date) }})
+                        .y(function(d) { if(d.date>endd){return y(d.value) }})
+
+                    )
+
+                // Add the line for pull
+                svg1.append("path")
+                    .datum(data)
+                    .attr("fill", "none")
+                    .attr("stroke", "steelblue")
+                    .attr("stroke-width", 1.5)
+                    .attr("d", d3.line()
+                        .x(function(d) { if(d.date>endd){return x(d.date) }})
+                        .y(function(d) { if(d.date>endd){return y(d.pull) }})
+
+                    )
+
+
+
+
+             })}
+
+    </script>
+</div>
+
+
+{#Table#}
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+
+
+
+        <div id="mytable">
+<h5 id = "svgtable" width="1260" height="450" style="border: black"  ></h5>
+<script id = "tablescript">
+
+
+    var tabulate = function (data,columns) {
+  var table = d3.select('#svgtable').append('table')
+	var thead = table.append('thead')
+	var tbody = table.append('tbody')
+
+	thead.append('tr')
+	  .selectAll('th')
+	    .data(columns)
+	    .enter()
+	  .append('th')
+	    .text(function (d) { return d })
+        .style('border', '1px solid #000000');
+
+	var rows = tbody.selectAll('tr')
+	    .data(data)
+	    .enter()
+	  .append('tr')
+        .style('border', '1px solid #000000');
+
+	var cells = rows.selectAll('td')
+	    .data(function(row) {
+	    	return columns.map(function (column) {
+	    		return { column: column, value: row[column] }
+	      })
+      })
+      .enter()
+    .append('td')
+      .text(function (d) { return d.value })
+                .style('border', '1px solid #000000');
+
+
+  return table;
+}
+function updatetable(){
+d3.csv('{% static 'react/temp.csv' %}',function (data) {
+
+
+	var columns = ['id','Labels',"Closed At","Importance Type"]
+  tabulate(data,columns)
+})}
+
+</script>
+</div>
+    </div>
+    <div class="col">
+      <div id="tableforpull">
+<h5 id = "tableforpull_svg" width="1260" height="450" style="border: black"  ></h5>
+<script id = "tablescript2">
+
+    var tabulate2 = function (data,columns) {
+  var table2 = d3.select('#tableforpull_svg').append('table')
+	var thead = table2.append('thead')
+	var tbody = table2.append('tbody')
+
+	thead.append('tr')
+	  .selectAll('th')
+	    .data(columns)
+	    .enter()
+	  .append('th')
+	    .text(function (d) {
+
+	        return d })
+        .style('border', '1px solid #000000');
+
+	var rows = tbody.selectAll('tr')
+	    .data(data)
+	    .enter()
+	  .append('tr')
+        .style('border', '1px solid #000000');
+
+	var cells = rows.selectAll('td')
+	    .data(function(row) {
+	    	return columns.map(function (column) {
+
+	    		return { column: column, value: row[column] }
+	      })
+      })
+      .enter()
+    .append('td')
+      .text(function (d) {
+          return d.value })
+        .style('border', '1px solid #000000');
+
+  return table2;
+}
+function updatetablepull(){
+d3.csv('{% static 'react/pulltable.csv' %}',function (data) {
+
+
+	var columns = ['Pull ID','Code Changes']
+  tabulate2(data,columns)
+})}
+
+</script>
+</div>
+    </div>
+  </div>
+</div>
+
+<h4 style="text-align: center">Version-wise Issue Count</h4>
+ <div class="shadow-lg p-3 mb-5 bg-body rounded" >
+<div style="margin: auto; justify-content: center; position: relative;">
+
+{% include "react/render.html" %}
+</div>
+      </div>
+
+{#BarChart#}
+
+    <h4 style="text-align: center">Monthly activity of the contributors</h4>
+    <h6 style="text-align: center">Hover and Click the Bars to See Details</h6>
+
+<div id="histviz" class="col-12 ">
+    <div class="shadow-lg p-3 mb-5 bg-body rounded">
+
+    <svg id = "svgbar" width="1100" height="500" style="border: black; max-width: fit-content; width: 1600px"  ></svg>
+        </div>
+    <script>
+        var currentc = 0
+        let swi = 0;
+        function updateBar(){
+
+        var svg3 = d3.select("#svgbar"),
+            margin4 = {top: 10, right: 30, bottom: 50, left: 70},
+            width4 = +svg3.attr("width") - margin4.left - margin4.right,
+            height4 = +svg3.attr("height") - margin.top - margin4.bottom,
+            g = svg3.append("g").attr("transform", "translate(" + margin4.left + "," + margin4.top + ")");
+
+        var x = d3.scaleBand()
+            .rangeRound([0, width4])
+            .paddingInner(0.05)
+            .padding(0.1)
+            .align(0.5);
+
+        var y = d3.scaleLinear()
+            .rangeRound([height4, 0]);
+
+        var z = d3.scaleOrdinal()
+            .range(["#7b6888" ,  "#8a89a6","#98abc5" ]);
+
+        var xtime = d3.scaleBand()
+            .rangeRound([0, width4]);
+
+
+
+        var tooltip = d3.select('body').append("div").style("position","absolute").style("opacity",0);
+
+
+        d3.csv(baraddress,
+
+
+            function(d, i, columns) {
+
+            if (d3.timeParse("%Y-%m-%d")(start_date)<=d3.timeParse("%m/%d/%Y")(d.time) && d3.timeParse("%m/%d/%Y")(d.time) <=d3.timeParse("%Y-%m-%d")(end_date)){
+            for (i = 1, t = 0; i < columns.length; ++i) t += d[columns[i]] = +d[columns[i]];
+
+            d.total = t;
+            //d.time= d.time;
+            console.log("barchart")
+            // console.log(d3.timeParse("%Y-%m-%d")(d.time))
+            // console.log((d.time))
+            console.log(d.high)
+
+
+            return d;
+        }}, function(error, data) {
+            if (error) throw error;
+
+
+
+            var keys = data.columns.slice(1);
+            //console.log(keys)
+
+            //data.sort(function(a, b) { return b.total - a.total; });
+            x.domain(data.map(function(d) {
+                //console.log(d.time)
+                return d.time; }));
+
+            xtime.domain(data.map(function(d) {
+                //console.log(d3.timeParse("%m/%d/%Y")(d.time))
+
+                return d3.timeParse("%m/%d/%Y")(d.time); }));
+            y.domain([0, d3.max(data, function(d) { return d.total; })]).nice();
+            z.domain(keys);
+            //console.log(d3.stack().keys(keys)(data));
+
+            g.append("g")
+                .selectAll("g")
+                .data(
+
+                    d3.stack().keys(keys)(data))
+                .enter().append("g")
+                .attr("fill", function(d) { return z(d.key); })
+                .selectAll("rect")
+                .data(function(d) { return d; })
+                .enter().append("rect")
+                .attr("x", function(d) {
+                    return x(d.data.time); })
+                .attr("y", function(d) {return y(d[1]); })
+                .attr("height", function(d) {
+                    //console.log(y(d[0]) - y(d[1]))
+                    return y(d[0]) - y(d[1]); })
+                .attr("width", x.bandwidth())
+
+             .on("mousemove",function(d){
+
+                        tooltip.style("opacity",1)
+                            .style("left",d3.event.pageX+"px")
+                            .style("top",d3.event.pageY+10+"px")
+                        .style("background","#5A5A5A")
+                            .style("color","white")
+                        .style("border-radius","5px")
+                        .style("box-shadow","7px 7px 10px #c0c0c0");
+                        tooltip.html("&nbsp User Categories &nbsp<br>&nbsp High - "+d.data.high+"<br>&nbsp Mid - "+d.data.mid+
+                        "<br>&nbsp Low - "+d.data.low);
+
+                        })
+                     .on("mouseout",function(){
+                         tooltip.html("");
+                         tooltip.style("opacity",0)
+                        })
+            .on("click",
+                    function(d){
+                       {#console.log(moment(Date.parse(d.data.time)).format("YYYY-MM-DD"))#}
+                        $.ajax({
+                              type: "POST",
+                              url: "{% url 'react/commentcat' %}",
+                              data:{  csrfmiddlewaretoken: '{{ csrf_token }}',
+                                  date: moment(Date.parse(d.data.time)).format("YYYY-MM-DD")}
+                            })
+                            .done(function( o ) {
+                                //const d1 = new Date(d.date);
+                                //console.log(Date.parse(d.date))
+                                //moment(d.date, "MM-DD-YYY")
+
+                            var normalc = moment(Date.parse(d.data.time)).format("MM-DD-YYYY")
+
+                                {#console.log(moment(Date.parse(d.data.time)).format("MM-DD-YYYY"))#}
+                            // if (currentc !=normalc){
+                            // updatetablecomm();
+                            // $("#tableforcomm").hide("slow")
+                            // $("#tableforcomm").show("slow")}
+                            // else{
+                            //     $("#tableforcomm").hide("slow")
+                            // }
+                            // currentc = normalc
+
+                                if(swi%2 == 0){
+                                    updatetablecomm();
+                            //$("#tableforcomm").hide("slow")
+                            $("#tableforcomm").show()
+                                    swi=swi+1;
+
+                                }
+                                else{
+                                    $("#tableforcomm").hide("slow")
+                                    swi=swi+1;
+                                }
+
+                            })
+                        $("#tableforcomm").load(location.href + " #tableforcomm");
+                        $("#tablescript3").load(location.href + " #tablescript3");
+
+                        }
+                        );
+
+
+            g.append("g")
+                .attr("class", "axis")
+
+                .attr("transform", "translate(0," + (height4) + ")")
+
+
+                .call(d3.axisBottom(xtime).tickFormat(d3.timeFormat("%m-%y")).ticks(d3.timeMonth.every(3))
+                    )
+                .call(xtime)
+                .selectAll("text")
+                .attr("dx", "-2.0em")
+                .attr("dy", "-.55em")
+                .attr("transform", "rotate(-90)" );
+
+            g.append("g")
+                .attr("class", "axis")
+                .call(d3.axisLeft(y).ticks(null, "s"))
+                .append("text")
+                .attr("x", 2)
+                .attr("y", y(y.ticks().pop()) + 0.5)
+                .attr("dy", "0.32em")
+                .attr("fill", "#000")
+                .attr("font-weight", "bold")
+                .attr("text-anchor", "start")
+                .attr("fill","black")
+                .text("");
+
+            var legend = g.append("g")
+                .attr("font-family", "sans-serif")
+                .attr("font-size", 10)
+                .attr("text-anchor", "end")
+                .selectAll("g")
+                .data(keys.slice().reverse())
+                .enter().append("g")
+                .attr("fill","black")
+                .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+            legend.append("rect")
+                .attr("x", width4 - 19)
+                .attr("width", 19)
+                .attr("height", 19)
+                .attr("fill", z);
+
+            legend.append("text")
+                .attr("x", width4 - 24)
+                .attr("y", 9.5)
+                .attr("dy", "0.32em")
+                .text(function(d) { return d; });
+
+             // Add X axis label:
+                svg3.append("text")
+                    .attr("text-anchor", "end")
+                    .attr("x", width4/2)
+                    .attr("y", height4 + margin4.top + 50)
+                    .style("font-size", "1em")
+                    .text("Months");
+
+                // Add Y axis label:
+
+                svg3.append("text")
+            .attr("text-anchor", "end")
+            .attr("transform", "rotate(-90)")
+            .attr("y", y(y.ticks().pop()) + 20)
+            .attr("x", (-margin4.top)-150)
+            .style("font-size", "1em")
+            .text("Total Comments");
+
+        });}
+
+    </script>
+</div>
+
+ <div id="tableforcomm">
+<h5 id = "tableforcomm_svg" width="1260" height="450" style="border: black"  ></h5>
+<script id = "tablescript3">
+
+    var tabulate3 = function (data,columns,column_name) {
+  var table3 = d3.select('#tableforcomm_svg').append('table')
+	var thead = table3.append('thead')
+	var tbody = table3.append('tbody')
+
+	thead.append('tr')
+	  .selectAll('th')
+	    .data(column_name)
+	    .enter()
+	  .append('th')
+	    .text(function (d) {
+
+	        return d })
+        .style('border', '1px solid #000000');
+
+	var rows = tbody.selectAll('tr')
+	    .data(data)
+	    .enter()
+	  .append('tr')
+        .style('border', '1px solid #000000');
+
+	var cells = rows.selectAll('td')
+	    .data(function(row) {
+	    	return columns.map(function (column) {
+
+	    		return { column: column, value: row[column] }
+	      })
+      })
+      .enter()
+    .append('td')
+      .text(function (d) {
+          return d.value })
+        .style('border', '1px solid #000000');
+
+  return table3;
+}
+function updatetablecomm(){
+d3.csv('{% static 'react/user_catcopy.csv' %}',function (data) {
+
+
+	var columns = data.columns;
+	column_name = ["Username","Contribution Type"]
+  tabulate3(data,columns,column_name)
+})}
+
+</script>
+</div>
+
+
+<h4 style="text-align: center">Collaboration Network of the contributors</h4>
+    <h6 style="text-align: center">Click on Blue Circles to See the Details</h6>
+
+
+<div id="my_dataviz2" >
+    <div class="shadow-lg p-3 mb-5 bg-body rounded">
+        <svg id = "mysvg" width="1100" height="600"  ></svg></div>
+    <script>
+
+        var svg = d3.select("#mysvg"),
+                // .call(d3.zoom().on("zoom", function () {
+                //     svg.attr("transform", d3.event.transform)
+                // }))
+            width = "1100",
+            height = "700";
+
+        var color = d3.scaleOrdinal(d3.schemeCategory20);
+
+        var simulation = d3.forceSimulation()
+            .force("link", d3.forceLink().id(function(d) { return d.id; })
+                .distance(80))
+            .force("charge", d3.forceManyBody().strength(-90))
+            .force("center", d3.forceCenter(width / 2, height / 2));
+
+        var tooltip_graph = d3.select('body').append("div").style("position","absolute").style("opacity",0);
+
+        d3.json("{% static 'react/sample.json' %}", function(error, graph) {
+            if (error) throw error;
+
+            var link = svg.append("g")
+                .attr("class", "links")
+                .selectAll("line")
+                .data(graph.links)
+                .enter().append("line")
+                .attr("stroke-width", function(d) { return Math.sqrt(d.value); })
+                .attr("stroke",
+                    function(d){
+                    {#color(d.relation)#}
+
+                    var rel = d.relation
+
+                    if(rel==2){
+
+
+
+                        return '#999999'}
+                    else if (rel==3){
+
+
+
+                        return '#BB2302'}
+
+
+
+                    }
+                    );
+
+            var node = svg.append("g")
+                .attr("class", "nodes")
+                .selectAll("g")
+                .data(graph.nodes)
+                .enter().append("g")
+            .on("click",function(d){
+                tooltip_graph.style("opacity",1)
+                                     .style("left",d3.event.pageX+"px")
+                                     .style("top",d3.event.pageY+10+"px")
+                                    .style("background","#5A5A5A")
+                                     .style("color","white")
+                                     .style("border-radius","5px")
+                                     .style("box-shadow","7px 7px 10px #c0c0c0");
+                $.ajax({
+                              type: "GET",
+                              url:"{% url 'react/userinfo/' %}"+d['id'],
+                              data:{
+                                  name:d['id']}
+                            }).done(function(data){
+                                console.log(d['id'])
+                                //console.log(JSON.parse(data)[0]);
+                                newdata = JSON.parse(data)[0]
+
+
+                    tooltip_graph.html("&nbsp User Info &nbsp<br>&nbsp Name - "+d['id']+"<br>&nbsp Number of Comments - "+newdata["number_of_comments"]+  "<br>&nbsp Unique Issues Contributed - "+newdata["unique_issues_contributed"]+
+                    "<br>&nbsp Percentage of Issue Solved - "+newdata['percentage_issue_solved'] + "% ");
+
+
+
+
+
+
+
+
+    })
+                         })
+                     .on("mouseout",function(){
+                         tooltip_graph.style("opacity",0);
+                         tooltip_graph.html("");
+                         })
+
+            var circles = node.append("circle")
+                .attr("r", 6)
+                .attr("fill", function(d) { return color(d.group); });
+
+            // Create a drag handler and append it to the node object instead
+            var drag_handler = d3.drag()
+                .on("start", dragstarted)
+                .on("drag", dragged)
+                .on("end", dragended);
+
+            drag_handler(node);
+
+            var lables = node.append("text")
+                .text(function(d) {
+                    return d.id;
+                })
+                .attr('x', 6)
+                .attr('y', 3);
+
+            node.append("title")
+                .text(function(d) { return d.id; });
+
+            simulation
+                .nodes(graph.nodes)
+                .on("tick", ticked);
+
+            simulation.force("link")
+                .links(graph.links);
+            // var force = d3.layout.force()
+            //     .linkDistance(function(d) {
+            //         return(800);
+            //     })
+
+            function ticked() {
+                link
+                    .attr("x1", function(d) { return d.source.x; })
+                    .attr("y1", function(d) { return d.source.y; })
+                    .attr("x2", function(d) { return d.target.x; })
+                    .attr("y2", function(d) { return d.target.y; });
+
+                node
+                    .attr("transform", function(d) {
+                        return "translate(" + d.x + "," + d.y + ")";
+                    })
+            }
+        });
+
+        function dragstarted(d) {
+            if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+            d.fx = d.x;
+            d.fy = d.y;
+        }
+
+        function dragged(d) {
+            d.fx = d3.event.x;
+            d.fy = d3.event.y;
+        }
+
+        // function dragended(d) {
+        //     if (!d3.event.active) simulation.alphaTarget(0);
+        //     d.fx = null;
+        //     d.fy = null;
+        // }
+        function dragended(d) {
+            if (!d3.event.active) simulation.alphaTarget(0);
+            d.fx = nodeFixX(d); // snap to its target position
+            // d.fx = null; // or let the force figure it out
+            // d.fy = null;
+        }
+
+    </script>
+</div>
+
+
+
+
+
+
+
+
+</div>
+{% endblock %}

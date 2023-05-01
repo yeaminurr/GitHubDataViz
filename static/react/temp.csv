@@ -1,0 +1,119 @@
+,id,Labels,unused,Closed At,issue_id,Importance Type
+0,34316,"Component: WebView,Component: ScrollView,Needs: Triage :mag:",1,Completed,34316.0,Medium
+1,34318,Needs: Triage :mag:,1,Incomplete,34318.0,Medium
+2,34320,"Stale,Platform: Android,API: Transforms,Needs: Triage :mag:",1,Incomplete,34320.0,Low
+3,34323,"Stale,Platform: Android,Needs: Author Feedback",1,Completed,34323.0,Low
+4,34324,"Platform: Android,API: Dimensions,Needs: Triage :mag:",1,Incomplete,34324.0,Medium
+5,34327,"Platform: iOS,Resolution: Fixed,Component: ScrollView,Type: New Architecture",1,Completed,34327.0,High
+6,34328,"Platform: Android,Resolution: Answered",1,Completed,34328.0,Medium
+7,34332,Needs: Triage :mag:,1,Completed,34332.0,Low
+8,34334,Platform: Android,1,Completed,34334.0,Medium
+9,34335,"Platform: Linux,API: Linking,Needs: Triage :mag:",1,Incomplete,,
+10,34336,Platform: iOS,1,Completed,34336.0,Medium
+11,34337,"Component: TextInput,Component: Switch,Needs: Triage :mag:",1,Incomplete,34337.0,Low
+12,34338,Resolution: Answered,1,Completed,34338.0,Medium
+13,34340,"Platform: Android,Platform: Linux",1,Completed,34340.0,Medium
+14,34343,"API: Linking,Resolution: Duplicate",1,Completed,34343.0,Medium
+15,34344,"Platform: iOS,Tech: Hermes",1,Incomplete,34344.0,High
+16,34346,Resolution: Answered,1,Completed,34346.0,Medium
+17,34347,Resolution: For Stack Overflow,1,Completed,34347.0,Medium
+18,34348,"Platform: Android,API: Linking,Impact: Errors During Build,💻CLI,Type: New Architecture",1,Completed,34348.0,Medium
+19,34349,"Component: KeyboardAvoidingView,API: Keyboard,Needs: Triage :mag:",1,Incomplete,34349.0,Low
+20,34350,"Platform: Android,Component: Modal,Component: StatusBar,Needs: Triage :mag:",1,Incomplete,34350.0,Medium
+21,34351,Others,1,Completed,34351.0,Low
+22,34356,"API: BackHandler,Needs: Triage :mag:",1,Incomplete,34356.0,High
+23,34358,Resolution: Duplicate,1,Completed,34358.0,Medium
+24,34361,Needs: Triage :mag:,1,Incomplete,34361.0,Medium
+25,34363,"Platform: Android,Tool: Flipper,Resolution: Answered",1,Completed,34363.0,Low
+26,34364,"Platform: Android,Needs: Triage :mag:",1,Incomplete,34364.0,Medium
+27,34365,"Debugging,Type: New Architecture,Resolution: Answered",1,Completed,34365.0,High
+28,34372,"Platform: Android,Impact: Crash,Priority: Mid,Needs: Attention,Type: New Architecture",1,Incomplete,34372.0,High
+29,34376,Needs: Triage :mag:,1,Incomplete,34376.0,Low
+30,34377,Component: WebView,1,Completed,34377.0,Medium
+31,34380,Type: New Architecture,1,Completed,,
+32,34381,"Tech: Hermes,Needs: Triage :mag:",1,Incomplete,34381.0,High
+33,34382,"Platform: iOS,Needs: Triage :mag:,Type: Upgrade Issue,Type: New Architecture",1,Incomplete,34382.0,Low
+34,34389,Needs: Triage :mag:,1,Incomplete,,
+35,34391,Type: New Architecture,1,Incomplete,34391.0,Medium
+36,34393,"Stale,Needs: Author Feedback,Needs: Repro",1,Completed,34393.0,Low
+37,34394,"Component: RefreshControl,Resolution: Duplicate,Needs: Triage :mag:,Needs: Issue Template,Needs: Attention",1,Completed,34394.0,High
+38,34395,"Platform: Android,Tool: Gradle",1,Completed,34395.0,High
+39,34399,"Platform: iOS,Component: SectionList,Needs: Triage :mag:",1,Incomplete,34399.0,Medium
+40,34400,Needs: Triage :mag:,1,Incomplete,34400.0,Medium
+41,34402,"Platform: iOS,Platform: Android,Needs: Triage :mag:",1,Incomplete,34402.0,Low
+42,34405,Needs: Triage :mag:,1,Completed,34405.0,Low
+43,34407,Resolution: Issue in another tool or repo,1,Completed,34407.0,High
+44,34408,"Needs: Triage :mag:,Type: Upgrade Issue",1,Incomplete,34408.0,Low
+45,34409,Needs: Triage :mag:,1,Incomplete,34409.0,High
+46,34410,"Impact: Errors During Build,Needs: Author Feedback,Needs: Repro,Type: Upgrade Issue",1,Incomplete,34410.0,High
+47,34411,"Platform: iOS,Needs: Triage :mag:,Type: Upgrade Issue",1,Incomplete,34411.0,High
+48,34412,"Type: New Architecture,Resolution: Answered",1,Completed,34412.0,Medium
+49,34413,"💻CLI,Resolution: Answered",1,Completed,34413.0,High
+50,34414,"Type: New Architecture,Resolution: Answered",1,Completed,34414.0,Medium
+51,34415,"Component: TextInput,Platform: Android,Component: FlatList,Needs: Triage :mag:",1,Incomplete,,
+52,34416,"Platform: Android,Needs: Triage :mag:,Type: New Architecture",1,Completed,34416.0,High
+53,34419,"Impact: Errors During Build,Needs: Repro,Needs: Attention,Type: New Architecture",1,Completed,34419.0,High
+54,34422,"Type: Upgrade Issue,Resolution: Answered,📦Bundler",1,Completed,34422.0,Medium
+55,34424,"Help Wanted :octocat:,Component: TextInput,Component: Text,Component: View,Component: Image,Accessibility,Platform: All,☂️ Umbrella",1,Completed,34424.0,High
+56,34425,"Help Wanted :octocat:,API: StyleSheet,Platform: All,Needs TypeScript Update,☂️ Umbrella",1,Incomplete,34425.0,High
+57,34426,"Needs: Author Feedback,Needs: Repro,Needs: Issue Template,📦Bundler",1,Completed,34426.0,High
+58,34429,Needs: Triage :mag:,1,Incomplete,,
+59,34431,"🌐Networking,Platform: Android,Needs: Triage :mag:",1,Incomplete,,
+60,34432,"Platform: Android,Resolution: Issue in another tool or repo",1,Completed,34432.0,Low
+61,34433,Needs: Triage :mag:,1,Incomplete,,
+62,34434,Needs: Triage :mag:,1,Incomplete,34434.0,High
+63,34437,"Component: TextInput,Needs: Triage :mag:",1,Incomplete,34437.0,High
+64,34441,"💻CLI,Resolution: Issue in another tool or repo",1,Completed,34441.0,Medium
+65,34442,Needs: Triage :mag:,1,Completed,34442.0,Low
+66,34443,"Resolution: Answered,Resolution: Issue in another tool or repo",1,Completed,34443.0,Medium
+67,34449,Needs: Triage :mag:,1,Incomplete,,
+68,34450,Needs: Triage :mag:,1,Incomplete,34450.0,Low
+69,34451,"Platform: Android,Needs: Triage :mag:",1,Completed,34451.0,Medium
+70,34454,"Component: FlatList,Needs: Triage :mag:",1,Completed,34454.0,High
+71,34457,"Needs: Triage :mag:,Type: New Architecture",1,Completed,34457.0,Medium
+72,34458,Platform: Android,1,Completed,34458.0,Medium
+73,34461,"Platform: iOS,Needs: Triage :mag:",1,Incomplete,34461.0,Medium
+74,34463,"Component: WebView,Needs: Triage :mag:",1,Incomplete,34463.0,Medium
+75,34464,"Platform: Linux,Needs: Triage :mag:,Type: New Architecture,📦Bundler",1,Completed,34464.0,Medium
+76,34465,Needs: Triage :mag:,1,Incomplete,,
+77,34466,"Platform: iOS,Needs: Triage :mag:",1,Completed,34466.0,Low
+78,34467,"API: PanResponder,Needs: Triage :mag:",1,Incomplete,34467.0,High
+79,34468,"Platform: iOS,Needs: Triage :mag:",1,Incomplete,34468.0,Low
+80,34473,"Platform: iOS,Component: Image,Needs: Triage :mag:",1,Incomplete,34473.0,Medium
+81,34474,Needs: Triage :mag:,1,Completed,34474.0,High
+82,34475,Needs: Triage :mag:,1,Completed,,
+83,34484,"Platform: Linux,Needs: Triage :mag:",1,Completed,34484.0,High
+84,34490,Others,1,Incomplete,,
+85,34493,"Platform: Android,Platform: Linux,Needs: Triage :mag:",1,Completed,,
+86,34494,Needs: Triage :mag:,1,Incomplete,,
+87,34495,"Needs: Author Feedback,Needs: Repro",1,Incomplete,34495.0,Low
+88,34496,"Component: TextInput,Platform: Android,Needs: Triage :mag:",1,Incomplete,,
+89,34497,"Platform: Android,API: Linking,Needs: Triage :mag:",1,Incomplete,34497.0,High
+90,34498,Needs: Triage :mag:,1,Completed,34498.0,Medium
+91,34501,"Component: Button,Needs: Triage :mag:",1,Incomplete,,
+92,34504,"Type: New Architecture,Resolution: Answered",1,Completed,34504.0,Low
+93,34505,"Platform: Linux,API: Linking,Needs: Triage :mag:",1,Completed,34505.0,Medium
+94,34507,Needs: Triage :mag:,1,Completed,34507.0,Low
+95,34508,Needs: Triage :mag:,1,Incomplete,34508.0,High
+96,34509,"Needs: Triage :mag:,📦Bundler",1,Incomplete,34509.0,Low
+97,34511,Needs: Triage :mag:,1,Incomplete,34511.0,Medium
+98,34512,Needs: Triage :mag:,1,Completed,,
+99,34518,"Component: Modal,Needs: Triage :mag:",1,Incomplete,34518.0,Low
+100,34519,Needs: Triage :mag:,1,Completed,34519.0,High
+101,34525,Needs: Triage :mag:,1,Incomplete,,
+102,34526,"Platform: Linux,Needs: Triage :mag:",1,Incomplete,,
+103,34528,Needs: Triage :mag:,1,Incomplete,,
+104,34529,Platform: Android,1,Incomplete,34529.0,Low
+105,34530,"Needs: Triage :mag:,Type: Upgrade Issue",1,Completed,34530.0,High
+106,34531,"Platform: iOS,Needs: Triage :mag:",1,Incomplete,34531.0,Medium
+107,34532,"Platform: Linux,Tech: Bundler 📦",1,Completed,34532.0,Medium
+108,34536,"Platform: iOS,Needs: Triage :mag:",1,Incomplete,,
+109,34537,"Platform: iOS,Needs: Triage :mag:",1,Incomplete,34537.0,Medium
+110,34540,Needs: Triage :mag:,1,Incomplete,34540.0,Medium
+111,34542,"Platform: Android,Component: FlatList,Needs: Triage :mag:",1,Incomplete,,
+112,34543,Type: New Architecture,1,Incomplete,34543.0,Low
+113,34545,Needs: Triage :mag:,1,Completed,34545.0,Medium
+114,34546,"Platform: Android,Needs: Triage :mag:",1,Incomplete,,
+115,34547,"Platform: Android,Needs: Triage :mag:",1,Incomplete,34547.0,Medium
+116,34549,Needs: Triage :mag:,1,Incomplete,,
+117,34551,"Platform: iOS,Component: TextInput,Needs: Triage :mag:",1,Incomplete,,

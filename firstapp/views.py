@@ -91,7 +91,17 @@ scaled_ip = scaler_ip.fit_transform(issue_pull[["changed_files"]])
 issue_pull["changed_files_scaled"] = scaled_ip
 issue_pull.loc[(issue_pull["changed_files_scaled"]==200),"changed_files_scaled"]=0
 filedir = Path.joinpath(staticdir, "../static/git")
+issue_pull = issue_pull[["date","Total_issue","closed_issue","ratio","scaled","Total_pull","changed_files","changed_files_scaled"]]
 issue_pull.to_csv(Path.joinpath(filedir, "issue_pull.csv"))
+
+
+issue_pull_normalized = issue_pull.copy()
+scaler_ip_normal = MinMaxScaler(feature_range=(0, 100))
+normal_ip = scaler_ip_normal.fit_transform(issue_pull_normalized[["Total_issue"]])
+normal_pull = scaler_ip_normal.fit_transform(issue_pull_normalized[["Total_pull"]])
+issue_pull_normalized["Total_issue"]= normal_ip
+issue_pull_normalized["Total_pull"]= normal_pull
+issue_pull_normalized.to_csv(Path.joinpath(filedir, "issue_pull_normalized.csv"))
 
 date = {}
 def githubproject(request):
@@ -309,4 +319,27 @@ def graphAPI(request,name):
 
 
     return HttpResponse(response)
+
+
+def normalize_API(request):
+    if request.method == 'POST':
+        page = request.POST.get("page", None)
+        if page == "1":
+            #print("normalizing")
+            issue_pull_temp_normalized = pd.read_csv(Path.joinpath(staticdir, "../static/git/issue_pull_temp.csv"))
+            scaler_temp_normal = MinMaxScaler(feature_range=(0, 100))
+            normal_temp_ip = scaler_temp_normal.fit_transform(issue_pull_temp_normalized[["Total_issue"]])
+            normal_temp_pull = scaler_ip_normal.fit_transform(issue_pull_temp_normalized[["Total_pull"]])
+            issue_pull_temp_normalized["Total_issue"] = normal_temp_ip
+            issue_pull_temp_normalized["Total_pull"] = normal_temp_pull
+            ran3 = Path.joinpath(staticdir, "../static/git")
+            issue_pull_temp_normalized.to_csv(Path.joinpath(ran3, "issue_pull_temp_normalized.csv"),index = None)
+
+
+
+
+
+    return HttpResponse(status=204)
+
+
 

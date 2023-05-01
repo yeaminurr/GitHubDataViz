@@ -69,8 +69,8 @@ t10colab = pd.merge(t10colab, datasetissueshort[["id","Labels"]].drop_duplicates
 t10colab.rename(columns={"id": "issue_id"},inplace = True)
 #t10colab = t10colab.drop_duplicates(subset=['username'])
 from functools import reduce
-print("printing t10colab")
-print(t10colab["category"].unique())
+# print("printing t10colab")
+# print(t10colab["category"].unique())
 
 
 # location = Path.joinpath(staticdir, "../static/haystack/datasetissueshortnot_othersc.csv")
@@ -95,7 +95,20 @@ scaled_ip = scaler_ip.fit_transform(issue_pull[["changed_files"]])
 issue_pull["changed_files_scaled"] = scaled_ip
 issue_pull.loc[(issue_pull["changed_files_scaled"]==3),"changed_files_scaled"]=0
 filedir = Path.joinpath(staticdir, "../static/haystack")
+issue_pull = issue_pull[["date","Total_issue","closed_issue","ratio","scaled","Total_pull","changed_files","changed_files_scaled"]]
 issue_pull.to_csv(Path.joinpath(filedir, "issue_pull.csv"))
+
+
+issue_pull_normalized = issue_pull.copy()
+scaler_ip_normal = MinMaxScaler(feature_range=(0, 100))
+normal_ip = scaler_ip_normal.fit_transform(issue_pull_normalized[["Total_issue"]])
+normal_pull = scaler_ip_normal.fit_transform(issue_pull_normalized[["Total_pull"]])
+issue_pull_normalized["Total_issue"]= normal_ip
+issue_pull_normalized["Total_pull"]= normal_pull
+issue_pull_normalized.to_csv(Path.joinpath(filedir, "issue_pull_normalized.csv"))
+
+
+
 
 date = {}
 def githubproject(request):
@@ -112,10 +125,10 @@ def githubproject(request):
     if request.method == 'POST':
         data = request.POST.get("date",None)
         #print("asi")
-        print(data)
+        #print(data)
         # ran2 = Path.joinpath(staticdir, "../static/haystack/datasetissueshortnot_othersc.csv")
         # datasetissueshortnot_othersc = pd.read_csv(ran2)
-        print("Iam okay")
+        #print("Iam okay")
         # temp = datasetissueshortnot_othersc.copy()
         # temp = temp[temp["just_month"] == data]
         # temp = temp[temp['Closed At'].notna()]
@@ -150,8 +163,8 @@ def githubproject(request):
 def pull_table(request):
     if request.method == 'POST':
         data = request.POST.get("date", None)
-        print("asi")
-        print(data)
+        #print("asi")
+        #print(data)
         ran2 = Path.joinpath(staticdir, "../static/haystack/pull_table.csv")
         pulltable = pd.read_csv(ran2)
         pulltable.rename(columns={"issue_id":"Pull ID","changed_files":"Code Changes"},inplace=True)
@@ -174,7 +187,7 @@ def labelsort(request):
         data = request.POST.get("labels", None)
         st_date = request.POST.get("st_date", None)
         en_date = request.POST.get("end_date", None)
-        print(data)
+        #print(data)
 
 
         data = data.split(",")
@@ -205,7 +218,7 @@ def labelsort(request):
         allissue = allissue.sort_values(by='just_month').rename(columns={'just_month': 'date'})
         allissue["date"]= pd.to_datetime(allissue["date"])
 
-        print(st_date, en_date)
+        #print(st_date, en_date)
         if st_date != None:
             allissue = allissue[(allissue["date"] > st_date)]
         if en_date != None:
@@ -252,7 +265,7 @@ def labelsort(request):
 
 
 
-        print(data)
+        #print(data)
         #return redirect('/firstapp/github/')
 
 
@@ -266,7 +279,7 @@ def commentcat(request):
     global user_cat
     if request.method == 'POST':
         data = request.POST.get("date", None)
-        print(data)
+        #print(data)
         user_catcopy  =  user_cat[user_cat["only_month"]==data]
         ran3 = Path.joinpath(staticdir, "../static/haystack")
         user_catcopy[["username","category"]].sort_values(by='category').to_csv(Path.joinpath(ran3, "user_catcopy.csv"),index=False)
@@ -299,3 +312,22 @@ def graphAPI(request,name):
 
     return HttpResponse(response)
 
+def normalize_API(request):
+    if request.method == 'POST':
+        page = request.POST.get("page", None)
+        if page == "1":
+            #print("normalizing")
+            issue_pull_temp_normalized = pd.read_csv(Path.joinpath(staticdir, "../static/haystack/issue_pull_temp.csv"))
+            scaler_temp_normal = MinMaxScaler(feature_range=(0, 100))
+            normal_temp_ip = scaler_temp_normal.fit_transform(issue_pull_temp_normalized[["Total_issue"]])
+            normal_temp_pull = scaler_ip_normal.fit_transform(issue_pull_temp_normalized[["Total_pull"]])
+            issue_pull_temp_normalized["Total_issue"] = normal_temp_ip
+            issue_pull_temp_normalized["Total_pull"] = normal_temp_pull
+            ran3 = Path.joinpath(staticdir, "../static/haystack")
+            issue_pull_temp_normalized.to_csv(Path.joinpath(ran3, "issue_pull_temp_normalized.csv"),index = None)
+
+
+
+
+
+    return HttpResponse(status=204)

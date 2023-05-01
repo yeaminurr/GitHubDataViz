@@ -12,7 +12,8 @@ urlpatterns = [
     path('labelsort/', views.labelsort, name='labelsort'),
     path('commentcat/', views.commentcat, name='commentcat'),
     path('userinfo/', views.graphAPI, name='firstapp/userinfo/'),
-    path('userinfo/<str:name>', views.graphAPI, name='firstapp/userinfo/')
+    path('userinfo/<str:name>', views.graphAPI, name='firstapp/userinfo/'),
+    path('normalize/', views.normalize_API, name='firstapp/normalize')
 
 
 ]
