@@ -28,7 +28,7 @@ SECRET_KEY = '+3q(5f!7!7spjd$u35mi2yx^c^jf^3q1948@u==h0^0ekp2(rc'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS =  ['githubdataviz.pythonanywhere.com','127.0.0.1']
 
 
 # Application definition
